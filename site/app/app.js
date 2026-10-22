@@ -208,6 +208,8 @@
     } catch (e) { el.innerHTML = `<p class="sub">Space weather data isn't available right now. Try again later.</p>`; }
   }
 
+  const COVERS = { "Soul-Conomics": "soul-conomics", "Soul vs Ego": "soul-vs-ego", "Time Joy-gasm": "time-joygasm", "Psychic Spring Clean": "psychic-spring-clean", "Joy R.O.I.": "joy-roi", "Harvest": "harvest", "Guided meditations": "meditations" };
+  const coverFor = (topic) => { const k = Object.keys(COVERS).find((k) => topic.startsWith(k)); return k ? COVERS[k] : ""; };
   async function viewLibrary() {
     if (!isMember()) { view.innerHTML = lockCard("The Library"); return; }
     view.innerHTML = `<p class="sub">Loading your classes…</p>`;
@@ -216,7 +218,7 @@
     const groups = {};
     d.library.forEach((c) => (groups[c.topic] ||= []).push(c));
     view.innerHTML = `<section class="lib"><h2 style="font-size:1.6rem">Library</h2><p class="sub">Watch at your own pace. New classes are added each month.</p>
-      ${Object.entries(groups).map(([topic, list]) => `<h3>${esc(topic)}</h3>${list.map((c) => c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}<small>${esc(c.length || "Watch")}</small></a>` : `<div class="soon">${esc(c.title)}<small>Coming soon</small></div>`).join("")}`).join("")}</section>`;
+      ${Object.entries(groups).map(([topic, list]) => `${coverFor(topic) ? `<div class="course"><img src="/assets/covers/${coverFor(topic)}.jpg" alt="" loading="lazy"><h3>${esc(topic)}</h3></div>` : `<h3>${esc(topic)}</h3>`}${list.map((c) => c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}<small>${esc(c.length || "Watch")}</small></a>` : `<div class="soon">${esc(c.title)}<small>Coming soon</small></div>`).join("")}`).join("")}</section>`;
   }
 
   async function viewCalls() {

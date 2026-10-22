@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
     email: member.email,
     exp: member.exp,
     memberBookUrl: process.env.MEMBER_BOOK_URL || "https://book.stripe.com/aFabJ1eVM7Ao7ra16P0kE0j",
-    groupCall: process.env.GROUP_CALL || "First Tuesday of the month, 6 pm Mountain. The link arrives by email.",
+    groupCall: process.env.GROUP_CALL || "First Sunday of the month, 11 am Mountain. The link arrives by email the day before.",
     library,
   });
 };

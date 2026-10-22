@@ -224,8 +224,8 @@
     const memberLink = member && member.memberBookUrl;
     view.innerHTML = `
       <section class="card"><h2>Talk to a real person</h2>
-        <p class="sub">30 minutes, one issue, and a clear next step. Never AI.</p>
-        ${member ? `<a class="btn btn-sun" style="width:100%" href="${esc(memberLink || C.links.bookCall)}" target="_blank" rel="noopener">Book at the member rate, $${C.prices.callMember}</a>${memberLink ? "" : `<p class="note" style="margin-top:8px">Member booking opens at launch. Until then, book here and we'll refund the difference.</p>`}`
+        <p class="sub">30 minutes, one issue, and a clear next step. Never AI. Calls run ${esc(C.callHours)}.</p>
+        ${member ? `<a class="btn btn-sun" style="width:100%" href="${esc(memberLink || C.links.bookCall)}" target="_blank" rel="noopener">Book at the member rate, $${C.prices.callMember}</a><p class="note" style="margin-top:8px">Pay the member rate, then pick your time.</p>`
         : `<a class="btn btn-sun" style="width:100%" href="${esc(C.links.bookCall)}" target="_blank" rel="noopener">Book a call, $${C.prices.callPublic}</a><p class="note" style="margin-top:8px">Members pay $${C.prices.callMember}. <a href="${esc(joinUrl())}">Join the Nest</a></p>`}
       </section>
       ${member ? `<section class="card"><h2>Monthly group call</h2><p class="sub">${esc(member.groupCall)}</p></section>

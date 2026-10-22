@@ -11,8 +11,9 @@ window.ESL = {
     coachingNext: 777,
   },
   links: {
-    // Google Calendar paid booking page for non-members ($75)
-    bookCall: "https://calendar.app.google/gczW5R1ubjrYmJo7A",
+    // Pay-first Stripe link for non-members ($75); after paying it opens the Google booking page
+    bookCall: "https://book.stripe.com/5kQ00j3d47Ao4eY2aT0kE0i",
+    bookingPage: "https://calendar.app.google/gczW5R1ubjrYmJo7A",
     // Stripe Payment Links (filled in during account setup)
     nestMonthly: "https://buy.stripe.com/dRmdR9cNE7Ao3aU7vd0kE0e",
     nestFounding: "https://buy.stripe.com/aFaaEX4h8bQEcLu8zh0kE0d",
@@ -33,4 +34,5 @@ window.ESL = {
   coachingSpots: 4,
   foundingOpen: true,
   email: "careteam@theemotionalsupportline.com",
+  callHours: "Mondays and Tuesdays, noon to 7 pm Mountain",
 };

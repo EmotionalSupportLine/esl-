@@ -12,7 +12,7 @@ module.exports = async (req, res) => {
   send(res, 200, {
     email: member.email,
     exp: member.exp,
-    memberBookUrl: process.env.MEMBER_BOOK_URL || "",
+    memberBookUrl: process.env.MEMBER_BOOK_URL || "https://book.stripe.com/aFabJ1eVM7Ao7ra16P0kE0j",
     groupCall: process.env.GROUP_CALL || "First Tuesday of the month, 6 pm Mountain. The link arrives by email.",
     library,
   });

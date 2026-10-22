@@ -250,7 +250,7 @@
     <div>
       <h2 id="calls-h">What a call is like</h2>
       <ol class="steps">
-        <li><div><h3>Pick a time</h3><p>Choose an open 30-minute slot and pay when you book. No intro or sales call.</p></div></li>
+        <li><div><h3>Pay, then pick a time</h3><p>Pay for your call, then choose an open 30-minute slot. Calls run <span data-hours></span>. No intro or sales call.</p></div></li>
         <li><div><h3>Talk to a real person</h3><p>We listen, reflect back what we hear, and ask questions that fit how you make decisions.</p></div></li>
         <li><div><h3>Leave with a next step</h3><p>One issue per call, so you hang up steadier and clearer about what to do next.</p></div></li>
       </ol>
@@ -359,7 +359,7 @@
       <details><summary>Is the astrology science?</summary><p>The sky data is real astronomy: actual moon phases and planet positions. What it means for you is a prompt for reflection, never a prediction.</p></details>
       <details><summary>What happens to my data?</summary><p>Your habit tracking and settings stay on your own device. We keep your email and your Stripe payment record, nothing else.</p></details>
       <details><summary>Can I cancel?</summary><p>Yes, anytime, using the link in your receipt email. You keep access until the end of the period you paid for.</p></details>
-      <details><summary>Where are you?</summary><p>We're in Colorado on Mountain Time. Anyone in the United States is welcome to call.</p></details>
+      <details><summary>When are calls?</summary><p><span data-hours></span>. We call you at the number you give us. Anyone in the United States is welcome.</p></details>
     </div>
   </div>
 </section>
@@ -385,6 +385,7 @@
   });
   if (!C.foundingOpen) $("[data-founding]").forEach((el) => el.remove());
   $("[data-mail]").forEach((el) => { el.href = "mailto:" + C.email; });
+  $("[data-hours]").forEach((el) => (el.textContent = C.callHours));
   document.getElementById("yr").textContent = new Date().getFullYear();
 
   // Live sky

@@ -28,14 +28,14 @@
     if (!r.ok) throw new Error(data.error || "Something went wrong. Try again.");
     return data;
   }
-  function setMember(d) { state.member = { email: d.email, pass: d.pass, exp: d.exp }; save(); memberData = null; }
+  function setMember(d) { state.member = { email: d.email, pass: d.pass, exp: d.exp, code: d.code }; save(); memberData = null; }
 
   async function handleCheckoutReturn() {
     const p = new URLSearchParams(location.search);
-    const sid = p.get("session_id");
-    if (!sid) return;
+    const sid = p.get("session_id"), k = p.get("k");
+    if (!sid && !k) return;
     history.replaceState(null, "", "/app/");
-    try { setMember(await api(`/api/join?session_id=${encodeURIComponent(sid)}`)); toast("Welcome to the Nest. You're in."); }
+    try { setMember(await api(`/api/join?session_id=${encodeURIComponent(sid || "")}&k=${encodeURIComponent(k || "")}`)); toast("Welcome to the Nest. You're in."); }
     catch (e) { toast(e.message); }
   }
 
@@ -46,7 +46,7 @@
       memberData = await api("/api/members", { headers: { Authorization: `Bearer ${state.member.pass}` } });
     } catch (e) {
       // Expired pass: try a quiet refresh with the saved email
-      try { setMember(await api("/api/restore", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: state.member.email }) })); memberData = await api("/api/members", { headers: { Authorization: `Bearer ${state.member.pass}` } }); }
+      try { setMember(await api("/api/restore", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: state.member.email, code: state.member.code }) })); memberData = await api("/api/members", { headers: { Authorization: `Bearer ${state.member.pass}` } }); }
       catch (e2) { state.member = null; save(); return null; }
     }
     return memberData;
@@ -237,7 +237,7 @@
     const body = $("#acct-body");
     const m = state.member;
     body.innerHTML = `
-      ${isMember() ? `<p>Signed in as <b>${esc(m.email)}</b>. Member access on this device until ${new Date(m.exp).toLocaleDateString()}. It renews automatically while your membership is active.</p>
+      ${isMember() ? `<p>${m.email && m.email !== "member" ? `Signed in as <b>${esc(m.email)}</b>. ` : ""}Member access on this device until ${new Date(m.exp).toLocaleDateString()}. It renews automatically while your membership is active.</p>${m.code ? `<p class="note">Your member code: <b>${esc(m.code)}</b>. Save it to unlock the Nest on another phone.</p>` : ""}
         ${C.links.billingPortal ? `<p><a class="btn btn-ghost" style="width:100%" href="${esc(C.links.billingPortal)}" target="_blank" rel="noopener">Manage or cancel membership</a></p>` : ""}
         <p><button class="btn btn-ghost" style="width:100%" type="button" data-signout>Sign out on this device</button></p>`
       : `<p>You're using the free version.</p><p><a class="btn btn-sun" style="width:100%" href="${esc(joinUrl())}">Join the Nest</a></p><p><button class="btn btn-ghost" style="width:100%" type="button" data-restore>Restore member access</button></p>`}
@@ -291,7 +291,7 @@
   $("#restore-form").addEventListener("submit", async (e) => {
     e.preventDefault();
     const msg = $("#r-msg"); msg.textContent = "Checking…";
-    try { setMember(await api("/api/restore", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: $("#r-email").value.trim() }) })); $("#restore").close(); toast("You're in. Welcome back."); render(); }
+    try { setMember(await api("/api/restore", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: $("#r-email").value.trim(), code: $("#r-email").value.trim() }) })); $("#restore").close(); toast("You're in. Welcome back."); render(); }
     catch (err) { msg.textContent = err.message; }
   });
 

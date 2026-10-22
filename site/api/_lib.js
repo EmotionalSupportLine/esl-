@@ -23,6 +23,13 @@ function verify(pass) {
   return data.exp > Date.now() ? data : null;
 }
 
+// Backup unlock while there's no Stripe key: one member code, derived from MEMBER_SECRET.
+// It goes in the Stripe payment links' after-payment address, so only payers see it.
+function joinCode() {
+  return crypto.createHmac("sha256", process.env.MEMBER_SECRET || "dev-secret").update("nest-join").digest("hex").slice(0, 12);
+}
+const hasStripe = () => !!process.env.STRIPE_SECRET_KEY;
+
 async function stripe(path) {
   const r = await fetch(`https://api.stripe.com/v1/${path}`, {
     headers: { Authorization: `Bearer ${process.env.STRIPE_SECRET_KEY}` },
@@ -43,8 +50,8 @@ async function activeMember(email) {
 }
 
 // A pass lasts until the paid period ends, plus a few days of grace, max 40 days.
-function passFor(member) {
-  const exp = Math.min(member.until + 3 * DAY, Date.now() + 40 * DAY);
+function passFor(member, maxDays = 40) {
+  const exp = Math.min(member.until + 3 * DAY, Date.now() + maxDays * DAY);
   return { pass: sign({ email: member.email, exp }), exp };
 }
 
@@ -62,4 +69,4 @@ async function readJSON(req) {
   try { return JSON.parse(raw || "{}"); } catch { return {}; }
 }
 
-module.exports = { sign, verify, stripe, activeMember, passFor, send, readJSON };
+module.exports = { sign, verify, stripe, activeMember, passFor, send, readJSON, joinCode, hasStripe };

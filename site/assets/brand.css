@@ -1,0 +1,65 @@
+:root {
+  --teal: #2ca6ab;
+  --teal-light: #7dc2c5;
+  --night: #134f53;
+  --night-2: #0d3a3d;
+  --orange: #d7783a;
+  --sun: #fcab79;
+  --cream: #fcefda;
+  --paper: #fff8ec;
+  --ink: #1f1c1c;
+  --ink-2: #524c4f;
+  --line: #e6d3b5;
+  --link: #1a6e72;
+  --radius: 14px;
+  --serif: "Lora", Georgia, serif;
+  --sans: "Nunito", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--cream); color: var(--ink);
+  font: 400 18px/1.6 var(--sans);
+}
+img { max-width: 100%; display: block; }
+a { color: var(--link); text-underline-offset: 3px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.15; margin: 0 0 .5em; letter-spacing: -.01em; }
+h1 { font-size: clamp(2.6rem, 6.4vw, 4.6rem); }
+h2 { font-size: clamp(1.9rem, 3.8vw, 2.8rem); }
+h3 { font-size: 1.35rem; }
+p { margin: 0 0 1em; }
+:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; border-radius: 6px; }
+.wrap { width: min(1120px, 100% - 32px); margin-inline: auto; }
+
+.crisis {
+  background: var(--night-2); color: #f6e7cf; font-size: .9rem; text-align: center;
+  padding: 8px 16px; line-height: 1.4;
+}
+.crisis a { color: var(--sun); font-weight: 700; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5em;
+  font: 800 1.02rem/1 var(--sans); text-decoration: none; cursor: pointer;
+  padding: 16px 24px; border-radius: 999px; border: 2px solid transparent; min-height: 52px;
+  transition: transform .15s ease, background .15s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn-sun { background: var(--orange); color: #fff; }
+.btn-sun:hover { background: #c4682d; }
+.btn-night { background: var(--night); color: var(--cream); }
+.btn-night:hover { background: var(--night-2); }
+.btn-ghost { border-color: currentColor; color: var(--night); background: transparent; }
+.btn-ghost:hover { background: rgba(19, 79, 83, .08); }
+.btn-cream { background: var(--cream); color: var(--night-2); }
+
+.field { display: flex; gap: 8px; flex-wrap: wrap; }
+.field input {
+  flex: 1 1 200px; min-height: 52px; padding: 0 18px; border-radius: 999px;
+  border: 2px solid var(--line); background: #fff; font: inherit; color: var(--ink);
+}
+.note { font-size: .9rem; color: var(--ink-2); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

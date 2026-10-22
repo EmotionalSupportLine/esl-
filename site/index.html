@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Emotional Support Line | Feel heard by a real person</title>
+<meta name="description" content="30-minute support calls with a calm, grounded human, plus the Nest: daily tools for sun, soil and sky. Not a crisis line, not therapy.">
+<meta name="theme-color" content="#134f53">
+<link rel="icon" href="/assets/owl-128.png">
+<link rel="apple-touch-icon" href="/assets/icon-192.png">
+<meta property="og:title" content="The Emotional Support Line">
+<meta property="og:description" content="Feel heard by a real person. 30-minute calls, plus daily tools for sun, soil and sky.">
+<meta property="og:image" content="/assets/icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/brand.css">
+<style>
+  header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 0; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
+  .brand img { width: 52px; height: 52px; object-fit: contain; }
+  .brand span { font: 700 1.15rem/1.15 var(--serif); }
+  nav.links { display: flex; gap: 6px; align-items: center; }
+  nav.links a { text-decoration: none; color: var(--ink); font-weight: 700; padding: 10px 12px; border-radius: 999px; }
+  nav.links a:hover { background: rgba(19,79,83,.08); }
+  nav.links .btn { padding: 12px 18px; min-height: 44px; color: #fff; }
+  @media (max-width: 760px) { nav.links a:not(.btn) { display: none; } .brand span { font-size: 1rem; } }
+
+  /* The painted sky: night and moon on the teal side, sun and soil on the orange side */
+  .sky { position: relative; height: clamp(280px, 40vw, 440px); overflow: hidden; background: var(--night); }
+  .sky svg.paint { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .sky .perch {
+    position: absolute; left: 50%; bottom: -6%; transform: translateX(-50%);
+    width: clamp(220px, 30vw, 360px); aspect-ratio: 1; border-radius: 50%;
+    display: grid; place-items: center;
+  }
+  .sky .perch img { width: 74%; position: relative; z-index: 1; animation: settle 1.2s cubic-bezier(.2,.7,.2,1) both; }
+  @keyframes settle { from { transform: translateY(18px) scale(.96); opacity: 0; } to { transform: none; opacity: 1; } }
+  .sky .live-moon { position: absolute; left: 13%; top: 18%; width: clamp(54px, 7vw, 92px); filter: drop-shadow(0 0 22px rgba(252,239,218,.35)); }
+  .sky .live-moon svg { width: 100%; height: auto; }
+
+  .hero { display: grid; grid-template-columns: 1.25fr 1fr; gap: clamp(28px, 5vw, 64px); padding: clamp(36px, 6vw, 72px) 0 56px; align-items: start; }
+  .hero h1 { max-width: 12ch; }
+  .hero .lede { font-size: 1.2rem; max-width: 34ch; color: var(--ink-2); }
+  .hero .ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0 14px; }
+  .tonight { background: var(--night); color: var(--cream); border-radius: 22px; padding: 28px; position: relative; }
+  .tonight h2 { font-size: 1.5rem; margin-bottom: 14px; }
+  .tonight .row { display: flex; gap: 16px; align-items: center; margin-bottom: 14px; }
+  .tonight .row svg { flex: none; }
+  .tonight .phase { font: 600 1.15rem/1.3 var(--serif); }
+  .tonight .sub { color: var(--teal-light); font-size: .95rem; }
+  .tonight ul { list-style: none; padding: 0; margin: 0 0 20px; border-top: 1px solid rgba(252,239,218,.18); }
+  .tonight li { padding: 10px 0; border-bottom: 1px solid rgba(252,239,218,.18); display: flex; justify-content: space-between; gap: 12px; font-size: .98rem; }
+  .tonight li b { color: var(--sun); font-weight: 700; white-space: nowrap; }
+  .tonight p { color: #f2e2c6; font-size: .98rem; }
+  .tonight .field input { border-color: transparent; }
+  .tonight .note { color: var(--teal-light); margin-top: 10px; }
+  @media (max-width: 860px) { .hero { grid-template-columns: 1fr; } }
+
+  section.block { padding: clamp(56px, 8vw, 96px) 0; }
+  .ways { display: grid; grid-template-columns: 1fr 1.25fr 1fr; gap: 0; align-items: stretch; margin-top: 36px; }
+  .way { padding: 30px 28px; display: flex; flex-direction: column; }
+  .way .price { font: 700 1.6rem/1.2 var(--serif); margin: 4px 0 12px; }
+  .way .price small { font: 600 .95rem var(--sans); color: var(--ink-2); }
+  .way p { color: var(--ink-2); }
+  .way .btn { margin-top: auto; align-self: flex-start; }
+  .way.free { border: 2px solid var(--line); border-right: 0; border-radius: 22px 0 0 22px; }
+  .way.nest { background: var(--night); color: var(--cream); border-radius: 22px; margin: -18px 0; padding: 46px 32px; box-shadow: 0 24px 50px -28px rgba(13,58,61,.7); }
+  .way.nest p, .way.nest .price small { color: #e9dcc3; }
+  .way.nest ul { padding-left: 1.1em; margin: 0 0 22px; color: #f6ead3; }
+  .way.call { border: 2px solid var(--orange); border-left: 0; border-radius: 0 22px 22px 0; }
+  .tag { display: inline-block; background: var(--sun); color: var(--night-2); font-weight: 800; font-size: .85rem; padding: 4px 10px; border-radius: 999px; margin-bottom: 10px; align-self: flex-start; }
+  @media (max-width: 900px) {
+    .ways { grid-template-columns: 1fr; gap: 16px; }
+    .way.free, .way.call { border: 2px solid var(--line); border-radius: 22px; }
+    .way.call { border-color: var(--orange); }
+    .way.nest { margin: 0; }
+  }
+
+  .calls { background: var(--paper); }
+  .calls-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(32px, 6vw, 80px); }
+  ol.steps { list-style: none; padding: 0; margin: 28px 0 0; counter-reset: s; }
+  ol.steps li { counter-increment: s; display: grid; grid-template-columns: 48px 1fr; gap: 16px; padding: 18px 0; border-top: 1px solid var(--line); }
+  ol.steps li::before { content: counter(s); width: 44px; height: 44px; border-radius: 50%; background: var(--orange); color: #fff; font: 700 1.2rem/44px var(--serif); text-align: center; }
+  ol.steps h3 { margin: 6px 0 4px; font-size: 1.2rem; }
+  ol.steps p { margin: 0; color: var(--ink-2); }
+  .reasons { align-self: start; background: var(--cream); border-radius: 22px; padding: 28px; }
+  .reasons ul { padding-left: 1.1em; margin: 0 0 18px; }
+  .reasons blockquote { margin: 0; padding: 14px 0 0; border-top: 1px solid var(--line); font: italic 500 1.15rem/1.45 var(--serif); color: var(--night); }
+  .who { display: flex; gap: 18px; align-items: center; margin-top: 28px; }
+  .who img { width: 84px; height: 84px; border-radius: 50%; background: var(--cream); object-fit: cover; flex: none; border: 3px solid var(--teal-light); }
+  .who p { margin: 0; color: var(--ink-2); font-size: 1rem; }
+  @media (max-width: 860px) { .calls-grid { grid-template-columns: 1fr; } }
+
+  .nest-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 48px; margin-top: 28px; }
+  .nest-grid div { padding: 20px 0; border-top: 2px solid var(--teal-light); }
+  .nest-grid h3 { margin-bottom: 6px; font-size: 1.2rem; }
+  .nest-grid p { color: var(--ink-2); margin: 0; }
+  .privacy { margin-top: 32px; display: flex; gap: 14px; align-items: flex-start; background: #fff; border-radius: 18px; padding: 20px 22px; border: 2px dashed var(--teal-light); }
+  .privacy p { margin: 0; }
+  @media (max-width: 760px) { .nest-grid { grid-template-columns: 1fr; } }
+
+  .prices { width: 100%; border-collapse: collapse; margin-top: 24px; font-size: 1.02rem; }
+  .prices th, .prices td { text-align: left; padding: 16px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .prices th { font: 700 1.05rem var(--serif); }
+  .prices td.amt { font-weight: 800; white-space: nowrap; }
+  .founding { margin-top: 18px; background: var(--sun); color: var(--night-2); border-radius: 18px; padding: 18px 22px; font-weight: 700; }
+
+  .safe { background: var(--night-2); color: var(--cream); }
+  .safe a { color: var(--sun); }
+  .safe-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: clamp(32px, 6vw, 80px); }
+  .safe .big { font: 600 1.35rem/1.45 var(--serif); }
+  details { border-bottom: 1px solid rgba(252,239,218,.2); padding: 16px 0; }
+  summary { cursor: pointer; font-weight: 800; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+  summary::after { content: "+"; font: 600 1.4rem/1 var(--serif); color: var(--sun); }
+  details[open] summary::after { content: "–"; }
+  details p { margin: 10px 0 0; color: #eadcc3; }
+  @media (max-width: 860px) { .safe-grid { grid-template-columns: 1fr; } }
+
+  footer { padding: 40px 0 56px; color: var(--ink-2); font-size: .95rem; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  footer a { color: var(--ink-2); }
+</style>
+</head>
+<body>
+<div class="crisis">Not a crisis line. If you're in danger or thinking about suicide, call or text <a href="tel:988">988</a> (US) or your local emergency number.</div>
+
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/"><img src="/assets/owl-128.png" alt=""><span>The Emotional<br>Support Line</span></a>
+    <nav class="links" aria-label="Main">
+      <a href="#forecast">Forecast</a>
+      <a href="#nest">The Nest</a>
+      <a href="/app/">Member sign-in</a>
+      <a class="btn btn-sun" data-link="bookCall" href="#calls">Book a call</a>
+    </nav>
+  </header>
+</div>
+
+<div class="sky" aria-hidden="true">
+  <svg class="paint" viewBox="0 0 1200 440" preserveAspectRatio="xMidYMid slice">
+    <defs>
+      <filter id="wash" x="-10%" y="-10%" width="120%" height="120%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="3" seed="7"/>
+        <feDisplacementMap in="SourceGraphic" scale="38"/>
+      </filter>
+      <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .07 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+      <linearGradient id="day" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e98a49"/><stop offset=".6" stop-color="#f4a96b"/><stop offset="1" stop-color="#fbc590"/></linearGradient>
+      <radialGradient id="sunglow"><stop offset="0" stop-color="#fff3d6"/><stop offset=".45" stop-color="#ffd59a"/><stop offset="1" stop-color="#ffd59a" stop-opacity="0"/></radialGradient>
+    </defs>
+    <rect width="1200" height="440" fill="#134f53"/>
+    <g filter="url(#wash)">
+      <path d="M-60 -60 H560 C640 80 520 200 610 300 C660 360 600 420 640 520 H-60Z" fill="#0f4144"/>
+      <path d="M600 -60 H1260 V520 H640 C600 420 660 360 610 300 C520 200 640 80 560 -60Z" fill="url(#day)"/>
+      <path d="M560 400 C760 350 900 380 1260 340 V520 H600Z" fill="#b65e2a"/>
+      <path d="M640 430 C820 400 980 420 1260 395 V520 H640Z" fill="#8f4720"/>
+      <path d="M-60 410 C140 380 360 400 640 420 V520 H-60Z" fill="#0b3235"/>
+      <circle cx="600" cy="470" r="230" fill="#fcefda"/>
+    </g>
+    <circle cx="940" cy="150" r="150" fill="url(#sunglow)"/>
+    <circle cx="940" cy="150" r="58" fill="#fff0cf"/>
+    <g fill="#fcefda">
+      <circle cx="70" cy="60" r="2"/><circle cx="210" cy="40" r="1.5"/><circle cx="330" cy="95" r="2.2"/><circle cx="420" cy="30" r="1.4"/>
+      <circle cx="480" cy="140" r="1.8"/><circle cx="90" cy="210" r="1.5"/><circle cx="380" cy="230" r="1.2"/><circle cx="520" cy="70" r="1.3"/>
+      <circle cx="40" cy="300" r="1.6"/><circle cx="300" cy="300" r="1.4"/><circle cx="160" cy="130" r="1"/><circle cx="450" cy="300" r="1.1"/>
+    </g>
+    <rect width="1200" height="440" filter="url(#grain)"/>
+  </svg>
+  <div class="live-moon" id="sky-moon"></div>
+  <div class="perch"><img src="/assets/owl.png" alt="The Emotional Support Line owl: one teal eye, one orange eye"></div>
+</div>
+
+<main>
+<div class="wrap hero">
+  <div>
+    <h1>Feel heard by a real person.</h1>
+    <p class="lede">Book a 30-minute call with a calm, grounded human who listens, asks good questions, and helps you find your next step.</p>
+    <div class="ctas">
+      <a class="btn btn-sun" data-link="bookCall" href="#calls">Book a 30-minute call</a>
+      <a class="btn btn-ghost" href="#nest">See the Nest</a>
+    </div>
+    <p class="note">Real people, never AI. Pay when you book, no sales call first. <span data-price="callPublic"></span> per call, <span data-price="callMember"></span> for members.</p>
+  </div>
+
+  <aside class="tonight" id="forecast" aria-labelledby="tonight-h">
+    <h2 id="tonight-h">Tonight's sky</h2>
+    <div class="row"><div id="moon-small"></div><div><div class="phase" id="moon-phase">Reading the sky…</div><div class="sub" id="moon-sub"></div></div></div>
+    <ul id="coming"></ul>
+    <p>Get the Owl's Forecast every Sunday: the week's moon, sun and sky, plus one question to sit with. Free.</p>
+    <form class="field" id="forecast-form" method="post" target="_blank">
+      <label class="sr" for="fc-email" style="position:absolute;left:-9999px">Your email</label>
+      <input id="fc-email" type="email" name="EMAIL" placeholder="Your email" autocomplete="email" required>
+      <button class="btn btn-sun" type="submit">Send me the Forecast</button>
+    </form>
+    <p class="note" id="fc-msg">One email a week. Unsubscribe anytime.</p>
+  </aside>
+</div>
+
+<section class="block" aria-labelledby="ways-h">
+  <div class="wrap">
+    <h2 id="ways-h">Start wherever you are</h2>
+    <p class="note" style="max-width:56ch">Most people start with the free Forecast or a single call. Members get the daily tools and a lower call rate.</p>
+    <div class="ways">
+      <div class="way free">
+        <h3>The Owl's Forecast</h3>
+        <div class="price">Free</div>
+        <p>A Sunday email with the week's moon phase, sun windows, space weather and planet shifts, plus a reflection prompt.</p>
+        <a class="btn btn-ghost" href="#forecast">Get the Forecast</a>
+      </div>
+      <div class="way nest" id="nest">
+        <span class="tag" data-founding>Founding price open</span>
+        <h3>The Nest</h3>
+        <div class="price"><span data-price="nestMonthly"></span> <small>a month, or <span data-price="nestYearly"></span> a year</small></div>
+        <ul>
+          <li>Earth Charge: daily sun and earthing tracker</li>
+          <li>Sky: moon, planets and space weather for where you are</li>
+          <li>Year of YES! courses and guided meditations</li>
+          <li>Monthly live group call with Tracee</li>
+          <li>Calls at <span data-price="callMember"></span> instead of <span data-price="callPublic"></span></li>
+        </ul>
+        <a class="btn btn-cream" data-link="nestFounding" data-fallback="nestMonthly" href="#prices">Join the Nest</a>
+      </div>
+      <div class="way call">
+        <h3>A support call</h3>
+        <div class="price"><span data-price="callPublic"></span> <small>for 30 minutes</small></div>
+        <p>One issue, one real person, one clear next step. No membership needed.</p>
+        <a class="btn btn-sun" data-link="bookCall" href="#calls">Book a call</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block calls" id="calls" aria-labelledby="calls-h">
+  <div class="wrap calls-grid">
+    <div>
+      <h2 id="calls-h">What a call is like</h2>
+      <ol class="steps">
+        <li><div><h3>Pick a time</h3><p>Choose an open 30-minute slot and pay when you book. No intro or sales call.</p></div></li>
+        <li><div><h3>Talk to a real person</h3><p>We listen, reflect back what we hear, and ask questions that fit how you make decisions.</p></div></li>
+        <li><div><h3>Leave with a next step</h3><p>One issue per call, so you hang up steadier and clearer about what to do next.</p></div></li>
+      </ol>
+      <div class="who">
+        <img src="/assets/owl-128.png" alt="" id="tracee-photo">
+        <p><b>Calls are with Tracee Sioux,</b> a life coach and author of <i>The Year of YES!</i> She reads your Human Design chart before your first call, so the questions fit you.</p>
+      </div>
+      <p style="margin-top:28px"><a class="btn btn-sun" data-link="bookCall" href="#">Book a 30-minute call</a></p>
+    </div>
+    <div class="reasons">
+      <h3>People call about</h3>
+      <ul>
+        <li>Big feelings that won't quiet down</li>
+        <li>Relationship or family stress</li>
+        <li>Feeling stuck, lost or unable to decide</li>
+        <li>Work, school or caregiving burnout</li>
+        <li>Loneliness, or feeling misunderstood</li>
+        <li>Life changes and identity shifts</li>
+        <li>Patterns you're tired of repeating</li>
+      </ul>
+      <blockquote>"I don't need therapy. I just need a calm, neutral person to help me think."</blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="block" aria-labelledby="nest-h">
+  <div class="wrap">
+    <h2 id="nest-h">The Nest: small daily habits, between calls</h2>
+    <p style="max-width:60ch;color:var(--ink-2)">The Nest is an app you open on your phone. It helps you build the habits that steady you: time outside, morning sun, bare feet on the ground, and a little perspective from the sky.</p>
+    <div class="nest-grid">
+      <div><h3>Earth Charge</h3><p>Timers for earthing and morning sun, a streak, and a daily tally of soil, trees and garden time.</p></div>
+      <div><h3>Sky</h3><p>Moon phase, planet signs and retrogrades, space weather, and sunrise, sunset and UV for where you are.</p></div>
+      <div><h3>Library</h3><p>Eight Year of YES! courses with workbooks, including Soul-Conomics, Soul vs Ego and Time Joy-gasm, plus guided meditations.</p></div>
+      <div><h3>Live group call</h3><p>Once a month with Tracee. Bring a question, or just listen.</p></div>
+    </div>
+    <div class="privacy">
+      <img src="/assets/owl-128.png" alt="" width="40" height="40">
+      <p><b>Your tracking stays on your phone.</b> We don't store your logs, your location or your birth details. We only keep your email and your payment, through Stripe.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="chart" aria-labelledby="chart-h" hidden style="padding-top:0">
+  <div class="wrap">
+    <h2 id="chart-h">See your Human Design chart, free</h2>
+    <p style="max-width:60ch;color:var(--ink-2)">Enter your birth date, time and place to see your type, strategy and authority. It's the same chart Tracee reads before your first call.</p>
+    <div id="chart-slot" style="background:#fff;border-radius:22px;padding:16px;border:1px solid var(--line);margin-top:20px"></div>
+    <p class="note" style="margin-top:10px">Charts are made by Neutrino. Your birth details go to them to draw the chart, not to us.</p>
+  </div>
+</section>
+
+<section class="block" id="prices" aria-labelledby="prices-h" style="padding-top:0">
+  <div class="wrap">
+    <h2 id="prices-h">Prices</h2>
+    <table class="prices">
+      <thead><tr><th scope="col">What</th><th scope="col">Price</th><th scope="col">What you get</th></tr></thead>
+      <tbody>
+        <tr><td>The Owl's Forecast</td><td class="amt">Free</td><td>Weekly email</td></tr>
+        <tr><td>The Nest, monthly</td><td class="amt"><span data-price="nestMonthly"></span>/mo</td><td>App, classes, monthly group call, member call rate</td></tr>
+        <tr><td><a data-link="nestYearly" href="#prices">The Nest, yearly</a></td><td class="amt"><span data-price="nestYearly"></span>/yr</td><td>Same as monthly, two months free</td></tr>
+        <tr><td>Support call</td><td class="amt"><span data-price="callPublic"></span></td><td>30 minutes, one issue</td></tr>
+        <tr><td>Support call, members</td><td class="amt"><span data-price="callMember"></span></td><td>Booked from inside the Nest</td></tr>
+      </tbody>
+    </table>
+    <div class="founding" data-founding>Founding members pay <span data-price="nestFounding"></span> a month for as long as they stay. Join before December 1 to lock it in.
+      <div style="margin-top:12px"><a class="btn btn-night" data-link="nestFounding" data-fallback="nestMonthly" href="#prices">Join at the founding price</a></div>
+    </div>
+    <p class="note" style="margin-top:14px">Cancel anytime from the link in your receipt email.</p>
+    <p style="margin-top:18px">Want to help someone who can't afford a call? <a data-link="payItForward" href="#">Give a call through the Pay It Forward Circle</a>.</p>
+  </div>
+</section>
+
+<section class="block safe" aria-labelledby="safe-h">
+  <div class="wrap safe-grid">
+    <div>
+      <h2 id="safe-h">Not therapy. Not a crisis line.</h2>
+      <p class="big">This is grounded emotional support and practical guidance for everyday stress, big feelings and hard decisions.</p>
+      <p>We don't diagnose, prescribe or provide crisis care. If you're in danger or thinking about suicide, call or text <a href="tel:988">988</a> in the US, or your local emergency number.</p>
+    </div>
+    <div>
+      <details><summary>Are the calls with AI?</summary><p>No. Every call is with a real person.</p></details>
+      <details><summary>Do I need a membership to book a call?</summary><p>No. Anyone can book a call. Members pay less per call.</p></details>
+      <details><summary>Is the astrology science?</summary><p>The sky data is real astronomy: actual moon phases and planet positions. What it means for you is a prompt for reflection, never a prediction.</p></details>
+      <details><summary>What happens to my data?</summary><p>Your habit tracking and settings stay on your own device. We keep your email and your Stripe payment record, nothing else.</p></details>
+      <details><summary>Can I cancel?</summary><p>Yes, anytime, using the link in your receipt email. You keep access until the end of the period you paid for.</p></details>
+      <details><summary>Where are you?</summary><p>We're in Colorado on Mountain Time. Anyone in the United States is welcome to call.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> The Emotional Support Line</span>
+    <span><a href="/terms.html">Terms</a> &nbsp; <a href="/privacy.html">Privacy</a> &nbsp; <a data-mail href="#">Contact</a></span>
+  </div>
+</footer>
+
+<script src="/assets/config.js"></script>
+<script src="/assets/sky.js"></script>
+<script>
+(function () {
+  const C = window.ESL, $ = (s) => document.querySelectorAll(s);
+  const money = (n) => "$" + n;
+  $("[data-price]").forEach((el) => (el.textContent = money(C.prices[el.dataset.price])));
+  $("[data-link]").forEach((el) => {
+    const url = C.links[el.dataset.link] || (el.dataset.fallback && C.links[el.dataset.fallback]);
+    if (url) { el.href = url; if (/^https?:/.test(url)) el.rel = "noopener"; }
+  });
+  if (!C.foundingOpen) $("[data-founding]").forEach((el) => el.remove());
+  $("[data-mail]").forEach((el) => { el.href = "mailto:" + C.email; });
+  document.getElementById("yr").textContent = new Date().getFullYear();
+
+  // Live sky
+  const m = Sky.moon();
+  document.getElementById("sky-moon").innerHTML = Sky.moonSVG(m, 96, "#fcefda", "rgba(13,58,61,.55)");
+  document.getElementById("moon-small").innerHTML = Sky.moonSVG(m, 56, "#fcefda", "rgba(0,0,0,.3)");
+  document.getElementById("moon-phase").textContent = `${m.name}, ${Math.round(m.illum * 100)}% lit`;
+  document.getElementById("moon-sub").textContent = `Moon in ${m.sign}`;
+  const fmt = (d) => d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+  const items = Sky.upcoming(new Date(), 21).slice(0, 2);
+  items.push({ date: m.waxing ? m.nextFull : m.nextNew, text: m.waxing ? "Full moon" : "New moon" });
+  items.sort((a, b) => a.date - b.date);
+  document.getElementById("coming").innerHTML = items.slice(0, 3).map((e) => `<li><span>${e.text}</span><b>${fmt(e.date)}</b></li>`).join("");
+
+  // Neutrino Human Design chart (only shows once a key is set)
+  if (C.neutrino && C.neutrino.key && C.neutrino.script) {
+    const sc = document.createElement("script"); sc.async = true; sc.src = C.neutrino.script; document.head.appendChild(sc);
+    const w = document.createElement("neutrino-widget"); w.setAttribute("type", "chart"); w.setAttribute("api-key", C.neutrino.key);
+    document.getElementById("chart-slot").appendChild(w); document.getElementById("chart").hidden = false;
+  }
+
+  // Forecast signup goes to Mailchimp
+  const f = document.getElementById("forecast-form");
+  if (C.links.forecastForm) f.action = C.links.forecastForm;
+  f.addEventListener("submit", (e) => {
+    if (!C.links.forecastForm) { e.preventDefault(); document.getElementById("fc-msg").textContent = "Signups open at launch. Check back soon."; return; }
+    setTimeout(() => { document.getElementById("fc-msg").textContent = "Check your inbox to confirm. Your first Forecast arrives Sunday."; f.reset(); }, 300);
+  });
+})();
+</script>
+</body>
+</html>

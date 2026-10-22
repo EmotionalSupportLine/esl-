@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Nest</title>
+<meta name="description" content="Daily tools for sun, soil and sky from The Emotional Support Line.">
+<meta name="theme-color" content="#134f53">
+<link rel="manifest" href="/app/manifest.json">
+<link rel="icon" href="/assets/owl-128.png">
+<link rel="apple-touch-icon" href="/assets/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="The Nest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/brand.css">
+<style>
+  body { font-size: 17px; padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+  .app { width: min(640px, 100% - 32px); margin-inline: auto; }
+  .bar { display: flex; align-items: center; justify-content: space-between; padding: 14px 0 6px; }
+  .bar a.home { display: flex; gap: 10px; align-items: center; text-decoration: none; color: var(--ink); font: 700 1.25rem var(--serif); }
+  .bar img { width: 40px; height: 40px; object-fit: contain; }
+  .iconbtn { background: none; border: 2px solid var(--line); border-radius: 999px; padding: 8px 14px; font: 700 .9rem var(--sans); color: var(--night); cursor: pointer; min-height: 40px; }
+
+  .hello { margin: 14px 0 18px; }
+  .hello h1 { font-size: 1.9rem; margin: 0 0 2px; }
+  .hello p { margin: 0; color: var(--ink-2); display: flex; align-items: center; gap: 8px; }
+
+  .card { background: var(--paper); border-radius: 20px; padding: 20px; margin-bottom: 14px; border: 1px solid var(--line); }
+  .card h2 { font-size: 1.3rem; margin-bottom: 4px; }
+  .card .sub { color: var(--ink-2); font-size: .95rem; margin: 0 0 12px; }
+  .timers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+  .timer { border-radius: 20px; padding: 18px 16px; color: var(--cream); display: flex; flex-direction: column; gap: 10px; min-height: 230px; }
+  .timer.earth { background: #6b3a1c; }
+  .timer.sun { background: var(--orange); }
+  .timer h2 { font-size: 1.15rem; margin: 0; }
+  .ring { width: 104px; height: 104px; align-self: center; position: relative; }
+  .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+  .ring .t { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; font: 700 1.35rem/1.1 var(--serif); }
+  .ring .t small { display: block; font: 600 .75rem var(--sans); opacity: .85; }
+  .timer button { margin-top: auto; background: var(--cream); color: var(--night-2); border: 0; border-radius: 999px; min-height: 46px; font: 800 1rem var(--sans); cursor: pointer; }
+  .timer.on button { background: var(--night-2); color: var(--cream); }
+  .timer .goal { font-size: .85rem; opacity: .9; text-align: center; }
+
+  .extras { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+  .extras button { border: 2px solid var(--line); background: #fff; border-radius: 16px; padding: 10px 4px; cursor: pointer; font: 700 .78rem/1.2 var(--sans); color: var(--ink); display: flex; flex-direction: column; align-items: center; gap: 4px; min-height: 84px; }
+  .extras button .e { font-size: 1.5rem; line-height: 1; }
+  .extras button .n { font: 700 .8rem var(--sans); color: var(--orange); min-height: 1em; }
+  @media (max-width: 420px) { .extras { grid-template-columns: repeat(3, 1fr); } }
+
+  .week { display: flex; justify-content: space-between; gap: 6px; margin-top: 8px; }
+  .week div { flex: 1; text-align: center; font-size: .8rem; color: var(--ink-2); }
+  .week span { display: block; height: 34px; border-radius: 10px; margin-bottom: 4px; background: #efe2cb; }
+  .week span.half { background: var(--sun); }
+  .week span.full { background: var(--teal); }
+  .week div.today { font-weight: 800; color: var(--ink); }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+  .chips button { border: 2px solid var(--teal-light); background: #fff; border-radius: 999px; padding: 8px 14px; font: 700 .9rem var(--sans); color: var(--night); cursor: pointer; }
+  .chips button[aria-pressed="true"] { background: var(--night); border-color: var(--night); color: var(--cream); }
+
+  .moonbig { display: flex; gap: 18px; align-items: center; }
+  .moonbig .name { font: 700 1.5rem/1.2 var(--serif); }
+  .rows { list-style: none; padding: 0; margin: 0; }
+  .rows li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+  .rows li:first-child { border-top: 0; }
+  .rx { background: var(--orange); color: #fff; border-radius: 999px; font: 800 .72rem var(--sans); padding: 2px 8px; margin-left: 6px; vertical-align: 2px; }
+  .kp { display: flex; gap: 4px; align-items: flex-end; height: 56px; margin: 8px 0; }
+  .kp span { flex: 1; background: var(--teal); border-radius: 4px 4px 0 0; min-height: 3px; }
+  .kp span.hi { background: var(--orange); }
+
+  .lock { background: var(--night); color: var(--cream); border-radius: 22px; padding: 24px; }
+  .lock h2 { font-size: 1.5rem; }
+  .lock p { color: #eadcc3; }
+  .lock ul { padding-left: 1.1em; color: #f6ead3; }
+  .lock .btn { width: 100%; margin-top: 8px; }
+  .lock .alt { background: none; border: 0; color: var(--sun); font: 700 1rem var(--sans); cursor: pointer; margin-top: 12px; text-decoration: underline; padding: 8px 0; }
+
+  .lib h3 { font-size: 1.05rem; margin: 18px 0 6px; color: var(--night); }
+  .lib a, .lib .soon { display: flex; justify-content: space-between; gap: 12px; padding: 14px 16px; background: #fff; border: 1px solid var(--line); border-radius: 14px; margin-bottom: 8px; color: var(--ink); text-decoration: none; font-weight: 700; }
+  .lib .soon { color: var(--ink-2); font-weight: 600; }
+  .lib small { color: var(--ink-2); font-weight: 600; white-space: nowrap; }
+
+  nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; background: var(--night-2); display: flex; justify-content: center; padding-bottom: env(safe-area-inset-bottom); z-index: 10; }
+  nav.tabs div { display: flex; width: min(640px, 100%); }
+  nav.tabs button { flex: 1; background: none; border: 0; color: #cfe3e3; font: 700 .8rem var(--sans); padding: 10px 4px 12px; display: flex; flex-direction: column; align-items: center; gap: 3px; cursor: pointer; min-height: 64px; }
+  nav.tabs button svg { width: 24px; height: 24px; }
+  nav.tabs button[aria-selected="true"] { color: var(--sun); }
+
+  dialog { border: 0; border-radius: 22px; padding: 24px; width: min(440px, 100% - 32px); background: var(--cream); color: var(--ink); }
+  dialog::backdrop { background: rgba(13,58,61,.55); }
+  dialog h2 { font-size: 1.4rem; }
+  .toast { position: fixed; left: 50%; bottom: 96px; transform: translateX(-50%); background: var(--ink); color: var(--cream); padding: 12px 18px; border-radius: 999px; font-weight: 700; z-index: 20; max-width: calc(100% - 32px); text-align: center; }
+  .crisisline { font-size: .85rem; color: var(--ink-2); text-align: center; margin: 22px 0 8px; }
+  .crisisline a { font-weight: 800; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="bar">
+    <a class="home" href="/"><img src="/assets/owl-128.png" alt="">The Nest</a>
+    <button class="iconbtn" id="acct-btn" type="button">Account</button>
+  </div>
+
+  <main id="view"></main>
+  <p class="crisisline">Not a crisis line. In danger or thinking about suicide? Call or text <a href="tel:988">988</a> (US).</p>
+</div>
+
+<nav class="tabs" aria-label="Sections"><div role="tablist">
+  <button role="tab" data-tab="today" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Today</button>
+  <button role="tab" data-tab="sky" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>Sky</button>
+  <button role="tab" data-tab="library" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/></svg>Library</button>
+  <button role="tab" data-tab="calls" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Calls</button>
+</div></nav>
+
+<dialog id="acct">
+  <h2>Account</h2>
+  <div id="acct-body"></div>
+  <form method="dialog" style="margin-top:16px"><button class="btn btn-ghost" style="width:100%">Close</button></form>
+</dialog>
+
+<dialog id="restore">
+  <h2>Restore your access</h2>
+  <p>Enter the email you used when you joined. We'll check it with Stripe and unlock the Nest on this device.</p>
+  <form id="restore-form" class="field">
+    <label for="r-email" style="position:absolute;left:-9999px">Email</label>
+    <input id="r-email" type="email" placeholder="Your email" autocomplete="email" required>
+    <button class="btn btn-night" type="submit">Unlock</button>
+  </form>
+  <p class="note" id="r-msg" style="margin-top:10px"></p>
+  <form method="dialog"><button class="btn btn-ghost" style="width:100%;margin-top:8px">Cancel</button></form>
+</dialog>
+
+<script src="/assets/config.js"></script>
+<script src="/assets/sky.js"></script>
+<script src="/app/app.js"></script>
+</body>
+</html>

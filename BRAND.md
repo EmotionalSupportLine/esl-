@@ -21,7 +21,7 @@ Rules:
 - **The Nest:** $19/month or $190/year. Founding price $14/month for as long as they stay, open until December 1, 2026.
 - **Support call:** 30 minutes, one issue, a real person, never AI. $75, or $50 for Nest members. Mondays and Tuesdays, noon to 7 pm Mountain.
 - **Monthly group call:** first Sunday of the month, 11 am Mountain, for Nest members.
-- **Year of YES! Coaching with Tracee Sioux:** $555/month for 2 hours (4 founding spots), then $777. By application.
+- **Year of YES! Coaching with Tracee Sioux:** a 12-month program, billed monthly. $555/month for 2 hours (4 founding spots), then $777. 90-day review (either side can end it then), after that 60 days' notice to leave. By application.
 - **Pay It Forward Circle:** gift a call to someone who can't afford one.
 
 Links: site https://theemotionalsupportline.com · coaching /year-of-yes · app /app

@@ -1,0 +1,765 @@
+[
+ {
+  "id": "01-mon-oct26-launch",
+  "date": "2026-10-26",
+  "time": "08:00",
+  "type": "cta",
+  "title": "We're open. Talk to a real person today.",
+  "body": "30-minute support calls for $75, plus the Nest at a $14 founding price.",
+  "button": "Book a call",
+  "caption": "We're open. 🌕\n\nToday, on the full moon, The Emotional Support Line launches: 30-minute calls with a calm, grounded human who listens, asks good questions, and helps you find your next step.\n\nWe're also opening the Nest, a little app for the habits that steady you: morning sun, bare feet on the ground, and a weekly look at the sky.\n\nFounding members pay $14 a month for as long as they stay. Link in bio.\n\nNot a crisis line. If you're in danger, call or text 988.",
+  "tags": "#EmotionalSupportLine #FeelHeard #FullMoon #YouAreNotAlone #HereToListen #MentalHealthSupport #Earthing #HumanDesign"
+ },
+ {
+  "id": "02-tue-oct27-relatable",
+  "date": "2026-10-27",
+  "time": "12:00",
+  "type": "relatable",
+  "text": "When you're not in crisis, but you're not okay either.",
+  "sub": "That in-between place is exactly what our calls are for. $75, no intro call needed.",
+  "caption": "Not every hard day is an emergency. Some are just heavy.\n\nYou don't need a diagnosis to deserve a calm person to talk to. One issue, 30 minutes, a real human, and a next step you can actually take.\n\nBook from the link in bio.",
+  "tags": "#ItsOkayToNotBeOkay #EmotionalSupportLine #TalkToSomeone #YouAreValid #HereToListen",
+  "cta": "Book a call · link in bio"
+ },
+ {
+  "id": "03-wed-oct28-affirmation",
+  "date": "2026-10-28",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "You don't have to carry it all by yourself today.",
+  "caption": "Save this for the day you need it. 💛\n\nAnd if today is that day, we're here to listen.",
+  "tags": "#Affirmation #YouAreEnough #DailyReminder #HealingJourney #EmotionalSupportLine"
+ },
+ {
+  "id": "04-thu-oct29-carousel",
+  "date": "2026-10-29",
+  "time": "12:00",
+  "type": "carousel",
+  "slides": [
+   {
+    "cover": true,
+    "title": "3 ways to calm your body in 5 minutes"
+   },
+   {
+    "n": 1,
+    "of": 3,
+    "title": "Bare feet on the ground",
+    "body": "Stand on grass, sand or soil. Notice the temperature, the texture, your breath. Five minutes is enough to start."
+   },
+   {
+    "n": 2,
+    "of": 3,
+    "title": "Morning light in your eyes",
+    "body": "Step outside before 10 am, no sunglasses. Morning light helps set your sleep rhythm for that night."
+   },
+   {
+    "n": 3,
+    "of": 3,
+    "title": "Say it out loud to someone",
+    "body": "Naming what you feel to a calm listener settles the body faster than thinking it through alone."
+   }
+  ],
+  "caption": "Your nervous system needs a reset, not a pep talk. 🌿\n\nThree small things that help, no equipment needed. The Nest app has timers for the first two and keeps your streak, all on your own phone.\n\nAnd for the third, we're a call away. Link in bio.",
+  "tags": "#GroundingTechniques #Earthing #MorningSunlight #AnxietyRelief #NervousSystem #EmotionalSupportLine #SaveThis"
+ },
+ {
+  "id": "05-fri-oct30-myth",
+  "date": "2026-10-30",
+  "time": "08:00",
+  "type": "myth",
+  "myth": "If you're not in crisis, your feelings must not be serious.",
+  "truth": "Not every hard season needs a diagnosis. Sometimes you need a calm person to think out loud with, today, not in six weeks.",
+  "caption": "Therapy is wonderful. It's also not the only kind of support.\n\nWe're not therapists and we're not a crisis line. We're real people who listen, reflect back what we hear, and help you find one next step. Calls are $75, or $50 for Nest members.",
+  "tags": "#MentalHealthMyths #BreakTheStigma #EmotionalSupport #LifeCoaching #TalkToSomeone #EmotionalSupportLine"
+ },
+ {
+  "id": "06-sat-oct31-relatable",
+  "date": "2026-10-31",
+  "time": "10:00",
+  "type": "relatable",
+  "text": "Mercury is retrograde, and every old conversation is knocking at the door.",
+  "sub": "Until Nov 13: a good time to revisit, repair and rest, not to force.",
+  "caption": "Mercury turned retrograde on Oct 24 and goes direct Nov 13. 🪐\n\nWhether or not you follow the sky, it's a useful prompt: what old conversation is asking for a gentler second try?\n\nThe Nest shows the real planet positions every day, calculated from actual astronomy. What they mean is up to you.",
+  "tags": "#MercuryRetrograde #AstroWeather #Reflection #HumanDesign #EmotionalSupportLine"
+ },
+ {
+  "id": "07-sun-nov1-forecast",
+  "date": "2026-11-01",
+  "time": "09:00",
+  "type": "forecast",
+  "start": "2026-11-01",
+  "prompt": "What feels finished this week? Let the waning moon help you set it down.",
+  "caption": "The Owl's Forecast for Nov 1 to 7. 🦉\n\nThe week's moon and sky, plus one question to sit with. Get it in your inbox free every Sunday: link in bio.",
+  "tags": "#OwlsForecast #MoonPhase #AstroWeather #WeeklyForecast #EmotionalSupportLine"
+ },
+ {
+  "id": "08-mon-nov2-cta",
+  "date": "2026-11-02",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Real people. Never AI.",
+  "body": "30 minutes for $75. You pay when you book, with no sales call first.",
+  "caption": "A question we get a lot: are the calls with AI?\n\nNo. Every call is with a real person. Calls are 30 minutes, one issue, and you leave with a clear next step.\n\n$75 a call, or $50 for Nest members. Link in bio.",
+  "tags": "#RealConnection #FeelHeard #NotABot #EmotionalSupportLine #HereToListen #TalkToSomeone",
+  "button": "Book a call"
+ },
+ {
+  "id": "09-wed-nov4-affirmation",
+  "date": "2026-11-04",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "Your feelings aren't overreactions. They make sense given what you've been through.",
+  "caption": "You don't need to justify how you feel. You need space to feel it. 🌿",
+  "tags": "#YourFeelingsAreValid #Affirmation #SelfCompassion #NoJudgment #EmotionalSupportLine"
+ },
+ {
+  "id": "10-fri-nov6-carousel",
+  "date": "2026-11-06",
+  "time": "12:00",
+  "type": "carousel",
+  "slides": [
+   {
+    "cover": true,
+    "title": "Burnout doesn't always look like falling apart"
+   },
+   {
+    "n": 1,
+    "of": 3,
+    "title": "It can look like flat",
+    "body": "Not sad, not happy. Just going through the motions."
+   },
+   {
+    "n": 2,
+    "of": 3,
+    "title": "It can look like irritable",
+    "body": "Small things land hard. You're short with people you love."
+   },
+   {
+    "n": 3,
+    "of": 3,
+    "title": "It can look like numb",
+    "body": "The things you used to care about don't reach you. That's depletion, not laziness."
+   }
+  ],
+  "caption": "If this sounds familiar, you're not lazy. You're depleted. 🧡\n\nThat's worth talking about with someone who'll listen without judging. Link in bio.",
+  "tags": "#Burnout #SignsOfBurnout #YouAreNotLazy #RestIsProductive #CaregiverBurnout #EmotionalSupportLine"
+ },
+ {
+  "id": "11-sun-nov8-forecast",
+  "date": "2026-11-08",
+  "time": "09:00",
+  "type": "forecast",
+  "start": "2026-11-08",
+  "prompt": "The new moon is a quiet start. What small habit do you want to plant this week?",
+  "caption": "The Owl's Forecast for Nov 8 to 14. 🌑 New moon week.\n\nFree every Sunday in your inbox: link in bio.",
+  "tags": "#OwlsForecast #NewMoon #AstroWeather #Intentions #EmotionalSupportLine"
+ },
+ {
+  "id": "12-mon-nov9-relatable",
+  "date": "2026-11-09",
+  "time": "12:00",
+  "type": "relatable",
+  "text": "\"I don't need therapy. I just need a calm, neutral person to help me think.\"",
+  "sub": "We hear this every week. That's what we're here for.",
+  "caption": "Sometimes you already know what you think. You just need to hear yourself say it to someone steady.\n\n30-minute calls, booked online. Link in bio.",
+  "tags": "#TalkItOut #EmotionalSupportLine #LifeCoaching #Clarity #HereToListen",
+  "cta": "Book a call · link in bio"
+ },
+ {
+  "id": "13-wed-nov11-affirmation",
+  "date": "2026-11-11",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "Getting better isn't a straight line. You're doing better than you think.",
+  "caption": "Some days are leaps. Some days feel like square one. Both count. 🌸",
+  "tags": "#ProgressNotPerfection #HealingJourney #Affirmation #BeKindToYourself #EmotionalSupportLine"
+ },
+ {
+  "id": "14-fri-nov13-cta",
+  "date": "2026-11-13",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Founding price: $14 a month, for as long as you stay.",
+  "body": "Sun and earthing tracking, the sky where you live, classes, a monthly Community Call and $50 calls.",
+  "button": "Join the Nest",
+  "caption": "Mercury goes direct today, and the founding price for the Nest is still open. 🦉\n\n$14 a month, locked for as long as you stay. Join before December 1.\n\nYour tracking stays on your own phone. We only keep your email and your payment.",
+  "tags": "#TheNest #FoundingMember #Earthing #HumanDesign #MoonPhases #EmotionalSupportLine",
+  "foot": "After Dec 1 it's $19 · theemotionalsupportline.com"
+ },
+ {
+  "id": "11-15-forecast",
+  "date": "2026-11-15",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2026-11-15",
+  "prompt": "The moon is growing. What's one thing you'd like more of this week, and what would make room for it?",
+  "caption": "This week's sky: a first quarter moon in Aquarius and a quiet stretch to build on.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "11-16-relatable",
+  "date": "2026-11-16",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "When everyone thinks you're fine because you're always the one holding it together.",
+  "sub": "Strong people need someone to talk to, too.",
+  "caption": "Strong people need someone to talk to, too. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine"
+ },
+ {
+  "id": "11-18-carousel",
+  "date": "2026-11-18",
+  "time": "08:00",
+  "type": "carousel",
+  "slides": [
+   {
+    "cover": true,
+    "title": "4 signs you need to talk it out, not tough it out"
+   },
+   {
+    "n": 1,
+    "of": 4,
+    "title": "You replay the same conversation",
+    "body": "Over and over, in the shower, in the car, at 2 am."
+   },
+   {
+    "n": 2,
+    "of": 4,
+    "title": "Small things feel huge",
+    "body": "A spilled coffee feels like the last straw."
+   },
+   {
+    "n": 3,
+    "of": 4,
+    "title": "You're tired after sleeping",
+    "body": "Carrying something heavy is exhausting, even at rest."
+   },
+   {
+    "n": 4,
+    "of": 4,
+    "title": "You keep saying \"I'm fine\"",
+    "body": "And you'd love for someone to notice you're not."
+   }
+  ],
+  "caption": "Save this for the week you need it.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine"
+ },
+ {
+  "id": "11-20-cta",
+  "date": "2026-11-20",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Founding price ends December 1.",
+  "body": "The Nest: $14 a month, locked in for as long as you stay. After Dec 1 it's $19.",
+  "button": "Join the Nest",
+  "caption": "The founding price for the Nest ends December 1. $14 a month, locked in for as long as you stay. After that it's $19. Link in bio. 🧡",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "11-22-forecast",
+  "date": "2026-11-22",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2026-11-22",
+  "prompt": "The full moon lights up what's been said and unsaid. What conversation could you let be lighter?",
+  "caption": "Full moon in Gemini on Tuesday, and the Sun moves into Sagittarius.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "11-23-relatable",
+  "date": "2026-11-23",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "Holidays: when you love your family and also need a nap from them.",
+  "sub": "Both can be true.",
+  "caption": "Both can be true. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
+  "cta": "Book a call · link in bio"
+ },
+ {
+  "id": "11-25-carousel",
+  "date": "2026-11-25",
+  "time": "08:00",
+  "type": "carousel",
+  "slides": [
+   {
+    "cover": true,
+    "title": "Before the holiday table: 3 things to decide ahead"
+   },
+   {
+    "n": 1,
+    "of": 3,
+    "title": "Pick your exit time",
+    "body": "Decide when you'll leave before you arrive. It's easier to keep a plan than make one mid-argument."
+   },
+   {
+    "n": 2,
+    "of": 3,
+    "title": "Choose one topic you won't take on",
+    "body": "You can say \"Let's not do that today\" and change the subject."
+   },
+   {
+    "n": 3,
+    "of": 3,
+    "title": "Plan your reset",
+    "body": "A walk, a quiet minute, a text to a friend. Know where your five minutes of calm will come from."
+   }
+  ],
+  "caption": "Thanksgiving is Thursday. A little planning goes a long way.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine"
+ },
+ {
+  "id": "11-27-cta",
+  "date": "2026-11-27",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Holiday hangover? Talk it out.",
+  "body": "30 minutes with a real person to sort through what came up. Calls on Mondays and Tuesdays.",
+  "button": "Book a 30-minute call",
+  "caption": "If the holiday stirred things up, you don't have to sort it out alone. 30 minutes with a real person, Mondays and Tuesdays. Link in bio.\n\nNot a crisis line. If you're in danger or thinking about suicide, call or text 988 (US).",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "11-29-forecast",
+  "date": "2026-11-29",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2026-11-29",
+  "prompt": "Venus moves into Scorpio this week. Which relationship deserves more honesty, starting with the one with yourself?",
+  "caption": "A waning gibbous moon in Leo, and Venus enters Scorpio on Friday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "11-30-cta",
+  "date": "2026-11-30",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Last 2 days for the founding price.",
+  "body": "$14 a month for the Nest, locked in for as long as you stay. Ends Tuesday, December 1.",
+  "button": "Join the Nest",
+  "caption": "Last call: the founding price for the Nest ends tomorrow, December 1. $14 a month, locked in for as long as you stay. Link in bio. 🧡",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "12-02-affirmation",
+  "date": "2026-12-02",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "You're allowed to rest before you've earned it.",
+  "caption": "Rest isn't a reward. It's part of the plan. 🌿\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine"
+ },
+ {
+  "id": "12-04-cta",
+  "date": "2026-12-04",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Our first Community Call is this Sunday.",
+  "body": "December 6, 11 am Mountain. Free for Owl's Forecast readers. Bring a question or just listen.",
+  "button": "Get the Forecast to join",
+  "caption": "Our first Community Call is this Sunday, December 6, at 11 am Mountain. Free for Owl's Forecast readers. Bring a question or just listen. Get the Forecast at the link in bio to join. 💛",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "12-06-forecast",
+  "date": "2026-12-06",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2026-12-06",
+  "prompt": "A new moon and Saturn turning direct: what slow, steady thing are you finally ready to build?",
+  "caption": "New moon in Sagittarius on Wednesday, Saturn turns direct Thursday, and Jupiter turns retrograde Saturday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "12-07-relatable",
+  "date": "2026-12-07",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "When the to-do list is long and your patience is short.",
+  "sub": "December does that. You're not failing.",
+  "caption": "December does that. You're not failing. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine"
+ },
+ {
+  "id": "12-09-myth",
+  "date": "2026-12-09",
+  "time": "08:00",
+  "type": "myth",
+  "myth": "Asking for help means you can't handle it.",
+  "truth": "Asking for help is how capable people keep handling it. Even the strongest women need someone in their corner.",
+  "caption": "Capable women ask for help. That's how they stay capable.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine"
+ },
+ {
+  "id": "12-11-cta",
+  "date": "2026-12-11",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Give a call this season.",
+  "body": "Gift a 30-minute support call to someone who's having a hard year, through our Pay It Forward Circle.",
+  "button": "Gift a call",
+  "caption": "Know someone having a hard year? Gift them a 30-minute support call through our Pay It Forward Circle. Link in bio. 💛",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "12-13-forecast",
+  "date": "2026-12-13",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2026-12-13",
+  "prompt": "A quiet week in the sky. What would it feel like to do a little less, on purpose?",
+  "caption": "A waxing crescent moon in Aquarius and a quiet week overhead.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "12-14-relatable",
+  "date": "2026-12-14",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "When you're the one who makes the holidays happen, and no one makes them happen for you.",
+  "sub": "Your needs count in December too.",
+  "caption": "Your needs count in December too. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
+  "cta": "Book a call · link in bio"
+ },
+ {
+  "id": "12-16-carousel",
+  "date": "2026-12-16",
+  "time": "08:00",
+  "type": "carousel",
+  "slides": [
+   {
+    "cover": true,
+    "title": "3 things to say no to this December"
+   },
+   {
+    "n": 1,
+    "of": 3,
+    "title": "The extra event",
+    "body": "One fewer party is one more evening for you."
+   },
+   {
+    "n": 2,
+    "of": 3,
+    "title": "The perfect-gift hunt",
+    "body": "Thoughtful beats perfect. Set a budget and a deadline."
+   },
+   {
+    "n": 3,
+    "of": 3,
+    "title": "Hosting everything",
+    "body": "A potluck is a love language too."
+   }
+  ],
+  "caption": "Every no makes room for a yes to yourself.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine"
+ },
+ {
+  "id": "12-18-cta",
+  "date": "2026-12-18",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Not in crisis. Not okay either.",
+  "body": "That in-between place is what our calls are for. 30 minutes, one real person, one next step.",
+  "button": "Book a 30-minute call",
+  "caption": "That in-between place is real, and it's exactly what our calls are for. Link in bio.\n\nNot a crisis line. If you're in danger or thinking about suicide, call or text 988 (US).",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "12-20-forecast",
+  "date": "2026-12-20",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2026-12-20",
+  "prompt": "The longest night is here, and a full moon in Cancer follows. Who feels like home to you, and how can you let them know?",
+  "caption": "The Sun enters Capricorn, and a full moon in Cancer rises on Christmas Eve.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "12-21-affirmation",
+  "date": "2026-12-21",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "You don't have to feel merry. You just have to be gentle with yourself.",
+  "caption": "For the longest night of the year. 🌕\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine"
+ },
+ {
+  "id": "12-23-relatable",
+  "date": "2026-12-23",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "Grief gets louder in December.",
+  "sub": "If someone is missing from your table this year, you're not alone in feeling it.",
+  "caption": "If someone is missing from your table this year, you're not alone in feeling it. 💙\n\nNot a crisis line. If you're in danger or thinking about suicide, call or text 988 (US).",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
+  "cta": ""
+ },
+ {
+  "id": "12-25-affirmation",
+  "date": "2026-12-25",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "However today looks, you're allowed to have it your way.",
+  "caption": "Merry Christmas, or happy Friday, or whatever today is for you. 🌿",
+  "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine"
+ },
+ {
+  "id": "12-27-forecast",
+  "date": "2026-12-27",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2026-12-27",
+  "prompt": "Before you set a single resolution: what did this year teach you that you want to keep?",
+  "caption": "A waning gibbous moon in Leo and a quiet week to look back.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "12-28-relatable",
+  "date": "2026-12-28",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "That strange week between holidays when no one knows what day it is.",
+  "sub": "Rest counts. You don't have to make it productive.",
+  "caption": "Rest counts. You don't have to make it productive. 🌿\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
+  "cta": "Book a call · link in bio"
+ },
+ {
+  "id": "12-30-carousel",
+  "date": "2026-12-30",
+  "time": "08:00",
+  "type": "carousel",
+  "slides": [
+   {
+    "cover": true,
+    "title": "Intentions, not resolutions"
+   },
+   {
+    "n": 1,
+    "of": 3,
+    "title": "Choose a feeling, not a fix",
+    "body": "Instead of a list of fixes, ask how you want to feel most days in 2027."
+   },
+   {
+    "n": 2,
+    "of": 3,
+    "title": "Make it small",
+    "body": "One tiny habit you can do on your worst day. Ten minutes of morning sun counts."
+   },
+   {
+    "n": 3,
+    "of": 3,
+    "title": "Say it out loud",
+    "body": "Tell a friend. Saying it out loud makes it real."
+   }
+  ],
+  "caption": "A gentler way to start the year.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine"
+ },
+ {
+  "id": "01-01-affirmation",
+  "date": "2027-01-01",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "A fresh start, a clean slate.",
+  "caption": "Happy New Year. 🌕",
+  "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine"
+ },
+ {
+  "id": "01-03-forecast",
+  "date": "2027-01-03",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2027-01-03",
+  "prompt": "A new moon in Capricorn is a quiet start. What one steady habit do you want to plant for 2027?",
+  "caption": "New moon in Capricorn on Thursday, and Venus moves into Sagittarius.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "01-04-relatable",
+  "date": "2027-01-04",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "Back to work, and your brain is still on vacation.",
+  "sub": "Go slow this week. Momentum comes back.",
+  "caption": "Go slow this week. Momentum comes back. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine"
+ },
+ {
+  "id": "01-06-myth",
+  "date": "2027-01-06",
+  "time": "08:00",
+  "type": "myth",
+  "myth": "A new year means you need a whole new you.",
+  "truth": "You don't need fixing. A few small changes, kept up, change more than any big resolution.",
+  "caption": "You're not a project. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine"
+ },
+ {
+  "id": "01-08-cta",
+  "date": "2027-01-08",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Start the year with one steady habit.",
+  "body": "Track morning sun and time outside, see the sky where you live, and join a monthly Community Call. $19 a month.",
+  "button": "Join the Nest",
+  "caption": "The Nest tracks morning sun and time outside, shows the sky where you live, and includes a monthly Community Call. $19 a month. Link in bio. 🌿",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "01-10-forecast",
+  "date": "2027-01-10",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2027-01-10",
+  "prompt": "Mars turns back today. Where could you stop pushing and start pacing yourself?",
+  "caption": "Mars turns retrograde today, and Mercury moves into Aquarius on Wednesday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "01-11-relatable",
+  "date": "2027-01-11",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "When January asks for a new you and you're still recovering from the old year.",
+  "caption": "No new you required. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
+  "cta": "Book a call · link in bio"
+ },
+ {
+  "id": "01-13-carousel",
+  "date": "2027-01-13",
+  "time": "08:00",
+  "type": "carousel",
+  "slides": [
+   {
+    "cover": true,
+    "title": "Getting outside when it's cold"
+   },
+   {
+    "n": 1,
+    "of": 3,
+    "title": "Morning light, even through clouds",
+    "body": "A few minutes outside in the first hour of the day. Many people find it helps their mood and sleep."
+   },
+   {
+    "n": 2,
+    "of": 3,
+    "title": "Bundle up and stand still",
+    "body": "Coffee on the porch counts."
+   },
+   {
+    "n": 3,
+    "of": 3,
+    "title": "Bring the outside in",
+    "body": "Open the blinds and sit by your brightest window."
+   }
+  ],
+  "caption": "Small doses of daylight add up.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine"
+ },
+ {
+  "id": "01-15-cta",
+  "date": "2027-01-15",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Something on your mind? Talk it through.",
+  "body": "30 minutes with a real person. No intro call, no AI. Mondays and Tuesdays.",
+  "button": "Book a 30-minute call",
+  "caption": "Something on your mind? 30 minutes with a real person. No intro call, no AI. Link in bio.\n\nNot a crisis line. If you're in danger or thinking about suicide, call or text 988 (US).",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "01-17-forecast",
+  "date": "2027-01-17",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2027-01-17",
+  "prompt": "A full moon in Leo asks to be seen. Where are you dimming your light to keep others comfortable?",
+  "caption": "The Sun moves into Aquarius on Wednesday, and a full moon in Leo rises on Friday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "01-18-relatable",
+  "date": "2027-01-18",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "When you finally say what you need and the room goes quiet.",
+  "sub": "Saying it was still the right thing.",
+  "caption": "It was still the right thing. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine"
+ },
+ {
+  "id": "01-20-affirmation",
+  "date": "2027-01-20",
+  "time": "08:00",
+  "type": "affirmation",
+  "text": "Your needs aren't too much. They're information.",
+  "caption": "Listen to them. 🌿\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine"
+ },
+ {
+  "id": "01-22-cta",
+  "date": "2027-01-22",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Members pay $50 a call.",
+  "body": "Join the Nest and every 30-minute support call is $25 less.",
+  "button": "Join the Nest",
+  "caption": "Nest members pay $50 for a support call instead of $75. Link in bio. 🧡",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "01-24-forecast",
+  "date": "2027-01-24",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2027-01-24",
+  "prompt": "A quiet week in the sky. What's one thing you can stop explaining?",
+  "caption": "A waning gibbous moon in Virgo, with Mars still retrograde.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ },
+ {
+  "id": "01-25-relatable",
+  "date": "2027-01-25",
+  "time": "08:00",
+  "type": "relatable",
+  "text": "When you're tired of being the strong one.",
+  "sub": "You can lean, too. That's what we're here for.",
+  "caption": "You can lean, too. That's what we're here for. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
+  "cta": "Book a call · link in bio"
+ },
+ {
+  "id": "01-27-myth",
+  "date": "2027-01-27",
+  "time": "08:00",
+  "type": "myth",
+  "myth": "If you talk about it, you're dwelling on it.",
+  "truth": "Saying it out loud to a calm person usually shrinks it. Keeping it in tends to make it louder.",
+  "caption": "Say it out loud. It gets smaller.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine"
+ },
+ {
+  "id": "01-29-cta",
+  "date": "2027-01-29",
+  "time": "08:00",
+  "type": "cta",
+  "title": "Next Community Call: February 7.",
+  "body": "First Sunday of every month, 11 am Mountain, for Nest members. Bring a question or just listen.",
+  "button": "Join the Nest",
+  "caption": "Our next Community Call is Sunday, February 7, 11 am Mountain, for Nest members. Bring a question or just listen. Link in bio. 💛",
+  "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine"
+ },
+ {
+  "id": "01-31-forecast",
+  "date": "2027-01-31",
+  "time": "08:00",
+  "type": "forecast",
+  "start": "2027-01-31",
+  "prompt": "The moon is letting go. What can you release before February begins?",
+  "caption": "A last quarter moon in Sagittarius, and Mercury moves into Pisces tomorrow.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine"
+ }
+]

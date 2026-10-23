@@ -159,17 +159,19 @@ async def main(src, out):
     out = pathlib.Path(out); out.mkdir(parents=True, exist_ok=True)
     async with async_playwright() as pw:
         b = await pw.chromium.launch()
-        pg = await b.new_page(viewport={"width": 1080, "height": 1350})
-        pg.on("pageerror", lambda err: print("PAGE ERROR:", err))
         for i, p in enumerate(posts):
             slides = p["slides"] if p["type"] == "carousel" else [p]
             for k, s in enumerate(slides):
                 s = {**s, "type": s.get("type", "tip")}
                 name = f"{p['id']}" + (f"-{k + 1}" if len(slides) > 1 else "") + ".png"
                 body = TYPES[s["type"]](s, 3 + i * 7 + k)
+                # A fresh page per image: forecast scripts declare globals that can't be redeclared on a reused page.
+                pg = await b.new_page(viewport={"width": 1080, "height": 1350})
+                pg.on("pageerror", lambda err: print("PAGE ERROR:", err))
                 await pg.set_content(f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body}</body></html>")
                 await pg.wait_for_timeout(250)
                 await pg.screenshot(path=str(out / name))
+                await pg.close()
                 print("made", name)
         await b.close()
 

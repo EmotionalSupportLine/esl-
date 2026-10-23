@@ -77,7 +77,7 @@ def relatable(p, i):
 <div class="tag" style="position:absolute;left:90px;top:110px;opacity:.75">{e(p.get("kicker", "Real talk"))}</div>
 <div style="position:absolute;left:90px;right:90px;top:210px"><div class="h" style="font-size:{fs}px;line-height:1.05">{marked(t, m)}</div>{sub}</div>
 {chip}
-{owl(700, 860, 330, -4, p.get("owl", "You're not alone."))}<div class="site" style="position:absolute;left:90px;bottom:90px">{SITE}</div></div>'''
+{owl(730, 990, 280, -4, p.get("owl", ["You're not alone.", "Been there.", "I hear you.", "Same, friend."][i % 4]))}<div class="site" style="position:absolute;left:90px;bottom:90px">{SITE}</div></div>'''
 
 
 def affirmation(p, i):
@@ -102,7 +102,7 @@ def cta(p, i):
 <div class="h" style="font-size:{fs}px;line-height:1.03">{e(t)}</div>
 <div style="margin-top:36px;font:500 40px/1.45 Poppins;max-width:860px;opacity:.95">{e(p.get("body", ""))}</div></div>
 <div class="chip" style="position:absolute;left:90px;top:1000px;background:{ink};color:#fff;font-size:42px;padding:28px 52px">{e(p.get("button", "Book a 30-minute call"))} &rarr;</div>
-{owl(640, 700, 380, -6, p.get("owl", "I'm listening."))}<div class="site" style="position:absolute;left:90px;bottom:80px;color:{ink}">{e(p.get("foot", SITE))}</div></div>'''
+{owl(640, 700, 380, -6, p.get("owl", ["I'm listening.", "We've got you.", "Talk to us.", "Real people here."][i % 4]))}<div class="site" style="position:absolute;left:90px;bottom:80px;color:{ink}">{e(p.get("foot", SITE))}</div></div>'''
 
 
 def myth(p, i):
@@ -125,7 +125,7 @@ def slide(s, i, cover_colors):
 <div style="position:absolute;inset:0;background:{c2};clip-path:polygon(0 70%,100% 58%,100% 100%,0 100%)"></div>
 <div class="h" style="position:absolute;left:90px;right:90px;top:180px;font-size:{size_for(s["title"], 108, 90, 40)}px;line-height:1.04;color:#fff">{e(s["title"])}</div>
 <div class="chip" style="position:absolute;left:90px;top:1060px;background:{ink};color:#fff">Swipe &rarr;</div>
-{owl(620, 780, 400, -6, "Save this one.")}</div>'''
+{owl(620, 780, 400, -6, ["Save this one.", "Try #2 first.", "Send to a friend."][i % 3])}</div>'''
     c1 = cover_colors[0]
     return f'''<div class="c" style="background:#fff8ec;color:{INK}">
 <div style="position:absolute;left:90px;top:120px;width:150px;height:150px;border-radius:50%;background:{c1};color:#fff;display:flex;align-items:center;justify-content:center;font:700 72px Poppins">{s["n"]}</div>
@@ -148,7 +148,7 @@ def forecast(p, i):
 <div id="phase" style="font:500 36px Poppins;margin-top:16px;color:#3d3637"></div></div>
 <div id="events" style="position:absolute;left:90px;right:90px;top:500px;background:rgba(255,255,255,.6);border-radius:28px;padding:16px 40px;font:500 34px Poppins"></div>
 <div class="h" style="position:absolute;left:90px;right:90px;top:880px;font-size:46px;line-height:1.3;font-style:italic">{e(p.get("prompt", ""))}</div>
-{owl(760, 1010, 260, 4, "Whooo's ready?")}
+{owl(830, 1110, 190, 4)}
 <div style="position:absolute;left:90px;bottom:90px"><div style="font:700 34px Poppins;color:#134f53">Get it free every Sunday · link in bio</div><div class="site">{SITE}</div></div>
 <script>{SKY_JS}</script>
 <script>{{

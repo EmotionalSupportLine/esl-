@@ -12,7 +12,7 @@ Every agent, template and graphic follows this file. When in doubt, choose the c
 
 Rules:
 - Never say or imply that Magdalene and Tracee are the same person.
-- EmoOwl is the mascot: two owls, one teal and one orange, sitting so close they look like one. It stands for two people sitting together through something hard. EmoOwl is warm, wise and a little playful, never cutesy.
+- EmoOwl is the mascot: two owls, one teal and one orange, sitting so close they look like one. It stands for two people sitting together through something hard. EmoOwl is a "she": warm, wise and a little playful, never cutesy.
 - Supporters other than Magdalene will use pen names too.
 
 ## What we offer (keep prices exactly like this)
@@ -39,6 +39,16 @@ Links: site https://theemotionalsupportline.com · coaching /year-of-yes · app 
 ## Voice
 
 Warm, plain and steady, like a friend who's calm in a crisis. Short sentences. Second person ("you"). One idea per post. Hope without hype. No exclamation-mark stacks, no "manifest your best life," no guilt or urgency tricks. Emoji: at most one per caption, from 🌿 💛 🧡 💙 🌕 🦉.
+
+**Swearing:** never in EmoOwl's public posts or emails. In one-to-one replies, never first: follow the person's lead, and echo lightly only if it would free them. Tracee approves every reply.
+
+### Tracee's own voice (her letters, Year of YES!, coaching)
+
+A funny, honest friend who has been through it and won't let you off the hook. She listens first, then offers one insight that opens things up, then a gentle dare. Short punchy lines, her own story as proof, common wisdom flipped, and an ending with a direct ask. Her words: Soul (capital S, a "she"), YES!, Ego, the Universe, flow, White Space, Busyness. Her gifts are Insight and Breakthrough; her lenses are Human Design and astrology. Her audience is capable, overextended women, and her message is that a woman's time, energy and labor belong to her. Swearing is allowed sparingly and on purpose, one well-placed word for punch or relief, never filler. No therapy jargon, no pity, no corporate filler.
+
+### Retired topics (never write about these, for any brand)
+
+Sex, dating, romance, and pleasing or centering men. Old quotes and book chapters on these topics are not used.
 
 ## Look
 

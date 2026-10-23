@@ -46,6 +46,20 @@ def sticker(x, y, size, rot, ring="#fff"):
             f'<img src="{OWL}" style="width:78%"></div>')
 
 
+def owl(x, y, w, rot=0, say=None, bubble_at="left"):
+    """EmoOwl as the hero: big, no badge ring, with an optional speech bubble."""
+    b = ""
+    if say:
+        bx = "right:" + str(w - 40) + "px" if bubble_at == "left" else "left:" + str(w - 40) + "px"
+        tail = "right:-18px" if bubble_at == "left" else "left:-18px"
+        b = (f'<div style="position:absolute;{bx};top:-10px;background:#fff;color:#1f1c1c;font:700 34px/1.2 Poppins;padding:22px 30px;'
+             f'border-radius:32px;white-space:nowrap;box-shadow:0 10px 24px rgba(0,0,0,.14)">{e(say)}'
+             f'<div style="position:absolute;{tail};top:34px;width:0;height:0;border:18px solid transparent;'
+             f'border-{"left" if bubble_at == "left" else "right"}-color:#fff"></div></div>')
+    return (f'<div style="position:absolute;left:{x}px;top:{y}px;width:{w}px;transform:rotate({rot}deg)">{b}'
+            f'<img src="{OWL}" style="width:{w}px;filter:drop-shadow(0 18px 24px rgba(0,0,0,.18))"></div>')
+
+
 def marked(text, color, n=3):
     words = text.split()
     n = min(n, max(1, len(words) - 1))
@@ -58,12 +72,12 @@ def relatable(p, i):
     fs = p.get("size") or size_for(t, 108, 88)
     sub = f'<div style="margin-top:44px;font:500 42px/1.4 Poppins;max-width:700px">{e(p["sub"])}</div>' if p.get("sub") else ""
     cta = p.get("cta", "Free Sunday Forecast · link in bio")
-    chip = f'<div class="chip" style="position:absolute;left:90px;bottom:170px;background:{INK};color:{bg}">{e(cta)}</div>' if cta else ""
+    chip = f'<div class="chip" style="position:absolute;left:90px;bottom:170px;background:{INK};color:{bg};font-size:30px">{e(cta)}</div>' if cta else ""
     return f'''<div class="c" style="background:{bg};color:{INK}">
 <div class="tag" style="position:absolute;left:90px;top:110px;opacity:.75">{e(p.get("kicker", "Real talk"))}</div>
 <div style="position:absolute;left:90px;right:90px;top:210px"><div class="h" style="font-size:{fs}px;line-height:1.05">{marked(t, m)}</div>{sub}</div>
 {chip}
-{sticker(790, 1060, 210, -8)}<div class="site" style="position:absolute;left:90px;bottom:90px">{SITE}</div></div>'''
+{owl(700, 860, 330, -4, p.get("owl", "You're not alone."))}<div class="site" style="position:absolute;left:90px;bottom:90px">{SITE}</div></div>'''
 
 
 def affirmation(p, i):
@@ -75,7 +89,7 @@ def affirmation(p, i):
 <div style="position:absolute;left:110px;right:110px;top:210px;height:780px;background:{note};transform:rotate({rot}deg);box-shadow:0 30px 60px rgba(60,40,20,.18);padding:110px 80px;display:flex;align-items:center">
 <div style="position:absolute;left:50%;top:-30px;width:220px;height:70px;margin-left:-110px;background:rgba(255,255,255,.55);transform:rotate(-3deg)"></div>
 <div class="h" style="font-size:{fs}px;line-height:1.1;color:{INK}">{e(t)}</div></div>
-{sticker(110, 1060, 190, -6)}<div style="position:absolute;left:330px;bottom:118px;color:#134f53"><div style="font:700 34px Poppins">Saved this? Share it with her.</div><div class="site">{SITE}</div></div></div>'''
+{owl(700, 40, 300, 6)}<div style="position:absolute;left:110px;bottom:118px;color:#134f53"><div style="font:700 34px Poppins">Saved this? Share it with her.</div><div class="site">{SITE}</div></div></div>'''
 
 
 def cta(p, i):
@@ -88,7 +102,7 @@ def cta(p, i):
 <div class="h" style="font-size:{fs}px;line-height:1.03">{e(t)}</div>
 <div style="margin-top:36px;font:500 40px/1.45 Poppins;max-width:860px;opacity:.95">{e(p.get("body", ""))}</div></div>
 <div class="chip" style="position:absolute;left:90px;top:1000px;background:{ink};color:#fff;font-size:42px;padding:28px 52px">{e(p.get("button", "Book a 30-minute call"))} &rarr;</div>
-{sticker(790, 820, 240, -8)}<div class="site" style="position:absolute;left:90px;bottom:80px;color:{ink}">{e(p.get("foot", SITE))}</div></div>'''
+{owl(640, 700, 380, -6, p.get("owl", "I'm listening."))}<div class="site" style="position:absolute;left:90px;bottom:80px;color:{ink}">{e(p.get("foot", SITE))}</div></div>'''
 
 
 def myth(p, i):
@@ -101,7 +115,7 @@ def myth(p, i):
 <div style="position:absolute;left:90px;right:90px;top:680px">
 <div class="tag" style="color:#d7783a">What's true</div>
 <div class="h" style="font-size:58px;line-height:1.2;margin-top:20px">{e(p["truth"])}</div></div>
-{sticker(800, 1080, 190, 6)}<div style="position:absolute;left:90px;bottom:90px"><div style="font:700 34px Poppins;color:#134f53">Free Sunday Forecast · link in bio</div><div class="site">{SITE}</div></div></div>'''
+{owl(800, 1100, 210, 4)}<div style="position:absolute;left:90px;bottom:90px"><div style="font:700 34px Poppins;color:#134f53">Free Sunday Forecast · link in bio</div><div class="site">{SITE}</div></div></div>'''
 
 
 def slide(s, i, cover_colors):
@@ -111,7 +125,7 @@ def slide(s, i, cover_colors):
 <div style="position:absolute;inset:0;background:{c2};clip-path:polygon(0 70%,100% 58%,100% 100%,0 100%)"></div>
 <div class="h" style="position:absolute;left:90px;right:90px;top:180px;font-size:{size_for(s["title"], 108, 90, 40)}px;line-height:1.04;color:#fff">{e(s["title"])}</div>
 <div class="chip" style="position:absolute;left:90px;top:1060px;background:{ink};color:#fff">Swipe &rarr;</div>
-{sticker(790, 900, 230, -8)}</div>'''
+{owl(620, 780, 400, -6, "Save this one.")}</div>'''
     c1 = cover_colors[0]
     return f'''<div class="c" style="background:#fff8ec;color:{INK}">
 <div style="position:absolute;left:90px;top:120px;width:150px;height:150px;border-radius:50%;background:{c1};color:#fff;display:flex;align-items:center;justify-content:center;font:700 72px Poppins">{s["n"]}</div>
@@ -120,7 +134,7 @@ def slide(s, i, cover_colors):
 <div class="h" style="font-size:{size_for(s["title"], 84, 70, 34)}px;line-height:1.1">{e(s["title"])}</div>
 <div style="margin-top:40px;font:500 44px/1.5 Poppins;color:#3d3637">{e(s.get("body", ""))}</div></div>
 {"" if s["n"] < s["of"] else f'<div class="chip" style="position:absolute;left:90px;bottom:170px;background:{INK};color:#fff">Get the free Sunday Forecast</div>'}
-{sticker(830, 1110, 150, 6)}<div class="site" style="position:absolute;left:90px;bottom:90px;color:#134f53">{SITE}</div></div>'''
+{owl(820, 1050, 210, 6)}<div class="site" style="position:absolute;left:90px;bottom:90px;color:#134f53">{SITE}</div></div>'''
 
 
 def forecast(p, i):
@@ -134,7 +148,7 @@ def forecast(p, i):
 <div id="phase" style="font:500 36px Poppins;margin-top:16px;color:#3d3637"></div></div>
 <div id="events" style="position:absolute;left:90px;right:90px;top:500px;background:rgba(255,255,255,.6);border-radius:28px;padding:16px 40px;font:500 34px Poppins"></div>
 <div class="h" style="position:absolute;left:90px;right:90px;top:880px;font-size:46px;line-height:1.3;font-style:italic">{e(p.get("prompt", ""))}</div>
-{sticker(830, 1110, 150, 6, "rgba(255,255,255,.9)")}
+{owl(760, 1010, 260, 4, "Whooo's ready?")}
 <div style="position:absolute;left:90px;bottom:90px"><div style="font:700 34px Poppins;color:#134f53">Get it free every Sunday · link in bio</div><div class="site">{SITE}</div></div>
 <script>{SKY_JS}</script>
 <script>{{

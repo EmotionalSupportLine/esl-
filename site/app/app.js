@@ -57,7 +57,7 @@
     return `<section class="lock">
       <h2>${what} is for Nest members</h2>
       <p>Join to unlock the Sky, the class library and the member call rate.</p>
-      <ul><li>Moon, planets and space weather for where you are</li><li>Year of YES! courses and guided meditations</li><li>Monthly live group call with Magdalene</li><li>Calls at $${C.prices.callMember} instead of $${C.prices.callPublic}</li></ul>
+      <ul><li>Moon, planets and space weather for where you are</li><li>Year of YES! courses and guided meditations</li><li>Monthly live Community Call</li><li>Calls at $${C.prices.callMember} instead of $${C.prices.callPublic}</li></ul>
       <a class="btn btn-sun" href="${esc(joinUrl())}">Join for $${C.foundingOpen ? C.prices.nestFounding : C.prices.nestMonthly} a month</a>
       <button class="alt" type="button" data-restore>Already a member? Restore access</button>
     </section>`;
@@ -232,7 +232,7 @@
       </section>
       ${member ? `<section class="card"><h2>Monthly group call</h2><p class="sub">${esc(member.groupCall)}</p></section>
       <section class="card"><h2>Steady Support</h2><p class="sub">Four calls a month for $${C.prices.steady}. For seasons when you want regular support.</p><a class="btn btn-ghost" href="mailto:${esc(C.email)}?subject=Steady%20Support">Ask about Steady Support</a></section>` : ""}
-      <section class="card"><h2>What to expect</h2><p class="sub">Magdalene calls you at the number you gave when you booked. Have a quiet spot and one thing you want to talk through. If you're in danger or thinking about suicide, call or text 988 instead.</p></section>`;
+      <section class="card"><h2>What to expect</h2><p class="sub">Your supporter calls you at the number you gave when you booked. Have a quiet spot and one thing you want to talk through. If you're in danger or thinking about suicide, call or text 988 instead.</p></section>`;
   }
 
   function viewAccount() {

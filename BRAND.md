@@ -11,7 +11,7 @@ Every agent, template and graphic follows this file. When in doubt, choose the c
 | **Tracee Sioux** | Year of YES! Coaching | Coaching page, coaching emails, personal notes to her own podcast list | "Tracee" |
 
 Rules:
-- Never say or imply that Magdalene and Tracee are the same person.
+- Never say or imply that Magdalene and Tracee are the same person. Never name Magdalene in marketing content at all: say "a trained supporter" or "our supporters." Magdalene is only the name a caller hears on the call.
 - EmoOwl is the mascot: two owls, one teal and one orange, sitting so close they look like one. It stands for two people sitting together through something hard. EmoOwl is a "she": warm, wise and a little playful, never cutesy.
 - Supporters other than Magdalene will use pen names too.
 

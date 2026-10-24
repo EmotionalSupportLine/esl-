@@ -126,7 +126,7 @@ def signup():
     return ('<aside class="signup"><img src="/assets/owls/telescope.webp" alt="" width="96" height="96" loading="lazy"><div><h2>The Owl\'s Forecast, free every Sunday</h2>'
             '<p>The week\'s moon and sky, a note on getting outside, and one question to sit with.</p>'
             '<form class="field" action="https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&amp;id=bd683fce4d" method="post" target="_blank">'
-            '<input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" required><button class="btn btn-sun" type="submit">Send me the Forecast</button></form></div></aside>')
+            '<input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" required><div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div><button class="btn btn-sun" type="submit">Send me the Forecast</button></form></div></aside>')
 
 
 def nice(d):

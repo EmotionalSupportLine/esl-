@@ -238,7 +238,18 @@ def sitemap(posts, items):
     (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 
 
+def close_founding():
+    """From December 1, 2026 the $14 founding offer disappears from the site."""
+    cfg = SITE / "assets" / "config.js"
+    if NOW.date() >= datetime.date(2026, 12, 1) and not PREVIEW:
+        t = cfg.read_text()
+        if "foundingOpen: true" in t:
+            cfg.write_text(t.replace("foundingOpen: true", "foundingOpen: false"))
+            print("Founding price closed on the site.")
+
+
 if __name__ == "__main__":
+    close_founding()
     posts, items = build_blog(), build_forecasts()
     sitemap(posts, items)
     print(f"{NOW:%Y-%m-%d %H:%M} MT: {len(posts)} blog posts and {len(items)} forecasts live" + (" (preview, dates ignored)" if PREVIEW else ""))

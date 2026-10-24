@@ -46,8 +46,21 @@ def sticker(x, y, size, rot, ring="#fff"):
             f'<img src="{OWL}" style="width:78%"></div>')
 
 
-def owl(x, y, w, rot=0, say=None, bubble_at="left"):
-    """EmoOwl as the hero: big, no badge ring, with an optional speech bubble."""
+_POSES = {}
+
+
+def pose_src(name):
+    """A pose from studio/poses/<name>.png as a data URI; falls back to the logo owl."""
+    if not name:
+        return OWL
+    if name not in _POSES:
+        f = HERE / "poses" / f"{name}.png"
+        _POSES[name] = ("data:image/png;base64," + base64.b64encode(f.read_bytes()).decode()) if f.exists() else OWL
+    return _POSES[name]
+
+
+def owl(x, y, w, rot=0, say=None, bubble_at="left", pose=None):
+    """EmoOwl as the hero: big, no badge ring, with an optional speech bubble and a pose."""
     b = ""
     if say:
         bx = "right:" + str(w - 40) + "px" if bubble_at == "left" else "left:" + str(w - 40) + "px"
@@ -57,7 +70,7 @@ def owl(x, y, w, rot=0, say=None, bubble_at="left"):
              f'<div style="position:absolute;{tail};top:34px;width:0;height:0;border:18px solid transparent;'
              f'border-{"left" if bubble_at == "left" else "right"}-color:#fff"></div></div>')
     return (f'<div style="position:absolute;left:{x}px;top:{y}px;width:{w}px;transform:rotate({rot}deg)">{b}'
-            f'<img src="{OWL}" style="width:{w}px;filter:drop-shadow(0 18px 24px rgba(0,0,0,.18))"></div>')
+            f'<img src="{pose_src(pose)}" style="width:{w}px;filter:drop-shadow(0 18px 24px rgba(0,0,0,.18))"></div>')
 
 
 def marked(text, color, n=3):
@@ -77,7 +90,7 @@ def relatable(p, i):
 <div class="tag" style="position:absolute;left:90px;top:110px;opacity:.75">{e(p.get("kicker", "Real talk"))}</div>
 <div style="position:absolute;left:90px;right:90px;top:210px"><div class="h" style="font-size:{fs}px;line-height:1.05">{marked(t, m)}</div>{sub}</div>
 {chip}
-{owl(730, 990, 280, -4, p.get("owl", ["You're not alone.", "Been there.", "I hear you.", "Same, friend."][i % 4]))}<div class="site" style="position:absolute;left:90px;bottom:90px">{SITE}</div></div>'''
+{owl(680, 930, 350, -4, p.get("owl", ["You're not alone.", "Been there.", "I hear you.", "Same, friend."][i % 4]), pose=p.get('pose'))}<div class="site" style="position:absolute;left:90px;bottom:90px">{SITE}</div></div>'''
 
 
 def affirmation(p, i):
@@ -89,7 +102,7 @@ def affirmation(p, i):
 <div style="position:absolute;left:110px;right:110px;top:210px;height:780px;background:{note};transform:rotate({rot}deg);box-shadow:0 30px 60px rgba(60,40,20,.18);padding:110px 80px;display:flex;align-items:center">
 <div style="position:absolute;left:50%;top:-30px;width:220px;height:70px;margin-left:-110px;background:rgba(255,255,255,.55);transform:rotate(-3deg)"></div>
 <div class="h" style="font-size:{fs}px;line-height:1.1;color:{INK}">{e(t)}</div></div>
-{owl(700, 40, 300, 6)}<div style="position:absolute;left:110px;bottom:118px;color:#134f53"><div style="font:700 34px Poppins">Saved this? Share it with her.</div><div class="site">{SITE}</div></div></div>'''
+{owl(680, 30, 340, 6, pose=p.get('pose'))}<div style="position:absolute;left:110px;bottom:118px;color:#134f53"><div style="font:700 34px Poppins">Saved this? Share it with her.</div><div class="site">{SITE}</div></div></div>'''
 
 
 def cta(p, i):
@@ -102,7 +115,7 @@ def cta(p, i):
 <div class="h" style="font-size:{fs}px;line-height:1.03">{e(t)}</div>
 <div style="margin-top:36px;font:500 40px/1.45 Poppins;max-width:860px;opacity:.95">{e(p.get("body", ""))}</div></div>
 <div class="chip" style="position:absolute;left:90px;top:1000px;background:{ink};color:#fff;font-size:42px;padding:28px 52px">{e(p.get("button", "Book a 30-minute call"))} &rarr;</div>
-{owl(640, 700, 380, -6, p.get("owl", ["I'm listening.", "We've got you.", "Talk to us.", "Real people here."][i % 4]))}<div class="site" style="position:absolute;left:90px;bottom:80px;color:{ink}">{e(p.get("foot", SITE))}</div></div>'''
+{owl(640, 700, 380, -6, p.get("owl", ["I'm listening.", "We've got you.", "Talk to us.", "Real people here."][i % 4]), pose=p.get('pose'))}<div class="site" style="position:absolute;left:90px;bottom:80px;color:{ink}">{e(p.get("foot", SITE))}</div></div>'''
 
 
 def myth(p, i):
@@ -115,7 +128,7 @@ def myth(p, i):
 <div style="position:absolute;left:90px;right:90px;top:680px">
 <div class="tag" style="color:#d7783a">What's true</div>
 <div class="h" style="font-size:58px;line-height:1.2;margin-top:20px">{e(p["truth"])}</div></div>
-{owl(800, 1100, 210, 4)}<div style="position:absolute;left:90px;bottom:90px"><div style="font:700 34px Poppins;color:#134f53">Free Sunday Forecast · link in bio</div><div class="site">{SITE}</div></div></div>'''
+{owl(770, 1050, 260, 4, pose=p.get('pose'))}<div style="position:absolute;left:90px;bottom:90px"><div style="font:700 34px Poppins;color:#134f53">Free Sunday Forecast · link in bio</div><div class="site">{SITE}</div></div></div>'''
 
 
 def slide(s, i, cover_colors):
@@ -125,7 +138,7 @@ def slide(s, i, cover_colors):
 <div style="position:absolute;inset:0;background:{c2};clip-path:polygon(0 70%,100% 58%,100% 100%,0 100%)"></div>
 <div class="h" style="position:absolute;left:90px;right:90px;top:180px;font-size:{size_for(s["title"], 108, 90, 40)}px;line-height:1.04;color:#fff">{e(s["title"])}</div>
 <div class="chip" style="position:absolute;left:90px;top:1060px;background:{ink};color:#fff">Swipe &rarr;</div>
-{owl(620, 780, 400, -6, ["Save this one.", "Try #2 first.", "Send to a friend."][i % 3])}</div>'''
+{owl(620, 780, 400, -6, ["Save this one.", "Try #2 first.", "Send to a friend."][i % 3], pose=s.get('pose'))}</div>'''
     c1 = cover_colors[0]
     return f'''<div class="c" style="background:#fff8ec;color:{INK}">
 <div style="position:absolute;left:90px;top:120px;width:150px;height:150px;border-radius:50%;background:{c1};color:#fff;display:flex;align-items:center;justify-content:center;font:700 72px Poppins">{s["n"]}</div>
@@ -134,7 +147,7 @@ def slide(s, i, cover_colors):
 <div class="h" style="font-size:{size_for(s["title"], 84, 70, 34)}px;line-height:1.1">{e(s["title"])}</div>
 <div style="margin-top:40px;font:500 44px/1.5 Poppins;color:#3d3637">{e(s.get("body", ""))}</div></div>
 {"" if s["n"] < s["of"] else f'<div class="chip" style="position:absolute;left:90px;bottom:170px;background:{INK};color:#fff">Get the free Sunday Forecast</div>'}
-{owl(820, 1050, 210, 6)}<div class="site" style="position:absolute;left:90px;bottom:90px;color:#134f53">{SITE}</div></div>'''
+{owl(820, 1050, 210, 6, pose=s.get('pose'))}<div class="site" style="position:absolute;left:90px;bottom:90px;color:#134f53">{SITE}</div></div>'''
 
 
 def forecast(p, i):
@@ -148,7 +161,7 @@ def forecast(p, i):
 <div id="phase" style="font:500 36px Poppins;margin-top:16px;color:#3d3637"></div></div>
 <div id="events" style="position:absolute;left:90px;right:90px;top:500px;background:rgba(255,255,255,.6);border-radius:28px;padding:16px 40px;font:500 34px Poppins"></div>
 <div class="h" style="position:absolute;left:90px;right:90px;top:880px;font-size:46px;line-height:1.3;font-style:italic">{e(p.get("prompt", ""))}</div>
-{owl(830, 1110, 190, 4)}
+{owl(790, 1060, 250, 4, pose=p.get('pose'))}
 <div style="position:absolute;left:90px;bottom:90px"><div style="font:700 34px Poppins;color:#134f53">Get it free every Sunday · link in bio</div><div class="site">{SITE}</div></div>
 <script>{SKY_JS}</script>
 <script>{{
@@ -186,7 +199,7 @@ async def main(src, out):
             i = seen[p["type"]] = seen.get(p["type"], -1) + 1
             if p["type"] == "carousel":
                 colors = BLOCKS[i % len(BLOCKS)]
-                pages = [(f"{p['id']}-{k + 1}.png", slide(s, i, colors)) for k, s in enumerate(p["slides"])]
+                pages = [(f"{p['id']}-{k + 1}.png", slide({**s, "pose": p.get("pose")}, i, colors)) for k, s in enumerate(p["slides"])]
             else:
                 pages = [(f"{p['id']}.png", TYPES[p["type"]](p, i))]
             for name, body in pages:

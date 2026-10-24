@@ -66,4 +66,8 @@ Sex, dating, romance, and pleasing or centering men. Old quotes and book chapter
 
 ## Approval
 
-Agents draft; Tracee approves anything that is sent, posted or replied to. Exceptions: none until Tracee says otherwise.
+Updated October 24, 2026, at Tracee's direction.
+
+- **Scheduled marketing content** (blog posts, the Sunday Forecast, social posts, the welcome series) was written ahead for the year and is approved by the **Editor agent**, not Tracee. Each week the Editor checks the coming week against this guide. It approves what passes, puts anything doubtful on hold (`status: hold`, which stops it publishing) and notifies Tracee only about holds.
+- **Replies to real people** (emails, DMs, coaching applicants, complaints, anyone in distress) are still drafted by agents and approved by Tracee. Nothing is ever sent to a person without her.
+- **Website safety pop-up:** any visitor who types words about suicide, self-harm, harming someone or a mental health emergency sees a message pointing to 988 and 911 (`site/assets/crisis-guard.js`). Any future chat or AI guide must call `ESLCrisisCheck(text)` on every visitor message.

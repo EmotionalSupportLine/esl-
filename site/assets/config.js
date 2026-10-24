@@ -29,7 +29,7 @@ window.ESL = {
   },
   // Neutrino Human Design chart widget: paste the script URL and API key from
   // neutrinoplatform.com/app/widgets (add theemotionalsupportline.com to its allowed domains)
-  neutrino: { script: "", key: "" },
+  neutrino: { script: "https://neutrinoplatform.com/js/widget-v2/loader.js", key: "b5545dd0e19bcd4f2f9f1d959456e778038a98bc", transitKey: "5a9615047c3d45d235176ff704d765965ff62b14" },
   // Founding coaching spots left at the current price (the Stripe link closes itself after 4)
   coachingSpots: 4,
   foundingOpen: true,

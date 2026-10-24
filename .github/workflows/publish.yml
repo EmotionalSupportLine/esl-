@@ -1,0 +1,24 @@
+name: Publish scheduled content
+# Every day: puts any blog post or Owl's Forecast whose date has arrived onto the site.
+# Vercel deploys the site automatically when this pushes.
+on:
+  schedule:
+    - cron: "17 12 * * *"   # 5:17 am MST / 6:17 am MDT, before the 7 am posts and the Sunday email
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install markdown==3.7
+      - run: python3 studio/year/publish.py
+      - name: Commit anything new
+        run: |
+          git config user.name "ESL publisher"
+          git config user.email "careteam@theemotionalsupportline.com"
+          git add site
+          git diff --cached --quiet || (git commit -m "Publish scheduled content $(date -u +%F)" && git push)

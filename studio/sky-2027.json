@@ -1,0 +1,3064 @@
+[
+ {
+  "week": 1,
+  "sunday": "2026-11-01",
+  "label": "Sun, Nov 1 to Sat, Nov 7",
+  "moonOnSunday": "Last quarter, Moon in Leo",
+  "sunSign": "Scorpio",
+  "events": [],
+  "retrogradesInEffect": [
+   "Mercury in Scorpio",
+   "Venus in Libra",
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Scorpio",
+   "Moon": "Leo",
+   "Mercury": "Scorpio",
+   "Venus": "Libra",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 44,
+   "sunLine": 2,
+   "earthGate": 24,
+   "earthLine": 2,
+   "changes": [
+    {
+     "when": "Thu, Nov 5",
+     "sunGate": 1,
+     "earthGate": 2
+    }
+   ],
+   "planetGates": {
+    "Moon": 31,
+    "Mercury": 1,
+    "Venus": 32,
+    "Mars": 4,
+    "Jupiter": 4,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 2,
+  "sunday": "2026-11-08",
+  "label": "Sun, Nov 8 to Sat, Nov 14",
+  "moonOnSunday": "New moon, Moon in Scorpio",
+  "sunSign": "Scorpio",
+  "events": [
+   {
+    "when": "Mon, Nov 9, 12:03 AM",
+    "text": "New moon in Scorpio"
+   },
+   {
+    "when": "Fri, Nov 13",
+    "text": "Mercury turns direct in Scorpio"
+   },
+   {
+    "when": "Fri, Nov 13",
+    "text": "Venus turns direct in Libra"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Scorpio",
+   "Venus in Libra",
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Scorpio",
+   "Moon": "Scorpio",
+   "Mercury": "Scorpio",
+   "Venus": "Libra",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 1,
+   "sunLine": 4,
+   "earthGate": 2,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Wed, Nov 11",
+     "sunGate": 43,
+     "earthGate": 23
+    }
+   ],
+   "planetGates": {
+    "Moon": 44,
+    "Mercury": 28,
+    "Venus": 32,
+    "Mars": 4,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 3,
+  "sunday": "2026-11-15",
+  "label": "Sun, Nov 15 to Sat, Nov 21",
+  "moonOnSunday": "First quarter, Moon in Aquarius",
+  "sunSign": "Scorpio",
+  "events": [
+   {
+    "when": "Tue, Nov 17",
+    "text": "Leonid meteor shower peaks around now"
+   },
+   {
+    "when": "Sun, Nov 22",
+    "text": "Sun enters Sagittarius"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Scorpio",
+   "Moon": "Aquarius",
+   "Mercury": "Scorpio",
+   "Venus": "Libra",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 43,
+   "sunLine": 5,
+   "earthGate": 23,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Mon, Nov 16",
+     "sunGate": 14,
+     "earthGate": 8
+    },
+    {
+     "when": "Sun, Nov 22",
+     "sunGate": 34,
+     "earthGate": 20
+    }
+   ],
+   "planetGates": {
+    "Moon": 41,
+    "Mercury": 28,
+    "Venus": 32,
+    "Mars": 29,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 4,
+  "sunday": "2026-11-22",
+  "label": "Sun, Nov 22 to Sat, Nov 28",
+  "moonOnSunday": "Full moon, Moon in Taurus",
+  "sunSign": "Sagittarius",
+  "events": [
+   {
+    "when": "Tue, Nov 24, 7:54 AM",
+    "text": "Full moon in Gemini (the Beaver Moon)"
+   },
+   {
+    "when": "Wed, Nov 25",
+    "text": "Mars enters Virgo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Sagittarius",
+   "Moon": "Taurus",
+   "Mercury": "Scorpio",
+   "Venus": "Libra",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 34,
+   "sunLine": 1,
+   "earthGate": 20,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Nov 27",
+     "sunGate": 9,
+     "earthGate": 16
+    }
+   ],
+   "planetGates": {
+    "Moon": 27,
+    "Mercury": 44,
+    "Venus": 32,
+    "Mars": 29,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 5,
+  "sunday": "2026-11-29",
+  "label": "Sun, Nov 29 to Sat, Dec 5",
+  "moonOnSunday": "Last quarter, Moon in Leo",
+  "sunSign": "Sagittarius",
+  "events": [
+   {
+    "when": "Fri, Dec 4",
+    "text": "Venus enters Scorpio"
+   },
+   {
+    "when": "Sun, Dec 6",
+    "text": "Mercury enters Sagittarius"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Sagittarius",
+   "Moon": "Leo",
+   "Mercury": "Scorpio",
+   "Venus": "Libra",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 9,
+   "sunLine": 2,
+   "earthGate": 16,
+   "earthLine": 2,
+   "changes": [
+    {
+     "when": "Thu, Dec 3",
+     "sunGate": 5,
+     "earthGate": 35
+    }
+   ],
+   "planetGates": {
+    "Moon": 7,
+    "Mercury": 43,
+    "Venus": 50,
+    "Mars": 59,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 6,
+  "sunday": "2026-12-06",
+  "label": "Sun, Dec 6 to Sat, Dec 12",
+  "moonOnSunday": "Waning crescent, Moon in Scorpio",
+  "sunSign": "Sagittarius",
+  "events": [
+   {
+    "when": "Tue, Dec 8, 5:53 PM",
+    "text": "New moon in Sagittarius"
+   },
+   {
+    "when": "Thu, Dec 10",
+    "text": "Saturn turns direct in Aries"
+   },
+   {
+    "when": "Sat, Dec 12",
+    "text": "Neptune turns direct in Aries"
+   },
+   {
+    "when": "Sat, Dec 12",
+    "text": "Jupiter turns retrograde in Leo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Sagittarius",
+   "Moon": "Scorpio",
+   "Mercury": "Sagittarius",
+   "Venus": "Scorpio",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 5,
+   "sunLine": 4,
+   "earthGate": 35,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Tue, Dec 8",
+     "sunGate": 26,
+     "earthGate": 45
+    }
+   ],
+   "planetGates": {
+    "Moon": 1,
+    "Mercury": 34,
+    "Venus": 50,
+    "Mars": 59,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 7,
+  "sunday": "2026-12-13",
+  "label": "Sun, Dec 13 to Sat, Dec 19",
+  "moonOnSunday": "Waxing crescent, Moon in Aquarius",
+  "sunSign": "Sagittarius",
+  "events": [
+   {
+    "when": "Mon, Dec 14",
+    "text": "Geminid meteor shower peaks around now, one of the best of the year"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Sagittarius",
+   "Moon": "Aquarius",
+   "Mercury": "Sagittarius",
+   "Venus": "Scorpio",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 26,
+   "sunLine": 5,
+   "earthGate": 45,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Mon, Dec 14",
+     "sunGate": 11,
+     "earthGate": 12
+    },
+    {
+     "when": "Sat, Dec 19",
+     "sunGate": 10,
+     "earthGate": 15
+    }
+   ],
+   "planetGates": {
+    "Moon": 19,
+    "Mercury": 9,
+    "Venus": 28,
+    "Mars": 40,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 8,
+  "sunday": "2026-12-20",
+  "label": "Sun, Dec 20 to Sat, Dec 26",
+  "moonOnSunday": "Waxing gibbous, Moon in Taurus",
+  "sunSign": "Sagittarius",
+  "events": [
+   {
+    "when": "Mon, Dec 21",
+    "text": "Sun enters Capricorn"
+   },
+   {
+    "when": "Mon, Dec 21",
+    "text": "Winter solstice: the longest night of the year"
+   },
+   {
+    "when": "Wed, Dec 23, 6:29 PM",
+    "text": "Full moon in Cancer (the Cold Moon)"
+   },
+   {
+    "when": "Fri, Dec 25",
+    "text": "Mercury enters Capricorn"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Sagittarius",
+   "Moon": "Taurus",
+   "Mercury": "Sagittarius",
+   "Venus": "Scorpio",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 10,
+   "sunLine": 1,
+   "earthGate": 15,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Dec 25",
+     "sunGate": 58,
+     "earthGate": 52
+    }
+   ],
+   "planetGates": {
+    "Moon": 24,
+    "Mercury": 26,
+    "Venus": 44,
+    "Mars": 40,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 9,
+  "sunday": "2026-12-27",
+  "label": "Sun, Dec 27 to Sat, Jan 2",
+  "moonOnSunday": "Waning gibbous, Moon in Leo",
+  "sunSign": "Capricorn",
+  "events": [
+   {
+    "when": "Sun, Jan 3",
+    "text": "Quadrantid meteor shower peaks around now"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Capricorn",
+   "Moon": "Leo",
+   "Mercury": "Capricorn",
+   "Venus": "Scorpio",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 58,
+   "sunLine": 3,
+   "earthGate": 52,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Wed, Dec 30",
+     "sunGate": 38,
+     "earthGate": 39
+    }
+   ],
+   "planetGates": {
+    "Moon": 29,
+    "Mercury": 10,
+    "Venus": 43,
+    "Mars": 40,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 10,
+  "sunday": "2027-01-03",
+  "label": "Sun, Jan 3 to Sat, Jan 9",
+  "moonOnSunday": "Waning crescent, Moon in Scorpio",
+  "sunSign": "Capricorn",
+  "events": [
+   {
+    "when": "Thu, Jan 7",
+    "text": "Venus enters Sagittarius"
+   },
+   {
+    "when": "Thu, Jan 7, 1:26 PM",
+    "text": "New moon in Capricorn"
+   },
+   {
+    "when": "Sun, Jan 10",
+    "text": "Mars turns retrograde in Virgo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Capricorn",
+   "Moon": "Scorpio",
+   "Mercury": "Capricorn",
+   "Venus": "Scorpio",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 38,
+   "sunLine": 4,
+   "earthGate": 39,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Tue, Jan 5",
+     "sunGate": 54,
+     "earthGate": 53
+    }
+   ],
+   "planetGates": {
+    "Moon": 14,
+    "Mercury": 38,
+    "Venus": 14,
+    "Mars": 40,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 11,
+  "sunday": "2027-01-10",
+  "label": "Sun, Jan 10 to Sat, Jan 16",
+  "moonOnSunday": "Waxing crescent, Moon in Aquarius",
+  "sunSign": "Capricorn",
+  "events": [
+   {
+    "when": "Tue, Jan 12",
+    "text": "Mercury enters Aquarius"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Virgo",
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Capricorn",
+   "Moon": "Aquarius",
+   "Mercury": "Capricorn",
+   "Venus": "Sagittarius",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 54,
+   "sunLine": 6,
+   "earthGate": 53,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Sun, Jan 10",
+     "sunGate": 61,
+     "earthGate": 62
+    },
+    {
+     "when": "Sat, Jan 16",
+     "sunGate": 60,
+     "earthGate": 56
+    }
+   ],
+   "planetGates": {
+    "Moon": 49,
+    "Mercury": 61,
+    "Venus": 34,
+    "Mars": 40,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 12,
+  "sunday": "2027-01-17",
+  "label": "Sun, Jan 17 to Sat, Jan 23",
+  "moonOnSunday": "Waxing gibbous, Moon in Taurus",
+  "sunSign": "Capricorn",
+  "events": [
+   {
+    "when": "Wed, Jan 20",
+    "text": "Sun enters Aquarius"
+   },
+   {
+    "when": "Fri, Jan 22, 5:18 AM",
+    "text": "Full moon in Leo (the Wolf Moon)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Virgo",
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Capricorn",
+   "Moon": "Taurus",
+   "Mercury": "Aquarius",
+   "Venus": "Sagittarius",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 60,
+   "sunLine": 1,
+   "earthGate": 56,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Jan 22",
+     "sunGate": 41,
+     "earthGate": 31
+    }
+   ],
+   "planetGates": {
+    "Moon": 23,
+    "Mercury": 41,
+    "Venus": 9,
+    "Mars": 40,
+    "Jupiter": 29,
+    "Saturn": 17,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 13,
+  "sunday": "2027-01-24",
+  "label": "Sun, Jan 24 to Sat, Jan 30",
+  "moonOnSunday": "Waning gibbous, Moon in Virgo",
+  "sunSign": "Aquarius",
+  "events": [],
+  "retrogradesInEffect": [
+   "Mars in Virgo",
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Aquarius",
+   "Moon": "Virgo",
+   "Mercury": "Aquarius",
+   "Venus": "Sagittarius",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 41,
+   "sunLine": 3,
+   "earthGate": 31,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Wed, Jan 27",
+     "sunGate": 19,
+     "earthGate": 33
+    }
+   ],
+   "planetGates": {
+    "Moon": 59,
+    "Mercury": 49,
+    "Venus": 26,
+    "Mars": 40,
+    "Jupiter": 4,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 14,
+  "sunday": "2027-01-31",
+  "label": "Sun, Jan 31 to Sat, Feb 6",
+  "moonOnSunday": "Last quarter, Moon in Sagittarius",
+  "sunSign": "Aquarius",
+  "events": [
+   {
+    "when": "Sun, Jan 31",
+    "text": "Mercury enters Pisces"
+   },
+   {
+    "when": "Wed, Feb 3",
+    "text": "Venus enters Capricorn"
+   },
+   {
+    "when": "Sat, Feb 6, 8:57 AM",
+    "text": "New moon in Aquarius"
+   },
+   {
+    "when": "Sat, Feb 6",
+    "text": "Annular solar eclipse (visible from southern South America and Africa)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Virgo",
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Aquarius",
+   "Moon": "Sagittarius",
+   "Mercury": "Aquarius",
+   "Venus": "Sagittarius",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 19,
+   "sunLine": 5,
+   "earthGate": 33,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Tue, Feb 2",
+     "sunGate": 13,
+     "earthGate": 7
+    }
+   ],
+   "planetGates": {
+    "Moon": 9,
+    "Mercury": 30,
+    "Venus": 11,
+    "Mars": 40,
+    "Jupiter": 4,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 15,
+  "sunday": "2027-02-07",
+  "label": "Sun, Feb 7 to Sat, Feb 13",
+  "moonOnSunday": "New moon, Moon in Aquarius",
+  "sunSign": "Aquarius",
+  "events": [
+   {
+    "when": "Mon, Feb 8",
+    "text": "Uranus turns direct in Gemini"
+   },
+   {
+    "when": "Tue, Feb 9",
+    "text": "Mercury turns retrograde in Pisces"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Virgo",
+   "Jupiter in Leo",
+   "Uranus in Gemini"
+  ],
+  "signs": {
+   "Sun": "Aquarius",
+   "Moon": "Aquarius",
+   "Mercury": "Pisces",
+   "Venus": "Capricorn",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 13,
+   "sunLine": 6,
+   "earthGate": 7,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Sun, Feb 7",
+     "sunGate": 49,
+     "earthGate": 4
+    },
+    {
+     "when": "Sat, Feb 13",
+     "sunGate": 30,
+     "earthGate": 29
+    }
+   ],
+   "planetGates": {
+    "Moon": 30,
+    "Mercury": 55,
+    "Venus": 58,
+    "Mars": 59,
+    "Jupiter": 4,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 16,
+  "sunday": "2027-02-14",
+  "label": "Sun, Feb 14 to Sat, Feb 20",
+  "moonOnSunday": "First quarter, Moon in Gemini",
+  "sunSign": "Aquarius",
+  "events": [
+   {
+    "when": "Thu, Feb 18",
+    "text": "Mercury enters Aquarius (retrograde)"
+   },
+   {
+    "when": "Thu, Feb 18",
+    "text": "Sun enters Pisces"
+   },
+   {
+    "when": "Sat, Feb 20, 4:25 PM",
+    "text": "Full moon in Virgo (the Snow Moon)"
+   },
+   {
+    "when": "Sat, Feb 20",
+    "text": "Penumbral lunar eclipse (a subtle shading of the full moon)"
+   },
+   {
+    "when": "Sun, Feb 21",
+    "text": "Mars enters Leo (retrograde)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Pisces",
+   "Mars in Virgo",
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Aquarius",
+   "Moon": "Gemini",
+   "Mercury": "Pisces",
+   "Venus": "Capricorn",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 30,
+   "sunLine": 2,
+   "earthGate": 29,
+   "earthLine": 2,
+   "changes": [
+    {
+     "when": "Thu, Feb 18",
+     "sunGate": 55,
+     "earthGate": 59
+    }
+   ],
+   "planetGates": {
+    "Moon": 20,
+    "Mercury": 55,
+    "Venus": 38,
+    "Mars": 59,
+    "Jupiter": 4,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 17,
+  "sunday": "2027-02-21",
+  "label": "Sun, Feb 21 to Sat, Feb 27",
+  "moonOnSunday": "Full moon, Moon in Virgo",
+  "sunSign": "Pisces",
+  "events": [],
+  "retrogradesInEffect": [
+   "Mercury in Aquarius",
+   "Mars in Leo",
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Pisces",
+   "Moon": "Virgo",
+   "Mercury": "Aquarius",
+   "Venus": "Capricorn",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 55,
+   "sunLine": 3,
+   "earthGate": 59,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Wed, Feb 24",
+     "sunGate": 37,
+     "earthGate": 40
+    }
+   ],
+   "planetGates": {
+    "Moon": 64,
+    "Mercury": 30,
+    "Venus": 61,
+    "Mars": 29,
+    "Jupiter": 4,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 18,
+  "sunday": "2027-02-28",
+  "label": "Sun, Feb 28 to Sat, Mar 6",
+  "moonOnSunday": "Last quarter, Moon in Sagittarius",
+  "sunSign": "Pisces",
+  "events": [
+   {
+    "when": "Mon, Mar 1",
+    "text": "Venus enters Aquarius"
+   },
+   {
+    "when": "Wed, Mar 3",
+    "text": "Mercury turns direct in Aquarius"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Aquarius",
+   "Mars in Leo",
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Pisces",
+   "Moon": "Sagittarius",
+   "Mercury": "Aquarius",
+   "Venus": "Capricorn",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 37,
+   "sunLine": 5,
+   "earthGate": 40,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Mon, Mar 1",
+     "sunGate": 63,
+     "earthGate": 64
+    }
+   ],
+   "planetGates": {
+    "Moon": 5,
+    "Mercury": 49,
+    "Venus": 60,
+    "Mars": 29,
+    "Jupiter": 4,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 19,
+  "sunday": "2027-03-07",
+  "label": "Sun, Mar 7 to Sat, Mar 13",
+  "moonOnSunday": "New moon, Moon in Pisces",
+  "sunSign": "Pisces",
+  "events": [
+   {
+    "when": "Mon, Mar 8, 2:31 AM",
+    "text": "New moon in Pisces"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Leo",
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Pisces",
+   "Moon": "Pisces",
+   "Mercury": "Aquarius",
+   "Venus": "Aquarius",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 63,
+   "sunLine": 6,
+   "earthGate": 64,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Sun, Mar 7",
+     "sunGate": 22,
+     "earthGate": 47
+    },
+    {
+     "when": "Sat, Mar 13",
+     "sunGate": 36,
+     "earthGate": 6
+    }
+   ],
+   "planetGates": {
+    "Moon": 37,
+    "Mercury": 49,
+    "Venus": 41,
+    "Mars": 29,
+    "Jupiter": 4,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 20,
+  "sunday": "2027-03-14",
+  "label": "Sun, Mar 14 to Sat, Mar 20",
+  "moonOnSunday": "First quarter, Moon in Gemini",
+  "sunSign": "Pisces",
+  "events": [
+   {
+    "when": "Thu, Mar 18",
+    "text": "Mercury enters Pisces"
+   },
+   {
+    "when": "Sat, Mar 20",
+    "text": "Sun enters Aries"
+   },
+   {
+    "when": "Sat, Mar 20",
+    "text": "Spring equinox: day and night are nearly equal"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Leo",
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Pisces",
+   "Moon": "Gemini",
+   "Mercury": "Aquarius",
+   "Venus": "Aquarius",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 36,
+   "sunLine": 2,
+   "earthGate": 6,
+   "earthLine": 2,
+   "changes": [
+    {
+     "when": "Thu, Mar 18",
+     "sunGate": 25,
+     "earthGate": 46
+    }
+   ],
+   "planetGates": {
+    "Moon": 16,
+    "Mercury": 30,
+    "Venus": 13,
+    "Mars": 4,
+    "Jupiter": 7,
+    "Saturn": 21,
+    "Uranus": 20,
+    "Neptune": 25,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 21,
+  "sunday": "2027-03-21",
+  "label": "Sun, Mar 21 to Sat, Mar 27",
+  "moonOnSunday": "Full moon, Moon in Virgo",
+  "sunSign": "Aries",
+  "events": [
+   {
+    "when": "Mon, Mar 22, 4:45 AM",
+    "text": "Full moon in Libra (the Worm Moon)"
+   },
+   {
+    "when": "Fri, Mar 26",
+    "text": "Venus enters Pisces"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Leo",
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Aries",
+   "Moon": "Virgo",
+   "Mercury": "Pisces",
+   "Venus": "Aquarius",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 25,
+   "sunLine": 3,
+   "earthGate": 46,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Wed, Mar 24",
+     "sunGate": 17,
+     "earthGate": 18
+    }
+   ],
+   "planetGates": {
+    "Moon": 47,
+    "Mercury": 55,
+    "Venus": 49,
+    "Mars": 4,
+    "Jupiter": 7,
+    "Saturn": 51,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 22,
+  "sunday": "2027-03-28",
+  "label": "Sun, Mar 28 to Sat, Apr 3",
+  "moonOnSunday": "Waning gibbous, Moon in Sagittarius",
+  "sunSign": "Aries",
+  "events": [
+   {
+    "when": "Thu, Apr 1",
+    "text": "Mars turns direct in Leo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mars in Leo",
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Aries",
+   "Moon": "Sagittarius",
+   "Mercury": "Pisces",
+   "Venus": "Pisces",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 17,
+   "sunLine": 5,
+   "earthGate": 18,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Tue, Mar 30",
+     "sunGate": 21,
+     "earthGate": 48
+    }
+   ],
+   "planetGates": {
+    "Moon": 11,
+    "Mercury": 63,
+    "Venus": 55,
+    "Mars": 4,
+    "Jupiter": 7,
+    "Saturn": 51,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 23,
+  "sunday": "2027-04-04",
+  "label": "Sun, Apr 4 to Sat, Apr 10",
+  "moonOnSunday": "Waning crescent, Moon in Pisces",
+  "sunSign": "Aries",
+  "events": [
+   {
+    "when": "Tue, Apr 6, 5:52 PM",
+    "text": "New moon in Aries"
+   },
+   {
+    "when": "Thu, Apr 8",
+    "text": "Mercury enters Aries"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Aries",
+   "Moon": "Pisces",
+   "Mercury": "Pisces",
+   "Venus": "Pisces",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 21,
+   "sunLine": 6,
+   "earthGate": 48,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Sun, Apr 4",
+     "sunGate": 51,
+     "earthGate": 57
+    },
+    {
+     "when": "Sat, Apr 10",
+     "sunGate": 42,
+     "earthGate": 32
+    }
+   ],
+   "planetGates": {
+    "Moon": 63,
+    "Mercury": 36,
+    "Venus": 37,
+    "Mars": 4,
+    "Jupiter": 7,
+    "Saturn": 51,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 24,
+  "sunday": "2027-04-11",
+  "label": "Sun, Apr 11 to Sat, Apr 17",
+  "moonOnSunday": "Waxing crescent, Moon in Gemini",
+  "sunSign": "Aries",
+  "events": [
+   {
+    "when": "Mon, Apr 12",
+    "text": "Jupiter turns direct in Leo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Jupiter in Leo"
+  ],
+  "signs": {
+   "Sun": "Aries",
+   "Moon": "Gemini",
+   "Mercury": "Aries",
+   "Venus": "Pisces",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 42,
+   "sunLine": 1,
+   "earthGate": 32,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Apr 16",
+     "sunGate": 3,
+     "earthGate": 50
+    }
+   ],
+   "planetGates": {
+    "Moon": 45,
+    "Mercury": 17,
+    "Venus": 22,
+    "Mars": 4,
+    "Jupiter": 7,
+    "Saturn": 51,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 25,
+  "sunday": "2027-04-18",
+  "label": "Sun, Apr 18 to Sat, Apr 24",
+  "moonOnSunday": "Waxing gibbous, Moon in Virgo",
+  "sunSign": "Aries",
+  "events": [
+   {
+    "when": "Mon, Apr 19",
+    "text": "Venus enters Aries"
+   },
+   {
+    "when": "Tue, Apr 20",
+    "text": "Sun enters Taurus"
+   },
+   {
+    "when": "Tue, Apr 20, 4:28 PM",
+    "text": "Full moon in Scorpio (the Pink Moon)"
+   },
+   {
+    "when": "Thu, Apr 22",
+    "text": "Lyrid meteor shower peaks around now"
+   },
+   {
+    "when": "Sat, Apr 24",
+    "text": "Mercury enters Taurus"
+   }
+  ],
+  "retrogradesInEffect": [],
+  "signs": {
+   "Sun": "Aries",
+   "Moon": "Virgo",
+   "Mercury": "Aries",
+   "Venus": "Pisces",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 3,
+   "sunLine": 3,
+   "earthGate": 50,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Thu, Apr 22",
+     "sunGate": 27,
+     "earthGate": 28
+    }
+   ],
+   "planetGates": {
+    "Moon": 46,
+    "Mercury": 51,
+    "Venus": 36,
+    "Mars": 4,
+    "Jupiter": 7,
+    "Saturn": 51,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 26,
+  "sunday": "2027-04-25",
+  "label": "Sun, Apr 25 to Sat, May 1",
+  "moonOnSunday": "Waning gibbous, Moon in Capricorn",
+  "sunSign": "Taurus",
+  "events": [],
+  "retrogradesInEffect": [],
+  "signs": {
+   "Sun": "Taurus",
+   "Moon": "Capricorn",
+   "Mercury": "Taurus",
+   "Venus": "Aries",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 27,
+   "sunLine": 4,
+   "earthGate": 28,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Tue, Apr 27",
+     "sunGate": 24,
+     "earthGate": 44
+    }
+   ],
+   "planetGates": {
+    "Moon": 10,
+    "Mercury": 3,
+    "Venus": 17,
+    "Mars": 4,
+    "Jupiter": 7,
+    "Saturn": 51,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 27,
+  "sunday": "2027-05-02",
+  "label": "Sun, May 2 to Sat, May 8",
+  "moonOnSunday": "Waning crescent, Moon in Pisces",
+  "sunSign": "Taurus",
+  "events": [
+   {
+    "when": "Thu, May 6, 5:00 AM",
+    "text": "New moon in Taurus"
+   },
+   {
+    "when": "Thu, May 6",
+    "text": "Eta Aquariid meteor shower peaks around now"
+   },
+   {
+    "when": "Sat, May 8",
+    "text": "Pluto turns retrograde in Aquarius"
+   },
+   {
+    "when": "Sat, May 8",
+    "text": "Mercury enters Gemini"
+   }
+  ],
+  "retrogradesInEffect": [],
+  "signs": {
+   "Sun": "Taurus",
+   "Moon": "Pisces",
+   "Mercury": "Taurus",
+   "Venus": "Aries",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 24,
+   "sunLine": 5,
+   "earthGate": 44,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Mon, May 3",
+     "sunGate": 2,
+     "earthGate": 1
+    }
+   ],
+   "planetGates": {
+    "Moon": 36,
+    "Mercury": 2,
+    "Venus": 51,
+    "Mars": 29,
+    "Jupiter": 7,
+    "Saturn": 42,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 28,
+  "sunday": "2027-05-09",
+  "label": "Sun, May 9 to Sat, May 15",
+  "moonOnSunday": "Waxing crescent, Moon in Cancer",
+  "sunSign": "Taurus",
+  "events": [
+   {
+    "when": "Fri, May 14",
+    "text": "Mars enters Virgo"
+   },
+   {
+    "when": "Fri, May 14",
+    "text": "Venus enters Taurus"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Taurus",
+   "Moon": "Cancer",
+   "Mercury": "Gemini",
+   "Venus": "Aries",
+   "Mars": "Leo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 2,
+   "sunLine": 6,
+   "earthGate": 1,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Sun, May 9",
+     "sunGate": 23,
+     "earthGate": 43
+    },
+    {
+     "when": "Sat, May 15",
+     "sunGate": 8,
+     "earthGate": 14
+    }
+   ],
+   "planetGates": {
+    "Moon": 15,
+    "Mercury": 20,
+    "Venus": 42,
+    "Mars": 29,
+    "Jupiter": 7,
+    "Saturn": 42,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 29,
+  "sunday": "2027-05-16",
+  "label": "Sun, May 16 to Sat, May 22",
+  "moonOnSunday": "Waxing gibbous, Moon in Libra",
+  "sunSign": "Taurus",
+  "events": [
+   {
+    "when": "Thu, May 20, 5:00 AM",
+    "text": "Full moon in Scorpio (the Flower Moon)"
+   },
+   {
+    "when": "Fri, May 21",
+    "text": "Sun enters Gemini"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Taurus",
+   "Moon": "Libra",
+   "Mercury": "Gemini",
+   "Venus": "Taurus",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 8,
+   "sunLine": 2,
+   "earthGate": 14,
+   "earthLine": 2,
+   "changes": [
+    {
+     "when": "Fri, May 21",
+     "sunGate": 20,
+     "earthGate": 34
+    }
+   ],
+   "planetGates": {
+    "Moon": 48,
+    "Mercury": 35,
+    "Venus": 27,
+    "Mars": 59,
+    "Jupiter": 7,
+    "Saturn": 42,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 30,
+  "sunday": "2027-05-23",
+  "label": "Sun, May 23 to Sat, May 29",
+  "moonOnSunday": "Waning gibbous, Moon in Capricorn",
+  "sunSign": "Gemini",
+  "events": [
+   {
+    "when": "Fri, May 28",
+    "text": "Mercury enters Cancer"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Gemini",
+   "Moon": "Capricorn",
+   "Mercury": "Gemini",
+   "Venus": "Taurus",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 20,
+   "sunLine": 3,
+   "earthGate": 34,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Thu, May 27",
+     "sunGate": 16,
+     "earthGate": 9
+    }
+   ],
+   "planetGates": {
+    "Moon": 58,
+    "Mercury": 12,
+    "Venus": 24,
+    "Mars": 59,
+    "Jupiter": 4,
+    "Saturn": 42,
+    "Uranus": 20,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 31,
+  "sunday": "2027-05-30",
+  "label": "Sun, May 30 to Sat, Jun 5",
+  "moonOnSunday": "Waning crescent, Moon in Aries",
+  "sunSign": "Gemini",
+  "events": [
+   {
+    "when": "Fri, Jun 4, 1:41 PM",
+    "text": "New moon in Gemini"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Gemini",
+   "Moon": "Aries",
+   "Mercury": "Cancer",
+   "Venus": "Taurus",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 16,
+   "sunLine": 4,
+   "earthGate": 9,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Tue, Jun 1",
+     "sunGate": 35,
+     "earthGate": 5
+    }
+   ],
+   "planetGates": {
+    "Moon": 25,
+    "Mercury": 15,
+    "Venus": 23,
+    "Mars": 40,
+    "Jupiter": 4,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 32,
+  "sunday": "2027-06-06",
+  "label": "Sun, Jun 6 to Sat, Jun 12",
+  "moonOnSunday": "Waxing crescent, Moon in Cancer",
+  "sunSign": "Gemini",
+  "events": [
+   {
+    "when": "Tue, Jun 8",
+    "text": "Venus enters Gemini"
+   },
+   {
+    "when": "Thu, Jun 10",
+    "text": "Mercury turns retrograde in Cancer"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Gemini",
+   "Moon": "Cancer",
+   "Mercury": "Cancer",
+   "Venus": "Taurus",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 35,
+   "sunLine": 5,
+   "earthGate": 5,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Mon, Jun 7",
+     "sunGate": 45,
+     "earthGate": 26
+    }
+   ],
+   "planetGates": {
+    "Moon": 39,
+    "Mercury": 52,
+    "Venus": 8,
+    "Mars": 40,
+    "Jupiter": 4,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 33,
+  "sunday": "2027-06-13",
+  "label": "Sun, Jun 13 to Sat, Jun 19",
+  "moonOnSunday": "First quarter, Moon in Libra",
+  "sunSign": "Gemini",
+  "events": [
+   {
+    "when": "Fri, Jun 18, 6:46 PM",
+    "text": "Full moon in Sagittarius (the Strawberry Moon)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Cancer",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Gemini",
+   "Moon": "Libra",
+   "Mercury": "Cancer",
+   "Venus": "Gemini",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 45,
+   "sunLine": 6,
+   "earthGate": 26,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Sun, Jun 13",
+     "sunGate": 12,
+     "earthGate": 11
+    },
+    {
+     "when": "Sat, Jun 19",
+     "sunGate": 15,
+     "earthGate": 10
+    }
+   ],
+   "planetGates": {
+    "Moon": 57,
+    "Mercury": 52,
+    "Venus": 16,
+    "Mars": 64,
+    "Jupiter": 4,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 34,
+  "sunday": "2027-06-20",
+  "label": "Sun, Jun 20 to Sat, Jun 26",
+  "moonOnSunday": "Full moon, Moon in Capricorn",
+  "sunSign": "Gemini",
+  "events": [
+   {
+    "when": "Mon, Jun 21",
+    "text": "Sun enters Cancer"
+   },
+   {
+    "when": "Mon, Jun 21",
+    "text": "Summer solstice: the longest day of the year"
+   },
+   {
+    "when": "Sat, Jun 26",
+    "text": "Mercury enters Gemini (retrograde)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Cancer",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Gemini",
+   "Moon": "Capricorn",
+   "Mercury": "Cancer",
+   "Venus": "Gemini",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 15,
+   "sunLine": 1,
+   "earthGate": 10,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Jun 25",
+     "sunGate": 52,
+     "earthGate": 58
+    }
+   ],
+   "planetGates": {
+    "Moon": 54,
+    "Mercury": 15,
+    "Venus": 35,
+    "Mars": 64,
+    "Jupiter": 4,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 35,
+  "sunday": "2027-06-27",
+  "label": "Sun, Jun 27 to Sat, Jul 3",
+  "moonOnSunday": "Last quarter, Moon in Aries",
+  "sunSign": "Cancer",
+  "events": [
+   {
+    "when": "Fri, Jul 2",
+    "text": "Venus enters Cancer"
+   },
+   {
+    "when": "Sat, Jul 3, 9:03 PM",
+    "text": "New moon in Cancer"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Gemini",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Cancer",
+   "Moon": "Aries",
+   "Mercury": "Gemini",
+   "Venus": "Gemini",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 52,
+   "sunLine": 3,
+   "earthGate": 58,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Thu, Jul 1",
+     "sunGate": 39,
+     "earthGate": 38
+    }
+   ],
+   "planetGates": {
+    "Moon": 21,
+    "Mercury": 15,
+    "Venus": 12,
+    "Mars": 47,
+    "Jupiter": 29,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 36,
+  "sunday": "2027-07-04",
+  "label": "Sun, Jul 4 to Sat, Jul 10",
+  "moonOnSunday": "New moon, Moon in Cancer",
+  "sunSign": "Cancer",
+  "events": [
+   {
+    "when": "Sun, Jul 4",
+    "text": "Mercury turns direct in Gemini"
+   },
+   {
+    "when": "Fri, Jul 9",
+    "text": "Neptune turns retrograde in Aries"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Cancer",
+   "Moon": "Cancer",
+   "Mercury": "Gemini",
+   "Venus": "Cancer",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 39,
+   "sunLine": 4,
+   "earthGate": 38,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Wed, Jul 7",
+     "sunGate": 53,
+     "earthGate": 54
+    }
+   ],
+   "planetGates": {
+    "Moon": 53,
+    "Mercury": 12,
+    "Venus": 15,
+    "Mars": 6,
+    "Jupiter": 29,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 37,
+  "sunday": "2027-07-11",
+  "label": "Sun, Jul 11 to Sat, Jul 17",
+  "moonOnSunday": "First quarter, Moon in Scorpio",
+  "sunSign": "Cancer",
+  "events": [
+   {
+    "when": "Mon, Jul 12",
+    "text": "Mercury enters Cancer"
+   },
+   {
+    "when": "Thu, Jul 15",
+    "text": "Mars enters Libra"
+   },
+   {
+    "when": "Sun, Jul 18, 9:46 AM",
+    "text": "Full moon in Capricorn (the Buck Moon)"
+   },
+   {
+    "when": "Sun, Jul 18",
+    "text": "Penumbral lunar eclipse (a subtle shading of the full moon)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Cancer",
+   "Moon": "Scorpio",
+   "Mercury": "Gemini",
+   "Venus": "Cancer",
+   "Mars": "Virgo",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 53,
+   "sunLine": 5,
+   "earthGate": 54,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Tue, Jul 13",
+     "sunGate": 62,
+     "earthGate": 61
+    }
+   ],
+   "planetGates": {
+    "Moon": 50,
+    "Mercury": 15,
+    "Venus": 39,
+    "Mars": 6,
+    "Jupiter": 29,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 38,
+  "sunday": "2027-07-18",
+  "label": "Sun, Jul 18 to Sat, Jul 24",
+  "moonOnSunday": "Full moon, Moon in Capricorn",
+  "sunSign": "Cancer",
+  "events": [
+   {
+    "when": "Thu, Jul 22",
+    "text": "Sun enters Leo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Cancer",
+   "Moon": "Capricorn",
+   "Mercury": "Cancer",
+   "Venus": "Cancer",
+   "Mars": "Libra",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 62,
+   "sunLine": 6,
+   "earthGate": 61,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Mon, Jul 19",
+     "sunGate": 56,
+     "earthGate": 60
+    },
+    {
+     "when": "Sat, Jul 24",
+     "sunGate": 31,
+     "earthGate": 41
+    }
+   ],
+   "planetGates": {
+    "Moon": 61,
+    "Mercury": 52,
+    "Venus": 53,
+    "Mars": 46,
+    "Jupiter": 29,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 39,
+  "sunday": "2027-07-25",
+  "label": "Sun, Jul 25 to Sat, Jul 31",
+  "moonOnSunday": "Last quarter, Moon in Aries",
+  "sunSign": "Leo",
+  "events": [
+   {
+    "when": "Sun, Jul 25",
+    "text": "Jupiter enters Virgo"
+   },
+   {
+    "when": "Tue, Jul 27",
+    "text": "Venus enters Leo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Leo",
+   "Moon": "Aries",
+   "Mercury": "Cancer",
+   "Venus": "Cancer",
+   "Mars": "Libra",
+   "Jupiter": "Leo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 31,
+   "sunLine": 1,
+   "earthGate": 41,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Jul 30",
+     "sunGate": 33,
+     "earthGate": 19
+    }
+   ],
+   "planetGates": {
+    "Moon": 51,
+    "Mercury": 53,
+    "Venus": 56,
+    "Mars": 18,
+    "Jupiter": 29,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 40,
+  "sunday": "2027-08-01",
+  "label": "Sun, Aug 1 to Sat, Aug 7",
+  "moonOnSunday": "New moon, Moon in Cancer",
+  "sunSign": "Leo",
+  "events": [
+   {
+    "when": "Mon, Aug 2, 4:06 AM",
+    "text": "New moon in Leo"
+   },
+   {
+    "when": "Mon, Aug 2",
+    "text": "Total solar eclipse (path across Spain, North Africa and the Middle East; not visible from the US)"
+   },
+   {
+    "when": "Mon, Aug 2",
+    "text": "Mercury enters Leo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Leo",
+   "Moon": "Cancer",
+   "Mercury": "Cancer",
+   "Venus": "Leo",
+   "Mars": "Libra",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 33,
+   "sunLine": 2,
+   "earthGate": 19,
+   "earthLine": 2,
+   "changes": [
+    {
+     "when": "Thu, Aug 5",
+     "sunGate": 7,
+     "earthGate": 13
+    }
+   ],
+   "planetGates": {
+    "Moon": 56,
+    "Mercury": 56,
+    "Venus": 31,
+    "Mars": 48,
+    "Jupiter": 59,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 41,
+  "sunday": "2027-08-08",
+  "label": "Sun, Aug 8 to Sat, Aug 14",
+  "moonOnSunday": "First quarter, Moon in Scorpio",
+  "sunSign": "Leo",
+  "events": [
+   {
+    "when": "Mon, Aug 9",
+    "text": "Saturn turns retrograde in Aries"
+   },
+   {
+    "when": "Thu, Aug 12",
+    "text": "Perseid meteor shower peaks around now"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Leo",
+   "Moon": "Scorpio",
+   "Mercury": "Leo",
+   "Venus": "Leo",
+   "Mars": "Libra",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 7,
+   "sunLine": 3,
+   "earthGate": 13,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Wed, Aug 11",
+     "sunGate": 4,
+     "earthGate": 49
+    }
+   ],
+   "planetGates": {
+    "Moon": 44,
+    "Mercury": 33,
+    "Venus": 7,
+    "Mars": 48,
+    "Jupiter": 59,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 42,
+  "sunday": "2027-08-15",
+  "label": "Sun, Aug 15 to Sat, Aug 21",
+  "moonOnSunday": "Full moon, Moon in Aquarius",
+  "sunSign": "Leo",
+  "events": [
+   {
+    "when": "Mon, Aug 16",
+    "text": "Mercury enters Virgo"
+   },
+   {
+    "when": "Tue, Aug 17, 1:30 AM",
+    "text": "Full moon in Aquarius (the Sturgeon Moon)"
+   },
+   {
+    "when": "Tue, Aug 17",
+    "text": "Penumbral lunar eclipse (a subtle shading of the full moon, visible from the Americas)"
+   },
+   {
+    "when": "Fri, Aug 20",
+    "text": "Venus enters Virgo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Leo",
+   "Moon": "Aquarius",
+   "Mercury": "Leo",
+   "Venus": "Leo",
+   "Mars": "Libra",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 4,
+   "sunLine": 4,
+   "earthGate": 49,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Tue, Aug 17",
+     "sunGate": 29,
+     "earthGate": 30
+    }
+   ],
+   "planetGates": {
+    "Moon": 41,
+    "Mercury": 29,
+    "Venus": 4,
+    "Mars": 57,
+    "Jupiter": 59,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 43,
+  "sunday": "2027-08-22",
+  "label": "Sun, Aug 22 to Sat, Aug 28",
+  "moonOnSunday": "Waning gibbous, Moon in Aries",
+  "sunSign": "Leo",
+  "events": [
+   {
+    "when": "Mon, Aug 23",
+    "text": "Sun enters Virgo"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Leo",
+   "Moon": "Aries",
+   "Mercury": "Virgo",
+   "Venus": "Virgo",
+   "Mars": "Libra",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 29,
+   "sunLine": 6,
+   "earthGate": 30,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Mon, Aug 23",
+     "sunGate": 59,
+     "earthGate": 55
+    },
+    {
+     "when": "Sun, Aug 29",
+     "sunGate": 40,
+     "earthGate": 37
+    }
+   ],
+   "planetGates": {
+    "Moon": 3,
+    "Mercury": 40,
+    "Venus": 59,
+    "Mars": 32,
+    "Jupiter": 40,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 44,
+  "sunday": "2027-08-29",
+  "label": "Sun, Aug 29 to Sat, Sep 4",
+  "moonOnSunday": "Waning crescent, Moon in Leo",
+  "sunSign": "Virgo",
+  "events": [
+   {
+    "when": "Tue, Aug 31, 11:42 AM",
+    "text": "New moon in Virgo"
+   },
+   {
+    "when": "Wed, Sep 1",
+    "text": "Mars enters Scorpio"
+   },
+   {
+    "when": "Fri, Sep 3",
+    "text": "Mercury enters Libra"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Virgo",
+   "Moon": "Leo",
+   "Mercury": "Virgo",
+   "Venus": "Virgo",
+   "Mars": "Libra",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 40,
+   "sunLine": 1,
+   "earthGate": 37,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Sep 3",
+     "sunGate": 64,
+     "earthGate": 63
+    }
+   ],
+   "planetGates": {
+    "Moon": 31,
+    "Mercury": 47,
+    "Venus": 40,
+    "Mars": 50,
+    "Jupiter": 40,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 45,
+  "sunday": "2027-09-05",
+  "label": "Sun, Sep 5 to Sat, Sep 11",
+  "moonOnSunday": "Waxing crescent, Moon in Scorpio",
+  "sunSign": "Virgo",
+  "events": [],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Virgo",
+   "Moon": "Scorpio",
+   "Mercury": "Libra",
+   "Venus": "Virgo",
+   "Mars": "Scorpio",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 64,
+   "sunLine": 2,
+   "earthGate": 63,
+   "earthLine": 2,
+   "changes": [
+    {
+     "when": "Thu, Sep 9",
+     "sunGate": 47,
+     "earthGate": 22
+    }
+   ],
+   "planetGates": {
+    "Moon": 1,
+    "Mercury": 46,
+    "Venus": 47,
+    "Mars": 28,
+    "Jupiter": 40,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 46,
+  "sunday": "2027-09-12",
+  "label": "Sun, Sep 12 to Sat, Sep 18",
+  "moonOnSunday": "Waxing gibbous, Moon in Aquarius",
+  "sunSign": "Virgo",
+  "events": [
+   {
+    "when": "Mon, Sep 13",
+    "text": "Venus enters Libra"
+   },
+   {
+    "when": "Wed, Sep 15",
+    "text": "Uranus turns retrograde in Gemini"
+   },
+   {
+    "when": "Wed, Sep 15, 5:05 PM",
+    "text": "Full moon in Pisces (the Harvest Moon)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Virgo",
+   "Moon": "Aquarius",
+   "Mercury": "Libra",
+   "Venus": "Virgo",
+   "Mars": "Scorpio",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 47,
+   "sunLine": 3,
+   "earthGate": 22,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Wed, Sep 15",
+     "sunGate": 6,
+     "earthGate": 36
+    }
+   ],
+   "planetGates": {
+    "Moon": 13,
+    "Mercury": 48,
+    "Venus": 46,
+    "Mars": 28,
+    "Jupiter": 40,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 47,
+  "sunday": "2027-09-19",
+  "label": "Sun, Sep 19 to Sat, Sep 25",
+  "moonOnSunday": "Waning gibbous, Moon in Taurus",
+  "sunSign": "Virgo",
+  "events": [
+   {
+    "when": "Thu, Sep 23",
+    "text": "Sun enters Libra"
+   },
+   {
+    "when": "Thu, Sep 23",
+    "text": "Autumn equinox: day and night are nearly equal"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Virgo",
+   "Moon": "Taurus",
+   "Mercury": "Libra",
+   "Venus": "Libra",
+   "Mars": "Scorpio",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 6,
+   "sunLine": 5,
+   "earthGate": 36,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Tue, Sep 21",
+     "sunGate": 46,
+     "earthGate": 25
+    }
+   ],
+   "planetGates": {
+    "Moon": 24,
+    "Mercury": 32,
+    "Venus": 18,
+    "Mars": 44,
+    "Jupiter": 64,
+    "Saturn": 3,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 48,
+  "sunday": "2027-09-26",
+  "label": "Sun, Sep 26 to Sat, Oct 2",
+  "moonOnSunday": "Waning crescent, Moon in Leo",
+  "sunSign": "Libra",
+  "events": [
+   {
+    "when": "Mon, Sep 27",
+    "text": "Mercury enters Scorpio"
+   },
+   {
+    "when": "Wed, Sep 29, 8:37 PM",
+    "text": "New moon in Libra"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Libra",
+   "Moon": "Leo",
+   "Mercury": "Libra",
+   "Venus": "Libra",
+   "Mars": "Scorpio",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 46,
+   "sunLine": 6,
+   "earthGate": 25,
+   "earthLine": 6,
+   "changes": [
+    {
+     "when": "Sun, Sep 26",
+     "sunGate": 18,
+     "earthGate": 17
+    },
+    {
+     "when": "Sat, Oct 2",
+     "sunGate": 48,
+     "earthGate": 21
+    }
+   ],
+   "planetGates": {
+    "Moon": 7,
+    "Mercury": 50,
+    "Venus": 57,
+    "Mars": 1,
+    "Jupiter": 64,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 49,
+  "sunday": "2027-10-03",
+  "label": "Sun, Oct 3 to Sat, Oct 9",
+  "moonOnSunday": "Waxing crescent, Moon in Scorpio",
+  "sunSign": "Libra",
+  "events": [
+   {
+    "when": "Thu, Oct 7",
+    "text": "Mercury turns retrograde in Scorpio"
+   },
+   {
+    "when": "Thu, Oct 7",
+    "text": "Venus enters Scorpio"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Libra",
+   "Moon": "Scorpio",
+   "Mercury": "Scorpio",
+   "Venus": "Libra",
+   "Mars": "Scorpio",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 48,
+   "sunLine": 1,
+   "earthGate": 21,
+   "earthLine": 1,
+   "changes": [
+    {
+     "when": "Fri, Oct 8",
+     "sunGate": 57,
+     "earthGate": 51
+    }
+   ],
+   "planetGates": {
+    "Moon": 14,
+    "Mercury": 28,
+    "Venus": 32,
+    "Mars": 43,
+    "Jupiter": 64,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 50,
+  "sunday": "2027-10-10",
+  "label": "Sun, Oct 10 to Sat, Oct 16",
+  "moonOnSunday": "Waxing gibbous, Moon in Aquarius",
+  "sunSign": "Libra",
+  "events": [
+   {
+    "when": "Fri, Oct 15, 7:48 AM",
+    "text": "Full moon in Aries (the Hunter's Moon)"
+   },
+   {
+    "when": "Fri, Oct 15",
+    "text": "Mars enters Sagittarius"
+   },
+   {
+    "when": "Sat, Oct 16",
+    "text": "Mercury enters Libra (retrograde)"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Scorpio",
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries",
+   "Pluto in Aquarius"
+  ],
+  "signs": {
+   "Sun": "Libra",
+   "Moon": "Aquarius",
+   "Mercury": "Scorpio",
+   "Venus": "Scorpio",
+   "Mars": "Scorpio",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 57,
+   "sunLine": 3,
+   "earthGate": 51,
+   "earthLine": 3,
+   "changes": [
+    {
+     "when": "Thu, Oct 14",
+     "sunGate": 32,
+     "earthGate": 42
+    }
+   ],
+   "planetGates": {
+    "Moon": 49,
+    "Mercury": 28,
+    "Venus": 28,
+    "Mars": 14,
+    "Jupiter": 64,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 51,
+  "sunday": "2027-10-17",
+  "label": "Sun, Oct 17 to Sat, Oct 23",
+  "moonOnSunday": "Waning gibbous, Moon in Taurus",
+  "sunSign": "Libra",
+  "events": [
+   {
+    "when": "Sun, Oct 17",
+    "text": "Pluto turns direct in Aquarius"
+   },
+   {
+    "when": "Thu, Oct 21",
+    "text": "Orionid meteor shower peaks around now"
+   },
+   {
+    "when": "Sat, Oct 23",
+    "text": "Sun enters Scorpio"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Libra",
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Libra",
+   "Moon": "Taurus",
+   "Mercury": "Libra",
+   "Venus": "Scorpio",
+   "Mars": "Sagittarius",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 32,
+   "sunLine": 4,
+   "earthGate": 42,
+   "earthLine": 4,
+   "changes": [
+    {
+     "when": "Tue, Oct 19",
+     "sunGate": 50,
+     "earthGate": 3
+    }
+   ],
+   "planetGates": {
+    "Moon": 23,
+    "Mercury": 50,
+    "Venus": 44,
+    "Mars": 34,
+    "Jupiter": 47,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ },
+ {
+  "week": 52,
+  "sunday": "2027-10-24",
+  "label": "Sun, Oct 24 to Sat, Oct 30",
+  "moonOnSunday": "Waning crescent, Moon in Leo",
+  "sunSign": "Scorpio",
+  "events": [
+   {
+    "when": "Thu, Oct 28",
+    "text": "Mercury turns direct in Libra"
+   },
+   {
+    "when": "Fri, Oct 29, 7:38 AM",
+    "text": "New moon in Scorpio"
+   }
+  ],
+  "retrogradesInEffect": [
+   "Mercury in Libra",
+   "Saturn in Aries",
+   "Uranus in Gemini",
+   "Neptune in Aries"
+  ],
+  "signs": {
+   "Sun": "Scorpio",
+   "Moon": "Leo",
+   "Mercury": "Libra",
+   "Venus": "Scorpio",
+   "Mars": "Sagittarius",
+   "Jupiter": "Virgo",
+   "Saturn": "Aries",
+   "Uranus": "Gemini",
+   "Neptune": "Aries",
+   "Pluto": "Aquarius"
+  },
+  "hd": {
+   "sunGate": 50,
+   "sunLine": 5,
+   "earthGate": 3,
+   "earthLine": 5,
+   "changes": [
+    {
+     "when": "Mon, Oct 25",
+     "sunGate": 28,
+     "earthGate": 27
+    },
+    {
+     "when": "Sun, Oct 31",
+     "sunGate": 44,
+     "earthGate": 24
+    }
+   ],
+   "planetGates": {
+    "Moon": 29,
+    "Mercury": 32,
+    "Venus": 43,
+    "Mars": 9,
+    "Jupiter": 47,
+    "Saturn": 42,
+    "Uranus": 16,
+    "Neptune": 17,
+    "Pluto": 41
+   }
+  }
+ }
+]

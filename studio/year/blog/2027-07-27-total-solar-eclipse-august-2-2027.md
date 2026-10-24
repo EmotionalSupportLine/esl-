@@ -43,4 +43,4 @@ Choose one small, brave step and do it within the week.
 
 ## Follow the season
 
-The free **Owl's Forecast** tracks all three eclipses this summer week by week, plus the moon, planet shifts and one question to sit with every Sunday.
+The free **Energy Forecast** tracks all three eclipses this summer week by week, plus the moon, planet shifts and one question to sit with every Sunday.

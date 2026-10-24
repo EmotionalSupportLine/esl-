@@ -45,4 +45,4 @@ It's less about the wishes coming true and more about remembering what you care 
 
 ## Never miss a sky event
 
-The free **Owl's Forecast** lands every Sunday with the week's meteor showers, moon phases and planet shifts, plus one question to sit with.
+The free **Energy Forecast** lands every Sunday with the week's meteor showers, moon phases and planet shifts, plus one question to sit with.

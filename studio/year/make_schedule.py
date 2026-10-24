@@ -41,8 +41,8 @@ for p in sorted(posts, key=lambda p: (p["date"], p.get("time", "08:00"))):
     if p["type"] == "carousel":
         head = (p.get("slides") or [{}])[0].get("title") or "Save this"
     else:
-        head = p.get("pinterestTitle") or p.get("title") or p.get("text") or p.get("myth") or "The Owl's Forecast"
-        if p["type"] == "forecast": head = p.get("pinterestTitle") or "The Owl's Forecast: this week's moon and sky"
+        head = p.get("pinterestTitle") or p.get("title") or p.get("text") or p.get("myth") or "EmoOwl's Energy Forecast"
+        if p["type"] == "forecast": head = p.get("pinterestTitle") or "EmoOwl's Energy Forecast: this week's moon and sky"
     fbcap = re.sub(r"[Ll]ink in bio", link, cap)
     pin = cap
     for a, b in (("at the link in bio", "at theemotionalsupportline.com"), ("from the link in bio", "at theemotionalsupportline.com"), ("Link in bio.", "theemotionalsupportline.com"), ("link in bio", "theemotionalsupportline.com")):

@@ -95,8 +95,8 @@
   "type": "forecast",
   "start": "2026-11-01",
   "prompt": "What feels finished this week? Let the waning moon help you set it down.",
-  "caption": "The Owl's Forecast for Nov 1 to 7. 🦉\n\nThe week's moon and sky, plus one question to sit with. Get it in your inbox free every Sunday: link in bio.",
-  "tags": "#OwlsForecast #MoonPhase #AstroWeather #WeeklyForecast #EmotionalSupportLine",
+  "caption": "EmoOwl's Energy Forecast for Nov 1 to 7. 🦉\n\nThe week's moon and sky, plus one question to sit with. Get it in your inbox free every Sunday: link in bio.",
+  "tags": "#EnergyForecast #MoonPhase #AstroWeather #WeeklyForecast #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
    {
@@ -168,8 +168,8 @@
   "type": "forecast",
   "start": "2026-11-08",
   "prompt": "The new moon is a quiet start. What small habit do you want to plant this week?",
-  "caption": "The Owl's Forecast for Nov 8 to 14. 🌕 New moon week.\n\nFree every Sunday in your inbox: link in bio.",
-  "tags": "#OwlsForecast #NewMoon #AstroWeather #Intentions #EmotionalSupportLine",
+  "caption": "EmoOwl's Energy Forecast for Nov 8 to 14. 🌕 New moon week.\n\nFree every Sunday in your inbox: link in bio.",
+  "tags": "#EnergyForecast #NewMoon #AstroWeather #Intentions #EmotionalSupportLine",
   "pose": "crystals",
   "events": [
    {
@@ -230,7 +230,7 @@
   "start": "2026-11-15",
   "prompt": "The moon is growing. What's one thing you'd like more of this week, and what would make room for it?",
   "caption": "This week's sky: a waxing crescent moon in Aquarius, and the Leonid meteor shower peaks around Tuesday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
    {
@@ -251,7 +251,7 @@
   "type": "relatable",
   "text": "When everyone thinks you're fine because you're always the one holding it together.",
   "sub": "Strong people need someone to talk to, too.",
-  "caption": "Strong people need someone to talk to, too. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "Strong people need someone to talk to, too. 💙\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "umbrella"
  },
@@ -290,7 +290,7 @@
     "body": "And you'd love for someone to notice you're not."
    }
   ],
-  "caption": "Save this for the week you need it.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
+  "caption": "Save this for the week you need it.\n\nGet the free Sunday Energy Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "thinking"
  },
@@ -314,7 +314,7 @@
   "start": "2026-11-22",
   "prompt": "The full moon lights up what's been said and unsaid. What conversation could you let be lighter?",
   "caption": "Full moon in Gemini on Tuesday, and the Sun moves into Sagittarius.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "calm-glow",
   "events": [
    {
@@ -335,7 +335,7 @@
   "type": "relatable",
   "text": "Holidays: when you love your family and also need a nap from them.",
   "sub": "Both can be true.",
-  "caption": "Both can be true. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "Both can be true. 🧡\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Free Sunday Forecast · link in bio",
   "pose": "hammock"
@@ -369,7 +369,7 @@
     "body": "A walk, a quiet minute, a text to a friend. Know where your five minutes of calm will come from."
    }
   ],
-  "caption": "Thanksgiving is Thursday. A little planning goes a long way.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
+  "caption": "Thanksgiving is Thursday. A little planning goes a long way.\n\nGet the free Sunday Energy Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "cooking"
  },
@@ -393,7 +393,7 @@
   "start": "2026-11-29",
   "prompt": "Venus moves into Scorpio this week. Which relationship deserves more honesty, starting with the one with yourself?",
   "caption": "A waning gibbous moon in Leo, and Venus enters Scorpio on Friday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "crystals",
   "events": [
    {
@@ -425,7 +425,7 @@
   "time": "08:00",
   "type": "affirmation",
   "text": "You're allowed to rest before you've earned it.",
-  "caption": "Rest isn't a reward. It's part of the plan. 🌿\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "Rest isn't a reward. It's part of the plan. 🌿\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine",
   "pose": "sleeping"
  },
@@ -449,7 +449,7 @@
   "start": "2026-12-06",
   "prompt": "A new moon and Saturn turning direct: what slow, steady thing are you finally ready to build?",
   "caption": "New moon in Sagittarius on Tuesday, Saturn turns direct Thursday, and Jupiter turns retrograde Saturday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
    {
@@ -474,7 +474,7 @@
   "type": "relatable",
   "text": "When the to-do list is long and your patience is short.",
   "sub": "December does that. You're not failing.",
-  "caption": "December does that. You're not failing. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "December does that. You're not failing. 💙\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "laptop"
  },
@@ -485,7 +485,7 @@
   "type": "myth",
   "myth": "Asking for help means you can't handle it.",
   "truth": "Asking for help is how capable people keep handling it. Even the strongest women need someone in their corner.",
-  "caption": "Capable women ask for help. That's how they stay capable.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
+  "caption": "Capable women ask for help. That's how they stay capable.\n\nGet the free Sunday Energy Forecast: link in bio. 🦉",
   "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine",
   "pose": "heart-hug"
  },
@@ -509,7 +509,7 @@
   "start": "2026-12-13",
   "prompt": "A quiet week in the sky. What would it feel like to do a little less, on purpose?",
   "caption": "A waxing crescent moon in Aquarius and the Geminids peak Monday night, one of the best meteor showers of the year.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "calm-glow",
   "events": [
    {
@@ -526,7 +526,7 @@
   "type": "relatable",
   "text": "When you're the one who makes the holidays happen, and no one makes them happen for you.",
   "sub": "Your needs count in December too.",
-  "caption": "Your needs count in December too. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "Your needs count in December too. 🧡\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "cozy-coffee"
@@ -560,7 +560,7 @@
     "body": "A potluck is a love language too."
    }
   ],
-  "caption": "Every no makes room for a yes to yourself.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
+  "caption": "Every no makes room for a yes to yourself.\n\nGet the free Sunday Energy Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "journaling"
  },
@@ -584,7 +584,7 @@
   "start": "2026-12-20",
   "prompt": "The longest night is here, and a full moon in Cancer follows. Who feels like home to you, and how can you let them know?",
   "caption": "The Sun enters Capricorn, and a full moon in Cancer on Wednesday, December 23.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
    {
@@ -608,7 +608,7 @@
   "time": "08:00",
   "type": "affirmation",
   "text": "You don't have to feel merry. You just have to be gentle with yourself.",
-  "caption": "For the longest night of the year. 🌕\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "For the longest night of the year. 🌕\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine",
   "pose": "calm-glow"
  },
@@ -642,7 +642,7 @@
   "start": "2026-12-27",
   "prompt": "Before you set a single resolution: what did this year teach you that you want to keep?",
   "caption": "A waning gibbous moon in Leo and a quiet week to look back.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "crystals",
   "events": [
    {
@@ -659,7 +659,7 @@
   "type": "relatable",
   "text": "That strange week between holidays when no one knows what day it is.",
   "sub": "Rest counts. You don't have to make it productive.",
-  "caption": "Rest counts. You don't have to make it productive. 🌿\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "Rest counts. You don't have to make it productive. 🌿\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "hammock"
@@ -693,7 +693,7 @@
     "body": "Tell a friend. Saying it out loud makes it real."
    }
   ],
-  "caption": "A gentler way to start the year.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
+  "caption": "A gentler way to start the year.\n\nGet the free Sunday Energy Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "journaling"
  },
@@ -715,7 +715,7 @@
   "start": "2027-01-03",
   "prompt": "A new moon in Capricorn is a quiet start. What one steady habit do you want to plant for 2027?",
   "caption": "New moon in Capricorn on Thursday, and Venus moves into Sagittarius.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "calm-glow",
   "events": [
    {
@@ -740,7 +740,7 @@
   "type": "relatable",
   "text": "Back to work, and your brain is still on vacation.",
   "sub": "Go slow this week. Momentum comes back.",
-  "caption": "Go slow this week. Momentum comes back. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "Go slow this week. Momentum comes back. 🧡\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "laptop"
  },
@@ -751,7 +751,7 @@
   "type": "myth",
   "myth": "A new year means you need a whole new you.",
   "truth": "You don't need fixing. A few small changes, kept up, change more than any big resolution.",
-  "caption": "You're not a project. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "You're not a project. 💙\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine",
   "pose": "butterfly"
  },
@@ -775,7 +775,7 @@
   "start": "2027-01-10",
   "prompt": "Mars turns back today. Where could you stop pushing and start pacing yourself?",
   "caption": "Mars turns retrograde today, and Mercury moves into Aquarius on Tuesday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
    {
@@ -791,7 +791,7 @@
   "time": "08:00",
   "type": "relatable",
   "text": "When January asks for a new you and you're still recovering from the old year.",
-  "caption": "No new you required. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "No new you required. 💙\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "sleeping"
@@ -825,7 +825,7 @@
     "body": "Open the blinds and sit by your brightest window."
    }
   ],
-  "caption": "Small doses of daylight add up.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
+  "caption": "Small doses of daylight add up.\n\nGet the free Sunday Energy Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "cozy-coffee"
  },
@@ -849,7 +849,7 @@
   "start": "2027-01-17",
   "prompt": "A full moon in Leo asks to be seen. Where are you dimming your light to keep others comfortable?",
   "caption": "The Sun moves into Aquarius on Wednesday, and a full moon in Leo rises on Friday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "crystals",
   "events": [
    {
@@ -870,7 +870,7 @@
   "type": "relatable",
   "text": "When you finally say what you need and the room goes quiet.",
   "sub": "Saying it was still the right thing.",
-  "caption": "It was still the right thing. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "It was still the right thing. 🧡\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "thinking"
  },
@@ -880,7 +880,7 @@
   "time": "08:00",
   "type": "affirmation",
   "text": "Your needs aren't too much. They're information.",
-  "caption": "Listen to them. 🌿\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "Listen to them. 🌿\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine",
   "pose": "heart-wings"
  },
@@ -904,7 +904,7 @@
   "start": "2027-01-24",
   "prompt": "A quiet week in the sky. What's one thing you can stop explaining?",
   "caption": "A waning gibbous moon in Virgo, with Mars still retrograde.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "calm-glow",
   "events": [
    {
@@ -921,7 +921,7 @@
   "type": "relatable",
   "text": "When you're tired of being the strong one.",
   "sub": "You can lean, too. That's what we're here for.",
-  "caption": "You can lean, too. That's what we're here for. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
+  "caption": "You can lean, too. That's what we're here for. 💙\n\nGet the free Sunday Energy Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "umbrella"
@@ -933,7 +933,7 @@
   "type": "myth",
   "myth": "If you talk about it, you're dwelling on it.",
   "truth": "Saying it out loud to a calm person usually shrinks it. Keeping it in tends to make it louder.",
-  "caption": "Say it out loud. It gets smaller.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
+  "caption": "Say it out loud. It gets smaller.\n\nGet the free Sunday Energy Forecast: link in bio. 🦉",
   "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine",
   "pose": "headphones"
  },
@@ -957,7 +957,7 @@
   "start": "2027-01-31",
   "prompt": "The moon is letting go. What can you release before February begins?",
   "caption": "A waning crescent moon, Mercury moves into Pisces today, and Saturday brings an annular solar eclipse.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
-  "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
+  "tags": "#EnergyForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
    {

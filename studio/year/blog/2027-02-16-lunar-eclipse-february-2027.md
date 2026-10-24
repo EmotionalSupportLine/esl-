@@ -43,4 +43,4 @@ If the sky is clear and the moon is up where you are, go out and look. Even if y
 
 ## Never miss what's happening in the sky
 
-The free **Owl's Forecast** lands every Sunday with the week's moon phases, eclipses and planet shifts, plus one question to sit with.
+The free **Energy Forecast** lands every Sunday with the week's moon phases, eclipses and planet shifts, plus one question to sit with.

@@ -48,4 +48,4 @@ If it feels right, take the paper with what you're releasing outside and recycle
 
 ## Follow the turning year
 
-The free **Owl's Forecast** follows the seasons, the moon and the sky week by week, with one question to sit with every Sunday.
+The free **Energy Forecast** follows the seasons, the moon and the sky week by week, with one question to sit with every Sunday.

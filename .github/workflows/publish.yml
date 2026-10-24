@@ -1,5 +1,5 @@
 name: Publish scheduled content
-# Every day: puts any blog post or Owl's Forecast whose date has arrived onto the site.
+# Every day: puts any blog post or Energy Forecast whose date has arrived onto the site.
 # Vercel deploys the site automatically when this pushes.
 on:
   schedule:

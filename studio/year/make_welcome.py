@@ -12,7 +12,7 @@ for part in src:
     lines = body.strip().splitlines(); h1 = lines[0].lstrip("# ").strip(); body_md = "\n".join(lines[1:]).strip()
     content = markdown.markdown(body_md, extensions=["extra"]).replace("FNAMETAG", "*|FNAME|*").replace('href="/', f'href="{BASE}/')
     page = tpl.replace("<title>*|MC:SUBJECT|*</title>", f"<title>{html.escape(meta['subject'])}</title>")
-    page = page.replace("The Owl's Forecast &nbsp;·&nbsp; *|DATE:F j|*", "The Emotional Support Line")
+    page = page.replace("EmoOwl's Energy Forecast &nbsp;·&nbsp; *|DATE:F j|*", "The Emotional Support Line")
     page = re.sub(r'(<td class="stack body"[^>]*mc:edit="headline">).*?(</td>)', lambda m: f'{m.group(1)}\n            <h1>{html.escape(h1)}</h1>\n          {m.group(2)}', page, flags=re.S)
     page = page.replace("assets/email/full-moon.png", f"assets/email/{meta['pose']}.png")
     page = re.sub(r'(<td class="pad body" style="padding:18px 40px 4px" mc:edit="body">).*?(</td></tr>\n\n      <!-- One question)', lambda m: f'{m.group(1)}\n{content}\n      {m.group(2)}', page, flags=re.S)

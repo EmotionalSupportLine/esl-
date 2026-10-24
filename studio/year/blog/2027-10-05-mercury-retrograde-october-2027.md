@@ -51,4 +51,4 @@ Many people use retrogrades as a prompt to revisit old conversations and feeling
 
 ## Look back on the year's sky
 
-With this retrograde, 2027's sky story begins to wrap up. The free **Owl's Forecast** has followed every moon, eclipse and retrograde of the year, and it'll keep going into 2028.
+With this retrograde, 2027's sky story begins to wrap up. The free **Energy Forecast** has followed every moon, eclipse and retrograde of the year, and it'll keep going into 2028.

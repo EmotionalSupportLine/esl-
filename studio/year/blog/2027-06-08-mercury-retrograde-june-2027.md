@@ -52,4 +52,4 @@ Retrograde seasons can be a time when old feelings resurface. If something from 
 
 ## Follow the sky week by week
 
-The free **Owl's Forecast** arrives every Sunday with the week's moon, retrogrades and planet shifts, plus one question to sit with.
+The free **Energy Forecast** arrives every Sunday with the week's moon, retrogrades and planet shifts, plus one question to sit with.

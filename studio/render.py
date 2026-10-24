@@ -123,7 +123,7 @@ def forecast(p, seed):
       <circle cx="880" cy="240" r="90" fill="#fff0cf"/><rect width="1080" height="1350" filter="url(#grain)"/></svg>
     <div id="moon" style="position:absolute;left:96px;top:120px"></div>
     <div style="position:absolute;left:96px;right:96px;top:320px;color:#fcefda">
-      <div style="font:700 32px Poppins;color:#fcab79">The Owl's Forecast</div>
+      <div style="font:700 32px Poppins;color:#fcab79">EmoOwl's Energy Forecast</div>
       <div class="serif" style="font-size:62px;line-height:1.1;font-weight:700;margin-top:8px" id="title"></div>
       <div id="phase" style="font-size:36px;margin-top:18px;color:#cfe3e3"></div>
       <div id="events" style="margin-top:44px;background:rgba(13,58,61,.82);border-radius:28px;padding:20px 40px;font-size:36px;width:820px"></div>

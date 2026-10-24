@@ -16,13 +16,13 @@ for sunday, w in sky.items():
     c = fc[w["week"]]
     end = (datetime.date.fromisoformat(sunday) + datetime.timedelta(days=6))
     posts.append({"id": f"{sunday}-sun-forecast", "date": sunday, "time": "09:00", "type": "forecast", "start": sunday, "prompt": c["question"],
-                  "caption": f"The Owl's Forecast for {datetime.date.fromisoformat(sunday):%b %-d} to {end:%b %-d}. 🦉\n\n{c['preview']}\n\nThe week's moon and sky, this week's Human Design gates, plus one question to sit with. Get it free every Sunday: link in bio.",
-                  "tags": "#OwlsForecast #MoonPhase #AstroWeather #HumanDesign #WeeklyForecast #EmotionalSupportLine", "pose": c["pose"]})
+                  "caption": f"EmoOwl's Energy Forecast for {datetime.date.fromisoformat(sunday):%b %-d} to {end:%b %-d}. 🦉\n\n{c['preview']}\n\nThe week's moon and sky, this week's Human Design gates, plus one question to sit with. Get it free every Sunday: link in bio.",
+                  "tags": "#EnergyForecast #MoonPhase #AstroWeather #HumanDesign #WeeklyForecast #EmotionalSupportLine", "pose": c["pose"]})
 posts.sort(key=lambda p: (p["date"], p["time"]))
 problems = []
 for p in posts:
     p["facebookTags"] = " ".join(p["tags"].split()[:2] + ["#EmotionalSupportLine"]) if "#EmotionalSupportLine" not in p["tags"].split()[:2] else " ".join(p["tags"].split()[:3])
-    head = p.get("title") or p.get("text") or p.get("myth") or (p.get("slides") or [{}])[0].get("title") or "The Owl's Forecast: this week's moon and sky"
+    head = p.get("title") or p.get("text") or p.get("myth") or (p.get("slides") or [{}])[0].get("title") or "EmoOwl's Energy Forecast: this week's moon and sky"
     p["pinterestTitle"] = (head if len(head) <= 95 else head[:92] + "...")
     emo = [ch for ch in p["caption"] if ord(ch) > 0x2600 and not ch.isalnum()]
     if len([e for e in emo if e in ALLOWED]) > 1 or any(e not in ALLOWED for e in emo if ord(e) > 0x1F000): problems.append((p["id"], "emoji", emo))

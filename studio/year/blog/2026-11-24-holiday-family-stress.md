@@ -57,6 +57,6 @@ Plan something restoring for the day after a big gathering: a slow morning, a wa
 
 ## A little perspective from the sky
 
-If you like a weekly pause to step back and breathe, our free **Owl's Forecast** arrives every Sunday. It covers the week's moon and sky, a note about getting outside and one question to sit with.
+If you like a weekly pause to step back and breathe, our free **Energy Forecast** arrives every Sunday. It covers the week's moon and sky, a note about getting outside and one question to sit with.
 
 *If a family situation ever puts you in danger, please call 911. If you're thinking about suicide, call or text 988 (US).*

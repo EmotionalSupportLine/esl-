@@ -46,6 +46,6 @@ Not a total overhaul. One point. That's how balance actually comes back: gradual
 
 ## Step into spring with the sky
 
-The free **Owl's Forecast** follows the sky week by week: new and full moons, the seasons, planet shifts and one question to sit with. It's a gentle way to notice time passing, instead of just losing it.
+The free **Energy Forecast** follows the sky week by week: new and full moons, the seasons, planet shifts and one question to sit with. It's a gentle way to notice time passing, instead of just losing it.
 
 Happy spring. The light is winning now.

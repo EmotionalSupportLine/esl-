@@ -6,7 +6,7 @@ Runs daily from .github/workflows/publish.yml (and can be run by hand):
 
 Sources (pre-approved by the Editor agent):
     studio/year/blog/<YYYY-MM-DD>-<slug>.md      one blog post, goes live early on its date (Mountain)
-    studio/year/forecast/<YYYY-MM-DD>.md         one Owl's Forecast, goes live the Saturday before its Sunday
+    studio/year/forecast/<YYYY-MM-DD>.md         one Energy Forecast, goes live the Saturday before its Sunday
 
 Outputs (into site/):
     blog/<slug>.html, blog/index.html, blog/rss.xml
@@ -35,7 +35,7 @@ NOW = datetime.datetime.now(MT)
 CTA = {
     "call": ("headset-wink", "Need to talk it through?", "Book a 30-minute call with a real, trained supporter. $75, or $50 for Nest members. No sales call first.", "Book a call", "/#calls"),
     "nest": ("sunrise", "Make it a daily habit", "The Nest tracks your morning sun and earthing time, shows the sky for where you are, and includes a monthly group call. NEST_PRICE", "See the Nest", "/#nest"),
-    "forecast": ("full-moon", "Get the Owl's Forecast", "Every Sunday: the week's moon, sky and one question to sit with. Free.", "Send me the Forecast", "/#forecast"),
+    "forecast": ("full-moon", "Get EmoOwl's Energy Forecast", "Every Sunday: the week's moon, sky and one question to sit with. Free.", "Send me the Forecast", "/#forecast"),
     "coaching": ("compass", "Want to go deeper?", "Year of YES! Coaching with Tracee Sioux: two hours a month of one-on-one coaching, guided by your Human Design chart. By application.", "See Year of YES! Coaching", "/year-of-yes"),
     "moon-calendar": ("moon-phases", "Free: the 2027 Moon Calendar", "Every new moon, full moon and eclipse of 2027, in Mountain time, with a reflection question for each. Free to download.", "Get the moon calendar", "/free/moon-calendar-2027"),
     "earthing-checklist": ("earthing", "Free: the Earthing Starter Checklist", "A one-page, printable guide to starting a barefoot habit, with a 14-day tracker. Free to download.", "Get the checklist", "/free/earthing-checklist"),
@@ -225,8 +225,8 @@ def build_forecasts():
     main = (f'<section class="wrap blog-index"><div class="index-head"><div><h1>The Owl\'s Forecast</h1><p class="lede">Every Sunday: the week\'s moon and sky, a note on getting outside, and one question to sit with.</p></div>'
             f'{owl("telescope", 200, "sticker hero-owl")}</div><section class="transit"><h2>Live Human Design transits</h2><p>Where the Sun, Earth, Moon and planets sit in the gates right now. A prompt for reflection, never a prediction.</p><script async src="https://neutrinoplatform.com/js/widget-v2/loader.js"></script><neutrino-widget type="transit" api-key="5a9615047c3d45d235176ff704d765965ff62b14"></neutrino-widget></section>{signup()}<div class="cards">{cards}</div></section>')
     (SITE / "forecast").mkdir(exist_ok=True)
-    (SITE / "forecast" / "index.html").write_text(page("The Owl's Forecast", "The week's moon and sky, every Sunday.", BASE + "/forecast/", main, "telescope"))
-    (SITE / "forecast" / "rss.xml").write_text(rss("The Owl's Forecast", BASE + "/forecast/", "The week's moon and sky, every Sunday.", items[:8]))
+    (SITE / "forecast" / "index.html").write_text(page("EmoOwl's Energy Forecast", "The week's moon and sky, every Sunday.", BASE + "/forecast/", main, "telescope"))
+    (SITE / "forecast" / "rss.xml").write_text(rss("EmoOwl's Energy Forecast", BASE + "/forecast/", "The week's moon and sky, every Sunday.", items[:8]))
     return items
 
 

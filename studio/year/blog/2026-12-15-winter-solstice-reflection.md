@@ -52,6 +52,6 @@ Over the next few weeks, look for small chances to welcome the light:
 
 ## Stay in step with the sky
 
-Our free **Owl's Forecast** arrives every Sunday with the week's moon, sky and seasons, plus one question to sit with. It's a small weekly pause that helps the year feel less like a blur.
+Our free **Energy Forecast** arrives every Sunday with the week's moon, sky and seasons, plus one question to sit with. It's a small weekly pause that helps the year feel less like a blur.
 
 Whatever this year held, the light is on its way back.

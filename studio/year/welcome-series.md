@@ -1,6 +1,6 @@
 # The welcome series
 
-Five emails sent automatically to every new Owl's Forecast subscriber. Set up in Mailchimp as a Customer Journey: trigger "Contact signs up" to the audience "The Emotional Support Line - Owl's Forecast", then the delays below. The HTML for each email is in studio/year/welcome/ (built from the Forecast template).
+Five emails sent automatically to every new Energy Forecast subscriber. Set up in Mailchimp as a Customer Journey: trigger "Contact signs up" to the audience "The Emotional Support Line - Energy Forecast", then the delays below. The HTML for each email is in studio/year/welcome/ (built from the Forecast template).
 
 Signed by EmoOwl. Every email carries the 988 line in the template footer.
 
@@ -14,7 +14,7 @@ preview: Your free moon calendar and earthing checklist are inside.
 
 Hi FNAMETAG,
 
-I'm EmoOwl, the owl (well, two owls) behind The Emotional Support Line. You've just joined the Owl's Forecast, and your first one arrives this Sunday.
+I'm EmoOwl, the owl (well, two owls) behind The Emotional Support Line. You've just joined EmoOwl's Energy Forecast, and your first one arrives this Sunday.
 
 Every Sunday morning you'll get:
 

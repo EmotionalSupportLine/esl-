@@ -17,7 +17,7 @@ Rules:
 
 ## What we offer (keep prices exactly like this)
 
-- **The Owl's Forecast:** free Sunday email. Moon, sun, space weather, planet shifts, one reflection question.
+- **EmoOwl's Energy Forecast:** free Sunday email. Moon, sun, space weather, planet shifts, one reflection question.
 - **The Nest:** $19/month or $190/year. Founding price $14/month for as long as they stay, open until December 1, 2026.
 - **Support call:** 30 minutes, one issue, a real person, never AI. $75, or $50 for Nest members. Mondays and Tuesdays, noon to 7 pm Mountain.
 - **Monthly group call:** first Sunday of the month, 11 am Mountain, for Nest members.

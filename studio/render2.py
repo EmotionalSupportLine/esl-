@@ -156,7 +156,7 @@ def forecast(p, i):
 <div style="position:absolute;right:-140px;top:-140px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,#fff7d6 0%,rgba(255,247,214,0) 70%)"></div>
 <div id="moon" style="position:absolute;right:110px;top:110px"></div>
 <div style="position:absolute;left:90px;right:90px;top:110px">
-<div class="tag" style="color:#134f53">The Owl's Forecast</div>
+<div class="tag" style="color:#134f53">EmoOwl's Energy Forecast</div>
 <div class="h" id="title" style="font-size:76px;line-height:1.05;margin-top:16px;max-width:640px"></div>
 <div id="phase" style="font:500 36px Poppins;margin-top:16px;color:#3d3637"></div></div>
 <div id="events" style="position:absolute;left:90px;right:90px;top:500px;background:rgba(255,255,255,.6);border-radius:28px;padding:16px 40px;font:500 34px Poppins"></div>

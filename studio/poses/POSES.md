@@ -22,7 +22,7 @@ cooking, salad, veggies, green-juice
 ## Joy and everyday life
 excited, flying-joy, painting, guitar, camera, pets, studying, laptop, winter-cocoa (cold-weather posts)
 
-## The Owl's Forecast: sky, moon and astrology
+## EmoOwl's Energy Forecast: sky, moon and astrology
 - Moon: full-moon, crescent-moon, moon-phases, moon-night, moon-book, eclipse
 - Sun and sky: sunrise, sun-and-moon, sun-heart, north-star, telescope, planets, earth-night, starry-cloak, day-and-night
 - Astrology tools: zodiac-wheel, astro-wheel, tarot, oracle-cards, crystal-ball, flower-crystal-ball, crystals

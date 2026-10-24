@@ -48,4 +48,4 @@ We treat it as a prompt for reflection, not a prediction. Nothing bad has to hap
 
 Our free **2027 Moon Calendar** has every new moon, full moon and eclipse of the year, plus the retrograde dates. It's printable, with a reflection question for each moon.
 
-And every Sunday, the free Owl's Forecast tells you what's coming in the week's sky, so nothing sneaks up on you.
+And every Sunday, the free Energy Forecast tells you what's coming in the week's sky, so nothing sneaks up on you.

@@ -1,0 +1,177 @@
+[
+ {
+  "kind": "new",
+  "when": "Thu, January 7 at 1:26 PM",
+  "sign": "Capricorn",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Fri, January 22 at 5:18 AM",
+  "sign": "Leo",
+  "name": "Wolf Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Sat, February 6 at 8:57 AM",
+  "sign": "Aquarius",
+  "name": "",
+  "eclipse": "Annular solar eclipse"
+ },
+ {
+  "kind": "full",
+  "when": "Sat, February 20 at 4:25 PM",
+  "sign": "Virgo",
+  "name": "Snow Moon",
+  "eclipse": "Penumbral lunar eclipse"
+ },
+ {
+  "kind": "new",
+  "when": "Mon, March 8 at 2:31 AM",
+  "sign": "Pisces",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Mon, March 22 at 4:45 AM",
+  "sign": "Libra",
+  "name": "Worm Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Tue, April 6 at 5:52 PM",
+  "sign": "Aries",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Tue, April 20 at 4:28 PM",
+  "sign": "Scorpio",
+  "name": "Pink Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Thu, May 6 at 5:00 AM",
+  "sign": "Taurus",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Thu, May 20 at 5:00 AM",
+  "sign": "Scorpio",
+  "name": "Flower Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Fri, June 4 at 1:41 PM",
+  "sign": "Gemini",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Fri, June 18 at 6:46 PM",
+  "sign": "Sagittarius",
+  "name": "Strawberry Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Sat, July 3 at 9:03 PM",
+  "sign": "Cancer",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Sun, July 18 at 9:46 AM",
+  "sign": "Capricorn",
+  "name": "Buck Moon",
+  "eclipse": "Penumbral lunar eclipse"
+ },
+ {
+  "kind": "new",
+  "when": "Mon, August 2 at 4:06 AM",
+  "sign": "Leo",
+  "name": "",
+  "eclipse": "Total solar eclipse"
+ },
+ {
+  "kind": "full",
+  "when": "Tue, August 17 at 1:30 AM",
+  "sign": "Aquarius",
+  "name": "Sturgeon Moon",
+  "eclipse": "Penumbral lunar eclipse"
+ },
+ {
+  "kind": "new",
+  "when": "Tue, August 31 at 11:42 AM",
+  "sign": "Virgo",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Wed, September 15 at 5:05 PM",
+  "sign": "Pisces",
+  "name": "Harvest Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Wed, September 29 at 8:37 PM",
+  "sign": "Libra",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Fri, October 15 at 7:48 AM",
+  "sign": "Aries",
+  "name": "Hunter's Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Fri, October 29 at 7:38 AM",
+  "sign": "Scorpio",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Sat, November 13 at 8:27 PM",
+  "sign": "Taurus",
+  "name": "Beaver Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Sat, November 27 at 8:25 PM",
+  "sign": "Sagittarius",
+  "name": "",
+  "eclipse": ""
+ },
+ {
+  "kind": "full",
+  "when": "Mon, December 13 at 9:10 AM",
+  "sign": "Gemini",
+  "name": "Cold Moon",
+  "eclipse": ""
+ },
+ {
+  "kind": "new",
+  "when": "Mon, December 27 at 1:14 PM",
+  "sign": "Capricorn",
+  "name": "",
+  "eclipse": ""
+ }
+]

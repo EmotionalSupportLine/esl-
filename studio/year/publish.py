@@ -34,7 +34,7 @@ NOW = datetime.datetime.now(MT)
 
 CTA = {
     "call": ("headset-wink", "Need to talk it through?", "Book a 30-minute call with a real, trained supporter. $75, or $50 for Nest members. No sales call first.", "Book a call", "/#calls"),
-    "nest": ("sunrise", "Make it a daily habit", "The Nest tracks your morning sun and earthing time, shows the sky for where you are, and includes a monthly group call. Founding members pay $14 a month.", "See the Nest", "/#nest"),
+    "nest": ("sunrise", "Make it a daily habit", "The Nest tracks your morning sun and earthing time, shows the sky for where you are, and includes a monthly group call. NEST_PRICE", "See the Nest", "/#nest"),
     "forecast": ("full-moon", "Get the Owl's Forecast", "Every Sunday: the week's moon, sky and one question to sit with. Free.", "Send me the Forecast", "/#forecast"),
     "coaching": ("compass", "Want to go deeper?", "Year of YES! Coaching with Tracee Sioux: two hours a month of one-on-one coaching, guided by your Human Design chart. By application.", "See Year of YES! Coaching", "/year-of-yes"),
     "moon-calendar": ("moon-phases", "Free: the 2027 Moon Calendar", "Every new moon, full moon and eclipse of 2027, in Mountain time, with a reflection question for each. Free to download.", "Get the moon calendar", "/free/moon-calendar-2027"),
@@ -116,8 +116,9 @@ def page(title, desc, url, main, ogimg="full-moon", jsonld=""):
     return PAGE.format(title=html.escape(title), desc=html.escape(desc), url=url, main=main, base=BASE, ogimg=ogimg, jsonld=jsonld, year=NOW.year)
 
 
-def cta_box(kind):
+def cta_box(kind, date="2099-01-01"):
     pose, h, p, btn, href = CTA[kind]
+    p = p.replace("NEST_PRICE", "Founding members pay $14 a month for as long as they stay." if date < "2026-12-01" else "$19 a month, or $190 a year.")
     return f'<aside class="cta">{owl(pose, 120, "sticker")}<div><h2>{h}</h2><p>{p}</p><a class="btn btn-sun" href="{href}">{btn}</a></div></aside>'
 
 
@@ -158,7 +159,7 @@ def build_blog():
         jsonld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BlogPosting", "headline": meta["title"], "datePublished": meta["date"], "description": meta["description"], "author": {"@type": "Organization", "name": "The Emotional Support Line"}, "publisher": {"@type": "Organization", "name": "The Emotional Support Line", "logo": {"@type": "ImageObject", "url": BASE + "/assets/icon-512.png"}}, "image": f"{BASE}/assets/email/{meta['pose']}.png", "mainEntityOfPage": url}) + "</script>"
         main = (f'<article class="wrap post"><header class="post-head"><div><p class="kicker"><a href="/blog/">The Emotional Support Line blog</a> · {nice(meta["date"])}</p>'
                 f'<h1>{html.escape(meta["title"])}</h1><p class="lede">{html.escape(meta["description"])}</p></div>{owl(meta["pose"], 220, "sticker hero-owl", "")}</header>'
-                f'<div class="prose">{content}</div>{cta_box(meta["cta"])}{signup()}<p class="safety">{CRISIS} We offer emotional support and coaching, not therapy or medical advice.</p></article>')
+                f'<div class="prose">{content}</div>{cta_box(meta["cta"], meta["date"])}{signup()}<p class="safety">{CRISIS} We offer emotional support and coaching, not therapy or medical advice.</p></article>')
         out = SITE / "blog" / f"{slug}.html"
         out.parent.mkdir(exist_ok=True)
         out.write_text(page(meta["title"], meta["description"], url, main, meta["pose"], jsonld))
@@ -197,7 +198,7 @@ def build_forecasts():
                  f'<h1 style="font-family:Georgia,serif;font-size:28px;line-height:1.2;color:#1f1c1c;margin:0 0 10px">{html.escape(meta["subject"])}</h1>'
                  f'<p style="font-family:Helvetica,Arial,sans-serif;font-size:16px;color:#524c4f;margin:0">{html.escape(meta["preview"])}</p></td>'
                  f'<td width="140" valign="middle"><img src="/assets/email/{meta["pose"]}.png" width="140" alt="" style="display:block;width:140px;height:auto"></td></tr></table>'
-                 f'{content}'
+                 f'{content.replace("<img ", "<img width=\"320\" style=\"display:block;margin:0 auto;width:320px;max-width:100%;height:auto\" ")}'
                  f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#134f53;border-radius:16px;margin:20px 0"><tr>'
                  f'<td width="80" style="padding:16px 0 16px 16px"><img src="/assets/email/journaling.png" width="64" alt="" style="display:block;width:64px;height:auto"></td>'
                  f'<td style="padding:16px 20px 16px 12px"><div style="font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:2px;font-weight:800;color:#fcab79;text-transform:uppercase">A question to sit with</div>'

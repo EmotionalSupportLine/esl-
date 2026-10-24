@@ -58,4 +58,4 @@ If you've been sleeping badly for weeks, or worry is affecting your days, it's w
 
 ## Build the habits
 
-The Nest app helps with the daytime side: a morning sun timer, earthing time and a daily streak, plus sunrise and sunset for where you are. Small daytime habits, better nights.
+The Nest app helps with the daytime side: a morning sun timer, earthing time and a daily streak, plus sunrise and sunset for where you are. Small daytime habits that many people find make evenings easier.

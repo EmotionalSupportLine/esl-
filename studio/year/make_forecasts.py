@@ -8,12 +8,20 @@ phases = json.loads((Y / "phases.json").read_text())
 GATE = {1:"Self-Expression",2:"Direction",3:"Ordering",4:"Formulization",5:"Fixed Rhythms",6:"Friction",7:"The Role of the Self",8:"Contribution",9:"Focus",10:"Behavior of the Self",11:"Ideas",12:"Caution",13:"The Listener",14:"Power Skills",15:"Extremes",16:"Skills",17:"Opinions",18:"Correction",19:"Wanting",20:"The Now",21:"The Hunter",22:"Openness",23:"Assimilation",24:"Rationalization",25:"The Spirit of the Self",26:"The Egoist",27:"Caring",28:"The Game Player",29:"Perseverance",30:"Recognition of Feelings",31:"Influence",32:"Continuity",33:"Privacy",34:"Power",35:"Change",36:"Crisis",37:"Friendship",38:"The Fighter",39:"Provocation",40:"Aloneness",41:"Contraction",42:"Growth",43:"Insight",44:"Alertness",45:"The Gatherer",46:"Determination of the Self",47:"Realization",48:"Depth",49:"Principles",50:"Values",51:"Shock",52:"Stillness",53:"Beginnings",54:"Ambition",55:"Spirit",56:"Stimulation",57:"Intuitive Clarity",58:"Vitality",59:"Dispersion",60:"Acceptance",61:"Mystery",62:"Details",63:"Doubt",64:"Confusion"}
 SYN = 29.530588853
 def phase_name(sunday):
+    """Phase on Sunday morning (Mountain). 'New moon'/'Full moon' only if the exact event falls on that Sunday's Mountain date."""
+    from zoneinfo import ZoneInfo
+    MT = ZoneInfo("America/Denver")
     t = datetime.datetime.fromisoformat(sunday + "T16:00:00+00:00")
+    for p in phases:
+        e = datetime.datetime.fromisoformat(p["t"])
+        if e.astimezone(MT).date().isoformat() == sunday:
+            return "New moon" if p["kind"] == "new" else "Full moon"
     news = [datetime.datetime.fromisoformat(p["t"]) for p in phases if p["kind"] == "new"]
     prev = max(n for n in news if n <= t); age = (t - prev).total_seconds() / 86400
-    for lo, hi, name in [(0, 1, "New moon"), (1, 6.4, "Waxing crescent"), (6.4, 8.4, "First quarter"), (8.4, 13.8, "Waxing gibbous"), (13.8, 15.8, "Full moon"),
-                         (15.8, 21.1, "Waning gibbous"), (21.1, 23.1, "Last quarter"), (23.1, 28.5, "Waning crescent"), (28.5, 30, "New moon")]:
+    for lo, hi, name in [(0, 6.4, "Waxing crescent"), (6.4, 8.4, "First quarter"), (8.4, 14.77, "Waxing gibbous"),
+                         (14.77, 21.1, "Waning gibbous"), (21.1, 23.1, "Last quarter"), (23.1, 30, "Waning crescent")]:
         if lo <= age < hi: return name
+
 INVITE = {
     "call": "If something is weighing on you this week, a 30-minute support call with a real person is there for you, Mondays and Tuesdays. [Book a call](/#calls)",
     "nest": "The Nest app shows the moon, the planets and your sunrise and sunset every day, and keeps your morning sun and earthing streak going. [See the Nest](/#nest)",

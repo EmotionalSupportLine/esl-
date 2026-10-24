@@ -2,7 +2,7 @@
 title: "The autumn equinox: a reflection practice for letting go"
 slug: autumn-equinox-reflection
 date: 2027-09-21
-description: The autumn equinox is Thursday, September 23, 2027, when day and night are equal again. Here's a simple reflection practice for letting go as the season turns.
+description: The autumn equinox is Thursday, September 23, 2027, when day and night are nearly equal again. Here's a simple reflection practice for letting go as the season turns.
 keyword: autumn equinox ritual
 cta: forecast
 pose: sun-heart

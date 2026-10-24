@@ -25,7 +25,7 @@ You pay when you book. There's no membership required and no sales call first.
 
 ## Who it's for
 
-People call about all kinds of things:
+You can call about all kinds of things:
 
 - Big feelings that won't quiet down
 - Relationship or family stress

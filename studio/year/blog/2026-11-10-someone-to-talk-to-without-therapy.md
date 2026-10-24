@@ -10,7 +10,7 @@ status: approved
 ---
 "I don't need therapy. I just need someone to talk to."
 
-We hear this a lot. And it makes sense. Not every hard week needs a long-term plan, an intake form or a waiting list. Sometimes you just need to say the thing out loud to someone calm and neutral, and hear yourself think.
+It's a common feeling. And it makes sense. Not every hard week needs a long-term plan, an intake form or a waiting list. Sometimes you just need to say the thing out loud to someone calm and neutral, and hear yourself think.
 
 Here's how to find that kind of support, and how to make the most of it.
 
@@ -24,7 +24,7 @@ A neutral listener has no stake in your decision. They aren't hurt if you vent a
 
 **A trusted friend, with a clear ask.** Friends are often happy to help when they know what you need. Try: "I don't need advice. Can I just talk for ten minutes?"
 
-**A support call.** At The Emotional Support Line, you can book a 30-minute call with a trained supporter. It's one issue, one real person and one clear next step. There's no membership and no sales call first. It's emotional support, not therapy: we listen, reflect back what we hear and help you find your footing.
+**A support call.** At The Emotional Support Line, you can book a 30-minute call with a trained supporter. It's one issue, one real person and one clear next step. You don't need a membership, and there's no sales call first. It's emotional support, not therapy: we listen, reflect back what we hear and help you find your footing.
 
 **A coach.** If you want to change something over months rather than get through one hard week, coaching can help you set direction and stay accountable.
 
@@ -41,7 +41,7 @@ A neutral listener has no stake in your decision. They aren't hurt if you vent a
 
 ## What a support call is like
 
-You pay, pick a time and we call you. We'll ask what's on your mind, listen without judgment and reflect back what we hear. We'll ask questions that fit how you make decisions. Most people hang up feeling lighter and clearer about what to do next.
+You pay, pick a time and we call you. We'll ask what's on your mind, listen without judgment and reflect back what we hear. We'll ask questions that fit how you make decisions. The goal is that you hang up feeling a little lighter and clearer about what to do next.
 
 You don't have to have the right words. You don't have to be in crisis. You just have to want to feel a little less alone with it.
 

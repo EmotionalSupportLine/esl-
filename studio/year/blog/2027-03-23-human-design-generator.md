@@ -8,7 +8,7 @@ cta: coaching
 pose: flying-joy
 status: approved
 ---
-If you've looked up your Human Design chart and found the word **Generator**, you're in good company. Generators are the most common type. Add Manifesting Generators and they make up the majority of people.
+If you've looked up your Human Design chart and found the word **Generator**, you're in good company. In Human Design, Generators are described as the most common type, and together with Manifesting Generators they're said to be the majority.
 
 Here's what it means, in everyday language.
 

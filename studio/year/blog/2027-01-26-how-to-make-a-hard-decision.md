@@ -32,7 +32,7 @@ Waiting is a decision too, and it often costs more than either choice.
 
 On paper, list what *you* want, what you think you *should* want and what other people want for you. Seeing them apart is often a relief. You might notice the loudest voice isn't yours.
 
-### 3. Imagine living each option for one week
+### 3. Imagine living each option for a month
 
 Picture yourself a month from now, having chosen option A. Walk through an ordinary Tuesday. How does your body feel? Lighter, heavier, tighter, relieved? Then do the same for option B. Your body often knows before your mind does.
 

@@ -176,6 +176,20 @@ def build_blog():
     return posts
 
 
+def email_band(sunday):
+    """The call + Nest band at the end of each Forecast email. No call push while Tracee is away."""
+    away = "2026-11-22" <= sunday <= "2026-12-01"
+    cell = lambda img, h, txt, btn, href, bg, fg: (f'<td class="stack" width="50%" valign="top" style="width:50%;padding:0 10px 14px;text-align:center">'
+        f'<img src="/assets/email/{img}.png" width="96" alt="" style="display:block;width:96px;height:auto;border:0;margin:0 auto 8px">'
+        f'<div style="font-family:Georgia,serif;font-size:18px;font-weight:700;color:#1f1c1c">{h}</div>'
+        f'<div style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5;color:#524c4f;margin:4px 0 12px">{txt}</div>'
+        f'<a href="{href}" style="display:inline-block;background:{bg};color:{fg};text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-weight:800;font-size:15px;padding:12px 22px;border-radius:999px">{btn}</a></td>')
+    nest = cell("sunrise", "Join the Nest", "Daily sun, earthing and sky tools, plus the monthly group call.", "See the Nest", "/#nest", "#134f53", "#fcefda")
+    second = cell("telescope", "Share the Forecast", "Know someone who'd like a Sunday pause? Send them this.", "Read on the web", "/forecast/", "#d7783a", "#ffffff") if away else \
+             cell("headset-wink", "Need to talk it through?", "30 minutes with a real person. $75, or $50 for Nest members.", "Book a call", "/#calls", "#d7783a", "#ffffff")
+    return f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#fcefda;border-radius:16px;margin:24px 0 8px"><tr><td style="padding:22px 8px 8px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>{second}{nest}</tr></table></td></tr></table>'
+
+
 def build_forecasts():
     items = []
     for f in sorted((YEAR / "forecast").glob("*.md")):
@@ -202,7 +216,8 @@ def build_forecasts():
                  f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#134f53;border-radius:16px;margin:20px 0"><tr>'
                  f'<td width="80" style="padding:16px 0 16px 16px"><img src="/assets/email/journaling.png" width="64" alt="" style="display:block;width:64px;height:auto"></td>'
                  f'<td style="padding:16px 20px 16px 12px"><div style="font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:2px;font-weight:800;color:#fcab79;text-transform:uppercase">A question to sit with</div>'
-                 f'<div style="font-family:Georgia,serif;font-style:italic;font-size:19px;line-height:1.4;color:#fcefda">{q}</div></td></tr></table>')
+                 f'<div style="font-family:Georgia,serif;font-style:italic;font-size:19px;line-height:1.4;color:#fcefda">{q}</div></td></tr></table>'
+                 f'{email_band(sunday)}')
         pub = datetime.datetime.fromisoformat(sunday + "T06:00").replace(tzinfo=MT) - datetime.timedelta(days=1)
         items.append({"title": meta["subject"], "url": url, "desc": meta["preview"], "pub": pub, "sunday": sunday, "pose": meta["pose"], "content": absolute(email)})
     items.sort(key=lambda i: i["sunday"], reverse=True)

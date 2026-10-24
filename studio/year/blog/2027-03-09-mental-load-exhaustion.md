@@ -1,5 +1,5 @@
 ---
-title: The mental load: why you're exhausted when you "didn't do anything"
+title: "The mental load: why you're exhausted when you 'didn't do anything'"
 slug: mental-load-exhaustion
 date: 2027-03-09
 description: Remembering, planning, worrying and tracking everything for everyone is real work. Here's what the mental load is and how to lighten it.

@@ -44,7 +44,7 @@ Grief often gets louder at the holidays. It's okay to be sad. You can set a plac
 
 ## You can talk to someone this week
 
-Our support calls run Mondays and Tuesdays, including this week. It's 30 minutes with a real, trained person who will listen without judgment. Sometimes hearing a kind voice on the phone is enough to make the rest of the week feel lighter.
+Our support calls are open today until 7 pm Mountain. It's 30 minutes with a real, trained person who will listen without judgment. Sometimes hearing a kind voice on the phone is enough to make the rest of the week feel lighter.
 
 *If loneliness ever turns into thoughts of suicide, please call or text 988 (US) right away. It's free and open every day, including holidays.*
 

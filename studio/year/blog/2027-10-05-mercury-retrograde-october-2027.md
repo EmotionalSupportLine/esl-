@@ -47,7 +47,7 @@ From October 16, Mercury moves back into Libra, associated with relationships, f
 
 ## Old things coming back?
 
-Retrogrades often bring old conversations, people and feelings back to the surface. If something is weighing on you, a support call can help you talk it through.
+Many people use retrogrades as a prompt to revisit old conversations and feelings. If something is weighing on you, a support call can help you talk it through.
 
 ## Look back on the year's sky
 

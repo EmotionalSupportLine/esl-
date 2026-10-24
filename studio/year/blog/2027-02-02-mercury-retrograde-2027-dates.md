@@ -8,7 +8,7 @@ cta: moon-calendar
 pose: planets
 status: approved
 ---
-Mercury retrograde has a reputation. Lost emails, crossed wires, exes reappearing, tech falling apart. It's easy to dread.
+Mercury retrograde has a reputation. Lost emails, crossed wires, old friends reappearing, tech falling apart. It's easy to dread.
 
 Here are the 2027 dates, what's actually happening in the sky, and a calmer way to use these weeks.
 

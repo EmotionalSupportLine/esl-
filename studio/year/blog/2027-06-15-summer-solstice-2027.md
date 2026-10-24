@@ -8,7 +8,7 @@ cta: nest
 pose: sunrise-lotus
 status: approved
 ---
-On **Monday, June 21, 2027**, the Northern Hemisphere gets its longest day of the year. It's the summer solstice: the sun rises earliest, sets latest and climbs highest in the sky.
+On **Monday, June 21, 2027**, the Northern Hemisphere gets its longest day of the year. It's the summer solstice: we get the longest stretch of daylight and the sun climbs highest in the sky.
 
 From here, the days slowly begin to shorten again. That makes the solstice a natural moment to pause at the peak of the light and take stock.
 

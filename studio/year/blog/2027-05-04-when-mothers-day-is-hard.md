@@ -38,7 +38,7 @@ Tell someone what you'd actually like this year: an hour alone, help with a spec
 
 ## You can talk to someone
 
-Our support calls run on Monday and Tuesday this week. If Mother's Day is weighing on you, 30 minutes with a kind, trained supporter can help you plan the day, or simply say out loud what's hard about it.
+Support calls are open today until 7 pm Mountain, and again Monday and Tuesday after Mother's Day. If Mother's Day is weighing on you, 30 minutes with a kind, trained supporter can help you plan the day, or simply say out loud what's hard about it.
 
 *If grief or pain ever leads to thoughts of suicide, please call or text 988 (US) right away.*
 

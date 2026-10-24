@@ -33,8 +33,6 @@ That's it. One email a week, no noise.
 
 And if you're curious, you can [see your free Human Design chart](https://theemotionalsupportline.com/#chart) on our homepage. It takes about a minute.
 
-Talk soon,
-
 === 2
 delay: 2 days
 pose: heart-hug
@@ -51,7 +49,7 @@ That's on purpose. It's what we believe support looks like: two people sitting t
 
 ## What we do
 
-**The Emotional Support Line** offers 30-minute calls with a real, trained supporter. Never AI. People call about all kinds of things: big feelings, family stress, hard decisions, burnout, loneliness, life changes. You don't have to be in crisis. You don't need the right words.
+**The Emotional Support Line** offers 30-minute calls with a real, trained supporter. Never AI. You can call about all kinds of things: big feelings, family stress, hard decisions, burnout, loneliness, life changes. You don't have to be in crisis. You don't need the right words.
 
 **The Nest** is a little app for the habits that steady you between calls: morning sun, bare feet on the ground and a look at the sky.
 
@@ -60,8 +58,6 @@ That's on purpose. It's what we believe support looks like: two people sitting t
 We're not therapy, and we're not a crisis line. If you're ever in danger or thinking about suicide, please call or text **988** (US) or call **911**. They're trained for exactly that, any hour.
 
 For everything else, the hard weeks, the in-between, the "I'm not okay but I'm not in an emergency either," we're here.
-
-With you,
 
 === 3
 delay: 5 days
@@ -92,8 +88,6 @@ That's what **the Nest** is for. Its Earth Charge timer tracks your morning sun 
 
 The Nest is $19 a month, or $190 a year. Members also get support calls at $50 instead of $75. [See the Nest](https://theemotionalsupportline.com/#nest)
 
-See you outside,
-
 === 4
 delay: 9 days
 pose: headset-wink
@@ -122,8 +116,6 @@ And if you know someone who could use a call but can't afford one, our **Pay It 
 
 *We're not a crisis line. If you're in danger or thinking about suicide, please call or text 988 (US) or call 911.*
 
-With you,
-
 === 5
 delay: 14 days
 pose: bodygraph
@@ -146,12 +138,8 @@ Human Design is a system that uses your birth date, time and place to map your e
 - **Your strategy**: how you're designed to engage with opportunities
 - **Your authority**: how you're designed to make decisions. Many people find this one the most useful
 
-Our [blog](https://theemotionalsupportline.com/blog/) has plain-English guides to Human Design and each type.
-
 ## If you want to go deeper
 
 Year of YES! Coaching with Tracee Sioux is a one-year program built around your chart: two hours a month of one-on-one coaching for women ready to build a life that's theirs. [Learn about Year of YES! Coaching](https://theemotionalsupportline.com/year-of-yes)
 
 Either way, we'll see you Sunday.
-
-With you,

@@ -10,7 +10,7 @@ status: approved
 ---
 On **Monday, December 21, 2026**, the Northern Hemisphere has its longest night of the year. It's the winter solstice.
 
-After that night, the days start to lengthen again. Slowly at first, just a minute or two a day, but steadily. For thousands of years, people have gathered around fires on this night to mark the return of the light.
+After that night, the days start to lengthen again. Slowly at first, just seconds a day, then minutes, but steadily. For thousands of years, people have gathered around fires on this night to mark the return of the light.
 
 You don't have to light a bonfire to feel the meaning of it.
 

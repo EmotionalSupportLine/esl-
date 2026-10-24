@@ -2,7 +2,7 @@
 title: Why resolutions fade by February, and what to try instead
 slug: alternatives-to-new-years-resolutions
 date: 2027-01-05
-description: Most New Year's resolutions quietly disappear within weeks. Here are kinder, more realistic alternatives that actually stick.
+description: New Year's resolutions often quietly disappear within weeks. Here are kinder, more realistic alternatives that actually stick.
 keyword: alternatives to new year's resolutions
 cta: nest
 pose: idea

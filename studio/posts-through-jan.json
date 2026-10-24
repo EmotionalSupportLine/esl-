@@ -1,13 +1,13 @@
 [
  {
   "id": "01-mon-oct26-launch",
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "time": "08:00",
   "type": "cta",
   "title": "We're open. Talk to a real person today.",
   "body": "30-minute support calls for $75, plus the Nest at a $14 founding price.",
   "button": "Book a call",
-  "caption": "We're open. 🌕\n\nToday, on the full moon, The Emotional Support Line launches: 30-minute calls with a calm, grounded human who listens, asks good questions, and helps you find your next step.\n\nWe're also opening the Nest, a little app for the habits that steady you: morning sun, bare feet on the ground, and a weekly look at the sky.\n\nFounding members pay $14 a month for as long as they stay. Link in bio.\n\nNot a crisis line. If you're in danger, call or text 988.",
+  "caption": "We're open. 🌕\n\nUnder this week's full moon, The Emotional Support Line launches: 30-minute calls with a calm, grounded human who listens, asks good questions, and helps you find your next step.\n\nWe're also opening the Nest, a little app for the habits that steady you: morning sun, bare feet on the ground, and a weekly look at the sky.\n\nFounding members pay $14 a month for as long as they stay. Link in bio.\n\nNot a crisis line. If you're in danger or thinking about suicide, call or text 988 (US).",
   "tags": "#EmotionalSupportLine #FeelHeard #FullMoon #YouAreNotAlone #HereToListen #MentalHealthSupport #Earthing #HumanDesign",
   "pose": "phone"
  },
@@ -30,7 +30,7 @@
   "type": "affirmation",
   "text": "You don't have to carry it all by yourself today.",
   "caption": "Save this for the day you need it. 💛\n\nAnd if today is that day, we're here to listen.",
-  "tags": "#Affirmation #YouAreEnough #DailyReminder #HealingJourney #EmotionalSupportLine",
+  "tags": "#Affirmation #YouAreEnough #DailyReminder #SelfCompassion #EmotionalSupportLine",
   "pose": "heart-hug"
  },
  {
@@ -84,7 +84,7 @@
   "type": "relatable",
   "text": "Mercury is retrograde, and every old conversation is knocking at the door.",
   "sub": "Until Nov 13: a good time to revisit, repair and rest, not to force.",
-  "caption": "Mercury turned retrograde on Oct 24 and goes direct Nov 13. 🪐\n\nWhether or not you follow the sky, it's a useful prompt: what old conversation is asking for a gentler second try?\n\nThe Nest shows the real planet positions every day, calculated from actual astronomy. What they mean is up to you.",
+  "caption": "Mercury turned retrograde on Oct 24 and goes direct Nov 13. 🌕\n\nWhether or not you follow the sky, it's a useful prompt: what old conversation is asking for a gentler second try?\n\nThe Nest shows the real planet positions every day, calculated from actual astronomy. What they mean is up to you.",
   "tags": "#MercuryRetrograde #AstroWeather #Reflection #HumanDesign #EmotionalSupportLine",
   "pose": "moon-night"
  },
@@ -113,7 +113,7 @@
   "type": "cta",
   "title": "Real people. Never AI.",
   "body": "30 minutes for $75. You pay when you book, with no sales call first.",
-  "caption": "A question we get a lot: are the calls with AI?\n\nNo. Every call is with a real person. Calls are 30 minutes, one issue, and you leave with a clear next step.\n\n$75 a call, or $50 for Nest members. Link in bio.",
+  "caption": "Wondering if the calls are with AI?\n\nNo. Every call is with a real person. Calls are 30 minutes, one issue, and you leave with a clear next step.\n\n$75 a call, or $50 for Nest members. Link in bio.",
   "tags": "#RealConnection #FeelHeard #NotABot #EmotionalSupportLine #HereToListen #TalkToSomeone",
   "button": "Book a call",
   "pose": "phone"
@@ -168,7 +168,7 @@
   "type": "forecast",
   "start": "2026-11-08",
   "prompt": "The new moon is a quiet start. What small habit do you want to plant this week?",
-  "caption": "The Owl's Forecast for Nov 8 to 14. 🌑 New moon week.\n\nFree every Sunday in your inbox: link in bio.",
+  "caption": "The Owl's Forecast for Nov 8 to 14. 🌕 New moon week.\n\nFree every Sunday in your inbox: link in bio.",
   "tags": "#OwlsForecast #NewMoon #AstroWeather #Intentions #EmotionalSupportLine",
   "pose": "crystals",
   "events": [
@@ -185,7 +185,7 @@
     "text": "Venus turns direct in Libra"
    }
   ],
-  "phase": "New moon, Moon in Scorpio"
+  "phase": "Waning crescent, Moon in Scorpio"
  },
  {
   "id": "12-mon-nov9-relatable",
@@ -193,7 +193,7 @@
   "time": "12:00",
   "type": "relatable",
   "text": "\"I don't need therapy. I just need a calm, neutral person to help me think.\"",
-  "sub": "We hear this every week. That's what we're here for.",
+  "sub": "That's what we're here for.",
   "caption": "Sometimes you already know what you think. You just need to hear yourself say it to someone steady.\n\n30-minute calls, booked online. Link in bio.",
   "tags": "#TalkItOut #EmotionalSupportLine #LifeCoaching #Clarity #HereToListen",
   "cta": "Book a call · link in bio",
@@ -205,8 +205,8 @@
   "time": "08:00",
   "type": "affirmation",
   "text": "Getting better isn't a straight line. You're doing better than you think.",
-  "caption": "Some days are leaps. Some days feel like square one. Both count. 🌸",
-  "tags": "#ProgressNotPerfection #HealingJourney #Affirmation #BeKindToYourself #EmotionalSupportLine",
+  "caption": "Some days are leaps. Some days feel like square one. Both count. 💛",
+  "tags": "#ProgressNotPerfection #SelfCompassion #Affirmation #BeKindToYourself #EmotionalSupportLine",
   "pose": "butterfly"
  },
  {
@@ -217,9 +217,9 @@
   "title": "Founding price: $14 a month, for as long as you stay.",
   "body": "Sun and earthing tracking, the sky where you live, classes, a monthly Community Call and $50 calls.",
   "button": "Join the Nest",
-  "caption": "Mercury goes direct today, and the founding price for the Nest is still open. 🦉\n\n$14 a month, locked for as long as you stay. Join before December 1.\n\nYour tracking stays on your own phone. We only keep your email and your payment.",
+  "caption": "Mercury goes direct today, and the founding price for the Nest is still open. 🦉\n\n$14 a month, locked for as long as you stay. Join by November 30.\n\nYour tracking stays on your own phone. We only keep your email and your payment.",
   "tags": "#TheNest #FoundingMember #Earthing #HumanDesign #MoonPhases #EmotionalSupportLine",
-  "foot": "After Dec 1 it's $19 · theemotionalsupportline.com",
+  "foot": "From Dec 1 it's $19 · theemotionalsupportline.com",
   "pose": "garden"
  },
  {
@@ -229,7 +229,7 @@
   "type": "forecast",
   "start": "2026-11-15",
   "prompt": "The moon is growing. What's one thing you'd like more of this week, and what would make room for it?",
-  "caption": "This week's sky: a first quarter moon in Aquarius and a quiet stretch to build on.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "caption": "This week's sky: a waxing crescent moon in Aquarius, and the Leonid meteor shower peaks around Tuesday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
@@ -251,7 +251,7 @@
   "type": "relatable",
   "text": "When everyone thinks you're fine because you're always the one holding it together.",
   "sub": "Strong people need someone to talk to, too.",
-  "caption": "Strong people need someone to talk to, too. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Strong people need someone to talk to, too. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "umbrella"
  },
@@ -290,7 +290,7 @@
     "body": "And you'd love for someone to notice you're not."
    }
   ],
-  "caption": "Save this for the week you need it.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Save this for the week you need it.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "thinking"
  },
@@ -299,10 +299,10 @@
   "date": "2026-11-20",
   "time": "08:00",
   "type": "cta",
-  "title": "Founding price ends December 1.",
-  "body": "The Nest: $14 a month, locked in for as long as you stay. After Dec 1 it's $19.",
+  "title": "Founding price ends November 30.",
+  "body": "The Nest: $14 a month, locked in for as long as you stay. From Dec 1 it's $19.",
   "button": "Join the Nest",
-  "caption": "The founding price for the Nest ends December 1. $14 a month, locked in for as long as you stay. After that it's $19. Link in bio. 🧡",
+  "caption": "The founding price for the Nest ends November 30. $14 a month, locked in for as long as you stay. From December 1 it's $19. Link in bio. 🧡",
   "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine",
   "pose": "garden"
  },
@@ -335,7 +335,7 @@
   "type": "relatable",
   "text": "Holidays: when you love your family and also need a nap from them.",
   "sub": "Both can be true.",
-  "caption": "Both can be true. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Both can be true. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Free Sunday Forecast · link in bio",
   "pose": "hammock"
@@ -369,7 +369,7 @@
     "body": "A walk, a quiet minute, a text to a friend. Know where your five minutes of calm will come from."
    }
   ],
-  "caption": "Thanksgiving is Thursday. A little planning goes a long way.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Thanksgiving is Thursday. A little planning goes a long way.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "cooking"
  },
@@ -378,10 +378,10 @@
   "date": "2026-11-27",
   "time": "08:00",
   "type": "cta",
-  "title": "4 days left for the founding price.",
-  "body": "The Nest: $14 a month, locked in for as long as you stay. After Dec 1 it's $19.",
+  "title": "The founding price ends November 30.",
+  "body": "The Nest: $14 a month, locked in for as long as you stay. From Dec 1 it's $19.",
   "button": "Join the Nest",
-  "caption": "Four days left. The founding price for the Nest ends Tuesday, December 1: $14 a month, locked in for as long as you stay. Link in bio. 🧡",
+  "caption": "The founding price for the Nest ends Monday, November 30: $14 a month, locked in for as long as you stay. Link in bio. 🧡",
   "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine",
   "pose": "phone"
  },
@@ -412,10 +412,10 @@
   "date": "2026-11-30",
   "time": "08:00",
   "type": "cta",
-  "title": "Last 2 days for the founding price.",
-  "body": "$14 a month for the Nest, locked in for as long as you stay. Ends Tuesday, December 1.",
+  "title": "Last day for the founding price.",
+  "body": "$14 a month for the Nest, locked in for as long as you stay. Ends tonight, November 30.",
   "button": "Join the Nest",
-  "caption": "Last call: the founding price for the Nest ends tomorrow, December 1. $14 a month, locked in for as long as you stay. Link in bio. 🧡",
+  "caption": "The founding price for the Nest ends tonight, November 30. $14 a month, locked in for as long as you stay. Link in bio. 🧡",
   "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine",
   "pose": "excited"
  },
@@ -425,7 +425,7 @@
   "time": "08:00",
   "type": "affirmation",
   "text": "You're allowed to rest before you've earned it.",
-  "caption": "Rest isn't a reward. It's part of the plan. 🌿\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Rest isn't a reward. It's part of the plan. 🌿\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine",
   "pose": "sleeping"
  },
@@ -435,9 +435,9 @@
   "time": "08:00",
   "type": "cta",
   "title": "Our first Community Call is this Sunday.",
-  "body": "December 6, 11 am Mountain. Free for Owl's Forecast readers. Bring a question or just listen.",
-  "button": "Get the Forecast to join",
-  "caption": "Our first Community Call is this Sunday, December 6, at 11 am Mountain. Free for Owl's Forecast readers. Bring a question or just listen. Get the Forecast at the link in bio to join. 💛",
+  "body": "December 6, 11 am Mountain. For Nest members. Bring a question or just listen.",
+  "button": "Join the Nest",
+  "caption": "Our first Community Call is this Sunday, December 6, at 11 am Mountain. It's for Nest members: bring a question or just listen. Join the Nest at the link in bio. 💛",
   "tags": "#TalkItOut #EmotionalSupport #TheNest #HereToListen #EmotionalSupportLine",
   "pose": "heart-wings"
  },
@@ -448,7 +448,7 @@
   "type": "forecast",
   "start": "2026-12-06",
   "prompt": "A new moon and Saturn turning direct: what slow, steady thing are you finally ready to build?",
-  "caption": "New moon in Sagittarius on Wednesday, Saturn turns direct Thursday, and Jupiter turns retrograde Saturday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "caption": "New moon in Sagittarius on Tuesday, Saturn turns direct Thursday, and Jupiter turns retrograde Saturday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
@@ -474,7 +474,7 @@
   "type": "relatable",
   "text": "When the to-do list is long and your patience is short.",
   "sub": "December does that. You're not failing.",
-  "caption": "December does that. You're not failing. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "December does that. You're not failing. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "laptop"
  },
@@ -485,7 +485,7 @@
   "type": "myth",
   "myth": "Asking for help means you can't handle it.",
   "truth": "Asking for help is how capable people keep handling it. Even the strongest women need someone in their corner.",
-  "caption": "Capable women ask for help. That's how they stay capable.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Capable women ask for help. That's how they stay capable.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
   "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine",
   "pose": "heart-hug"
  },
@@ -508,7 +508,7 @@
   "type": "forecast",
   "start": "2026-12-13",
   "prompt": "A quiet week in the sky. What would it feel like to do a little less, on purpose?",
-  "caption": "A waxing crescent moon in Aquarius and a quiet week overhead.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "caption": "A waxing crescent moon in Aquarius and the Geminids peak Monday night, one of the best meteor showers of the year.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "calm-glow",
   "events": [
@@ -526,7 +526,7 @@
   "type": "relatable",
   "text": "When you're the one who makes the holidays happen, and no one makes them happen for you.",
   "sub": "Your needs count in December too.",
-  "caption": "Your needs count in December too. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Your needs count in December too. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "cozy-coffee"
@@ -560,7 +560,7 @@
     "body": "A potluck is a love language too."
    }
   ],
-  "caption": "Every no makes room for a yes to yourself.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Every no makes room for a yes to yourself.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "journaling"
  },
@@ -583,7 +583,7 @@
   "type": "forecast",
   "start": "2026-12-20",
   "prompt": "The longest night is here, and a full moon in Cancer follows. Who feels like home to you, and how can you let them know?",
-  "caption": "The Sun enters Capricorn, and a full moon in Cancer rises on Christmas Eve.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "caption": "The Sun enters Capricorn, and a full moon in Cancer on Wednesday, December 23.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
@@ -608,7 +608,7 @@
   "time": "08:00",
   "type": "affirmation",
   "text": "You don't have to feel merry. You just have to be gentle with yourself.",
-  "caption": "For the longest night of the year. 🌕\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "For the longest night of the year. 🌕\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine",
   "pose": "calm-glow"
  },
@@ -659,7 +659,7 @@
   "type": "relatable",
   "text": "That strange week between holidays when no one knows what day it is.",
   "sub": "Rest counts. You don't have to make it productive.",
-  "caption": "Rest counts. You don't have to make it productive. 🌿\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Rest counts. You don't have to make it productive. 🌿\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "hammock"
@@ -693,7 +693,7 @@
     "body": "Tell a friend. Saying it out loud makes it real."
    }
   ],
-  "caption": "A gentler way to start the year.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "A gentler way to start the year.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "journaling"
  },
@@ -740,7 +740,7 @@
   "type": "relatable",
   "text": "Back to work, and your brain is still on vacation.",
   "sub": "Go slow this week. Momentum comes back.",
-  "caption": "Go slow this week. Momentum comes back. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Go slow this week. Momentum comes back. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "laptop"
  },
@@ -751,7 +751,7 @@
   "type": "myth",
   "myth": "A new year means you need a whole new you.",
   "truth": "You don't need fixing. A few small changes, kept up, change more than any big resolution.",
-  "caption": "You're not a project. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "You're not a project. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine",
   "pose": "butterfly"
  },
@@ -774,7 +774,7 @@
   "type": "forecast",
   "start": "2027-01-10",
   "prompt": "Mars turns back today. Where could you stop pushing and start pacing yourself?",
-  "caption": "Mars turns retrograde today, and Mercury moves into Aquarius on Wednesday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "caption": "Mars turns retrograde today, and Mercury moves into Aquarius on Tuesday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [
@@ -791,7 +791,7 @@
   "time": "08:00",
   "type": "relatable",
   "text": "When January asks for a new you and you're still recovering from the old year.",
-  "caption": "No new you required. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "No new you required. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "sleeping"
@@ -825,7 +825,7 @@
     "body": "Open the blinds and sit by your brightest window."
    }
   ],
-  "caption": "Small doses of daylight add up.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Small doses of daylight add up.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
   "tags": "#SelfCare #Boundaries #CalmDown #WomenSupportingWomen #EmotionalSupportLine",
   "pose": "cozy-coffee"
  },
@@ -870,7 +870,7 @@
   "type": "relatable",
   "text": "When you finally say what you need and the room goes quiet.",
   "sub": "Saying it was still the right thing.",
-  "caption": "It was still the right thing. 🧡\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "It was still the right thing. 🧡\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "pose": "thinking"
  },
@@ -880,7 +880,7 @@
   "time": "08:00",
   "type": "affirmation",
   "text": "Your needs aren't too much. They're information.",
-  "caption": "Listen to them. 🌿\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Listen to them. 🌿\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#Affirmation #GentleReminder #SelfCompassion #WomenOver40 #EmotionalSupportLine",
   "pose": "heart-wings"
  },
@@ -921,7 +921,7 @@
   "type": "relatable",
   "text": "When you're tired of being the strong one.",
   "sub": "You can lean, too. That's what we're here for.",
-  "caption": "You can lean, too. That's what we're here for. 💙\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "You can lean, too. That's what we're here for. 💙\n\nGet the free Sunday Owl's Forecast: link in bio.",
   "tags": "#YoureNotAlone #EmotionalSupport #WomenSupportingWomen #RealTalk #EmotionalSupportLine",
   "cta": "Book a call · link in bio",
   "pose": "umbrella"
@@ -933,7 +933,7 @@
   "type": "myth",
   "myth": "If you talk about it, you're dwelling on it.",
   "truth": "Saying it out loud to a calm person usually shrinks it. Keeping it in tends to make it louder.",
-  "caption": "Say it out loud. It gets smaller.\n\nComment FORECAST and we'll send you the free Sunday Owl's Forecast. 🦉",
+  "caption": "Say it out loud. It gets smaller.\n\nGet the free Sunday Owl's Forecast: link in bio. 🦉",
   "tags": "#MythVsTruth #EmotionalSupport #AskForHelp #RealTalk #EmotionalSupportLine",
   "pose": "headphones"
  },
@@ -956,7 +956,7 @@
   "type": "forecast",
   "start": "2027-01-31",
   "prompt": "The moon is letting go. What can you release before February begins?",
-  "caption": "A last quarter moon in Sagittarius, and Mercury moves into Pisces tomorrow.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
+  "caption": "A waning crescent moon, Mercury moves into Pisces today, and Saturday brings an annular solar eclipse.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
   "pose": "moon-night",
   "events": [

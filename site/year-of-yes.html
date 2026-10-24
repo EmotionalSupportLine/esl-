@@ -47,6 +47,13 @@
   ol.path h3 { margin: 6px 0; }
   ol.path p { color: var(--ink-2); margin: 0; }
   @media (max-width: 760px) { ol.path { grid-template-columns: 1fr; } }
+  ol.path li { display: grid; grid-template-columns: 1fr 96px; gap: 0 12px; align-items: start; }
+  ol.path li::before { grid-column: 1; }
+  ol.path li img { grid-column: 2; grid-row: 1 / span 3; width: 96px; filter: drop-shadow(0 8px 12px rgba(61,31,28,.18)); }
+  ol.path li h3, ol.path li p { grid-column: 1; }
+  .hd-note { display: flex; gap: 16px; align-items: center; margin-top: 24px; }
+  .hd-note img { width: 96px; flex: none; filter: drop-shadow(0 8px 12px rgba(61,31,28,.18)); }
+  .hd-note p { margin: 0; color: var(--ink-2); }
 
   .about { background: var(--blush); }
   .about p { max-width: 62ch; }
@@ -93,7 +100,7 @@
         <li>You make decisions from fear, guilt or other people's voices and want to hear your own</li>
         <li>You're curious how your Human Design could make choices feel easier</li>
       </ul>
-      <p style="margin-top:24px;color:var(--ink-2)">Coaching starts with your Human Design chart, so the plan fits how you actually make decisions, not how you think you should.</p>
+      <div class="hd-note"><img src="/assets/owls/human-design-book.webp" alt="" width="96" height="96" loading="lazy"><p>Coaching starts with your Human Design chart, so the plan fits how you actually make decisions, not how you think you should.</p></div>
     </div>
     <div class="card" id="apply">
       <div class="price"><span data-price="coaching"></span> <small>a month for 12 months</small></div>
@@ -113,9 +120,9 @@
   <div class="wrap">
     <h2>How it works</h2>
     <ol class="path">
-      <li><h3>Apply</h3><p>Tell Tracee what you want to be different six months from now.</p></li>
-      <li><h3>Fit call</h3><p>A free 15 minutes to see if coaching is right for you. No pressure either way.</p></li>
-      <li><h3>Begin</h3><p>If it's a yes, you get a payment link and book your first session.</p></li>
+      <li><img src="/assets/owls/journaling.webp" alt="" width="96" height="96" loading="lazy"><h3>Apply</h3><p>Tell Tracee what you want to be different six months from now.</p></li>
+      <li><img src="/assets/owls/compass.webp" alt="" width="96" height="96" loading="lazy"><h3>Fit call</h3><p>A free 15 minutes to see if coaching is right for you. No pressure either way.</p></li>
+      <li><img src="/assets/owls/sunrise.webp" alt="" width="96" height="96" loading="lazy"><h3>Begin</h3><p>If it's a yes, you get a payment link and book your first session.</p></li>
     </ol>
   </div>
 </section>

@@ -134,6 +134,68 @@
   .coach-card .note { color: var(--ink-2); }
   .coach-card .btn { width: 100%; }
   @media (max-width: 860px) { .coach-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- EmoOwl sticker art ---------- */
+  .sticker { display: block; height: auto; filter: drop-shadow(0 10px 14px rgba(13,58,61,.18)); transition: transform .35s cubic-bezier(.3,1.6,.5,1); }
+  .sticker:hover { transform: rotate(-4deg) scale(1.06); }
+  @keyframes bob { 0%,100% { transform: translateY(0) rotate(var(--r,0deg)); } 50% { transform: translateY(-8px) rotate(var(--r,0deg)); } }
+  .bob { animation: bob 4.5s ease-in-out infinite; }
+
+  /* Hero: an owl waving hello beside the headline, and one stargazing over the sky card */
+  .hero > div:first-child { position: relative; }
+  .hero > * { min-width: 0; }
+  .hero-owl { position: absolute; right: 0; top: 150px; width: clamp(110px, 13vw, 170px); --r: 6deg; }
+  .tonight { margin-top: 70px; }
+  .tonight .peek { position: absolute; right: 14px; top: -96px; width: 130px; --r: -4deg; }
+  @media (max-width: 860px) { .hero-owl { position: static; width: 120px; margin: 0 0 8px; } .hero h1 { max-width: none; } .tonight { margin-top: 90px; } }
+
+  /* The three ways in: each card wears an owl */
+  .way { position: relative; }
+  .way .badge-owl { width: 112px; margin: -6px 0 6px -6px; }
+  .way.nest .badge-owl { width: 128px; margin-top: -10px; }
+  .way.call .badge-owl { margin-left: auto; margin-right: -8px; }
+
+  /* Owl parade: a slow ribbon of everyday owls */
+  .parade { background: var(--night); padding: 26px 0 22px; overflow: hidden; position: relative; }
+  .parade p { text-align: center; color: var(--sun); font: italic 600 1.2rem var(--serif); margin: 0 0 12px; padding: 0 16px; }
+  .parade .track { display: flex; gap: 28px; width: max-content; animation: drift 70s linear infinite; }
+  .parade .track img { width: 120px; height: 120px; object-fit: contain; filter: drop-shadow(0 8px 10px rgba(0,0,0,.25)); }
+  .parade .track img:nth-child(odd) { transform: rotate(-5deg) translateY(4px); }
+  .parade .track img:nth-child(even) { transform: rotate(4deg); }
+  .parade:hover .track { animation-play-state: paused; }
+  @keyframes drift { to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .parade .track { width: auto; flex-wrap: wrap; justify-content: center; } .parade .track img.dup { display: none; } }
+
+  /* Call steps: an owl for each step, number on a badge */
+  ol.steps li { grid-template-columns: 84px 1fr; align-items: center; }
+  ol.steps li::before { display: none; }
+  ol.steps .ico { position: relative; width: 80px; }
+  ol.steps .ico img { width: 80px; }
+  ol.steps .ico span { position: absolute; left: -4px; top: -2px; width: 28px; height: 28px; border-radius: 50%; background: var(--orange); color: #fff; font: 700 .95rem/28px var(--serif); text-align: center; box-shadow: 0 0 0 3px var(--paper); }
+
+  /* "People call about": three feelings owls sitting on the card */
+  .reasons { position: relative; padding-top: 22px; }
+  .feel-row { display: flex; justify-content: space-between; align-items: flex-end; margin: -70px -6px 6px; }
+  .feel-row img { width: 31%; max-width: 118px; }
+  .feel-row img:nth-child(2) { margin-bottom: 14px; }
+  .calls-grid { padding-top: 40px; }
+  @media (max-width: 860px) { .reasons { margin-top: 56px; } }
+  .who img { object-fit: contain; padding: 4px; }
+
+  /* Nest features with owls */
+  .nest-grid div { display: grid; grid-template-columns: 92px 1fr; gap: 0 18px; align-items: start; }
+  .nest-grid div img { grid-row: span 2; width: 92px; }
+  .nest-hero { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; }
+  .nest-hero img { width: clamp(130px, 16vw, 190px); --r: -5deg; }
+  @media (max-width: 640px) { .nest-hero { grid-template-columns: 1fr; } .nest-hero img { width: 130px; } }
+
+  /* Coaching banner, founding box and the safe section get an owl each */
+  .coach-strip img { width: 86px; flex: none; }
+  .founding { display: flex; gap: 18px; align-items: center; }
+  .founding img { width: 104px; flex: none; --r: 6deg; }
+  @media (max-width: 560px) { .founding { flex-direction: column; align-items: flex-start; } }
+  .safe-owl { width: 150px; margin-top: 22px; }
+  footer .night-owl { width: 64px; display: inline-block; vertical-align: middle; margin-right: 8px; }
 </style>
 </head>
 <body>
@@ -188,6 +250,7 @@
 <main>
 <div class="wrap hero">
   <div>
+    <img class="sticker bob hero-owl" src="/assets/owls/headset-wink.webp" alt="EmoOwl with a headset, winking" width="170" height="170">
     <h1>Feel heard by a real person.</h1>
     <p class="lede">Book a 30-minute call with a calm, grounded human who listens, asks good questions, and helps you find your next step.</p>
     <div class="ctas">
@@ -198,6 +261,7 @@
   </div>
 
   <aside class="tonight" id="forecast" aria-labelledby="tonight-h">
+    <img class="sticker bob peek" src="/assets/owls/telescope.webp" alt="" width="130" height="130">
     <h2 id="tonight-h">Tonight's sky</h2>
     <div class="row"><div id="moon-small"></div><div><div class="phase" id="moon-phase">Reading the sky…</div><div class="sub" id="moon-sub"></div></div></div>
     <ul id="coming"></ul>
@@ -217,12 +281,14 @@
     <p class="note" style="max-width:56ch">Most people start with the free Forecast or a single call. Members get the daily tools and a lower call rate.</p>
     <div class="ways">
       <div class="way free">
+        <img class="sticker badge-owl" src="/assets/owls/full-moon.webp" alt="" width="112" height="112" loading="lazy">
         <h3>The Owl's Forecast</h3>
         <div class="price">Free</div>
         <p>A Sunday email with the week's moon phase, sun windows, space weather and planet shifts, plus a reflection prompt.</p>
         <a class="btn btn-ghost" href="#forecast">Get the Forecast</a>
       </div>
       <div class="way nest" id="nest">
+        <img class="sticker badge-owl" src="/assets/owls/earthing.webp" alt="" width="128" height="128" loading="lazy">
         <span class="tag" data-founding>Founding price open</span>
         <h3>The Nest</h3>
         <div class="price"><span data-price="nestMonthly"></span> <small>a month, or <span data-price="nestYearly"></span> a year</small></div>
@@ -236,6 +302,7 @@
         <a class="btn btn-cream" data-link="nestFounding" data-fallback="nestMonthly" href="#prices">Join the Nest</a>
       </div>
       <div class="way call">
+        <img class="sticker badge-owl" src="/assets/owls/heart-hug.webp" alt="" width="112" height="112" loading="lazy">
         <h3>A support call</h3>
         <div class="price"><span data-price="callPublic"></span> <small>for 30 minutes</small></div>
         <p>One issue, one real person, one clear next step. No membership needed.</p>
@@ -245,22 +312,32 @@
   </div>
 </section>
 
+<div class="parade" aria-label="EmoOwl, for every kind of day">
+  <p>For the cozy days, the stormy days, and everything in between.</p>
+  <div class="track" id="parade"></div>
+</div>
+
 <section class="block calls" id="calls" aria-labelledby="calls-h">
   <div class="wrap calls-grid">
     <div>
       <h2 id="calls-h">What a call is like</h2>
       <ol class="steps">
-        <li><div><h3>Pay, then pick a time</h3><p>Pay for your call, then choose an open 30-minute slot. Calls run <span data-hours></span>. No intro or sales call.</p></div></li>
-        <li><div><h3>Talk to a real person</h3><p>We listen, reflect back what we hear, and ask questions that fit how you make decisions.</p></div></li>
-        <li><div><h3>Leave with a next step</h3><p>One issue per call, so you hang up steadier and clearer about what to do next.</p></div></li>
+        <li><div class="ico"><img class="sticker" src="/assets/owls/smartphone.webp" alt="" width="80" height="80" loading="lazy"><span>1</span></div><div><h3>Pay, then pick a time</h3><p>Pay for your call, then choose an open 30-minute slot. Calls run <span data-hours></span>. No intro or sales call.</p></div></li>
+        <li><div class="ico"><img class="sticker" src="/assets/owls/headphones.webp" alt="" width="80" height="80" loading="lazy"><span>2</span></div><div><h3>Talk to a real person</h3><p>We listen, reflect back what we hear, and ask questions that fit how you make decisions.</p></div></li>
+        <li><div class="ico"><img class="sticker" src="/assets/owls/idea.webp" alt="" width="80" height="80" loading="lazy"><span>3</span></div><div><h3>Leave with a next step</h3><p>One issue per call, so you hang up steadier and clearer about what to do next.</p></div></li>
       </ol>
       <div class="who">
-        <img src="/assets/owl-128.png" alt="" id="tracee-photo">
+        <img src="/assets/owls/love-wink.webp" alt="" id="tracee-photo">
         <p><b>Calls are with a real, trained supporter</b> with years of experience helping people sort through big feelings and find their footing. Supporters go by first names or pen names, so your call stays personal and private for both of you.</p>
       </div>
       <p style="margin-top:28px"><a class="btn btn-sun" data-link="bookCall" href="#">Book a 30-minute call</a></p>
     </div>
     <div class="reasons">
+      <div class="feel-row" aria-hidden="true">
+        <img class="sticker" src="/assets/owls/rain-cloud.webp" alt="" width="118" height="118" loading="lazy">
+        <img class="sticker" src="/assets/owls/questions.webp" alt="" width="118" height="118" loading="lazy">
+        <img class="sticker" src="/assets/owls/tea-blanket.webp" alt="" width="118" height="118" loading="lazy">
+      </div>
       <h3>People call about</h3>
       <ul>
         <li>Big feelings that won't quiet down</li>
@@ -278,8 +355,9 @@
 
 <section class="block" id="coaching" aria-labelledby="coach-h" style="padding-top:0">
   <div class="wrap">
-    <div class="privacy" style="border-style:solid;border-color:var(--sun);align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px">
-      <p style="max-width:60ch"><b id="coach-h">Want deeper, ongoing coaching?</b> Year of YES! Coaching is two hours a month of one-on-one work with author Tracee Sioux, guided by your Human Design chart.</p>
+    <div class="privacy coach-strip" style="border-style:solid;border-color:var(--sun);align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px">
+      <img class="sticker" src="/assets/owls/compass.webp" alt="" width="86" height="86" loading="lazy">
+      <p style="max-width:60ch;flex:1 1 300px"><b id="coach-h">Want deeper, ongoing coaching?</b> Year of YES! Coaching is two hours a month of one-on-one work with author Tracee Sioux, guided by your Human Design chart.</p>
       <a class="btn btn-sun" href="/year-of-yes">See Year of YES! Coaching</a>
     </div>
   </div>
@@ -287,13 +365,18 @@
 
 <section class="block" aria-labelledby="nest-h">
   <div class="wrap">
-    <h2 id="nest-h">The Nest: small daily habits, between calls</h2>
-    <p style="max-width:60ch;color:var(--ink-2)">The Nest is an app you open on your phone. It helps you build the habits that steady you: time outside, morning sun, bare feet on the ground, and a little perspective from the sky.</p>
+    <div class="nest-hero">
+      <div>
+        <h2 id="nest-h">The Nest: small daily habits, between calls</h2>
+        <p style="max-width:60ch;color:var(--ink-2)">The Nest is an app you open on your phone. It helps you build the habits that steady you: time outside, morning sun, bare feet on the ground, and a little perspective from the sky.</p>
+      </div>
+      <img class="sticker bob" src="/assets/owls/sunrise.webp" alt="" width="190" height="190" loading="lazy">
+    </div>
     <div class="nest-grid">
-      <div><h3>Earth Charge</h3><p>Timers for earthing and morning sun, a streak, and a daily tally of soil, trees and garden time.</p></div>
-      <div><h3>Sky</h3><p>Moon phase, planet signs and retrogrades, space weather, and sunrise, sunset and UV for where you are.</p></div>
-      <div><h3>Library</h3><p>Eight Year of YES! courses with workbooks, including Soul-Conomics, Soul vs Ego and Time Joy-gasm, plus guided meditations.</p></div>
-      <div><h3>Live group call</h3><p>Our Community Call, the first Sunday of every month. Bring a question, or just listen.</p></div>
+      <div><img class="sticker" src="/assets/owls/flowers.webp" alt="" width="92" height="92" loading="lazy"><h3>Earth Charge</h3><p>Timers for earthing and morning sun, a streak, and a daily tally of soil, trees and garden time.</p></div>
+      <div><img class="sticker" src="/assets/owls/moon-phases.webp" alt="" width="92" height="92" loading="lazy"><h3>Sky</h3><p>Moon phase, planet signs and retrogrades, space weather, and sunrise, sunset and UV for where you are.</p></div>
+      <div><img class="sticker" src="/assets/owls/reading.webp" alt="" width="92" height="92" loading="lazy"><h3>Library</h3><p>Eight Year of YES! courses with workbooks, including Soul-Conomics, Soul vs Ego and Time Joy-gasm, plus guided meditations.</p></div>
+      <div><img class="sticker" src="/assets/owls/circle-of-people.webp" alt="" width="92" height="92" loading="lazy"><h3>Live group call</h3><p>Our Community Call, the first Sunday of every month. Bring a question, or just listen.</p></div>
     </div>
     <div class="privacy">
       <img src="/assets/owl-128.png" alt="" width="40" height="40">
@@ -325,8 +408,11 @@
         <tr><td><a href="/year-of-yes">Year of YES! Coaching</a></td><td class="amt"><span data-price="coaching"></span>/mo</td><td>2 hours a month of one-on-one coaching, plus the Nest. By application.</td></tr>
       </tbody>
     </table>
-    <div class="founding" data-founding>Founding members pay <span data-price="nestFounding"></span> a month for as long as they stay. Join before December 1 to lock it in.
-      <div style="margin-top:12px"><a class="btn btn-night" data-link="nestFounding" data-fallback="nestMonthly" href="#prices">Join at the founding price</a></div>
+    <div class="founding" data-founding>
+      <img class="sticker bob" src="/assets/owls/excited.webp" alt="" width="104" height="104" loading="lazy">
+      <div>Founding members pay <span data-price="nestFounding"></span> a month for as long as they stay. Join before December 1 to lock it in.
+        <div style="margin-top:12px"><a class="btn btn-night" data-link="nestFounding" data-fallback="nestMonthly" href="#prices">Join at the founding price</a></div>
+      </div>
     </div>
     <p class="note" style="margin-top:14px">Cancel anytime from the link in your receipt email.</p>
     <p style="margin-top:18px">Want to help someone who can't afford a call? <a data-link="payItForward" href="#">Give a call through the Pay It Forward Circle</a>.</p>
@@ -339,6 +425,7 @@
       <h2 id="safe-h">Not therapy. Not a crisis line.</h2>
       <p class="big">This is grounded emotional support and practical guidance for everyday stress, big feelings and hard decisions.</p>
       <p>We don't diagnose, prescribe or provide crisis care. If you're in danger or thinking about suicide, call or text <a href="tel:988">988</a> in the US, or your local emergency number.</p>
+      <img class="sticker safe-owl" src="/assets/owls/dove.webp" alt="" width="150" height="150" loading="lazy">
     </div>
     <div>
       <details><summary>Are the calls with AI?</summary><p>No. Every call is with a real person.</p></details>
@@ -354,7 +441,7 @@
 
 <footer>
   <div class="wrap">
-    <span>© <span id="yr"></span> The Emotional Support Line</span>
+    <span><img class="night-owl" src="/assets/owls/cozy-coffee.webp" alt="" width="64" height="64" loading="lazy">© <span id="yr"></span> The Emotional Support Line</span>
     <span><a href="/terms.html">Terms</a> &nbsp; <a href="/call-agreement.html">Call agreement</a> &nbsp; <a href="/privacy.html">Privacy</a> &nbsp; <a data-mail href="#">Contact</a></span>
   </div>
 </footer>
@@ -374,6 +461,11 @@
   $("[data-mail]").forEach((el) => { el.href = "mailto:" + C.email; });
   $("[data-hours]").forEach((el) => (el.textContent = C.callHours));
   document.getElementById("yr").textContent = new Date().getFullYear();
+
+  // Owl parade: the list is drawn twice so the ribbon loops seamlessly
+  const parade = ["meditation-cushion","journaling","guitar","butterfly","pets","warrior-sun","herbal-tea","hammock","painting","winter-cocoa","lotus-hug","sleeping","flying-joy","calm-glow","cozy-coffee","telescope"];
+  const pt = document.getElementById("parade");
+  if (pt) pt.innerHTML = [0, 1].map((k) => parade.map((n) => `<img src="/assets/owls/${n}.webp" alt="" width="120" height="120" loading="lazy"${k ? ' class="dup"' : ""}>`).join("")).join("");
 
   // Live sky
   const m = Sky.moon();

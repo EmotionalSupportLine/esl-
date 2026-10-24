@@ -29,7 +29,7 @@ HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name=
 <div class="crisis">Not a crisis line. If you're in danger or thinking about suicide, call or text <a href="tel:988">988</a> (US) or your local emergency number.</div>
 <div class="wrap"><header class="top"><a class="brand" href="/"><img src="/assets/owl-128.png" alt=""><span>The Emotional<br>Support Line</span></a>
 <nav class="links" aria-label="Main"><a href="/blog/">Blog</a><a href="/forecast/">Forecast</a><a class="btn btn-sun" href="/#calls">Book a call</a></nav></header></div><main>"""
-SIGNUP = ('<aside class="signup"><img src="/assets/owls/telescope.webp" alt="" width="96" height="96"><div><h2>Get the Owl\'s Forecast, free every Sunday</h2>'
+SIGNUP = ('<aside class="signup"><img src="/assets/owls/telescope.webp" alt="" width="96" height="96"><div><h2>Get EmoOwl\'s Energy Forecast, free every Sunday</h2>'
           '<p>Every moon on this page, plus the week\'s sky and one question to sit with, in your inbox.</p>'
           '<form class="field" action="https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&amp;id=bd683fce4d" method="post" target="_blank">'
           '<input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" required><div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div><button class="btn btn-sun" type="submit">Send me the Forecast</button></form></div></aside>')

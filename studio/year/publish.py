@@ -123,7 +123,7 @@ def cta_box(kind, date="2099-01-01"):
 
 
 def signup():
-    return ('<aside class="signup"><img src="/assets/owls/telescope.webp" alt="" width="96" height="96" loading="lazy"><div><h2>The Owl\'s Forecast, free every Sunday</h2>'
+    return ('<aside class="signup"><img src="/assets/owls/telescope.webp" alt="" width="96" height="96" loading="lazy"><div><h2>EmoOwl\'s Energy Forecast, free every Sunday</h2>'
             '<p>The week\'s moon and sky, a note on getting outside, and one question to sit with.</p>'
             '<form class="field" action="https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&amp;id=bd683fce4d" method="post" target="_blank">'
             '<input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" required><div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div><button class="btn btn-sun" type="submit">Send me the Forecast</button></form></div></aside>')
@@ -200,7 +200,7 @@ def build_forecasts():
         url = f"{BASE}/forecast/{sunday}"
         content = md(body)
         q = html.escape(meta["question"])
-        main = (f'<article class="wrap post"><header class="post-head"><div><p class="kicker"><a href="/forecast/">The Owl\'s Forecast</a> · week of {nice(sunday)}</p>'
+        main = (f'<article class="wrap post"><header class="post-head"><div><p class="kicker"><a href="/forecast/">EmoOwl\'s Energy Forecast</a> · week of {nice(sunday)}</p>'
                 f'<h1>{html.escape(meta["subject"])}</h1><p class="lede">{html.escape(meta["preview"])}</p></div>{owl(meta["pose"], 220, "sticker hero-owl")}</header>'
                 f'<div class="prose">{content}<div class="question">{owl("journaling", 80, "")}<div><span>A question to sit with</span><p>{q}</p></div></div></div>'
                 f'<section class="transit"><h2>Live Human Design transits</h2><p>Where the Sun, Earth, Moon and planets sit in the gates right now. A prompt for reflection, never a prediction.</p><script async src="https://neutrinoplatform.com/js/widget-v2/loader.js"></script><neutrino-widget type="transit" api-key="5a9615047c3d45d235176ff704d765965ff62b14"></neutrino-widget></section>{signup()}<p class="safety">{CRISIS} Sky positions are real astronomy; what they mean for you is a prompt for reflection, never a prediction.</p></article>')
@@ -222,7 +222,7 @@ def build_forecasts():
         items.append({"title": meta["subject"], "url": url, "desc": meta["preview"], "pub": pub, "sunday": sunday, "pose": meta["pose"], "content": absolute(email)})
     items.sort(key=lambda i: i["sunday"], reverse=True)
     cards = "".join(f'<a class="card" href="/forecast/{i["sunday"]}">{owl(i["pose"], 110, "sticker")}<div><span class="date">Week of {nice(i["sunday"])}</span><h2>{html.escape(i["title"])}</h2><p>{html.escape(i["desc"])}</p></div></a>' for i in items)
-    main = (f'<section class="wrap blog-index"><div class="index-head"><div><h1>The Owl\'s Forecast</h1><p class="lede">Every Sunday: the week\'s moon and sky, a note on getting outside, and one question to sit with.</p></div>'
+    main = (f'<section class="wrap blog-index"><div class="index-head"><div><h1>EmoOwl\'s Energy Forecast</h1><p class="lede">Every Sunday: the week\'s moon and sky, a note on getting outside, and one question to sit with.</p></div>'
             f'{owl("telescope", 200, "sticker hero-owl")}</div><section class="transit"><h2>Live Human Design transits</h2><p>Where the Sun, Earth, Moon and planets sit in the gates right now. A prompt for reflection, never a prediction.</p><script async src="https://neutrinoplatform.com/js/widget-v2/loader.js"></script><neutrino-widget type="transit" api-key="5a9615047c3d45d235176ff704d765965ff62b14"></neutrino-widget></section>{signup()}<div class="cards">{cards}</div></section>')
     (SITE / "forecast").mkdir(exist_ok=True)
     (SITE / "forecast" / "index.html").write_text(page("EmoOwl's Energy Forecast", "The week's moon and sky, every Sunday.", BASE + "/forecast/", main, "telescope"))

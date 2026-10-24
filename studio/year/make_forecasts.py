@@ -19,9 +19,10 @@ INVITE = {
     "nest": "The Nest app shows the moon, the planets and your sunrise and sunset every day, and keeps your morning sun and earthing streak going. [See the Nest](/#nest)",
     "chart": "Curious which gates are defined in your own chart? [See your free Human Design chart](/#chart)",
 }
+(Y / "forecast").mkdir(exist_ok=True)
 n = 0
 (Y / "forecast").mkdir(exist_ok=True)
-for c in copy:
+for c in (copy if __name__ == "__main__" else []):
     w = sky[c["w"]]; hd = w["hd"]
     moon_line = f'{phase_name(w["sunday"])} on Sunday, with the Moon in {w["moonOnSunday"].split("Moon in ")[1]}.'
     ev = "\n".join(f'- **{e["when"]}:** {e["text"]}' for e in w["events"]) or "- A quiet week, with no major shifts in the sky."
@@ -55,4 +56,5 @@ The Sun begins the week in **Gate {hd["sunGate"]}, {GATE[hd["sunGate"]]}** (line
     fm = f'---\ndate: {w["sunday"]}\nsubject: "{c["subject"]}"\npreview: "{c["preview"]}"\npose: {c["pose"]}\nquestion: "{c["question"]}"\nstatus: approved\n---\n'
     (Y / "forecast" / f'{w["sunday"]}.md').write_text(fm + body)
     n += 1
-print(n, "forecasts")
+if __name__ == "__main__": print(n, "forecasts")
+

@@ -97,7 +97,14 @@
   "prompt": "What feels finished this week? Let the waning moon help you set it down.",
   "caption": "The Owl's Forecast for Nov 1 to 7. 🦉\n\nThe week's moon and sky, plus one question to sit with. Get it in your inbox free every Sunday: link in bio.",
   "tags": "#OwlsForecast #MoonPhase #AstroWeather #WeeklyForecast #EmotionalSupportLine",
-  "pose": "moon-night"
+  "pose": "moon-night",
+  "events": [
+   {
+    "date": null,
+    "text": "Retrograde: Mercury, Venus, Saturn, Uranus, Neptune"
+   }
+  ],
+  "phase": "Last quarter, Moon in Leo"
  },
  {
   "id": "08-mon-nov2-cta",
@@ -163,7 +170,22 @@
   "prompt": "The new moon is a quiet start. What small habit do you want to plant this week?",
   "caption": "The Owl's Forecast for Nov 8 to 14. 🌑 New moon week.\n\nFree every Sunday in your inbox: link in bio.",
   "tags": "#OwlsForecast #NewMoon #AstroWeather #Intentions #EmotionalSupportLine",
-  "pose": "crystals"
+  "pose": "crystals",
+  "events": [
+   {
+    "date": "2026-11-09T12:00:00",
+    "text": "New moon in Scorpio"
+   },
+   {
+    "date": "2026-11-13T12:00:00",
+    "text": "Mercury turns direct in Scorpio"
+   },
+   {
+    "date": "2026-11-13T12:00:00",
+    "text": "Venus turns direct in Libra"
+   }
+  ],
+  "phase": "New moon, Moon in Scorpio"
  },
  {
   "id": "12-mon-nov9-relatable",
@@ -209,7 +231,18 @@
   "prompt": "The moon is growing. What's one thing you'd like more of this week, and what would make room for it?",
   "caption": "This week's sky: a first quarter moon in Aquarius and a quiet stretch to build on.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "moon-night"
+  "pose": "moon-night",
+  "events": [
+   {
+    "date": "2026-11-17T12:00:00",
+    "text": "Leonid meteor shower peaks around now"
+   },
+   {
+    "date": "2026-11-22T12:00:00",
+    "text": "Sun enters Sagittarius"
+   }
+  ],
+  "phase": "Waxing crescent, Moon in Aquarius"
  },
  {
   "id": "11-16-relatable",
@@ -282,7 +315,18 @@
   "prompt": "The full moon lights up what's been said and unsaid. What conversation could you let be lighter?",
   "caption": "Full moon in Gemini on Tuesday, and the Sun moves into Sagittarius.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "calm-glow"
+  "pose": "calm-glow",
+  "events": [
+   {
+    "date": "2026-11-24T12:00:00",
+    "text": "Full moon in Gemini"
+   },
+   {
+    "date": "2026-11-25T12:00:00",
+    "text": "Mars enters Virgo"
+   }
+  ],
+  "phase": "Waxing gibbous, Moon in Taurus"
  },
  {
   "id": "11-23-relatable",
@@ -350,7 +394,18 @@
   "prompt": "Venus moves into Scorpio this week. Which relationship deserves more honesty, starting with the one with yourself?",
   "caption": "A waning gibbous moon in Leo, and Venus enters Scorpio on Friday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "crystals"
+  "pose": "crystals",
+  "events": [
+   {
+    "date": "2026-12-04T12:00:00",
+    "text": "Venus enters Scorpio"
+   },
+   {
+    "date": "2026-12-06T12:00:00",
+    "text": "Mercury enters Sagittarius"
+   }
+  ],
+  "phase": "Waning gibbous, Moon in Leo"
  },
  {
   "id": "11-30-cta",
@@ -395,7 +450,22 @@
   "prompt": "A new moon and Saturn turning direct: what slow, steady thing are you finally ready to build?",
   "caption": "New moon in Sagittarius on Wednesday, Saturn turns direct Thursday, and Jupiter turns retrograde Saturday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "moon-night"
+  "pose": "moon-night",
+  "events": [
+   {
+    "date": "2026-12-08T12:00:00",
+    "text": "New moon in Sagittarius"
+   },
+   {
+    "date": "2026-12-10T12:00:00",
+    "text": "Saturn turns direct in Aries"
+   },
+   {
+    "date": "2026-12-12T12:00:00",
+    "text": "Neptune turns direct in Aries"
+   }
+  ],
+  "phase": "Waning crescent, Moon in Scorpio"
  },
  {
   "id": "12-07-relatable",
@@ -440,7 +510,14 @@
   "prompt": "A quiet week in the sky. What would it feel like to do a little less, on purpose?",
   "caption": "A waxing crescent moon in Aquarius and a quiet week overhead.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "calm-glow"
+  "pose": "calm-glow",
+  "events": [
+   {
+    "date": "2026-12-14T12:00:00",
+    "text": "Geminid meteor shower peaks around now, one of the best of the year"
+   }
+  ],
+  "phase": "Waxing crescent, Moon in Aquarius"
  },
  {
   "id": "12-14-relatable",
@@ -508,7 +585,22 @@
   "prompt": "The longest night is here, and a full moon in Cancer follows. Who feels like home to you, and how can you let them know?",
   "caption": "The Sun enters Capricorn, and a full moon in Cancer rises on Christmas Eve.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "moon-night"
+  "pose": "moon-night",
+  "events": [
+   {
+    "date": "2026-12-21T12:00:00",
+    "text": "Sun enters Capricorn"
+   },
+   {
+    "date": "2026-12-23T12:00:00",
+    "text": "Full moon in Cancer"
+   },
+   {
+    "date": "2026-12-25T12:00:00",
+    "text": "Mercury enters Capricorn"
+   }
+  ],
+  "phase": "Waxing gibbous, Moon in Taurus"
  },
  {
   "id": "12-21-affirmation",
@@ -551,7 +643,14 @@
   "prompt": "Before you set a single resolution: what did this year teach you that you want to keep?",
   "caption": "A waning gibbous moon in Leo and a quiet week to look back.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "crystals"
+  "pose": "crystals",
+  "events": [
+   {
+    "date": "2027-01-03T12:00:00",
+    "text": "Quadrantid meteor shower peaks around now"
+   }
+  ],
+  "phase": "Waning gibbous, Moon in Leo"
  },
  {
   "id": "12-28-relatable",
@@ -617,7 +716,22 @@
   "prompt": "A new moon in Capricorn is a quiet start. What one steady habit do you want to plant for 2027?",
   "caption": "New moon in Capricorn on Thursday, and Venus moves into Sagittarius.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "calm-glow"
+  "pose": "calm-glow",
+  "events": [
+   {
+    "date": "2027-01-07T12:00:00",
+    "text": "New moon in Capricorn"
+   },
+   {
+    "date": "2027-01-07T12:00:00",
+    "text": "Venus enters Sagittarius"
+   },
+   {
+    "date": "2027-01-10T12:00:00",
+    "text": "Mars turns retrograde in Virgo"
+   }
+  ],
+  "phase": "Waning crescent, Moon in Scorpio"
  },
  {
   "id": "01-04-relatable",
@@ -662,7 +776,14 @@
   "prompt": "Mars turns back today. Where could you stop pushing and start pacing yourself?",
   "caption": "Mars turns retrograde today, and Mercury moves into Aquarius on Wednesday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "moon-night"
+  "pose": "moon-night",
+  "events": [
+   {
+    "date": "2027-01-12T12:00:00",
+    "text": "Mercury enters Aquarius"
+   }
+  ],
+  "phase": "Waxing crescent, Moon in Aquarius"
  },
  {
   "id": "01-11-relatable",
@@ -729,7 +850,18 @@
   "prompt": "A full moon in Leo asks to be seen. Where are you dimming your light to keep others comfortable?",
   "caption": "The Sun moves into Aquarius on Wednesday, and a full moon in Leo rises on Friday.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "crystals"
+  "pose": "crystals",
+  "events": [
+   {
+    "date": "2027-01-20T12:00:00",
+    "text": "Sun enters Aquarius"
+   },
+   {
+    "date": "2027-01-22T12:00:00",
+    "text": "Full moon in Leo"
+   }
+  ],
+  "phase": "Waxing gibbous, Moon in Taurus"
  },
  {
   "id": "01-18-relatable",
@@ -773,7 +905,14 @@
   "prompt": "A quiet week in the sky. What's one thing you can stop explaining?",
   "caption": "A waning gibbous moon in Virgo, with Mars still retrograde.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "calm-glow"
+  "pose": "calm-glow",
+  "events": [
+   {
+    "date": null,
+    "text": "Retrograde: Mars, Jupiter, Uranus"
+   }
+  ],
+  "phase": "Waning gibbous, Moon in Virgo"
  },
  {
   "id": "01-25-relatable",
@@ -819,6 +958,21 @@
   "prompt": "The moon is letting go. What can you release before February begins?",
   "caption": "A last quarter moon in Sagittarius, and Mercury moves into Pisces tomorrow.\n\nThe full Forecast lands in your inbox every Sunday. Link in bio.",
   "tags": "#OwlsForecast #MoonPhases #Astrology #WeeklyReflection #EmotionalSupportLine",
-  "pose": "moon-night"
+  "pose": "moon-night",
+  "events": [
+   {
+    "date": "2027-01-31T12:00:00",
+    "text": "Mercury enters Pisces"
+   },
+   {
+    "date": "2027-02-06T12:00:00",
+    "text": "New moon in Aquarius"
+   },
+   {
+    "date": "2027-02-06T12:00:00",
+    "text": "Annular solar eclipse"
+   }
+  ],
+  "phase": "Waning crescent, Moon in Sagittarius"
  }
 ]

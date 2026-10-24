@@ -179,6 +179,8 @@ def forecast(p, i):
     const d = ahead.find(a => a.text === x.name + ' turns direct');
     if (!ev.some(a => a.text.startsWith(x.name))) ev.push({{date: null, text: x.name + ' retrograde' + (d ? ' until ' + f(d.date, {{month:'short', day:'numeric'}}) : '')}});
   }});
+  const PRE = {json.dumps(p.get('events'))};
+  if (PRE) {{ ev.length = 0; PRE.forEach(x => ev.push({{date: x.date ? new Date(x.date) : null, text: x.text}})); if ({json.dumps(p.get('phase', ''))}) document.getElementById('phase').textContent = {json.dumps(p.get('phase', ''))}; }}
   ev.sort((a, b) => (a.date || 0) - (b.date || 0));
   const rows = ev.length ? ev.slice(0, 4) : [{{date: null, text: 'A quiet week in the sky'}}];
   document.getElementById('events').innerHTML = rows.map(x => '<div style="display:flex;justify-content:space-between;gap:24px;padding:18px 0;border-bottom:1px solid rgba(19,79,83,.15)"><span>' + x.text + '</span><b style="color:#c4612a;white-space:nowrap">' + (x.date ? f(x.date, {{weekday:'short', month:'short', day:'numeric'}}) : 'All week') + '</b></div>').join('');

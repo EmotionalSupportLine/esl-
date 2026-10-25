@@ -2,6 +2,11 @@
 
 Every agent, template and graphic follows this file. When in doubt, choose the calmer, plainer option.
 
+## Where this is going (the north star; keep every page, post and email pointed here)
+The long-term business is a **support platform, not Tracee selling hours**: members pay monthly for access to trained supporters (a "Support Plan" with calls included, priced from real usage, never "unlimited"), with several 1099 supporters taking calls, card on file and a phone queue. That is what makes ESL a sellable asset.
+The order of building: (1) now: single calls, the Nest and Year of YES! Coaching, plus a growing email list; (2) when about 15 to 20 people call again each month: launch the Support Plan to the waiting list (site page /support-plan, Mailchimp field SPPRICE); (3) when calls exceed Tracee's capacity: add supporters, then the phone queue.
+So: grow the email list first, invite repeat callers and Nest members to the Support Plan waiting list, and never promise on-demand or unlimited calls.
+
 ## Who speaks
 
 | Voice | Brand | Used for | Signs as |

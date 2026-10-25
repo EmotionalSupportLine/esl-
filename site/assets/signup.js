@@ -32,10 +32,10 @@
       finish();
       var text = clean(r && r.msg);
       if (r && r.result === "success") {
-        msg.textContent = "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.";
+        msg.textContent = form.dataset.ok || "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.";
         form.reset();
       } else if (/already subscribed/i.test(text)) {
-        msg.textContent = "You're already on the list. Watch for EmoOwl's Energy Forecast on Sunday.";
+        msg.textContent = form.dataset.ok ? "You're already on our email list, so we can't add your answer here. Email careteam@theemotionalsupportline.com with the price you picked and we'll put you on the waiting list." : "You're already on the list. Watch for EmoOwl's Energy Forecast on Sunday.";
       } else if (/captcha|robot|too many/i.test(text)) {
         fallback();
       } else {

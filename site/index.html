@@ -392,9 +392,19 @@
 
 <section class="block" id="chart" aria-labelledby="chart-h" hidden style="padding-top:0">
   <div class="wrap">
-    <h2 id="chart-h">See your Human Design chart, free</h2>
-    <p style="max-width:60ch;color:var(--ink-2)">Enter your birth date, time and place to see your type, strategy and authority. It's a good place to start understanding how you make decisions.</p>
-    <div id="chart-slot" style="background:#fff;border-radius:22px;padding:16px;border:1px solid var(--line);margin-top:20px"></div>
+    <h2 id="chart-h">Get your free Human Design report</h2>
+    <p style="max-width:60ch;color:var(--ink-2)">See your type, strategy and authority, and download your free Starter Report. It's a good place to start understanding how you make decisions. Tell us where to send your Energy Forecast, then enter your birth details.</p>
+    <form class="field" id="chart-gate" action="https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&amp;id=bd683fce4d" method="post" data-soft="1" data-tag="Free HD report" data-ok="Thanks! Your chart is ready below. Check your inbox to confirm your email too." style="max-width:640px;margin-top:18px">
+      <label class="sr" for="cg-email" style="position:absolute;left:-9999px">Your email</label>
+      <input id="cg-email" type="email" name="EMAIL" placeholder="Your email" autocomplete="email" required>
+      <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div><button class="btn btn-sun" type="submit">Show me my chart</button>
+      <div class="freq" role="radiogroup" aria-label="How often" style="flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:6px;font-size:.95rem">
+        <label style="display:flex;gap:6px;align-items:center"><input type="radio" name="FREQ" value="weekly" checked style="width:auto;flex:none;min-height:0;padding:0;margin:0;accent-color:#D7783A"> Weekly: EmoOwl's Energy Forecast</label>
+        <label style="display:flex;gap:6px;align-items:center"><input type="radio" name="FREQ" value="monthly" style="width:auto;flex:none;min-height:0;padding:0;margin:0;accent-color:#D7783A"> Monthly: one letter a month</label>
+      </div>
+    </form>
+    <p class="note" id="cg-msg">Free. Unsubscribe anytime.</p>
+    <div id="chart-slot" hidden style="background:#fff;border-radius:22px;padding:16px;border:1px solid var(--line);margin-top:20px"></div>
     <p class="note" style="margin-top:10px">Charts are made by Neutrino. Your birth details go to them to draw the chart, not to us.</p>
   </div>
 </section>
@@ -488,7 +498,12 @@
   if (C.neutrino && C.neutrino.key && C.neutrino.script) {
     const sc = document.createElement("script"); sc.async = true; sc.src = C.neutrino.script; document.head.appendChild(sc);
     const w = document.createElement("neutrino-widget"); w.setAttribute("type", "chart"); w.setAttribute("api-key", C.neutrino.key);
-    document.getElementById("chart-slot").appendChild(w); document.getElementById("chart").hidden = false;
+    const slot = document.getElementById("chart-slot"), gate = document.getElementById("chart-gate");
+    slot.appendChild(w); document.getElementById("chart").hidden = false;
+    let ok = false; try { ok = localStorage.getItem("esl_chart_ok") === "1"; } catch (e) {}
+    const open = () => { slot.hidden = false; gate.hidden = true; try { localStorage.setItem("esl_chart_ok", "1"); } catch (e) {} };
+    if (ok) { open(); document.getElementById("cg-msg").hidden = true; }
+    gate.addEventListener("esl:signedup", () => { open(); slot.scrollIntoView({ behavior: "smooth", block: "start" }); });
   }
 
   // Coaching application: opens an email with a few questions, to the care team inbox

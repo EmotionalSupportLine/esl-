@@ -20,8 +20,10 @@
     if (!email) return;
     var waitlist = !!form.querySelector("[name=SPPRICE]");
     msg.textContent = "Sending…"; if (btn) btn.disabled = true;
+    function done(r) { form.dispatchEvent(new CustomEvent("esl:signedup", { bubbles: true, detail: r || {} })); }
     function fallback() {
       if (btn) btn.disabled = false;
+      if (form.dataset.soft) { msg.textContent = "Here you go!"; return done({}); } // never block a free gift on a technical hiccup
       form.dataset.fallback = "1"; form.setAttribute("target", "_self");
       msg.textContent = "Taking you to Mailchimp to finish signing up…";
       form.submit();
@@ -39,6 +41,7 @@
         msg.textContent = form.dataset.ok || (val("FREQ") === "monthly" ? "Almost there! Check your inbox and click the confirm button. Your first monthly letter arrives at the start of next month." : "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.");
       }
       form.reset();
+      done(r);
     }).catch(fallback);
   }, true);
 })();

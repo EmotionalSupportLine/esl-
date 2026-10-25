@@ -231,7 +231,7 @@
         : `<a class="btn btn-sun" style="width:100%" href="${esc(C.links.bookCall)}" target="_blank" rel="noopener">Book a call, $${C.prices.callPublic}</a><p class="note" style="margin-top:8px">Members pay $${C.prices.callMember}. <a href="${esc(joinUrl())}">Join the Nest</a></p>`}
       </section>
       ${member ? `<section class="card"><h2>Monthly group call</h2><p class="sub">${esc(member.groupCall)}</p></section>
-      <section class="card"><h2>Steady Support</h2><p class="sub">Four calls a month for $${C.prices.steady}. For seasons when you want regular support.</p><a class="btn btn-ghost" href="mailto:${esc(C.email)}?subject=Steady%20Support">Ask about Steady Support</a></section>` : ""}
+      <section class="card"><h2>The Support Plan is coming</h2><p class="sub">A monthly plan with calls included, for seasons when you want regular support. Join the waiting list for first access and a founding price.</p><a class="btn btn-ghost" href="/support-plan">Join the waiting list</a></section>` : ""}
       <section class="card"><h2>What to expect</h2><p class="sub">Your supporter calls you at the number you gave when you booked. Have a quiet spot and one thing you want to talk through. If you're in danger or thinking about suicide, call or text 988 instead.</p></section>`;
   }
 

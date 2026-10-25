@@ -265,13 +265,17 @@
     <h2 id="tonight-h">Tonight's sky</h2>
     <div class="row"><div id="moon-small"></div><div><div class="phase" id="moon-phase">Reading the sky…</div><div class="sub" id="moon-sub"></div></div></div>
     <ul id="coming"></ul>
-    <p>Get EmoOwl's Energy Forecast every Sunday: the week's moon, sun and sky, plus one question to sit with. Free.</p>
+    <p>Get EmoOwl's Energy Forecast every Sunday: the week's moon, sun and sky, plus one question to sit with. Prefer less email? Choose one letter a month instead. Free either way.</p>
     <form class="field" id="forecast-form" method="post" target="_blank">
       <label class="sr" for="fc-email" style="position:absolute;left:-9999px">Your email</label>
       <input id="fc-email" type="email" name="EMAIL" placeholder="Your email" autocomplete="email" required>
-      <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div><button class="btn btn-sun" type="submit">Send me the Forecast</button>
+      <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div><button class="btn btn-sun" type="submit">Sign me up</button>
+      <div class="freq" role="radiogroup" aria-label="How often" style="flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:6px;font-size:.95rem">
+        <label style="display:flex;gap:6px;align-items:center"><input type="radio" name="FREQ" value="weekly" checked style="width:auto;flex:none;min-height:0;padding:0;margin:0;accent-color:#D7783A"> Weekly: EmoOwl's Energy Forecast</label>
+        <label style="display:flex;gap:6px;align-items:center"><input type="radio" name="FREQ" value="monthly" style="width:auto;flex:none;min-height:0;padding:0;margin:0;accent-color:#D7783A"> Monthly: one letter a month</label>
+      </div>
     </form>
-    <p class="note" id="fc-msg">One email a week. Unsubscribe anytime.</p>
+    <p class="note" id="fc-msg">Pick weekly or monthly. Unsubscribe anytime.</p>
   </aside>
 </div>
 

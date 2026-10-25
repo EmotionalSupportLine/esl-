@@ -28,15 +28,15 @@
     }
     fetch("/api/subscribe", {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email: email, fname: val("FNAME"), spprice: val("SPPRICE"), hp: val("b_1518241fc7aee7782d17d61e9_bd683fce4d") })
+      body: JSON.stringify({ email: email, fname: val("FNAME"), spprice: val("SPPRICE"), freq: val("FREQ") || (form.dataset.freq || ""), tag: form.dataset.tag || "", hp: val("b_1518241fc7aee7782d17d61e9_bd683fce4d") })
     }).then(function (r) { return r.json(); }).then(function (r) {
       if (btn) btn.disabled = false;
       if (r.fallback) return fallback();
       if (r.error) { msg.textContent = r.error; return; }
       if (r.status === "subscribed") {
-        msg.textContent = waitlist ? "Thanks! You're on the waiting list, and we saved your answer." : "You're already on the list. Watch for EmoOwl's Energy Forecast on Sunday.";
+        msg.textContent = waitlist ? "Thanks! You're on the waiting list, and we saved your answer." : "You're already on the list, and we've saved your choice.";
       } else {
-        msg.textContent = form.dataset.ok || "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.";
+        msg.textContent = form.dataset.ok || (val("FREQ") === "monthly" ? "Almost there! Check your inbox and click the confirm button. Your first monthly letter arrives at the start of next month." : "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.");
       }
       form.reset();
     }).catch(fallback);

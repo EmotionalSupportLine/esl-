@@ -7,6 +7,22 @@ const crypto = require("crypto");
 const { send, readJSON } = require("./_lib");
 const LIST = "bd683fce4d";
 const WAITLIST_TAG = "Support Plan waiting list";
+let cachedInterests = null; // { weekly: id, monthly: id } from the Mailchimp group "How often"
+
+async function interests(dc, auth) {
+  if (cachedInterests) return cachedInterests;
+  const base = `https://${dc}.api.mailchimp.com/3.0/lists/${LIST}/interest-categories`;
+  const cats = await (await fetch(base + "?count=50", { headers: auth })).json();
+  const cat = (cats.categories || []).find((c) => /how often/i.test(c.title));
+  if (!cat) return (cachedInterests = {});
+  const list = await (await fetch(`${base}/${cat.id}/interests?count=50`, { headers: auth })).json();
+  const out = {};
+  for (const i of list.interests || []) {
+    if (/week/i.test(i.name)) out.weekly = i.id;
+    if (/month/i.test(i.name)) out.monthly = i.id;
+  }
+  return (cachedInterests = out);
+}
 
 module.exports = async (req, res) => {
   if (req.method !== "POST") return send(res, 405, { error: "Use POST." });
@@ -24,12 +40,19 @@ module.exports = async (req, res) => {
     const hash = crypto.createHash("md5").update(email).digest("hex");
     const base = `https://${dc}.api.mailchimp.com/3.0/lists/${LIST}/members/${hash}`;
     const auth = { Authorization: "Basic " + Buffer.from("esl:" + key).toString("base64"), "Content-Type": "application/json" };
-    const r = await fetch(base, { method: "PUT", headers: auth, body: JSON.stringify({ email_address: email, status_if_new: "pending", merge_fields: merge }) });
+    const body = { email_address: email, status_if_new: "pending", merge_fields: merge };
+    const freq = b.freq === "monthly" ? "monthly" : b.freq === "weekly" ? "weekly" : "";
+    if (freq) {
+      const ids = await interests(dc, auth).catch(() => ({}));
+      if (ids.weekly && ids.monthly) body.interests = { [ids.weekly]: freq === "weekly", [ids.monthly]: freq === "monthly" };
+    }
+    const r = await fetch(base, { method: "PUT", headers: auth, body: JSON.stringify(body) });
     const m = await r.json().catch(() => ({}));
     if (!r.ok || m.status === "unsubscribed") return send(res, 200, { fallback: true }); // e.g. someone who left before: Mailchimp's own form lets them rejoin
-    if (b.spprice) {
-      await fetch(base + "/tags", { method: "POST", headers: auth, body: JSON.stringify({ tags: [{ name: WAITLIST_TAG, status: "active" }] }) }).catch(() => {});
-    }
+    const tags = [];
+    if (b.spprice) tags.push({ name: WAITLIST_TAG, status: "active" });
+    if (b.tag) tags.push({ name: String(b.tag).slice(0, 50), status: "active" });
+    if (tags.length) await fetch(base + "/tags", { method: "POST", headers: auth, body: JSON.stringify({ tags }) }).catch(() => {});
     send(res, 200, { status: m.status === "subscribed" ? "subscribed" : "pending" });
   } catch (e) {
     send(res, 200, { fallback: true });

@@ -1,6 +1,13 @@
 """Builds the two free downloads: site/free/moon-calendar-2027.html and site/free/earthing-checklist.html (printable pages)."""
 import json, pathlib, html
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+
+
+def link(slug, text):
+    """Link to a blog post only once it's live; until then, point to the Energy Forecast."""
+    if (ROOT / "site/blog" / f"{slug}.html").exists() or (ROOT / "site/blog" / slug / "index.html").exists():
+        return f'<a class="btn btn-ghost" href="/blog/{slug}">{text}</a>'
+    return '<a class="btn btn-ghost" href="/forecast/">Read this week\'s Energy Forecast</a>'
 cal = json.loads(pathlib.Path("/home/claude/work/mooncal.json").read_text()) if pathlib.Path("/home/claude/work/mooncal.json").exists() else json.loads((ROOT / "studio/year/mooncal-2027.json").read_text())
 (ROOT / "studio/year/mooncal-2027.json").write_text(json.dumps(cal, indent=1))
 Q_NEW = {"Capricorn": "What steady habit do I want to build, one small step at a time?", "Aquarius": "Where do I want to be more fully myself, even if it's unusual?", "Pisces": "What would I do if I trusted that rest is allowed?", "Aries": "What brave first step have I been putting off?", "Taurus": "What would make my everyday life feel more nourishing?", "Gemini": "What am I curious about right now?", "Cancer": "What would help me feel more at home in my own life?", "Leo": "Where do I want to let my light be seen?", "Virgo": "What small change would make my days run more smoothly?", "Libra": "Where am I giving more than I'm receiving?", "Scorpio": "What am I ready to transform, not just tolerate?", "Sagittarius": "What do I hope for, really?"}
@@ -44,7 +51,7 @@ moon = HEAD.format(t="The 2027 Moon Calendar", d="Every new moon, full moon and 
 <section class="wrap free"><div class="index-head"><div><p class="kicker"><a href="/">Free from The Emotional Support Line</a></p><h1>The 2027 Moon Calendar</h1>
 <p class="lede">Every new moon, full moon and eclipse of 2027, in US Mountain time, with one reflection question for each. New moons are for beginnings, full moons for finishing and letting go.</p></div>
 <img class="sticker hero-owl" src="/assets/owls/moon-phases.webp" alt="" width="200" height="200"></div>
-<div class="tools"><button class="btn btn-sun" onclick="window.print()">Print or save as PDF</button><a class="btn btn-ghost" href="/blog/new-moon-intentions">How to use the new moon</a></div>
+<div class="tools"><button class="btn btn-sun" onclick="window.print()">Print or save as PDF</button>{link("new-moon-intentions", "How to use the new moon")}</div>
 <table><thead><tr><th>When (Mountain time)</th><th>Moon and a question to sit with</th></tr></thead><tbody>{''.join(rows)}</tbody></table>
 <p class="note"><b>Mercury retrograde in 2027:</b> February 9 to March 3, June 10 to July 4, and October 7 to October 28. Sky dates are real astronomy, calculated for 2027. What they mean for you is a prompt for reflection, never a prediction.</p>
 {SIGNUP}</section>""" + FOOT
@@ -54,7 +61,7 @@ earth = HEAD.format(t="The Earthing Starter Checklist", d="A free, printable gui
 <section class="wrap free"><div class="index-head"><div><p class="kicker"><a href="/">Free from The Emotional Support Line</a></p><h1>The Earthing Starter Checklist</h1>
 <p class="lede">A simple, no-hype plan for spending a few minutes a day with your bare feet on the earth. Print it, stick it on the fridge and tick off the days.</p></div>
 <img class="sticker hero-owl" src="/assets/owls/earthing.webp" alt="" width="200" height="200"></div>
-<div class="tools"><button class="btn btn-sun" onclick="window.print()">Print or save as PDF</button><a class="btn btn-ghost" href="/blog/what-is-earthing">What is earthing?</a></div>
+<div class="tools"><button class="btn btn-sun" onclick="window.print()">Print or save as PDF</button>{link("what-is-earthing", "What is earthing?")}</div>
 <h2>Before you start</h2>
 <ul class="check"><li>Find a natural surface near you: grass, soil, sand or smooth stone</li><li>Check it for glass, thorns, sharp sticks and animal mess</li><li>Skip lawns that were recently sprayed with chemicals</li><li>If you have diabetes, poor circulation or foot problems, ask your doctor first</li><li>Leave a pair of slip-on shoes by the door</li></ul>
 <h2>The 14-day plan</h2>

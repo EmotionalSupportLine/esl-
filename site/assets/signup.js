@@ -1,7 +1,6 @@
-// Energy Forecast sign-up: sends the email to Mailchimp in the background (JSONP, the same
-// method Mailchimp's own embedded forms use), so visitors stay on the page and usually skip
-// Mailchimp's "Confirm Humanity" page. If anything goes wrong it falls back to the normal
-// Mailchimp page in a new tab.
+// Energy Forecast and waiting-list sign-ups.
+// 1) Our own /api/subscribe (Mailchimp API, no captcha page). 2) If that isn't set up, Mailchimp's
+// own form opens in a new tab. Visitors always get a clear message on the page.
 (function () {
   function note(form) {
     var n = form.nextElementSibling;
@@ -10,40 +9,36 @@
     if (!n) { n = document.createElement("p"); n.className = "note signup-msg"; n.setAttribute("role", "status"); form.appendChild(n); }
     return n;
   }
-  function clean(msg) {
-    var d = document.createElement("div"); d.innerHTML = msg || ""; var t = d.textContent || "";
-    return t.replace(/^\d+ - /, "");
-  }
   document.addEventListener("submit", function (e) {
     var form = e.target;
     var action = form.getAttribute("action") || form.action || "";
     if (action.indexOf("list-manage.com/subscribe/post") === -1 || form.dataset.fallback) return;
     e.preventDefault(); e.stopPropagation();
     var msg = note(form), btn = form.querySelector("button[type=submit]");
-    var email = (form.querySelector("input[name=EMAIL]") || {}).value || "";
+    var val = function (n) { var el = form.querySelector("[name='" + n + "']:checked") || form.querySelector("[name='" + n + "']:not([type=radio])"); return el ? el.value : ""; };
+    var email = val("EMAIL");
     if (!email) return;
+    var waitlist = !!form.querySelector("[name=SPPRICE]");
     msg.textContent = "Sending…"; if (btn) btn.disabled = true;
-    var cb = "eslmc" + Date.now(), done = false, s = document.createElement("script");
-    var params = new URLSearchParams(new FormData(form)).toString();
-    var url = action.replace("/subscribe/post?", "/subscribe/post-json?") + "&" + params + "&c=" + cb;
-    function finish() { done = true; if (btn) btn.disabled = false; try { delete window[cb]; } catch (x) { window[cb] = undefined; } s.remove(); }
-    function fallback() { form.dataset.fallback = "1"; msg.textContent = "Opening the sign-up page in a new tab…"; form.submit(); }
-    window[cb] = function (r) {
-      finish();
-      var text = clean(r && r.msg);
-      if (r && r.result === "success") {
-        msg.textContent = form.dataset.ok || "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.";
-        form.reset();
-      } else if (/already subscribed/i.test(text)) {
-        msg.textContent = form.dataset.ok ? "You're already on our email list, so we can't add your answer here. Email careteam@theemotionalsupportline.com with the price you picked and we'll put you on the waiting list." : "You're already on the list. Watch for EmoOwl's Energy Forecast on Sunday.";
-      } else if (/captcha|robot|too many/i.test(text)) {
-        fallback();
+    function fallback() {
+      if (btn) btn.disabled = false;
+      form.dataset.fallback = "1"; form.setAttribute("target", "_self");
+      msg.textContent = "Taking you to Mailchimp to finish signing up…";
+      form.submit();
+    }
+    fetch("/api/subscribe", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: email, fname: val("FNAME"), spprice: val("SPPRICE"), hp: val("b_1518241fc7aee7782d17d61e9_bd683fce4d") })
+    }).then(function (r) { return r.json(); }).then(function (r) {
+      if (btn) btn.disabled = false;
+      if (r.fallback) return fallback();
+      if (r.error) { msg.textContent = r.error; return; }
+      if (r.status === "subscribed") {
+        msg.textContent = waitlist ? "Thanks! You're on the waiting list, and we saved your answer." : "You're already on the list. Watch for EmoOwl's Energy Forecast on Sunday.";
       } else {
-        msg.textContent = text || "That didn't go through. Please check the email address and try again.";
+        msg.textContent = form.dataset.ok || "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.";
       }
-    };
-    s.src = url; s.onerror = function () { if (!done) { finish(); fallback(); } };
-    setTimeout(function () { if (!done) { finish(); fallback(); } }, 9000);
-    document.body.appendChild(s);
+      form.reset();
+    }).catch(fallback);
   }, true);
 })();

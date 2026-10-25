@@ -2,8 +2,8 @@
  {
   "topic": "Start here",
   "title": "Welcome to the Nest",
-  "length": "",
-  "url": ""
+  "length": "Read · 3 min",
+  "url": "/nest-welcome"
  },
  {
   "topic": "Soul-Conomics: money and your Soul",
@@ -199,8 +199,8 @@
  },
  {
   "topic": "Human Design",
-  "title": "Reading your chart: type, strategy, authority",
-  "length": "",
-  "url": ""
+  "title": "Your free chart: type, strategy, authority",
+  "length": "Free chart",
+  "url": "/#chart"
  }
 ]

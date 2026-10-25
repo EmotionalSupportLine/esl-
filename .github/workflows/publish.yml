@@ -16,6 +16,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install markdown==3.7
       - run: python3 studio/year/publish.py
+      - run: python3 studio/year/make_free.py
       - name: Commit anything new
         run: |
           git config user.name "ESL publisher"

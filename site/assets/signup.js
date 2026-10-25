@@ -28,7 +28,7 @@
     }
     fetch("/api/subscribe", {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email: email, fname: val("FNAME"), spprice: val("SPPRICE"), freq: val("FREQ") || (form.dataset.freq || ""), tag: form.dataset.tag || "", hp: val("b_1518241fc7aee7782d17d61e9_bd683fce4d") })
+      body: JSON.stringify({ email: email, fname: val("FNAME"), spprice: val("SPPRICE"), freq: val("FREQ") || form.dataset.freq || "weekly", tag: form.dataset.tag || "", hp: val("b_1518241fc7aee7782d17d61e9_bd683fce4d") })
     }).then(function (r) { return r.json(); }).then(function (r) {
       if (btn) btn.disabled = false;
       if (r.fallback) return fallback();

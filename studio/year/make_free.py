@@ -33,7 +33,7 @@ SIGNUP = ('<aside class="signup"><img src="/assets/owls/telescope.webp" alt="" w
           '<p>Every moon on this page, plus the week\'s sky and one question to sit with, in your inbox.</p>'
           '<form class="field" action="https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&amp;id=bd683fce4d" method="post" target="_blank">'
           '<input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" required><div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div><button class="btn btn-sun" type="submit">Send me the Forecast</button></form></div></aside>')
-FOOT = '</main><footer><div class="wrap"><span>© 2026 The Emotional Support Line</span><span><a href="/blog/">Blog</a> &nbsp; <a href="/terms.html">Terms</a> &nbsp; <a href="/privacy.html">Privacy</a></span></div></footer><script src="/assets/crisis-guard.js" defer></script></body></html>'
+FOOT = '</main><footer><div class="wrap"><span>© 2026 The Emotional Support Line</span><span><a href="/blog/">Blog</a> &nbsp; <a href="/terms.html">Terms</a> &nbsp; <a href="/privacy.html">Privacy</a></span></div></footer><script src="/assets/signup.js" defer></script><script src="/assets/crisis-guard.js" defer></script></body></html>'
 rows = []
 for m in cal:
     q = (Q_NEW if m["kind"] == "new" else Q_FULL)[m["sign"]]

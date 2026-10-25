@@ -496,10 +496,10 @@
   if (C.links.forecastForm) f.action = C.links.forecastForm;
   f.addEventListener("submit", (e) => {
     if (!C.links.forecastForm) { e.preventDefault(); document.getElementById("fc-msg").textContent = "Signups open at launch. Check back soon."; return; }
-    setTimeout(() => { document.getElementById("fc-msg").textContent = "Check your inbox to confirm. Your first Forecast arrives Sunday."; f.reset(); }, 300);
   });
 })();
 </script>
+<script src="/assets/signup.js" defer></script>
 <script src="/assets/crisis-guard.js" defer></script>
 </body>
 </html>

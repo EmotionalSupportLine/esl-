@@ -1,9 +1,9 @@
 ---
-title: Overthinking at night? A gentle wind-down routine
+title: "How to stop overthinking at night: a gentle wind-down routine"
 slug: overthinking-at-night
 date: 2027-04-20
 description: Lying awake replaying the day? Here's a gentle evening wind-down routine to help quiet a busy mind before bed.
-keyword: how to stop overthinking at night
+keyword: how to stop overthinking
 cta: nest
 pose: sleeping
 status: approved

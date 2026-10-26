@@ -3,7 +3,7 @@ banner: in-the-moment-support
 banner_alt: In the Moment Support from The Emotional Support Line
 title: "What is an emotional support call? (And how it differs from therapy or coaching)"
 slug: what-is-an-emotional-support-call
-date: 2027-08-31
+date: 2026-10-26
 description: An emotional support call is a short, focused conversation with a trained, caring person. Here's what it is, who it's for, and how it differs from therapy, coaching and crisis lines.
 keyword: emotional support call
 cta: call

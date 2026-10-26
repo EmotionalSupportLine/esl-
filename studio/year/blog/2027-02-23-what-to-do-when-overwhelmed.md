@@ -1,9 +1,9 @@
 ---
-title: Overwhelmed? Five small things to do in the next ten minutes
+title: "I feel overwhelmed: what to do when everything feels like too much"
 slug: what-to-do-when-overwhelmed
 date: 2027-02-23
 description: When everything feels like too much, big plans don't help. These five small steps can help you feel steadier in the next ten minutes.
-keyword: what to do when you feel overwhelmed
+keyword: I feel overwhelmed
 cta: call
 pose: calm-glow
 status: approved

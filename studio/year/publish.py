@@ -38,6 +38,8 @@ CTA = {
     "forecast": ("full-moon", "Get EmoOwl's Energy Forecast", "Every Sunday: the week's moon, sky and one question to sit with. Free.", "Send me the Forecast", "/#forecast"),
     "coaching": ("compass", "Want to go deeper?", "Year of YES! Coaching with Tracee Sioux: two hours a month of one-on-one coaching, guided by your Human Design chart. By application.", "See Year of YES! Coaching", "/year-of-yes"),
     "moon-calendar": ("moon-phases", "Free: the 2027 Moon Calendar", "Every new moon, full moon and eclipse of 2027, in Mountain time, with a reflection question for each. Free to download.", "Get the moon calendar", "/free/moon-calendar-2027"),
+    "quiz": ("idea", "Not sure what you need right now?", "Take the free 2-minute quiz: six questions, a plain-English answer and one thing to try today.", "Take the quiz", "/quiz"),
+    "reset": ("tea-blanket", "Free: the 10-Minute Human Reset", "Five small steps for when everything feels like too much, including the one most resets leave out: another human. Free and printable.", "Get the Human Reset", "/free/human-reset"),
     "earthing-checklist": ("earthing", "Free: the Earthing Starter Checklist", "A one-page, printable guide to starting a barefoot habit, with a 14-day tracker. Free to download.", "Get the checklist", "/free/earthing-checklist"),
 }
 # Tracee's graphics (site/assets/library/) shown in each kind of call-to-action box. See studio/library/LIBRARY.md.
@@ -132,6 +134,12 @@ def cta_box(kind, date="2099-01-01", banner=""):
     return f'<aside class="cta">{img}<div><h2>{h}</h2><p>{p}</p><a class="btn btn-sun" href="{href}">{btn}</a></div></aside>'
 
 
+def quiz_line(kind):
+    if kind == "quiz":
+        return '<p class="note" style="text-align:center;margin:10px 0 22px">Need to talk it through instead? <a href="/#calls">Book a 30-minute call</a> with a real person.</p>'
+    return '<p class="note" style="text-align:center;margin:10px 0 22px">Not sure what you need right now? <a href="/quiz">Take the 2-minute quiz</a>.</p>'
+
+
 def signup():
     return ('<aside class="signup"><img src="/assets/owls/telescope.webp" alt="" width="96" height="96" loading="lazy"><div><h2>EmoOwl\'s Energy Forecast, free every Sunday</h2>'
             '<p>The week\'s moon and sky, a note on getting outside, and one question to sit with.</p>'
@@ -172,7 +180,7 @@ def build_blog():
         figure = f'<figure class="banner">{art(banner, "", meta.get("banner_alt", ""))}</figure>' if banner else ""
         main = (f'<article class="wrap post"><header class="post-head"><div><p class="kicker"><a href="/blog/">The Emotional Support Line blog</a> · {nice(meta["date"])}</p>'
                 f'<h1>{html.escape(meta["title"])}</h1><p class="lede">{html.escape(meta["description"])}</p></div>{owl(meta["pose"], 220, "sticker hero-owl", "")}</header>'
-                f'{figure}<div class="prose">{content}</div>{cta_box(meta["cta"], meta["date"], banner)}{signup()}<p class="safety">{CRISIS} We offer emotional support and coaching, not therapy or medical advice.</p></article>')
+                f'{figure}<div class="prose">{content}</div>{cta_box(meta["cta"], meta["date"], banner)}{quiz_line(meta["cta"])}{signup()}<p class="safety">{CRISIS} We offer emotional support and coaching, not therapy or medical advice.</p></article>')
         out = SITE / "blog" / f"{slug}.html"
         out.parent.mkdir(exist_ok=True)
         out.write_text(page(meta["title"], meta["description"], url, main, ogimg, jsonld))
@@ -258,7 +266,7 @@ def build_forecasts():
 
 
 def sitemap(posts, items):
-    urls = [BASE + "/", BASE + "/year-of-yes", BASE + "/blog/", BASE + "/forecast/", BASE + "/free/moon-calendar-2027", BASE + "/free/earthing-checklist", BASE + "/free/100-things"]
+    urls = [BASE + "/", BASE + "/year-of-yes", BASE + "/blog/", BASE + "/forecast/", BASE + "/free/moon-calendar-2027", BASE + "/free/earthing-checklist", BASE + "/free/100-things", BASE + "/quiz", BASE + "/free/human-reset"]
     urls += [p["url"] for p in posts] + [i["url"] for i in items]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     (SITE / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n')

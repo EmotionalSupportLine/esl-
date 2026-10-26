@@ -1,9 +1,9 @@
 ---
-title: How to make a decision when every option feels wrong
+title: "Decision paralysis: how to make a difficult decision when every option feels wrong"
 slug: how-to-make-a-hard-decision
 date: 2027-01-26
 description: Stuck between options that all feel a little wrong? Here's a calm, practical way to make a hard decision without spiraling.
-keyword: how to make a hard decision
+keyword: how to make a difficult decision
 cta: call
 pose: decisions
 status: approved

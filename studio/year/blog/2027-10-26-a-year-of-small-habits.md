@@ -1,11 +1,11 @@
 ---
 banner: nest-matriarchal-owls
 banner_alt: The Nest: come as you are, you don't have to do life alone
-title: "A year of small habits: what changes when you keep showing up"
+title: "How to get unstuck: what changes when you keep showing up for small habits"
 slug: a-year-of-small-habits
 date: 2027-10-26
 description: Small daily habits don't look like much in a day. Over a year, they add up. Here's what can change when you keep showing up, and how to start again anytime.
-keyword: small habits that change your life
+keyword: how to get unstuck
 cta: nest
 pose: warrior-sun
 status: approved

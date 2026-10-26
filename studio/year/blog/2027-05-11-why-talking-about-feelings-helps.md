@@ -1,9 +1,9 @@
 ---
-title: Why saying it out loud helps: the quiet power of being heard
+title: "Why talking to someone helps: the quiet power of being heard"
 slug: why-talking-about-feelings-helps
 date: 2027-05-11
 description: Talking about what you're feeling can make it lighter and clearer. Here's why being heard helps, and how to get more out of it.
-keyword: why talking about your feelings helps
+keyword: talk to someone
 cta: call
 pose: phone
 status: approved

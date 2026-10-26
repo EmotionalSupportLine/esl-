@@ -1,9 +1,9 @@
 ---
-title: How to talk to someone when you don't want therapy
+title: "I don't need therapy, I just need someone to talk to: your options"
 slug: someone-to-talk-to-without-therapy
 date: 2026-11-10
 description: Sometimes you don't need a long-term plan. You just need a calm, neutral person to help you think. Here are your options, and how to choose.
-keyword: someone to talk to without therapy
+keyword: talk to someone without therapy
 cta: call
 pose: headphones
 status: approved

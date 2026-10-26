@@ -1,0 +1,170 @@
+"""Builds two hand-made free pages (Oct 26, 2026 search plan):
+  site/quiz.html               "What do I need right now?" 2-minute quiz, routes to a call, the Nest or a freebie
+  site/free/human-reset.html   "The 10-Minute Human Reset", a printable nervous-system reset guide
+Run: python3 studio/year/make_search_pages.py
+"""
+import pathlib, json
+ROOT = pathlib.Path(__file__).resolve().parents[2]
+BASE = "https://theemotionalsupportline.com"
+
+
+def head(title, desc, path, img="/assets/email/idea.png", extra=""):
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title} | The Emotional Support Line</title>
+<meta name="description" content="{desc}">
+<link rel="canonical" href="{BASE}{path}">
+<meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:image" content="{BASE}{img}">
+<link rel="icon" href="/assets/owl-128.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/brand.css"><link rel="stylesheet" href="/assets/blog.css">
+<style>
+.free {{ max-width: 860px; padding: 24px 0 60px; }}
+.panel {{ background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 22px; margin: 18px 0; }}
+.q h2 {{ font-size: 1.25rem; margin: 0 0 12px; }}
+.opts {{ display: grid; gap: 8px; }}
+.opts button {{ text-align: left; border: 2px solid var(--line); background: var(--cream); border-radius: 14px; padding: 12px 16px; font: 600 1rem var(--sans, Nunito, sans-serif); color: var(--ink); cursor: pointer; }}
+.opts button:hover, .opts button:focus {{ border-color: var(--orange); }}
+.bar {{ height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; margin: 6px 0 16px; }}
+.bar i {{ display: block; height: 100%; background: var(--orange); width: 0; transition: width .3s; }}
+.result h2 {{ margin-top: 0; }}
+.result .try {{ background: var(--cream); border-radius: 14px; padding: 14px 16px; margin: 14px 0; }}
+.ctas {{ display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }}
+.step {{ display: grid; grid-template-columns: 64px 1fr; gap: 14px; align-items: start; margin: 18px 0; }}
+.step b.n {{ display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%; background: var(--night); color: var(--cream); font: 700 1.2rem var(--serif); }}
+.step h3 {{ margin: 0 0 4px; }}
+@media print {{ .crisis, header.top, footer, .tools, .signup, nav, .gate {{ display: none !important; }} body {{ background: #fff; }} }}
+{extra}
+</style><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ79XQ2T3Z"></script><script src="/assets/ga.js"></script>
+</head><body>
+<div class="crisis">Not a crisis line. If you're in danger or thinking about suicide, call or text <a href="tel:988">988</a> (US) or your local emergency number.</div>
+<div class="wrap"><header class="top"><a class="brand" href="/"><img src="/assets/owl-128.png" alt=""><span>The Emotional<br>Support Line</span></a>
+<nav class="links" aria-label="Main"><a href="/blog/">Blog</a><a href="/quiz">Quiz</a><a href="/#nest">The Nest</a><a class="btn btn-sun" href="/#calls">Book a call</a></nav></header></div>
+<main>"""
+
+
+def signup(tag, h, p, btn):
+    return f"""<aside class="signup gate"><img src="/assets/owls/telescope.webp" alt="" width="96" height="96" loading="lazy"><div><h2>{h}</h2><p>{p}</p>
+<form class="field" action="https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&amp;id=bd683fce4d" method="post" data-soft="1" data-tag="{tag}" data-ok="You're on the list. Check your inbox and click the confirm button.">
+<input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" autocomplete="email" required>
+<div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div>
+<button class="btn btn-sun" type="submit">{btn}</button>
+<div role="radiogroup" aria-label="How often" style="flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:6px;font-size:.95rem">
+<label style="display:flex;gap:6px;align-items:center"><input type="radio" name="FREQ" value="weekly" checked style="width:auto;flex:none;min-height:0;padding:0;margin:0;accent-color:#D7783A"> Weekly Forecast</label>
+<label style="display:flex;gap:6px;align-items:center"><input type="radio" name="FREQ" value="monthly" style="width:auto;flex:none;min-height:0;padding:0;margin:0;accent-color:#D7783A"> Monthly letter</label>
+<label style="display:flex;gap:6px;align-items:center"><input type="radio" name="FREQ" value="announcements" style="width:auto;flex:none;min-height:0;padding:0;margin:0;accent-color:#D7783A"> Just announcements</label></div>
+</form></div></aside>"""
+
+
+FOOT = """</main><footer><div class="wrap"><span>© 2026 The Emotional Support Line</span><span><a href="/blog/">Blog</a> &nbsp; <a href="/quiz">Quiz</a> &nbsp; <a href="/terms.html">Terms</a> &nbsp; <a href="/privacy.html">Privacy</a></span></div></footer>
+<script src="/assets/config.js"></script><script src="/assets/signup.js" defer></script><script src="/assets/crisis-guard.js" defer></script></body></html>"""
+
+# ---------------- The quiz ----------------
+RESULTS = {
+    "over": {"name": "Overwhelmed", "h": "You're overloaded, not lazy.",
+             "p": "Your system is carrying more than it can sort right now. When everything feels urgent, nothing gets your full attention, and that's exhausting. The fix isn't trying harder. It's settling first, then choosing one thing.",
+             "try": "Do the 10-Minute Human Reset now, before you touch your to-do list. Then pick the one task that would make tomorrow lighter.",
+             "ctas": [["Do the 10-Minute Human Reset", "/free/human-reset", "btn-sun"], ["Talk it through with a real person", "CALL", "btn-night"]]},
+    "alone": {"name": "Need to be heard", "h": "You need someone to talk to.",
+              "p": "Not a fix, not a lecture. A calm person who listens, so you can hear yourself think. You don't have to be in crisis to need that, and you don't have to start therapy to get it.",
+              "try": "Text one person: \"Can I talk for ten minutes? I don't need advice, I just need to say it out loud.\" Or book a 30-minute call with us.",
+              "ctas": [["Book a 30-minute call", "CALL", "btn-sun"], ["Read: I need someone to talk to", "/blog/i-need-someone-to-talk-to", "btn-ghost"]]},
+    "decide": {"name": "Decision", "h": "You're stuck on a decision.",
+               "p": "Going around in circles usually means every option protects something you care about. Overthinking it alone tends to make the circle tighter. Saying it out loud to a neutral person often breaks it open.",
+               "try": "Write the decision as one question. Under each option, write what it protects and what it costs. Notice which one your body leans toward.",
+               "ctas": [["Talk the decision through", "CALL", "btn-sun"], ["Read: decision paralysis", "/blog/how-to-make-a-hard-decision", "btn-ghost"]]},
+    "stuck": {"name": "Stuck", "h": "You're stuck, and it's probably not a motivation problem.",
+              "p": "Stuck is often a mix of too many options, too little energy and no one to think out loud with. You don't need a whole new life plan. You need one next step you can actually take.",
+              "try": "Finish this sentence: \"The smallest step I could take in ten minutes is...\" Then do it today.",
+              "ctas": [["Get unstuck on a call", "CALL", "btn-sun"], ["See the Nest", "/#nest", "btn-night"]]},
+    "time": {"name": "Out of time", "h": "Your time is leaking.",
+             "p": "When every hour belongs to someone else, there's nothing left for you, and that slowly drains everything else. Time is an emotional issue as much as a scheduling one.",
+             "try": "Write down what you did yesterday, hour by hour. Circle one thing you could drop, delegate or do half as well this week.",
+             "ctas": [["Time Joy-gasm is in the Nest", "/#nest", "btn-sun"], ["Talk it through", "CALL", "btn-night"]]},
+    "money": {"name": "Money", "h": "Money is weighing on you.",
+              "p": "Money worries rarely stay about money. They bleed into sleep, relationships and how you see yourself. Looking at the feeling under the numbers is often where things start to shift.",
+              "try": "Finish this sentence without numbers: \"When I think about money, I feel...\" Then name one money conversation you've been avoiding.",
+              "ctas": [["Soul-Conomics is in the Nest", "/#nest", "btn-sun"], ["Talk it through", "CALL", "btn-night"]]},
+    "soul": {"name": "Disconnected", "h": "You feel disconnected from yourself.",
+             "p": "You've been so busy being who everyone needs that you've lost track of what you want. That's not a flaw. It's a signal that it's time to listen to yourself again.",
+             "try": "Ask yourself: \"If no one would be disappointed, what would I do with this year?\" Write the first answer before your Ego edits it.",
+             "ctas": [["Get your free Human Design chart", "/#chart", "btn-sun"], ["2-hour Human Design reading with Tracee", "READING", "btn-night"], ["Year of YES! Coaching", "/year-of-yes", "btn-ghost"]]},
+}
+QUESTIONS = [
+    ["Right now, which feels most true?", [["Everything feels like too much", {"over": 2}], ["I keep going around in circles", {"stuck": 2, "decide": 1}], ["I don't have anyone to talk to about it", {"alone": 2}], ["I don't know what I even want anymore", {"soul": 2}]]],
+    ["What's taking up most of your headspace?", [["A decision I have to make", {"decide": 2}], ["Money", {"money": 2}], ["My never-ending to-do list", {"time": 2}], ["A person or a relationship", {"alone": 1, "decide": 1}], ["The feeling that life should be more than this", {"soul": 2}]]],
+    ["How does your body feel?", [["Tense, wired, can't settle", {"over": 2}], ["Tired and flat", {"stuck": 1, "time": 1}], ["Heavy, a bit lonely", {"alone": 2}], ["Honestly, okay", {"soul": 1, "decide": 1}]]],
+    ["When you think about tomorrow...", [["Dread. There's too much to do", {"time": 2, "over": 1}], ["It'll be the same as today", {"stuck": 2}], ["I'm worried about money", {"money": 2}], ["I wish I had someone who gets it", {"alone": 2}]]],
+    ["What would help most this week?", [["Someone to listen", {"alone": 2}], ["A clear next step", {"stuck": 1, "decide": 2}], ["More hours in the day", {"time": 2}], ["To feel like myself again", {"soul": 2}], ["To calm down", {"over": 2}]]],
+    ["How long has it felt like this?", [["A few days", {"over": 1}], ["A few weeks", {"stuck": 1, "decide": 1}], ["Months, or longer", {"soul": 1, "stuck": 1}]]],
+]
+
+quiz = head("What do I need right now? A 2-minute quiz", "Overwhelmed, stuck, lonely or just not okay? Answer six quick questions and find out what kind of support would help most right now, plus one thing to try today.", "/quiz") + f"""
+<section class="wrap free">
+  <div class="index-head"><div><p class="kicker"><a href="/">Free from The Emotional Support Line</a></p><h1>What do I need right now?</h1>
+  <p class="lede">Six quick questions, about two minutes. You'll get a plain-English answer, one thing to try today, and where to find the right kind of help, whether that's a person to talk to, a calmer nervous system or a clear next step.</p></div>
+  <img class="sticker hero-owl" src="/assets/owls/idea.webp" alt="" width="200" height="200"></div>
+  <div class="panel" id="quiz" aria-live="polite"></div>
+  <p class="note">This quiz is for reflection, not a diagnosis. If you're thinking about suicide or you're in danger, call or text <a href="tel:988">988</a> (US) or your local emergency number now.</p>
+  {signup("Quiz", "Want gentle support in your inbox?", "EmoOwl's Energy Forecast: the week's moon and sky, a note on getting outside, and one question to sit with. Choose how often.", "Sign me up")}
+</section>
+<script>
+(function () {{
+  var Q = {json.dumps(QUESTIONS)}, R = {json.dumps(RESULTS)}, ORDER = ["over","alone","decide","stuck","time","money","soul"];
+  var C = window.ESL || {{ links: {{}} }}, el = document.getElementById("quiz"), i = 0, score = {{}};
+  function link(h) {{ return h === "CALL" ? (C.links.bookCall || "/#calls") : h === "READING" ? (C.links.hdReading || "/#chart") : h; }}
+  function esc(s) {{ return String(s).replace(/[&<>"]/g, function (c) {{ return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]; }}); }}
+  function show() {{
+    if (i >= Q.length) return result();
+    var q = Q[i];
+    el.innerHTML = '<div class="q"><p class="note">Question ' + (i + 1) + ' of ' + Q.length + '</p><div class="bar"><i style="width:' + (i / Q.length * 100) + '%"></i></div><h2>' + esc(q[0]) + '</h2><div class="opts">' +
+      q[1].map(function (o, k) {{ return '<button type="button" data-k="' + k + '">' + esc(o[0]) + '</button>'; }}).join("") + '</div></div>';
+  }}
+  function result() {{
+    var best = ORDER[0];
+    ORDER.forEach(function (k) {{ if ((score[k] || 0) > (score[best] || 0)) best = k; }});
+    var r = R[best];
+    try {{ if (window.gtag) gtag("event", "quiz_result", {{ result: r.name }}); }} catch (e) {{}}
+    var f = document.querySelector(".gate form"); if (f) f.dataset.tag = "Quiz: " + r.name;
+    el.innerHTML = '<div class="result"><p class="kicker">Your result: ' + esc(r.name) + '</p><h2>' + esc(r.h) + '</h2><p>' + esc(r.p) + '</p><div class="try"><b>Try this today:</b> ' + esc(r.tr) + '</div>' +
+      '<div class="ctas">' + r.ctas.map(function (c) {{ return '<a class="btn ' + c[2] + '" href="' + esc(link(c[1])) + '">' + esc(c[0]) + '</a>'; }}).join("") + '</div>' +
+      '<p class="note" style="margin-top:14px">Every $75 call comes with a free month in the Nest. Not sure? <a href="/blog/therapist-vs-life-coach-vs-emotional-support">See what kind of help fits</a>. <button type="button" class="btn btn-ghost" data-again style="margin-left:6px">Take it again</button></p></div>';
+  }}
+  el.addEventListener("click", function (e) {{
+    var b = e.target.closest("button"); if (!b) return;
+    if ("again" in b.dataset) {{ i = 0; score = {{}}; return show(); }}
+    var o = Q[i][1][+b.dataset.k][1];
+    Object.keys(o).forEach(function (k) {{ score[k] = (score[k] || 0) + o[k]; }});
+    i++; show();
+  }});
+  Object.keys(R).forEach(function (k) {{ R[k].tr = R[k]["try"]; }});
+  show();
+}})();
+</script>""" + FOOT
+(ROOT / "site/quiz.html").write_text(quiz)
+
+# ---------------- The 10-Minute Human Reset ----------------
+STEPS = [
+    ("Name it (1 minute)", "Say out loud, or write down, three words for what's happening inside you right now. \"Tight. Rushed. Scared.\" Naming a feeling tends to turn the volume down a little. You don't have to fix it yet."),
+    ("Breathe out longer than you breathe in (2 minutes)", "Breathe in through your nose for a count of four, and out through your mouth for a count of six to eight, like blowing through a straw. Ten rounds. If counting feels like pressure, just make each exhale a little slower than the last."),
+    ("Look around (2 minutes)", "Slowly turn your head and let your eyes land on five things in the room. Name them. Then find three things you can hear. This tells your body where you are: here, now, not inside the worry."),
+    ("Feel your feet and your weight (2 minutes)", "Press your feet into the floor, or better, onto grass or earth if you can. Notice the chair holding you. Put a hand on your chest or your belly and feel it rise. Humming or a long, low \"voo\" sound on the exhale can feel surprisingly settling."),
+    ("Reach for a human (3 minutes)", "We calm down faster with other people. That's called co-regulation, and it's how humans are built. Text someone you trust: \"Rough day. Can you send me something kind?\" Call a friend and say you just need to talk for five minutes. Or book a call with a real person here."),
+]
+steps = "".join(f'<div class="step"><b class="n">{k + 1}</b><div><h3>{t}</h3><p>{p}</p></div></div>' for k, (t, p) in enumerate(STEPS))
+reset = head("The 10-Minute Human Reset: a free nervous system reset", "A free, printable 10-minute nervous system reset: name it, breathe out longer, look around, feel your feet, and reach for a human. Because humans regulate with humans.", "/free/human-reset", "/assets/email/tea-blanket.png") + f"""
+<section class="wrap free">
+  <div class="index-head"><div><p class="kicker"><a href="/">Free from The Emotional Support Line</a></p><h1>The 10-Minute Human Reset</h1>
+  <p class="lede">For the moments when everything feels like too much. Five small steps, about ten minutes, no equipment. The last step is the one most nervous system resets leave out: another human.</p></div>
+  <img class="sticker hero-owl" src="/assets/owls/tea-blanket.webp" alt="" width="200" height="200"></div>
+  <div class="tools"><button class="btn btn-sun" onclick="window.print()">Print or save as PDF</button><a class="btn btn-ghost" href="/blog/nervous-system-regulation-in-real-life">Why this works</a></div>
+  <div class="panel">{steps}</div>
+  <h2>Still feel flooded?</h2>
+  <p>That's okay. Some days a reset takes the edge off and some days it doesn't. If you need to talk it through, book a 30-minute call with a calm, real person. No sales call first, and every call comes with a free month in the Nest.</p>
+  <div class="tools"><a class="btn btn-sun" data-link="bookCall" href="/#calls">Book a 30-minute call</a><a class="btn btn-ghost" href="/quiz">Take the 2-minute quiz</a></div>
+  <p class="note">This is a self-care practice, not medical advice or treatment. These steps help many people feel calmer, but results vary. If you're in danger or thinking about suicide, call or text <a href="tel:988">988</a> (US).</p>
+  {signup("Human Reset", "Get one calm email a week", "EmoOwl's Energy Forecast: the week's moon and sky, a note on getting outside, and one question to sit with.", "Sign me up")}
+</section>
+<script>document.addEventListener("DOMContentLoaded",function(){{var C=window.ESL;if(!C)return;document.querySelectorAll("[data-link]").forEach(function(a){{var u=C.links[a.dataset.link];if(u)a.href=u;}});}});</script>""" + FOOT
+(ROOT / "site/free/human-reset.html").write_text(reset)
+print("quiz and human reset built")

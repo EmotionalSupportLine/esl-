@@ -1,11 +1,11 @@
 ---
 banner: vision-board
 banner_alt: How to make a vision board that really works, based on your design
-title: Why resolutions fade by February, and what to try instead
+title: "How to get your life together without New Year's resolutions"
 slug: alternatives-to-new-years-resolutions
 date: 2027-01-05
 description: New Year's resolutions often quietly disappear within weeks. Here are kinder, more realistic alternatives that actually stick.
-keyword: alternatives to new year's resolutions
+keyword: how to get my life together
 cta: nest
 pose: idea
 status: approved

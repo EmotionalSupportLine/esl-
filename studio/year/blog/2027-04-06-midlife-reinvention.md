@@ -1,11 +1,11 @@
 ---
 banner: dream-board
 banner_alt: How to make a dream board that really works
-title: It's not too late to want something new: midlife reinvention
+title: "Feeling stuck in midlife? It's not too late to want something new"
 slug: midlife-reinvention
 date: 2027-04-06
 description: Feeling restless in midlife isn't a crisis. It can be the beginning of something. Here's how to explore a new direction without blowing up your life.
-keyword: midlife reinvention
+keyword: feeling stuck in life
 cta: coaching
 pose: compass
 status: approved

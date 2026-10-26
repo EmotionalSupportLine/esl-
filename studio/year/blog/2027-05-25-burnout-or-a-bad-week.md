@@ -1,9 +1,9 @@
 ---
-title: Burnout or a bad week? How to tell the difference
+title: "Burnout or a bad week? Signs you're overloaded, not lazy"
 slug: burnout-or-a-bad-week
 date: 2027-05-25
 description: Everyone has hard weeks. Burnout is different: it builds slowly and doesn't lift with a weekend off. Here's how to tell them apart, and what helps each.
-keyword: am I burned out
+keyword: burnout
 cta: call
 pose: hammock
 status: approved

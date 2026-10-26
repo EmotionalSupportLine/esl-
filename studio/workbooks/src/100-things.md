@@ -13,19 +13,25 @@ copyright: © The Emotional Support Line
 
 You did more than you think you did. You accomplished more than you remember. Often you’ve forgotten how much you wanted something, because you got it in March and that particular yearning vanished.
 
-This exercise is your proof. Write down 100 things you did, accomplished, learned, survived, released and enjoyed this year. It’s harder than it sounds for the first twenty, and then it starts to pour out.
-
 ### Where 100 Things came from
 
 When I had a baby and a preschooler, my then-husband had the nerve to give me crap about how I’d been doing “nothing.”
 
-“Nothing” is the word my wasband and our culture use for mothers’ labor: typically necessary, invisible, dirty, never-ending and unglamorous labor. Labor like keeping children alive, breastfeeding with our bodies, teaching preschoolers to read, driving them to daycare and school, mountains of laundry, endless tidying, planning meals and shopping. All of those tasks are relegated to “nothing.”
+“Nothing” is the word my wasband and our culture use for mothers’ labor: typically necessary, invisible, dirty, never-ending and unglamorous labor. Labor like keeping children alive, breastfeeding them with our bodies, teaching preschoolers to read, driving them to daycare and school, mountains of laundry, endless tidying, planning meals and shopping. All of those tasks are relegated to “nothing.”
 
-So I sat down and made a list of what I had done that year, which included starting a business and a blog and substitute teaching, and I came up with well over 100 things I had done that year.
+So I sat down and made a list of what I had done that year, which included starting a business and a blog and substitute teaching. I came up with well over 100 things I had done that year.
 
-My ex-husband was unmoved. But the exercise made me feel like a total badass. I felt validated when I looked at the 100 things on that list.
+My ex-husband was unmoved. But the exercise made me feel like a total badass. I felt validated when I looked at the 100 things I had accomplished.
 
-*Tracee Sioux*
+Over the years I noticed that as autumn rolls around, people feel guilty about everything they haven’t done, all the big accomplishments that didn’t get accomplished. So I shared my 100 Things Ritual with clients, friends and family.
+
+I have never met anyone who did not do at least 100 things. Things that mattered. Things that made a difference to themselves and to the people in their lives. We forget what happened in February. By November we disregard the big things because we’re moving on to bigger things.
+
+So I invite you to sit down and do this End of Year Gratitude Ritual, writing down 100 things. Then give yourself a reward, and maybe a Free Pass for what didn’t get done. I hope you find it as validating as I have for the last 20 years.
+
+[signature Tracee Sioux|Creator of Year of YES!]
+
+## Your 100 Things Ritual
 
 Use the prompts and recommended tools to reflect on your year. Reward and congratulate yourself for everything you’ve accomplished, learned and survived.
 
@@ -55,8 +61,8 @@ Use these tools to remind yourself of what you’ve been through and who you hav
 - What can you give yourself a Free Pass on?
 - How did you show yourself Love and Care?
 
+### When you reach 100
+
+Read your list out loud. Then celebrate it: dress up, take yourself out, toast how far you’ve come. Give yourself a Free Pass for what didn’t get done. When you notice and celebrate what you want, you get more of it.
+
 [hundred]
-
-### Now celebrate
-
-Read your list out loud. Then celebrate it: dress up, take yourself out, toast how far you’ve come. When you notice and celebrate what you want, you get more of it.

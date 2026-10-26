@@ -52,6 +52,8 @@ h3 {{ font: 700 13.5pt/1.3 Lora, serif; color: var(--orange); margin: 16pt 0 6pt
 p {{ margin: 0 0 9pt; }}
 ul, ol {{ margin: 0 0 10pt; padding-left: 18pt; }}
 li {{ margin: 0 0 5pt; }}
+ul:has(> li:nth-child(15)) {{ columns: 2; column-gap: 22pt; }}
+ul:has(> li:nth-child(15)) li {{ break-inside: avoid; }}
 li::marker {{ color: var(--orange); font-weight: 800; }}
 strong {{ font-weight: 800; color: var(--night); }}
 blockquote {{ margin: 16pt 0; padding: 14pt 20pt; background: var(--cream); border-left: 5pt solid var(--teal); border-radius: 0 12pt 12pt 0;
@@ -81,7 +83,10 @@ blockquote p {{ margin: 0; }}
 .pass p {{ font: italic 500 10.5pt/1.5 Nunito; color: var(--night); margin: 0; }}
 .hundred {{ break-before: page; columns: 2; column-gap: 26pt; }}
 .hundred h2 {{ column-span: all; }}
-.hundred i {{ display: block; height: 22.4pt; border-bottom: 0.8pt solid #d9c9b0; font: normal 700 8.5pt/30pt Nunito; color: var(--orange); break-inside: avoid; }}
+.hundred i {{ display: block; height: 24pt; border-bottom: 0.9pt solid #cdb894; font: normal 800 11pt/32pt Nunito; color: var(--orange); break-inside: avoid; }}
+.sigblock {{ margin: 16pt 0 0; }}
+.sigblock .n {{ font: 600 26pt/1 Caveat, cursive; color: var(--night); }}
+.sigblock .r {{ font: 700 9pt Nunito; letter-spacing: 1.5pt; text-transform: uppercase; color: var(--orange); margin-top: 4pt; }}
 .end {{ break-before: page; }}
 .end .card {{ border-radius: 16pt; padding: 18pt 20pt; margin: 0 0 14pt; background: var(--cream); display: flex; gap: 16pt; align-items: center; }}
 .end .card img {{ width: 64pt; }}
@@ -122,6 +127,9 @@ def expand(md_text):
                        '<p>In return, my Soul commits to speaking loudly, clearly and persistently, so much so that I cannot mistake or ignore your message.</p><p>Love,</p><div class="sig"></div></div>'); continue
         if s == "[freepass]":
             out.append('<div class="pass"><div class="x">No expiration</div><div class="big">FREE PASS</div><p>Good for releasing all of the unfinished, burdensome “stuff” your Soul says can go. Anything connected to “I really should” or “One day I’m going to” or “I really need to finish that” or “I wish I had time for” or “Why can’t I ever get that done?”</p></div>'); continue
+        m = re.match(r"\[signature (.+)\|(.+)\]", s)
+        if m:
+            out.append(f'<div class="sigblock"><div class="n">{html.escape(m.group(1))}</div><div class="r">{html.escape(m.group(2))}</div></div>'); continue
         if s == "[hundred]":
             out.append('<div class="hundred"><h2>100 Things I Experienced This Year!</h2>' + "".join(f"<i>{n}.</i>" for n in range(1, 101)) + "</div>"); continue
         out.append(line)

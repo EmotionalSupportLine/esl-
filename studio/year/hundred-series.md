@@ -44,6 +44,7 @@ If you’re stuck somewhere around 20, you’re right on schedule. Most people a
 
 - **Your bank statements.** Every payment is a story: the class you signed up for, the car you fixed, the gift you chose.
 - **Your calendar.** Appointments you kept, people you showed up for, things you finally scheduled.
+- **How you played.** Vacation photos, hiking pics, concerts, a lazy Sunday, the day you said yes to something fun. Play counts too.
 - **The invisible work.** Meals planned. Laundry done. Someone you looked after. It counts. All of it.
 - **What you survived.** A loss, a move, a diagnosis in the family, a job that drained you. Getting through it is on the list.
 

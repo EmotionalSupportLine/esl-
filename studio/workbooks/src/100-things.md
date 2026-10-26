@@ -53,6 +53,7 @@ Use these tools to remind yourself of what you’ve been through and who you hav
 - Who has loved you?
 - What have you healed?
 - How did you Rest?
+- How did you Play? (Look at your vacation photos, hiking pics, nights out and lazy Sundays.)
 - Where did the Universe or God show up in your life?
 - What have you released?
 - When did you feel joy?

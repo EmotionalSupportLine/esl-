@@ -2,8 +2,10 @@
 import re, pathlib, markdown, html
 ROOT = pathlib.Path(__file__).resolve().parents[2]; Y = ROOT / "studio" / "year"
 tpl = (ROOT / "studio" / "email-template.html").read_text()
-src = (Y / "welcome-series.md").read_text().split("\n=== ")[1:]
-out = Y / "welcome"; out.mkdir(exist_ok=True)
+import sys
+name = sys.argv[1] if len(sys.argv) > 1 else "welcome"   # welcome -> welcome-series.md ; hundred -> hundred-series.md
+src = (Y / f"{name}-series.md").read_text().split("\n=== ")[1:]
+out = Y / name; out.mkdir(exist_ok=True)
 BASE = "https://theemotionalsupportline.com"
 for part in src:
     num, rest = part.split("\n", 1)
@@ -18,6 +20,8 @@ for part in src:
     page = re.sub(r'(<td class="pad body" style="padding:18px 40px 4px" mc:edit="body">).*?(</td></tr>\n\n      <!-- One question)', lambda m: f'{m.group(1)}\n{content}\n      {m.group(2)}', page, flags=re.S)
     page = re.sub(r'\s*<!-- One question to sit with -->.*?</tr>\n\n', '\n\n', page, count=1, flags=re.S)
     page = page.replace('<span style="display:none;max-height:0;overflow:hidden;opacity:0">*|MC_PREVIEW_TEXT|*</span>', f'<span style="display:none;max-height:0;overflow:hidden;opacity:0">{html.escape(meta["preview"])}</span>')
+    if meta.get("from") == "tracee":
+        page = page.replace('With you,<br><b style="color:#134f53">EmoOwl</b> at The Emotional Support Line', 'Love,<br><b style="color:#134f53">Tracee</b><br><span style="font-size:14px">Tracee Sioux, creator of Year of YES!</span>')
     (out / f"{num.strip()}.html").write_text(page)
     (out / f"{num.strip()}.txt").write_text(f"Delay: {meta['delay']}\nSubject: {meta['subject']}\nPreview: {meta['preview']}\n")
 print(sorted(p.name for p in out.iterdir()))

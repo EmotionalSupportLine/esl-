@@ -34,6 +34,7 @@ Every agent follows BRAND.md when writing words to go with these. A graphic is n
 | time-joygasm-garden | Portrait, woman with owl, Time Joy-gasm | Time Joy-gasm course | /#nest |
 | psychic-spring-clean | Owl sweeping, "Clear your space, clear your energy" | Psychic Spring Clean course (in the Nest library); spring | /#nest |
 | autumn-clearing | Owl in a cozy autumn kitchen, "Let go, get organized" | Autumn and equinox posts (no course page yet, so link to the Forecast) | /forecast/ |
+| 3-minute-miracle | Two owls, "3 Minute Miracle, a very short manifesting practice" | The 3-Minute Miracle video in the Nest library (added Oct 26) | /#nest |
 | vision-board | How to make a vision board that works, "based on your design" | New year, goals, Human Design | /#chart |
 | dream-board | Same design, "Dream Board" title | Spring planning, reinvention | /#chart |
 | 100-things-2027 | "100 Things of 2027, a year-in-review exercise" | Late December 2027 (Tracee plans a separate 2026 version for this December) | /forecast/ |
@@ -46,7 +47,6 @@ The Nest library course covers (site/assets/covers/) are cut from the meditation
 |---|---|
 | what-we-are-not | Tracee to OK it first. It names a real person ("Not Oprah") and has political lines ("Not tech oligarch surveillance", "Not run by the state", "Not controlled by the government"). Perfect for the Aug 31, 2027 blog post "What is an emotional support call?" and a pinned post once approved. Any caption must carry the 988 line. |
 | course-collection, course-collection-2 (12-tile grids) | One tile is "Perfect Match Magnetism ... from Love", a retired topic in BRAND.md; three tiles (Creation Cycle, Autumn Clearing, Perfect Match) aren't in the Nest library. Individual tiles are fine (they're the course covers). |
-| 3-minute-miracle | "A very short manifesting practice": there's no practice or page for it yet, and BRAND.md avoids "manifest" language. |
 | hd-comprehensive-report, hd-comprehensive-report-reading, hd-career-purpose-report, hd-relationship-composite-report, hd-comprehensive-guide, hd-career-outlook-guide, hd-whos-in-your-nest, hd-guide-collection | Paid Human Design reports and guides with no price or checkout link on the site yet. Use them once each one has a page and a Stripe link. "Includes a live 2 hour reading" needs a price and booking details first. |
 
 ## Where they're used (Oct 26, 2026)

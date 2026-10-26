@@ -208,7 +208,7 @@
     } catch (e) { el.innerHTML = `<p class="sub">Space weather data isn't available right now. Try again later.</p>`; }
   }
 
-  const COVERS = { "Soul-Conomics": "soul-conomics", "Soul vs Ego": "soul-vs-ego", "Time Joy-gasm": "time-joygasm", "Psychic Spring Clean": "psychic-spring-clean", "Joy R.O.I.": "joy-roi", "Harvest": "harvest", "Guided meditations": "meditations" };
+  const COVERS = { "Soul-Conomics": "soul-conomics", "Soul vs Ego": "soul-vs-ego", "Time Joy-gasm": "time-joygasm", "Psychic Spring Clean": "psychic-spring-clean", "Joy R.O.I.": "joy-roi", "Harvest": "harvest", "Guided meditations": "meditations", "3-Minute Miracle": "3-minute-miracle" };
   const coverFor = (topic) => { const k = Object.keys(COVERS).find((k) => topic.startsWith(k)); return k ? COVERS[k] : ""; };
   async function viewLibrary() {
     if (!isMember()) { view.innerHTML = lockCard("The Library"); return; }

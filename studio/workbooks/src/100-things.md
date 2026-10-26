@@ -15,6 +15,18 @@ You did more than you think you did. You accomplished more than you remember. Of
 
 This exercise is your proof. Write down 100 things you did, accomplished, learned, survived, released and enjoyed this year. It’s harder than it sounds for the first twenty, and then it starts to pour out.
 
+### Where 100 Things came from
+
+When I had a baby and a preschooler, my then-husband had the nerve to give me crap about how I’d been doing “nothing.”
+
+“Nothing” is the word my wasband and our culture use for mothers’ labor: typically necessary, invisible, dirty, never-ending and unglamorous labor. Labor like keeping children alive, breastfeeding with our bodies, teaching preschoolers to read, driving them to daycare and school, mountains of laundry, endless tidying, planning meals and shopping. All of those tasks are relegated to “nothing.”
+
+So I sat down and made a list of what I had done that year, which included starting a business and a blog and substitute teaching, and I came up with well over 100 things I had done that year.
+
+My ex-husband was unmoved. But the exercise made me feel like a total badass. I felt validated when I looked at the 100 things on that list.
+
+*Tracee Sioux*
+
 Use the prompts and recommended tools to reflect on your year. Reward and congratulate yourself for everything you’ve accomplished, learned and survived.
 
 **Helpful tools:** notebook or journal, Notes app, photos, bank account statements, social media posts, phone records, goals and resolutions, calendar, Dream Board.

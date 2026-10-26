@@ -1,7 +1,8 @@
 // Daily (Vercel cron): keep the Mailchimp tag "Nest member" matching Stripe.
-// Everyone with an active, trialing or past-due subscription gets the tag; anyone who cancelled loses it.
+// Everyone with an active, trialing or past-due subscription, or free Nest time from a call or reading, gets the tag;
+// anyone who cancelled or whose free time ran out loses it.
 // Needs STRIPE_SECRET_KEY and MAILCHIMP_API_KEY. Safe to run by hand: it only adds or removes that one tag.
-const { stripe, send, hasStripe, mc, nestTag, NEST_TAG } = require("./_lib");
+const { stripe, send, hasStripe, mc, nestTag, NEST_TAG, guestGrants } = require("./_lib");
 
 module.exports = async (req, res) => {
   const m = mc();
@@ -17,6 +18,8 @@ module.exports = async (req, res) => {
         after = `&starting_after=${r.data[r.data.length - 1].id}`;
       }
     }
+    // Free Nest time from a support call (1 month) or Human Design reading (3 months)
+    for (const g of await guestGrants()) members.add(g.email);
     // Who has the tag now?
     const segs = await (await fetch(`${m.base}/segments?type=static&count=1000`, { headers: m.headers })).json();
     const seg = (segs.segments || []).find((s) => s.name === NEST_TAG);

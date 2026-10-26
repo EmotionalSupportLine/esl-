@@ -35,8 +35,23 @@
     const sid = p.get("session_id"), k = p.get("k");
     if (!sid && !k) return;
     history.replaceState(null, "", "/app/");
-    try { setMember(await api(`/api/join?session_id=${encodeURIComponent(sid || "")}&k=${encodeURIComponent(k || "")}`)); toast("Welcome to the Nest. You're in."); }
+    try {
+      const d = await api(`/api/join?session_id=${encodeURIComponent(sid || "")}&k=${encodeURIComponent(k || "")}`);
+      setMember(d);
+      if (d.next) { state.next = { url: d.next, what: d.what, months: d.guest > 40 ? 3 : 1 }; save(); }
+      toast(d.next ? `Your free ${d.guest > 40 ? "3 months" : "month"} in the Nest has started.` : "Welcome to the Nest. You're in.");
+    }
     catch (e) { toast(e.message); }
+  }
+
+  // After buying a call or reading: a banner that stays until they've opened the booking page
+  function bookingBanner() {
+    const n = state.next; if (!n || document.getElementById("book-next")) return;
+    const b = document.createElement("div"); b.id = "book-next";
+    b.style.cssText = "position:sticky;top:0;z-index:50;background:#134F53;color:#FCEFDA;padding:14px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;font-weight:700;text-align:center";
+    b.innerHTML = `<span>Thank you! Next, pick the time for your ${n.what === "reading" ? "2-hour Human Design reading" : "support call"}. Your free ${n.months === 3 ? "3 months" : "month"} in the Nest has started.</span><a class="btn btn-sun" href="${esc(n.url)}" target="_blank" rel="noopener">Pick your time</a>`;
+    b.querySelector("a").addEventListener("click", () => { state.next = null; save(); setTimeout(() => b.remove(), 300); });
+    document.body.prepend(b);
   }
 
   async function loadMember() {
@@ -305,5 +320,5 @@
     if (el) { const s = elapsed(state.active.kind); if (s % 15 === 0) render(); else el.firstChild.textContent = mmss(s); }
   }, 1000);
 
-  handleCheckoutReturn().then(render);
+  handleCheckoutReturn().then(render).then(bookingBanner);
 })();

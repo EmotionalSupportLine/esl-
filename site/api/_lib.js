@@ -38,7 +38,33 @@ async function stripe(path) {
   return r.json();
 }
 
-// Is there an active (or trialing) subscription for this email?
+// Free Nest time that comes with a purchase: Stripe payment link id -> days of Nest, and where to book.
+// A $75 support call includes 1 month; the $444 Human Design reading includes 3 months.
+const GUEST = {
+  plink_1UTTxQDcPgQXcI4deYUSfxF0: { days: 31, book: "https://calendar.app.google/gczW5R1ubjrYmJo7A", what: "call" },
+  plink_1UUwycDcPgQXcI4dMCTXpWJZ: { days: 92, book: "https://calendar.app.google/K7LF7T2FPzPinaS48", what: "reading" },
+};
+
+// Completed guest purchases still inside their free window: [{ email, until }]
+async function guestGrants() {
+  const out = [];
+  for (const [link, g] of Object.entries(GUEST)) {
+    const since = Math.floor(Date.now() / 1000) - g.days * 86400;
+    let after = "";
+    for (let page = 0; page < 10; page++) {
+      const r = await stripe(`checkout/sessions?payment_link=${link}&status=complete&limit=100&created[gte]=${since}${after}`);
+      for (const x of r.data) {
+        const email = x.customer_details && x.customer_details.email;
+        if (email) out.push({ email: email.toLowerCase(), until: (x.created + g.days * 86400) * 1000 });
+      }
+      if (!r.has_more) break;
+      after = `&starting_after=${r.data[r.data.length - 1].id}`;
+    }
+  }
+  return out;
+}
+
+// Is there an active (or trialing) subscription for this email? If not, free Nest time from a call or reading?
 async function activeMember(email) {
   const customers = await stripe(`customers?limit=10&email=${encodeURIComponent(email)}`);
   for (const c of customers.data) {
@@ -46,6 +72,8 @@ async function activeMember(email) {
     const live = subs.data.find((s) => ["active", "trialing", "past_due"].includes(s.status));
     if (live) return { email, until: live.current_period_end * 1000 || Date.now() + 31 * DAY };
   }
+  const mine = (await guestGrants()).filter((g) => g.email === email.toLowerCase()).sort((a, b) => b.until - a.until)[0];
+  if (mine && mine.until > Date.now()) return { email, until: mine.until, guest: true };
   return null;
 }
 
@@ -85,4 +113,4 @@ async function nestTag(email, active) {
   await fetch(`${m.base}/members/${hash}/tags`, { method: "POST", headers: m.headers, body: JSON.stringify({ tags: [{ name: NEST_TAG, status: active ? "active" : "inactive" }] }) });
 }
 
-module.exports = { mc, nestTag, NEST_TAG, sign, verify, stripe, activeMember, passFor, send, readJSON, joinCode, hasStripe };
+module.exports = { GUEST, guestGrants, mc, nestTag, NEST_TAG, sign, verify, stripe, activeMember, passFor, send, readJSON, joinCode, hasStripe };

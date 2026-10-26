@@ -12,7 +12,7 @@ module.exports = async (req, res) => {
     const member = await activeMember(email.trim().toLowerCase());
     if (!member) return send(res, 404, { error: "No active membership for that email. Check for typos, or join below." });
     await nestTag(member.email, true).catch(() => {});
-    send(res, 200, { email: member.email, code: joinCode(), ...passFor(member) });
+    send(res, 200, { email: member.email, ...(member.guest ? {} : { code: joinCode() }), ...passFor(member) });
   } catch (e) {
     send(res, 500, { error: "Couldn't check membership right now. Try again in a minute." });
   }

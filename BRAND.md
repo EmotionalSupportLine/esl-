@@ -35,11 +35,12 @@ Links: site https://theemotionalsupportline.com · coaching /year-of-yes · app 
 
 1. Every email, post caption and page that invites someone to talk includes: "Not a crisis line. If you're in danger or thinking about suicide, call or text 988 (US)."
 2. If any message mentions suicide, self-harm, being in danger or harming someone, do not draft a sales reply. Draft only: warmth, 988, and "please contact local emergency services," and flag it to Tracee immediately.
-3. We are coaching and emotional support. Never say therapy, treatment, diagnosis, heal, cure or clinical.
-4. No health claims. Earthing, sunlight, 528 Hz and the sky are for reflection and habit-building. Say "many people find" or "a prompt for reflection," never "proven" or "will fix."
-5. Astrology and Human Design: sky positions are real astronomy; meanings are reflection, not prediction.
-6. Never invent testimonials, statistics, client stories or credentials. A statistic needs a named, linked source.
-7. Never reveal anyone's booking, payment or personal details in public content.
+3. **Say what we do, in our own words.** We offer emotional support and coaching from trained people with lived experience, using trauma-informed, evidence-based practices. Use the real names of the work freely: nervous system regulation, co-regulation, grounding, trauma-informed listening, evidence-based methods, EFT and tapping, breathwork, earthing, meditation, healing. No profession owns these words, and anyone can read and follow the evidence.
+4. **Two lines we keep, for legal reasons only.** (a) We don't call our work "therapy" or "psychotherapy," and we don't call our supporters "therapists" or "licensed": in most US states those are licensed titles. Saying what we're not is fine ("not therapy," "not a crisis line"). (b) We don't diagnose medical conditions, prescribe, or tell anyone to stop seeing a doctor or taking medication.
+5. **Talk about results honestly.** Say what a practice is for and what people commonly experience, plainly and with confidence ("tapping can calm your body in the moment," "many people sleep better after morning light"). Don't promise guaranteed results or say something cures a disease: advertising law (FTC) draws that line for every business. When we quote a specific study or number, link the source.
+6. Astrology and Human Design: sky positions are real astronomy; meanings are for reflection and insight, not fixed prediction.
+7. Never invent testimonials, statistics, client stories or credentials.
+8. Never reveal anyone's booking, payment or personal details in public content.
 
 ## Voice
 

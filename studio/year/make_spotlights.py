@@ -76,7 +76,7 @@ POSTS = [
    "Year of YES! Coaching with Tracee Sioux: twelve months, two hours a month, guided by your Human Design chart.",
    "$555 a month for four founding clients, then $777. By application. Link in bio."],
   ["#YearOfYes", "#LifeCoaching", "#HumanDesign", "#WomenInBusiness", "#SoulPurpose", "#EmotionalSupportLine"]),
- ("2027-01-23", "hd-free-guide", "chart", "Free Human Design quick guide: a snapshot of your design",
+ ("2027-01-23", "hd-free-report", "chart", "Free Human Design quick guide: a snapshot of your design",
   ["Your free Human Design snapshot. 🦉",
    "Your type, your strategy, your authority: how your energy works and how you're built to decide.",
    "Enter your birth details on our homepage for a free chart and Starter Report. A prompt for reflection, never a prediction. Link in bio."],
@@ -136,7 +136,7 @@ POSTS = [
    "Make a dream board from what lights you up, not what you think you should want. Your Human Design chart can help you tell the difference.",
    "See your free chart on our homepage. Link in bio."],
   ["#DreamBoard", "#VisionBoard", "#HumanDesign", "#SpringReset", "#Intentions", "#EmotionalSupportLine"]),
- ("2027-04-17", "in-the-moment-support", "calls", "In-the-moment emotional support from a real person",
+ ("2027-04-17", "in-the-moment-community", "calls", "In-the-moment emotional support from a real person",
   ["All feelings allowed. 💛",
    "Grief, worry, a hard conversation, or a week that's just too much: talk it through with a real, trained person. Never AI.",
    "30 minutes. $75, or $50 for Nest members. Mondays and Tuesdays, noon to 7 pm Mountain. Link in bio."],
@@ -176,7 +176,7 @@ POSTS = [
    "Sunday, June 6, 11 am Mountain. Bring a question, or just listen.",
    "For Nest members. The Nest is $19 a month or $190 a year. Link in bio."],
   ["#TheNest", "#GroupCall", "#WomensCircle", "#Community", "#HereToListen", "#EmotionalSupportLine"]),
- ("2027-06-12", "in-the-moment-support", "calls", "In-the-moment emotional support from a real person",
+ ("2027-06-12", "in-the-moment-circle", "calls", "In-the-moment emotional support from a real person",
   ["Some things get lighter the moment you say them out loud. 💛",
    "Thirty minutes with a real, trained person who listens. Never AI. No sales call first.",
    "$75, or $50 for Nest members. Mondays and Tuesdays, noon to 7 pm Mountain. Link in bio."],
@@ -267,7 +267,7 @@ POSTS = [
    "Time Joy-gasm: seven video classes from the Year of YES! library on experiencing your time as pleasure. In the Nest.",
    "Link in bio."],
   ["#TimeJoygasm", "#YearOfYes", "#Busyness", "#Joy", "#TimeManagement", "#EmotionalSupportLine"]),
- ("2027-10-16", "in-the-moment-support", "calls", "In-the-moment emotional support from a real person",
+ ("2027-10-16", "in-the-moment-circle", "calls", "In-the-moment emotional support from a real person",
   ["A neutral ear makes a difference. 💛",
    "Thirty minutes with a real, trained person who listens. Never AI. No sales call first.",
    "$75, or $50 for Nest members. Mondays and Tuesdays, noon to 7 pm Mountain. Link in bio."],
@@ -313,8 +313,8 @@ def check(posts):
         emo = [c for c in p["instagram"] if ord(c) > 0x2600 and c not in "’"]
         assert len(emo) <= 1 and all(c in allowed for c in emo), (p["id"], emo)
         assert "988" in p["instagram"] and len(p["bluesky"]) <= 300, p["id"]
-        for bad in ("therapy", "heal", "cure", "clinical", "diagnos", "treatment", "Magdalene", "proven"):
-            assert bad not in p["instagram"].lower().replace("magdalene", "Magdalene"), (p["id"], bad)
+        for bad in ("therapist", "psychotherapy", "cures", "guaranteed", "magdalene"):  # BRAND.md rules 4 and 5
+            assert bad not in p["instagram"].lower(), (p["id"], bad)
 
 
 if __name__ == "__main__":

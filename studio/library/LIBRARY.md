@@ -56,3 +56,10 @@ The Nest library course covers (site/assets/covers/) are cut from the meditation
 - Forecast emails: on the first Sunday of each month (from Dec 6, 2026) a "Today, 11 am Mountain: the Nest group call" block with the Nest call graphic.
 - Welcome series (5 emails): one or two graphics each (welcome-series.md, rebuilt with make_welcome.py).
 - The Nest app library: new course covers.
+
+## Course workbooks (Oct 26, 2026)
+
+Rebranded PDFs in `site/assets/workbooks/`, linked from the Nest library. Built by `studio/workbooks/build.py` from `studio/workbooks/src/*.md` (Tracee's 2014–2015 text, cleaned) and `studio/workbooks/originals/` (the old PDFs from traceesioux.com and yoy.traceesioux.com).
+
+- time-joygasm.pdf (cover: time-joygasm-garden), harvest.pdf (cover: autumn owl art, titled Harvest), soul-vs-ego.pdf (cover: year-of-yes-soul-contract), joy-roi.pdf (cover: Joy ROI tile), soul-conomics-1 to -7.pdf (Tracee's Keynote slides with the old Sioux Ink logo replaced by EmoOwl).
+- Edits from the originals (retired topics and dated details): "Time Sex" became "Time Joy-gasm"; "lovers", "sex" and "a date with your honey" removed from Time Joy-gasm; in Harvest, the marriage/boyfriend examples in Class 3 were replaced with short neutral versions of the same lesson, "2015" became "the new year", Facebook became social media, and the Maxcelerators Facebook group became the Nest group call; typos fixed. Edit the .md files and rerun build.py to change anything.

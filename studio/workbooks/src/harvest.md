@@ -2,7 +2,7 @@
 title: Harvest
 subtitle: Completion, review and celebration for the end of your year
 kind: Course workbook
-cover: autumn-clearing
+cover: harvest-crop
 cover_crop: left
 course: Harvest, a Year of YES! course with Tracee Sioux
 ---

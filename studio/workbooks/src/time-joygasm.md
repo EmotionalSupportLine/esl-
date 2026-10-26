@@ -24,9 +24,9 @@ To get off the Busy Bus, you have to create new neural pathways and ruts in your
 
 “Like attracts Like” in Law of Attraction physics.
 
-Pleasure attracts more Pleasure.
-Joy attracts more Joy.
-Love attracts more Love.
+Pleasure attracts more Pleasure.<br>
+Joy attracts more Joy.<br>
+Love attracts more Love.<br>
 Fun attracts more Fun.
 
 No one ever created a life they love doing a series of tasks that they hate or they find Soul Sucking. No one ever busy-ed themselves to Joy, or misery-ed themselves to happiness. In other words, if your life is made up of a series of mundane to deplorable tasks that are not your Soul’s Purpose, you’ll always have a feeling that you should be somewhere else, doing something else.

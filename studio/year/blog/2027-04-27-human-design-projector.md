@@ -1,4 +1,6 @@
 ---
+banner: hd-free-guide
+banner_alt: The Emotional Support Line's free Human Design quick guide
 title: Human Design Projectors: rest, recognition and the invitation
 slug: human-design-projector
 date: 2027-04-27

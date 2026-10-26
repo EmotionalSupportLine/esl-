@@ -1,4 +1,6 @@
 ---
+banner: nest-celestial
+banner_alt: The Nest: a space to learn, grow and belong
 title: "Empty nest: who am I now?"
 slug: empty-nest-feelings
 date: 2027-06-22

@@ -1,4 +1,6 @@
 ---
+banner: hd-free-guide-tall
+banner_alt: Human Design free quick guide
 title: Human Design Generators: how to find what lights you up
 slug: human-design-generator
 date: 2027-03-23

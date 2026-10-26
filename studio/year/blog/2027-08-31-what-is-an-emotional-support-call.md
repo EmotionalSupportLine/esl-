@@ -1,4 +1,6 @@
 ---
+banner: in-the-moment-support
+banner_alt: In the Moment Support from The Emotional Support Line
 title: "What is an emotional support call? (And how it differs from therapy or coaching)"
 slug: what-is-an-emotional-support-call
 date: 2027-08-31

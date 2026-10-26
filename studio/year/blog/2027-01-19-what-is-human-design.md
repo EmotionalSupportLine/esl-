@@ -1,4 +1,6 @@
 ---
+banner: hd-free-guide
+banner_alt: The Emotional Support Line's free Human Design quick guide
 title: What is Human Design? A plain-English beginner's guide
 slug: what-is-human-design
 date: 2027-01-19

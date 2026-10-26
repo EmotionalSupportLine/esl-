@@ -1,4 +1,6 @@
 ---
+banner: nest-matriarchal-owls
+banner_alt: The Nest: come as you are, you don't have to do life alone
 title: "A year of small habits: what changes when you keep showing up"
 slug: a-year-of-small-habits
 date: 2027-10-26

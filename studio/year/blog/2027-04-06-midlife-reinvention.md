@@ -1,4 +1,6 @@
 ---
+banner: dream-board
+banner_alt: How to make a dream board that really works
 title: It's not too late to want something new: midlife reinvention
 slug: midlife-reinvention
 date: 2027-04-06

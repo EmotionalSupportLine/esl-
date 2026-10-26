@@ -1,4 +1,6 @@
 ---
+banner: time-joygasm-garden
+banner_alt: Time Joy-gasm: more pleasure, more productivity, more purpose
 title: "The mental load: why you're exhausted when you 'didn't do anything'"
 slug: mental-load-exhaustion
 date: 2027-03-09

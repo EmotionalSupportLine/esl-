@@ -1,4 +1,6 @@
 ---
+banner: forecast-weekly-monthly
+banner_alt: EmoOwl Energy Forecasts: weekly and monthly guidance
 title: The new moon reset: a simple monthly practice for fresh starts
 slug: new-moon-intentions
 date: 2026-12-01

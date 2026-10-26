@@ -1,4 +1,6 @@
 ---
+banner: hd-free-guide-tall
+banner_alt: Human Design free quick guide
 title: "Your Human Design authority: how you're built to decide"
 slug: human-design-authority
 date: 2027-08-24

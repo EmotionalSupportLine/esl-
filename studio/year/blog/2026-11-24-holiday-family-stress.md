@@ -1,4 +1,6 @@
 ---
+banner: autumn-clearing
+banner_alt: Autumn Clearing: let go, get organized and create a cozy, nourished home for the winter ahead
 title: Holiday stress: how to protect your energy around family
 slug: holiday-family-stress
 date: 2026-11-24

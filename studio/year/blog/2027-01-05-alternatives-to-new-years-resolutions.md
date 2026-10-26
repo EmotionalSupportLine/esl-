@@ -1,4 +1,6 @@
 ---
+banner: vision-board
+banner_alt: How to make a vision board that really works, based on your design
 title: Why resolutions fade by February, and what to try instead
 slug: alternatives-to-new-years-resolutions
 date: 2027-01-05

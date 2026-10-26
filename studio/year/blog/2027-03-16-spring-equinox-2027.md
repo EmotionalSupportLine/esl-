@@ -1,4 +1,6 @@
 ---
+banner: psychic-spring-clean
+banner_alt: Psychic Spring Clean: clear your space, clear your energy
 title: The spring equinox: a balance check-in for your whole life
 slug: spring-equinox-2027
 date: 2027-03-16

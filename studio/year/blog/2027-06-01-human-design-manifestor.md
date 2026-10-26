@@ -1,4 +1,6 @@
 ---
+banner: hd-free-guide-tall
+banner_alt: Human Design free quick guide
 title: Human Design Manifestors and Manifesting Generators, explained
 slug: human-design-manifestor
 date: 2027-06-01

@@ -1,4 +1,6 @@
 ---
+banner: nest-womens-wisdom
+banner_alt: The Nest: a collective for women, wisdom, connection and practice
 title: When Mother's Day is complicated
 slug: when-mothers-day-is-hard
 date: 2027-05-04

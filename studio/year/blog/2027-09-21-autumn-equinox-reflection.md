@@ -1,4 +1,6 @@
 ---
+banner: autumn-clearing
+banner_alt: Autumn Clearing: let go, get organized and create a cozy, nourished home
 title: "The autumn equinox: a reflection practice for letting go"
 slug: autumn-equinox-reflection
 date: 2027-09-21

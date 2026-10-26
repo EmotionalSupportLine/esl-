@@ -1,4 +1,6 @@
 ---
+banner: forecast-cover-woman
+banner_alt: EmoOwl's Energy Forecast
 title: The longest night: a winter solstice reflection
 slug: winter-solstice-reflection
 date: 2026-12-15

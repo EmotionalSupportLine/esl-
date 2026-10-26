@@ -1,4 +1,6 @@
 ---
+banner: hd-free-guide
+banner_alt: The Emotional Support Line's free Human Design quick guide
 title: Human Design Reflectors: the rarest type, and the moon's role
 slug: human-design-reflector
 date: 2027-07-13

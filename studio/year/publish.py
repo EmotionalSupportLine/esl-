@@ -40,6 +40,8 @@ CTA = {
     "moon-calendar": ("moon-phases", "Free: the 2027 Moon Calendar", "Every new moon, full moon and eclipse of 2027, in Mountain time, with a reflection question for each. Free to download.", "Get the moon calendar", "/free/moon-calendar-2027"),
     "earthing-checklist": ("earthing", "Free: the Earthing Starter Checklist", "A one-page, printable guide to starting a barefoot habit, with a 14-day tracker. Free to download.", "Get the checklist", "/free/earthing-checklist"),
 }
+# Tracee's graphics (site/assets/library/) shown in each kind of call-to-action box. See studio/library/LIBRARY.md.
+CTA_ART = {"call": "in-the-moment-support", "nest": "nest-come-as-you-are", "forecast": "forecast-cover-owls", "coaching": "year-of-yes-soul-contract"}
 CRISIS = "Not a crisis line. If you're in danger or thinking about suicide, call or text 988 (US)."
 
 
@@ -79,7 +81,7 @@ PAGE = """<!doctype html>
 <link rel="icon" href="/assets/owl-128.png">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
-<meta property="og:image" content="{base}/assets/email/{ogimg}.png">
+<meta property="og:image" content="{base}{ogimg}">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/rss+xml" title="The Emotional Support Line blog" href="/blog/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,13 +115,20 @@ PAGE = """<!doctype html>
 
 
 def page(title, desc, url, main, ogimg="full-moon", jsonld=""):
+    ogimg = ogimg if ogimg.startswith("/") else f"/assets/email/{ogimg}.png"
     return PAGE.format(title=html.escape(title), desc=html.escape(desc), url=url, main=main, base=BASE, ogimg=ogimg, jsonld=jsonld, year=NOW.year)
 
 
-def cta_box(kind, date="2099-01-01"):
+def art(name, cls, alt="", width=480):
+    return f'<img class="{cls}" src="/assets/library/{name}.jpg" alt="{html.escape(alt)}" width="{width}" loading="lazy">'
+
+
+def cta_box(kind, date="2099-01-01", banner=""):
     pose, h, p, btn, href = CTA[kind]
     p = p.replace("NEST_PRICE", "Founding members pay $14 a month for as long as they stay." if date < "2026-12-01" else "$19 a month, or $190 a year.")
-    return f'<aside class="cta">{owl(pose, 120, "sticker")}<div><h2>{h}</h2><p>{p}</p><a class="btn btn-sun" href="{href}">{btn}</a></div></aside>'
+    pic = CTA_ART.get(kind)
+    img = f'<a href="{href}">{art(pic, "cta-art", h, 220)}</a>' if pic and pic != banner else owl(pose, 120, "sticker")
+    return f'<aside class="cta">{img}<div><h2>{h}</h2><p>{p}</p><a class="btn btn-sun" href="{href}">{btn}</a></div></aside>'
 
 
 def signup():
@@ -156,16 +165,19 @@ def build_blog():
         slug = meta["slug"]
         url = f"{BASE}/blog/{slug}"
         content = md(body)
-        jsonld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BlogPosting", "headline": meta["title"], "datePublished": meta["date"], "description": meta["description"], "author": {"@type": "Organization", "name": "The Emotional Support Line"}, "publisher": {"@type": "Organization", "name": "The Emotional Support Line", "logo": {"@type": "ImageObject", "url": BASE + "/assets/icon-512.png"}}, "image": f"{BASE}/assets/email/{meta['pose']}.png", "mainEntityOfPage": url}) + "</script>"
+        banner = meta.get("banner", "")
+        ogimg = f"/assets/library/{banner}.jpg" if banner else f"/assets/email/{meta['pose']}.png"
+        jsonld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BlogPosting", "headline": meta["title"], "datePublished": meta["date"], "description": meta["description"], "author": {"@type": "Organization", "name": "The Emotional Support Line"}, "publisher": {"@type": "Organization", "name": "The Emotional Support Line", "logo": {"@type": "ImageObject", "url": BASE + "/assets/icon-512.png"}}, "image": BASE + ogimg, "mainEntityOfPage": url}) + "</script>"
+        figure = f'<figure class="banner">{art(banner, "", meta.get("banner_alt", ""))}</figure>' if banner else ""
         main = (f'<article class="wrap post"><header class="post-head"><div><p class="kicker"><a href="/blog/">The Emotional Support Line blog</a> · {nice(meta["date"])}</p>'
                 f'<h1>{html.escape(meta["title"])}</h1><p class="lede">{html.escape(meta["description"])}</p></div>{owl(meta["pose"], 220, "sticker hero-owl", "")}</header>'
-                f'<div class="prose">{content}</div>{cta_box(meta["cta"], meta["date"])}{signup()}<p class="safety">{CRISIS} We offer emotional support and coaching, not therapy or medical advice.</p></article>')
+                f'{figure}<div class="prose">{content}</div>{cta_box(meta["cta"], meta["date"], banner)}{signup()}<p class="safety">{CRISIS} We offer emotional support and coaching, not therapy or medical advice.</p></article>')
         out = SITE / "blog" / f"{slug}.html"
         out.parent.mkdir(exist_ok=True)
-        out.write_text(page(meta["title"], meta["description"], url, main, meta["pose"], jsonld))
+        out.write_text(page(meta["title"], meta["description"], url, main, ogimg, jsonld))
         pub = datetime.datetime.fromisoformat(meta["date"] + "T07:00").replace(tzinfo=MT)
         posts.append({"title": meta["title"], "url": url, "slug": slug, "desc": meta["description"], "pose": meta["pose"], "date": meta["date"], "pub": pub,
-                      "content": absolute(f'<p><img src="/assets/email/{meta["pose"]}.png" width="160" alt=""></p>{content}<p><a href="{url}">Read it on the blog</a></p>')})
+                      "content": absolute((f'<p><img src="/assets/library/{banner}.jpg" width="480" alt=""></p>' if banner else f'<p><img src="/assets/email/{meta["pose"]}.png" width="160" alt=""></p>') + f'{content}<p><a href="{url}">Read it on the blog</a></p>')})
     posts.sort(key=lambda p: p["date"], reverse=True)
     cards = "".join(f'<a class="card" href="/blog/{p["slug"]}">{owl(p["pose"], 110, "sticker")}<div><span class="date">{nice(p["date"])}</span><h2>{html.escape(p["title"])}</h2><p>{html.escape(p["desc"])}</p></div></a>' for p in posts)
     main = (f'<section class="wrap blog-index"><div class="index-head"><div><h1>The blog</h1><p class="lede">Plain-spoken help for hard weeks, small daily habits, and a little perspective from the sky. A new post every Tuesday.</p></div>'
@@ -188,6 +200,20 @@ def email_band(sunday):
     second = cell("telescope", "Share the Forecast", "Know someone who'd like a Sunday pause? Send them this.", "Read on the web", "/forecast/", "#d7783a", "#ffffff") if away else \
              cell("headset-wink", "Need to talk it through?", "30 minutes with a real person. $75, or $50 for Nest members.", "Book a call", "/#calls", "#d7783a", "#ffffff")
     return f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#fcefda;border-radius:16px;margin:24px 0 8px"><tr><td style="padding:22px 8px 8px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>{second}{nest}</tr></table></td></tr></table>'
+
+
+def group_call_band(sunday):
+    """On the first Sunday of the month the Forecast email announces that day's Nest group call."""
+    d = datetime.date.fromisoformat(sunday)
+    if d.day > 7 or sunday < "2026-12-06":  # the first group call is December 6, 2026
+        return ""
+    pic = "nest-sundays-11am" if d.month in (11, 12, 1, 2) or (d.month == 3 and d.day < 8) else "nest-first-sundays"  # that graphic says MST
+    return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border:2px solid #fcab79;border-radius:16px;margin:24px 0 8px"><tr>'
+            f'<td class="stack" width="190" valign="middle" style="width:190px;padding:16px"><a href="/#nest"><img src="/assets/library/{pic}.jpg" width="170" alt="The Nest group call, first Sunday of every month" style="display:block;width:170px;height:auto;border:0;border-radius:10px"></a></td>'
+            f'<td class="stack" valign="middle" style="padding:16px 20px 16px 4px"><div style="font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:2px;font-weight:800;color:#d7783a;text-transform:uppercase">Today, 11 am Mountain</div>'
+            f'<div style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#134f53;margin:6px 0">The Nest group call</div>'
+            f'<div style="font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:1.5;color:#524c4f;margin:0 0 12px">Bring a question, or just listen. Members: the link is in the Calls tab of the Nest app. Not a member yet? The Nest is $19 a month or $190 a year.</div>'
+            f'<a href="/#nest" style="display:inline-block;background:#134f53;color:#fcefda;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-weight:800;font-size:15px;padding:12px 22px;border-radius:999px">See the Nest</a></td></tr></table>')
 
 
 def build_forecasts():
@@ -217,7 +243,7 @@ def build_forecasts():
                  f'<td width="80" style="padding:16px 0 16px 16px"><img src="/assets/email/journaling.png" width="64" alt="" style="display:block;width:64px;height:auto"></td>'
                  f'<td style="padding:16px 20px 16px 12px"><div style="font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:2px;font-weight:800;color:#fcab79;text-transform:uppercase">A question to sit with</div>'
                  f'<div style="font-family:Georgia,serif;font-style:italic;font-size:19px;line-height:1.4;color:#fcefda">{q}</div></td></tr></table>'
-                 f'{email_band(sunday)}')
+                 f'{group_call_band(sunday)}{email_band(sunday)}')
         pub = datetime.datetime.fromisoformat(sunday + "T06:00").replace(tzinfo=MT) - datetime.timedelta(days=1)
         items.append({"title": meta["subject"], "url": url, "desc": meta["preview"], "pub": pub, "sunday": sunday, "pose": meta["pose"], "content": absolute(email)})
     items.sort(key=lambda i: i["sunday"], reverse=True)

@@ -1,4 +1,6 @@
 ---
+banner: nest-matriarchal-collective
+banner_alt: The Nest: a matriarchal collective
 title: Lonely as an adult: small ways to start reconnecting
 slug: lonely-as-an-adult
 date: 2027-07-20

@@ -26,6 +26,9 @@ Every Sunday morning you'll get:
 
 That's it. One email a week, no noise.
 
+
+[![EmoOwl's Energy Forecast](/assets/library/forecast-cover-owls.jpg)](https://theemotionalsupportline.com/forecast/)
+
 ## Two free gifts while you wait
 
 - [The 2027 Moon Calendar](https://theemotionalsupportline.com/free/moon-calendar-2027): every new moon, full moon and eclipse of the year, with a question for each. Print it and keep it in your journal.
@@ -59,6 +62,9 @@ We're not therapy, and we're not a crisis line. If you're ever in danger or thin
 
 For everything else, the hard weeks, the in-between, the "I'm not okay but I'm not in an emergency either," we're here.
 
+
+[![The Nest: come as you are. You don't have to do life alone.](/assets/library/nest-come-as-you-are.jpg)](https://theemotionalsupportline.com/#nest)
+
 === 3
 delay: 5 days
 pose: earthing
@@ -86,6 +92,8 @@ We're careful not to make health claims. What we can tell you is what many peopl
 
 That's what **the Nest** is for. Its Earth Charge timer tracks your morning sun and earthing time and keeps your streak, and the Sky tab shows the moon, planets and sunrise for where you are. It also includes Year of YES! courses, guided meditations and a live Community Call on the first Sunday of every month.
 
+[![The Nest: a collective for women, wisdom, connection and practice](/assets/library/nest-celestial.jpg)](https://theemotionalsupportline.com/#nest)
+
 The Nest is $19 a month, or $190 a year. Members also get support calls at $50 instead of $75. [See the Nest](https://theemotionalsupportline.com/#nest)
 
 === 4
@@ -110,6 +118,9 @@ Here's exactly what a call with us looks like, so you know it's not a big, scary
 
 That's it. Many people simply want a calm, neutral person to help them think. That's what we're for.
 
+
+[![In the Moment Support from The Emotional Support Line](/assets/library/in-the-moment-support.jpg)](https://theemotionalsupportline.com/#calls)
+
 [Book a 30-minute call](https://theemotionalsupportline.com/#calls)
 
 And if you know someone who could use a call but can't afford one, our **Pay It Forward Circle** lets you gift one.
@@ -130,6 +141,8 @@ Every Sunday, the Forecast shows which Human Design gates the Sun is moving thro
 
 Human Design is a system that uses your birth date, time and place to map your energy type and how you're designed to make decisions. It isn't science, and it doesn't predict anything. Most people use it as a mirror, a language for understanding themselves.
 
+[![Your free Human Design quick guide](/assets/library/hd-free-guide.jpg)](https://theemotionalsupportline.com/#chart)
+
 [See your free Human Design chart](https://theemotionalsupportline.com/#chart)
 
 ## Three things to look for
@@ -141,5 +154,8 @@ Human Design is a system that uses your birth date, time and place to map your e
 ## If you want to go deeper
 
 Year of YES! Coaching with Tracee Sioux is a one-year program built around your chart: two hours a month of one-on-one coaching for women ready to build a life that's theirs. [Learn about Year of YES! Coaching](https://theemotionalsupportline.com/year-of-yes)
+
+
+[![Year of YES! Soul Contract](/assets/library/year-of-yes-soul-contract.jpg)](https://theemotionalsupportline.com/year-of-yes)
 
 Either way, we'll see you Sunday.

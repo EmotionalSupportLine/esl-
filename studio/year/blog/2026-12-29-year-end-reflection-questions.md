@@ -1,4 +1,6 @@
 ---
+banner: 100-things-2027
+banner_alt: 100 Things: a year-in-review exercise
 title: 12 year-end reflection questions that actually help
 slug: year-end-reflection-questions
 date: 2026-12-29

@@ -1,0 +1,28 @@
+name: Fetch old workbook PDFs (one-time)
+# Copies Tracee's 2016 workbook PDFs from her old WordPress sites into studio/workbooks/originals/.
+# Runs when this file or the list changes; safe to delete afterwards.
+on:
+  push:
+    paths: [".github/workflows/fetch-workbooks.yml", "studio/workbooks/sources.txt"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          mkdir -p studio/workbooks/originals
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            curl -fsSL --retry 3 -o "studio/workbooks/originals/$name.pdf" "$url"
+            file "studio/workbooks/originals/$name.pdf"
+          done < studio/workbooks/sources.txt
+      - name: Commit
+        run: |
+          git config user.name "ESL publisher"
+          git config user.email "careteam@theemotionalsupportline.com"
+          git add studio/workbooks/originals
+          git diff --cached --quiet || (git commit -m "Workbook originals from the old sites" && git pull --rebase && git push)

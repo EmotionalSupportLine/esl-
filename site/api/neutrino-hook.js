@@ -20,9 +20,16 @@ module.exports = async (req, res) => {
   const secret = process.env.NEUTRINO_HOOK_SECRET || "";
   const k = new URL(req.url, "http://x").searchParams.get("k") || "";
   if (!secret || k.length !== secret.length || !crypto.timingSafeEqual(Buffer.from(k), Buffer.from(secret))) return send(res, 401, { error: "Not allowed." });
-  if (req.method !== "POST") return send(res, 405, { error: "Use POST." });
   const key = process.env.MAILCHIMP_API_KEY || "";
   const dc = key.split("-")[1];
+  // Owner check (needs the secret): GET ?k=...&check=email shows that contact's Mailchimp status and tags.
+  const check = new URL(req.url, "http://x").searchParams.get("check");
+  if (req.method === "GET" && check && dc) {
+    const h = crypto.createHash("md5").update(check.trim().toLowerCase()).digest("hex");
+    const m = await (await fetch(`https://${dc}.api.mailchimp.com/3.0/lists/${LIST}/members/${h}`, { headers: { Authorization: "Basic " + Buffer.from("esl:" + key).toString("base64") } })).json().catch(() => ({}));
+    return send(res, 200, { status: m.status, tags: (m.tags || []).map((t) => t.name), last_changed: m.last_changed });
+  }
+  if (req.method !== "POST") return send(res, 405, { error: "Use POST." });
   try {
     const flat = walk(await readJSON(req));
     console.log("neutrino-hook fields:", flat.map(([p]) => p).filter((p) => !/chart|gate|planet|center|channel|birth|design|personality/i.test(p)).slice(0, 40).join(", "));

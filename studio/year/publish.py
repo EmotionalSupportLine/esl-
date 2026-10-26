@@ -257,7 +257,7 @@ def build_forecasts():
 
 
 def sitemap(posts, items):
-    urls = [BASE + "/", BASE + "/year-of-yes", BASE + "/blog/", BASE + "/forecast/", BASE + "/free/moon-calendar-2027", BASE + "/free/earthing-checklist"]
+    urls = [BASE + "/", BASE + "/year-of-yes", BASE + "/blog/", BASE + "/forecast/", BASE + "/free/moon-calendar-2027", BASE + "/free/earthing-checklist", BASE + "/free/100-things"]
     urls += [p["url"] for p in posts] + [i["url"] for i in items]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     (SITE / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n')

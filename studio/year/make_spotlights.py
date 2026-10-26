@@ -14,7 +14,7 @@ CRISIS = "Not a crisis line. If you're in danger or thinking about suicide, call
 CRISIS_SHORT = "Not a crisis line. In danger? Call or text 988 (US)."
 TIME = "10:00"
 
-L = {"calls": "/#calls", "nest": "/#nest", "forecast": "/#forecast", "chart": "/#chart", "yoy": "/year-of-yes"}
+L = {"free100": "/free/100-things", "calls": "/#calls", "nest": "/#nest", "forecast": "/#forecast", "chart": "/#chart", "yoy": "/year-of-yes"}
 
 # (date, graphic, link, pinterest title, [paragraphs], [instagram hashtags])
 # Paragraph 1 is the hook (also the Bluesky text). "Link in bio." is swapped for the URL off Instagram.
@@ -55,11 +55,10 @@ POSTS = [
    "EmoOwl's Energy Forecast arrives every Sunday: the moon, the sun, space weather and one question to sit with. Sky positions are real astronomy; what they mean for you is yours to decide.",
    "Free, weekly or monthly. Link in bio."],
   ["#EnergyForecast", "#WinterSolstice", "#MoonPhases", "#AstroWeather", "#Reflection", "#EmotionalSupportLine"]),
- ("2026-12-26", "100-things-2027", "forecast", "100 Things: a year-in-review exercise before 2027",
-  ["Before 2027 begins, try the 100 Things exercise. 💛",
-   "Remember. Record. Give yourself credit. Write down what you did this year and the challenges you survived, until you reach 100.",
-   "Then read it back and notice what you want more of next year.",
-   "More questions like this every Sunday in EmoOwl's Energy Forecast. Link in bio."],
+ ("2026-12-26", "100-things-free", "free100", "Do you feel like you didn't do anything this year? Free 100 Things workbook",
+  ["Do you feel like you didn't do anything this year? 💛",
+   "Count again. Write down what you did, learned and survived this year, until you reach 100. You did more than you remember.",
+   "Get the free 100 Things workbook: 19 prompts and space for all 100. Link in bio."],
   ["#YearInReview", "#NewYear2027", "#Journaling", "#GiveYourselfCredit", "#Reflection", "#EmotionalSupportLine"]),
  ("2027-01-02", "nest-first-sundays", "nest", "The Nest group call: first Sunday of every month",
   ["Tomorrow: the Nest group call. 🦉",

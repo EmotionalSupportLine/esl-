@@ -1,6 +1,6 @@
 ---
-banner: 100-things-2027
-banner_alt: 100 Things: a year-in-review exercise
+banner: 100-things-free
+banner_alt: EmoOwl beside a notebook checklist: freedom, travel, wealth, wellness, relationships, purpose, magic
 title: 12 year-end reflection questions that actually help
 slug: year-end-reflection-questions
 date: 2026-12-29
@@ -64,3 +64,5 @@ Big insights fade fast when daily life resumes. The trick is to turn one answer 
 That's exactly what the Nest app is for: small daily habits like morning sun and earthing, with a streak to keep you going, plus the moon and sky every day and a monthly group call. Membership is $19 a month, or $190 a year.
 
 However this year went, you made it to the end of it. That's worth noticing.
+
+**Free: the 100 Things workbook.** If you'd like to go further, our [100 Things workbook](/free/100-things) gives you 19 more prompts and space to list 100 things you did, learned and survived this year.

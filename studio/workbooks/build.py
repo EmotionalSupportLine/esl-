@@ -141,7 +141,7 @@ def cover_html(meta):
     band = (f'<div style="position:absolute;left:0;right:0;bottom:0;padding:22pt 40pt 26pt;background:var(--night);color:var(--cream);display:flex;align-items:center;gap:16pt">'
             f'{owl_img("52pt")}<div><div style="font:800 9pt Nunito;letter-spacing:2.4pt;text-transform:uppercase;color:var(--sun)">{html.escape(meta["kind"])}</div>'
             f'<div style="font:700 16pt/1.25 Lora;margin-top:3pt">{html.escape(meta["course"])}</div>'
-            f'<div style="font:600 9.5pt Nunito;opacity:.85;margin-top:3pt">The Emotional Support Line · Included with the Nest</div></div></div>')
+            f'<div style="font:600 9.5pt Nunito;opacity:.85;margin-top:3pt">{"Free from The Emotional Support Line · theemotionalsupportline.com" if meta.get("end") == "free" else "The Emotional Support Line · Included with the Nest"}</div></div></div>')
     if meta["cover"] in ("time-joygasm-garden",):  # the graphic already carries the title
         return f'<section class="cover"><img src="{data_uri(art)}" style="position:absolute;left:0;top:0;width:100%;height:9.3in;object-fit:cover;object-position:top"></section>'.replace("</section>", band + "</section>")
     if meta.get("cover_crop") == "left":  # art without its own title: crop the picture, set our own title
@@ -157,8 +157,15 @@ def cover_html(meta):
             f'<div style="font:italic 600 15pt/1.35 Lora;color:var(--orange);margin-top:10pt">{html.escape(meta["subtitle"])}</div></div>{band}</section>')
 
 
-def end_html():
+def end_html(free=False):
     card = lambda h, p: f'<div class="card">{owl_img("64pt")}<div><h3>{h}</h3><p>{p}</p></div></div>'
+    if free:
+        return ('<section class="end"><h2>Keep going</h2>'
+                + card("Go deeper with the Harvest course", "100 Things is one class of Harvest, an eight-class year-end course on reviewing your intentions, letting go and celebrating. It’s included in the Nest, along with the other Year of YES! courses, guided meditations and a monthly group call. theemotionalsupportline.com/#nest")
+                + card("Get EmoOwl’s Energy Forecast", "Every Sunday: the week’s moon and sky and one question to sit with. Free. theemotionalsupportline.com/#forecast")
+                + card("Talk it through", "Book a 30-minute call with a real, trained supporter. Never AI. $75, or $50 for Nest members. theemotionalsupportline.com")
+                + '<p class="safety">Not a crisis line. If you’re in danger or thinking about suicide, call or text 988 (US) or your local emergency number. '
+                  'We offer emotional support and coaching, not therapy or medical advice.<br><br>© The Emotional Support Line. Free to use for yourself; please share the link rather than the file.</p></section>')
     return ('<section class="end"><h2>Keep going</h2>'
             + card("Talk it through", "Book a 30-minute call with a real, trained supporter. Never AI. $75, or $50 for Nest members. Mondays and Tuesdays, noon to 7 pm Mountain. theemotionalsupportline.com")
             + card("Come to the group call", "Nest members meet on the first Sunday of every month at 11 am Mountain. Bring a question, or just listen.")
@@ -209,7 +216,7 @@ async def text_workbook(page, name):
         return m.group(0).replace("<h2>", '<h2 class="page">', 1)
     content = re.sub(r"<h2>", lambda m: mark(m), content)
     cover = await render(page, cover_html(meta))
-    inner = await render(page, content + end_html(), meta["title"] + " workbook")
+    inner = await render(page, content + end_html(meta.get("end") == "free"), meta["title"] + " workbook")
     merge([cover, inner], OUT / f"{name}.pdf", meta["title"] + " workbook")
 
 
@@ -332,7 +339,7 @@ async def main():
     async with async_playwright() as pw:
         b = await pw.chromium.launch()
         page = await b.new_page()
-        for name in ["time-joygasm", "harvest", "soul-vs-ego"]:
+        for name in ["time-joygasm", "harvest", "soul-vs-ego", "100-things"]:
             if not only or name in only:
                 await text_workbook(page, name)
         if not only or "joy-roi" in only:

@@ -63,3 +63,8 @@ Rebranded PDFs in `site/assets/workbooks/`, linked from the Nest library. Built 
 
 - time-joygasm.pdf (cover: time-joygasm-garden), harvest.pdf (cover: autumn owl art, titled Harvest), soul-vs-ego.pdf (cover: year-of-yes-soul-contract), joy-roi.pdf (cover: Joy ROI tile), soul-conomics-1 to -7.pdf (Tracee's Keynote slides with the old Sioux Ink logo replaced by EmoOwl).
 - Edits from the originals (retired topics and dated details): "Time Sex" became "Time Joy-gasm"; "lovers", "sex" and "a date with your honey" removed from Time Joy-gasm; in Harvest, the marriage/boyfriend examples in Class 3 were replaced with short neutral versions of the same lesson, "2015" became "the new year", Facebook became social media, and the Maxcelerators Facebook group became the Nest group call; typos fixed. Edit the .md files and rerun build.py to change anything.
+
+## Free download: 100 Things (Oct 26, 2026)
+
+- Page: /free/100-things (email first, then the PDF opens; Mailchimp tag "100 Things 2026"). PDF: site/assets/workbooks/100-things.pdf, built from studio/workbooks/src/100-things.md.
+- Art: 100-things-free (the bottom of the 100 Things painting, no year on it). When Tracee's "100 Things of 2026" cover is ready, swap it in as the PDF cover and on the Dec 26 post; keep 100-things-2027 for December 2027.

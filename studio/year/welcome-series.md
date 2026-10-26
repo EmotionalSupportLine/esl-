@@ -1,35 +1,30 @@
 # The welcome series
 
-Five emails sent automatically to every new Energy Forecast subscriber. Set up in Mailchimp as a Customer Journey: trigger "Contact signs up" to the audience "The Emotional Support Line - Energy Forecast", then the delays below. The HTML for each email is in studio/year/welcome/ (built from the Forecast template).
+Email 1 goes to every new subscriber on The Emotional Support Line list (except 100 Things sign-ups, who get their own email). Emails 2-5 go only to people whose "How often" choice is Weekly or Monthly. Set up in Mailchimp as an automation flow: trigger "Signs up for Email", filter out tag "100 Things 2026", send email 1, then an If/Else on the "How often" group, then the delays below. The HTML for each email is in studio/year/welcome/ (built from the Forecast template).
 
 Signed by EmoOwl. Every email carries the 988 line in the template footer.
 
 === 1
 delay: immediately
 pose: love-wink
-subject: Welcome! Your first Forecast arrives Sunday 🦉
-preview: Your free moon calendar and earthing checklist are inside.
+subject: Welcome to The Emotional Support Line 🦉
+preview: Here's what to expect, plus two free gifts.
 ---
 # Welcome. We're so glad you're here.
 
 Hi FNAMETAG,
 
-I'm EmoOwl, the owl (well, two owls) behind The Emotional Support Line. You've just joined EmoOwl's Energy Forecast, and your first one arrives this Sunday.
+I'm EmoOwl, the owl (well, two owls) behind The Emotional Support Line. You're on our list now, and you're in charge of how often you hear from us:
 
-Every Sunday morning you'll get:
+- **Weekly:** EmoOwl's Energy Forecast every Sunday morning: the week's moon, what's moving in the sky, this week's Human Design gates, a note about getting outside, and one question to sit with.
+- **Monthly:** one letter at the start of each month.
+- **Just announcements:** we only write when there's news, like a new course, a group call or a freebie.
 
-- **The week's moon**, with real moon phases calculated from actual astronomy
-- **What's moving in the sky**, like retrogrades, eclipses, seasons and meteor showers
-- **This week's Human Design gates**, with a little wheel that lights up
-- **A note about getting outside** for the season
-- **One question to sit with** for the week
-
-That's it. One email a week, no noise.
-
+You can switch anytime with the "Update preferences" link at the bottom of every email.
 
 [![EmoOwl's Energy Forecast](/assets/library/forecast-cover-owls.jpg)](https://theemotionalsupportline.com/forecast/)
 
-## Two free gifts while you wait
+## Two free gifts
 
 - [The 2027 Moon Calendar](https://theemotionalsupportline.com/free/moon-calendar-2027): every new moon, full moon and eclipse of the year, with a question for each. Print it and keep it in your journal.
 - [The Earthing Starter Checklist](https://theemotionalsupportline.com/free/earthing-checklist): a simple, no-hype plan for getting barefoot outside, with a 14-day tracker.

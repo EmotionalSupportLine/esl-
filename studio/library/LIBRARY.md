@@ -33,7 +33,7 @@ Every agent follows BRAND.md when writing words to go with these. A graphic is n
 | time-joygasm | Landscape, flying owl, "More pleasure, more productivity, more purpose" | Time Joy-gasm course (in the Nest library) | /#nest |
 | time-joygasm-garden | Portrait, woman with owl, Time Joy-gasm | Time Joy-gasm course | /#nest |
 | psychic-spring-clean | Owl sweeping, "Clear your space, clear your energy" | Psychic Spring Clean course (in the Nest library); spring | /#nest |
-| autumn-clearing | Owl in a cozy autumn kitchen, "Let go, get organized" | Autumn and equinox posts (no course page yet, so link to the Forecast) | /forecast/ |
+| autumn-clearing | Owl in a cozy autumn kitchen, "Let go, get organized" | Psychic Autumn Clearing course (4 videos in the Nest library); autumn and equinox posts | /#nest |
 | 3-minute-miracle | Two owls, "3 Minute Miracle, a very short manifesting practice" | The 3-Minute Miracle video in the Nest library (added Oct 26) | /#nest |
 | vision-board | How to make a vision board that works, "based on your design" | New year, goals, Human Design | /#chart |
 | dream-board | Same design, "Dream Board" title | Spring planning, reinvention | /#chart |

@@ -19,11 +19,11 @@ L = {"calls": "/#calls", "nest": "/#nest", "forecast": "/#forecast", "chart": "/
 # (date, graphic, link, pinterest title, [paragraphs], [instagram hashtags])
 # Paragraph 1 is the hook (also the Bluesky text). "Link in bio." is swapped for the URL off Instagram.
 POSTS = [
- ("2026-11-07", "autumn-clearing", "forecast", "Autumn clearing: make space before winter",
+ ("2026-11-07", "autumn-clearing", "nest", "Autumn clearing: make space before winter",
   ["Before winter, a little clearing. 🌿",
    "Gather what you need. Let go of what you don't. Make one corner of your home feel like a nest.",
    "What's one thing you could clear this weekend?",
-   "EmoOwl's Energy Forecast brings a question like this every Sunday, free. Link in bio."],
+   "Psychic Autumn Clearing, four short video classes on letting go before winter, is in the Nest library. Link in bio."],
   ["#AutumnClearing", "#SeasonalReset", "#CozyHome", "#SlowLiving", "#LettingGo", "#EmotionalSupportLine"]),
  ("2026-11-14", "in-the-moment-support", "calls", "In-the-moment emotional support from a real person",
   ["When it's happening now, you need someone now. 💛",
@@ -246,11 +246,11 @@ POSTS = [
    "The Nest: a monthly group call, Year of YES! courses, the real sky where you live and small daily habits that steady you.",
    "$19 a month or $190 a year. Link in bio."],
   ["#TheNest", "#YouAreNotAlone", "#WomensCircle", "#Belonging", "#Community", "#EmotionalSupportLine"]),
- ("2027-09-18", "autumn-clearing", "forecast", "Autumn clearing: make space before winter",
+ ("2027-09-18", "autumn-clearing", "nest", "Autumn clearing: make space before winter",
   ["The equinox is this week. A good time to clear. 🌿",
    "Gather. Organize. Nourish. Rest. Make your home a nest for the darker months.",
    "What's one thing you're ready to let go of?",
-   "EmoOwl's Energy Forecast brings a question like this every Sunday, free. Link in bio."],
+   "Psychic Autumn Clearing, four short video classes on letting go before winter, is in the Nest library. Link in bio."],
   ["#AutumnEquinox", "#AutumnClearing", "#SeasonalReset", "#CozyHome", "#LettingGo", "#EmotionalSupportLine"]),
  ("2027-09-25", "forecast-cover-woman", "forecast", "EmoOwl's Energy Forecast: your week of sky",
   ["A small weekly pause so the year doesn't blur. 🌕",

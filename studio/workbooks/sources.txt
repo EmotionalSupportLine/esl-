@@ -10,3 +10,6 @@ time-joygasm https://yoy.traceesioux.com/wp-content/uploads/2016/02/Time-Joygasm
 joy-roi https://yoy.traceesioux.com/wp-content/uploads/2016/08/Joy-ROI-Worksheet.pdf
 joy-roi-blank https://yoy.traceesioux.com/wp-content/uploads/2016/08/Blank-Joy-ROI-Worksheet.pdf
 harvest https://yoy.traceesioux.com/wp-content/uploads/2016/02/Harvest-ecourse-1.pdf
+fonts/Nunito.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito%5Bwght%5D.ttf
+fonts/Nunito-Italic.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito-Italic%5Bwght%5D.ttf
+fonts/Caveat.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat%5Bwght%5D.ttf

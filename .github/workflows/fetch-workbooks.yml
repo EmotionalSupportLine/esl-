@@ -17,12 +17,14 @@ jobs:
           mkdir -p studio/workbooks/originals
           while read -r name url; do
             [ -z "$name" ] && continue
-            curl -fsSL --retry 3 -o "studio/workbooks/originals/$name.pdf" "$url"
-            file "studio/workbooks/originals/$name.pdf"
+            case "$name" in *.*) out="studio/workbooks/$name" ;; *) out="studio/workbooks/originals/$name.pdf" ;; esac
+            mkdir -p "$(dirname "$out")"
+            curl -fsSL --retry 3 -o "$out" "$url"
+            file "$out"
           done < studio/workbooks/sources.txt
       - name: Commit
         run: |
           git config user.name "ESL publisher"
           git config user.email "careteam@theemotionalsupportline.com"
-          git add studio/workbooks/originals
+          git add studio/workbooks
           git diff --cached --quiet || (git commit -m "Workbook originals from the old sites" && git pull --rebase && git push)

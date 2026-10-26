@@ -9,6 +9,7 @@ window.ESL = {
     steady: 180,
     coaching: 555,
     coachingNext: 777,
+    hdReading: 444,
   },
   links: {
     // Pay-first Stripe link for non-members ($75); after paying it opens the Google booking page
@@ -21,6 +22,8 @@ window.ESL = {
     // Pay It Forward: gift a call to someone who can't afford one (existing Stripe donation link)
     // Coaching: applications go to the care team inbox; Tracee sends the Stripe link after a fit call
     coachingPay: "https://buy.stripe.com/cNi14naFw6wk26Q2aT0kE0g",
+    // 2-hour Human Design reading with Tracee (one-time payment link)
+    hdReading: "https://buy.stripe.com/eVqfZhdRIf2Q4eY9Dl0kE0k",
     payItForward: "https://donate.stripe.com/3cI9AT8xo4occLu2aT0kE0c",
     // Mailchimp embedded-form action URL for the free Forecast
     forecastForm: "https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&id=bd683fce4d",

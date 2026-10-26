@@ -261,7 +261,11 @@ Celebrate it—without celebration the Universe doesn’t know that this is what
 
 ## Worksheet 7
 
-List 100 accomplishments or experiences of your year. Here are some questions to jog your memory.
+Use the prompts and recommended tools to reflect on your year. Reward and congratulate yourself for everything you’ve accomplished, learned and survived.
+
+**Helpful tools:** notebook or journal, Notes app, photos, bank account statements, social media posts, phone records, goals and resolutions, calendar, Dream Board.
+
+Use these tools to remind yourself of what you’ve been through and who you have become this year.
 
 ### Brainstorm Questions
 
@@ -269,7 +273,7 @@ List 100 accomplishments or experiences of your year. Here are some questions to
 - What did you fear—but you did it anyway?
 - What stressed you out in January that doesn’t stress you out now?
 - How have you gotten more organized and effective?
-- What intentions did you set in January that you have fulfilled?
+- What intentions, goals or resolutions did you set in January that you have fulfilled?
 - What are you really proud of about this year?
 - What significant goal did you achieve this year?
 - What unexpected gifts did the Universe send your way?
@@ -277,12 +281,13 @@ List 100 accomplishments or experiences of your year. Here are some questions to
 - Who has loved you?
 - What have you healed?
 - How did you Rest?
-- How did you Play?
-- Where did God show up in your life?
+- Where did the Universe or God show up in your life?
 - What have you released?
 - When did you feel joy?
 - What part of your life is completely content?
 - Where did you spend your money?
+- What can you give yourself a Free Pass on?
+- How did you show yourself Love and Care?
 
 [hundred]
 

@@ -108,7 +108,7 @@ PAGE = """<!doctype html>
 {main}
 </main>
 <footer><div class="wrap"><span>© {year} The Emotional Support Line</span><span><a href="/blog/">Blog</a> &nbsp; <a href="/forecast/">Forecast archive</a> &nbsp; <a href="/terms.html">Terms</a> &nbsp; <a href="/privacy.html">Privacy</a></span></div></footer>
-<script src="/assets/signup.js" defer></script><script src="/assets/crisis-guard.js" defer></script>
+<script src="/assets/signup.js" defer></script><script src="/assets/popup-100.js" defer></script><script src="/assets/crisis-guard.js" defer></script>
 </body>
 </html>
 """

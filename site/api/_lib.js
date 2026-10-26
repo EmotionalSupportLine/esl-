@@ -69,4 +69,20 @@ async function readJSON(req) {
   try { return JSON.parse(raw || "{}"); } catch { return {}; }
 }
 
-module.exports = { sign, verify, stripe, activeMember, passFor, send, readJSON, joinCode, hasStripe };
+// Mailchimp: mark someone as a Nest member (or not) on The Emotional Support Line list.
+// New contacts are added as "transactional" (they bought; they didn't ask for marketing email).
+const MC_LIST = "bd683fce4d", NEST_TAG = "Nest member";
+function mc() {
+  const key = process.env.MAILCHIMP_API_KEY || "", dc = key.split("-")[1];
+  if (!key || !dc) return null;
+  return { base: `https://${dc}.api.mailchimp.com/3.0/lists/${MC_LIST}`, headers: { Authorization: "Basic " + Buffer.from("esl:" + key).toString("base64"), "Content-Type": "application/json" } };
+}
+async function nestTag(email, active) {
+  const m = mc();
+  if (!m || !email || !email.includes("@")) return;
+  const hash = crypto.createHash("md5").update(email.toLowerCase()).digest("hex");
+  if (active) await fetch(`${m.base}/members/${hash}`, { method: "PUT", headers: m.headers, body: JSON.stringify({ email_address: email.toLowerCase(), status_if_new: "transactional" }) });
+  await fetch(`${m.base}/members/${hash}/tags`, { method: "POST", headers: m.headers, body: JSON.stringify({ tags: [{ name: NEST_TAG, status: active ? "active" : "inactive" }] }) });
+}
+
+module.exports = { mc, nestTag, NEST_TAG, sign, verify, stripe, activeMember, passFor, send, readJSON, joinCode, hasStripe };

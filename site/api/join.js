@@ -1,5 +1,5 @@
 // After Stripe checkout: /app/?session_id=cs_...&k=CODE calls this to turn the purchase into a member pass.
-const { stripe, activeMember, passFor, send, joinCode, hasStripe } = require("./_lib");
+const { stripe, activeMember, passFor, send, joinCode, hasStripe, nestTag } = require("./_lib");
 const DAY = 86400000;
 
 module.exports = async (req, res) => {
@@ -11,6 +11,7 @@ module.exports = async (req, res) => {
       const email = s.customer_details && s.customer_details.email;
       if (s.status !== "complete" || !email) return send(res, 402, { error: "This checkout isn't finished yet." });
       const member = (await activeMember(email)) || { email, until: Date.now() + 31 * DAY };
+      await nestTag(email, true).catch(() => {}); // Mailchimp: tag "Nest member"
       return send(res, 200, { email, code: joinCode(), ...passFor(member) });
     }
     if (k && k === joinCode()) {

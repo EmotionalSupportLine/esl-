@@ -9,6 +9,9 @@
     if (!n) { n = document.createElement("p"); n.className = "note signup-msg"; n.setAttribute("role", "status"); form.appendChild(n); }
     return n;
   }
+  // Free pages tag their sign-ups so each freebie is its own section of the list.
+  var FREE_TAGS = { "moon-calendar-2027": "Moon Calendar 2027", "earthing-checklist": "Earthing Checklist", "100-things": "100 Things 2026" };
+  function pageTag() { var m = location.pathname.match(/\/free\/([^\/.]+)/); return m && FREE_TAGS[m[1]] || ""; }
   document.addEventListener("submit", function (e) {
     var form = e.target;
     var action = form.getAttribute("action") || form.action || "";
@@ -30,7 +33,7 @@
     }
     fetch("/api/subscribe", {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email: email, fname: val("FNAME"), spprice: val("SPPRICE"), freq: val("FREQ") || form.dataset.freq || "weekly", tag: form.dataset.tag || "", hp: val("b_1518241fc7aee7782d17d61e9_bd683fce4d") })
+      body: JSON.stringify({ email: email, fname: val("FNAME"), spprice: val("SPPRICE"), freq: val("FREQ") || form.dataset.freq || "weekly", tag: form.dataset.tag || pageTag(), hp: val("b_1518241fc7aee7782d17d61e9_bd683fce4d") })
     }).then(function (r) { return r.json(); }).then(function (r) {
       if (btn) btn.disabled = false;
       if (r.fallback) return fallback();
@@ -38,7 +41,7 @@
       if (r.status === "subscribed") {
         msg.textContent = waitlist ? "Thanks! You're on the waiting list, and we saved your answer." : "You're already on the list, and we've saved your choice.";
       } else {
-        msg.textContent = form.dataset.ok || (val("FREQ") === "monthly" ? "Almost there! Check your inbox and click the confirm button. Your first monthly letter arrives at the start of next month." : "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.");
+        msg.textContent = form.dataset.ok || (val("FREQ") === "announcements" ? "Almost there! Check your inbox and click the confirm button. We'll only write when there's news." : val("FREQ") === "monthly" ? "Almost there! Check your inbox and click the confirm button. Your first monthly letter arrives at the start of next month." : "Almost there! Check your inbox and click the confirm button. Your first Energy Forecast arrives Sunday.");
       }
       form.reset();
       done(r);

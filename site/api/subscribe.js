@@ -7,7 +7,7 @@ const crypto = require("crypto");
 const { send, readJSON } = require("./_lib");
 const LIST = "bd683fce4d";
 const WAITLIST_TAG = "Support Plan waiting list";
-let cachedInterests = null; // { weekly: id, monthly: id } from the Mailchimp group "How often"
+let cachedInterests = null; // { weekly, monthly, announcements } ids from the Mailchimp group "How often"
 
 async function interests(dc, auth) {
   if (cachedInterests) return cachedInterests;
@@ -20,6 +20,7 @@ async function interests(dc, auth) {
   for (const i of list.interests || []) {
     if (/week/i.test(i.name)) out.weekly = i.id;
     if (/month/i.test(i.name)) out.monthly = i.id;
+    if (/announce/i.test(i.name)) out.announcements = i.id;
   }
   return (cachedInterests = out);
 }
@@ -41,10 +42,10 @@ module.exports = async (req, res) => {
     const base = `https://${dc}.api.mailchimp.com/3.0/lists/${LIST}/members/${hash}`;
     const auth = { Authorization: "Basic " + Buffer.from("esl:" + key).toString("base64"), "Content-Type": "application/json" };
     const body = { email_address: email, status_if_new: "pending", merge_fields: merge };
-    const freq = b.freq === "monthly" ? "monthly" : b.freq === "weekly" ? "weekly" : "";
+    const freq = ["weekly", "monthly", "announcements"].includes(b.freq) ? b.freq : "";
     if (freq) {
       const ids = await interests(dc, auth).catch(() => ({}));
-      if (ids.weekly && ids.monthly) body.interests = { [ids.weekly]: freq === "weekly", [ids.monthly]: freq === "monthly" };
+      if (ids[freq]) { body.interests = {}; for (const k of ["weekly", "monthly", "announcements"]) if (ids[k]) body.interests[ids[k]] = k === freq; }
     }
     const r = await fetch(base, { method: "PUT", headers: auth, body: JSON.stringify(body) });
     const m = await r.json().catch(() => ({}));

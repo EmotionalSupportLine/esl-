@@ -24,6 +24,7 @@
       ".p100 input[type=email]{flex:1 1 220px;min-height:46px;border:2px solid #e3d2b6;border-radius:999px;padding:0 16px;font:inherit;background:#fff}" +
       ".p100 button[type=submit]{min-height:46px;border:0;border-radius:999px;padding:0 20px;background:#D7783A;color:#fff;font:800 1rem Nunito,system-ui,sans-serif;cursor:pointer}" +
       ".p100 .x{position:absolute;top:10px;right:12px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(255,255,255,.9);font-size:22px;line-height:36px;cursor:pointer;color:#134F53}" +
+      ".p100 .fq{flex-basis:100%;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.92rem}.p100 .fq label{display:flex;gap:5px;align-items:center}.p100 .fq input{accent-color:#D7783A;margin:0}" +
       ".p100 .small{font-size:.85rem;color:#524C4F;margin:10px 0 0}" +
       ".p100 .dl{display:inline-block;margin-top:4px;background:#134F53;color:#FCEFDA;text-decoration:none;font-weight:800;padding:12px 20px;border-radius:999px}";
     document.head.appendChild(css);
@@ -38,8 +39,9 @@
       '<form action="https://traceesioux.us2.list-manage.com/subscribe/post?u=1518241fc7aee7782d17d61e9&amp;id=bd683fce4d" method="post" data-soft="1" data-tag="100 Things 2026" data-ok="Here it is! Check your inbox too.">' +
       '<input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" autocomplete="email" required>' +
       '<div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_1518241fc7aee7782d17d61e9_bd683fce4d" tabindex="-1" value=""></div>' +
-      '<button type="submit">Send me the workbook</button></form>' +
-      '<p class="small">Free. You’ll also get EmoOwl’s Energy Forecast on Sundays. Unsubscribe anytime.</p></div></div>';
+      '<button type="submit">Send me the workbook</button>' +
+      '<div class="fq" role="radiogroup" aria-label="How often"><label><input type="radio" name="FREQ" value="weekly" checked> Weekly Forecast</label><label><input type="radio" name="FREQ" value="monthly"> Monthly letter</label><label><input type="radio" name="FREQ" value="announcements"> Just announcements</label></div></form>' +
+      '<p class="small">Free. Pick how often you hear from us. Unsubscribe anytime.</p></div></div>';
     document.body.appendChild(wrap);
     function close() { wrap.remove(); store.set("esl_100_closed", String(Date.now())); document.removeEventListener("keydown", esc); }
     function esc(e) { if (e.key === "Escape") close(); }

@@ -1,7 +1,7 @@
 """Puts every Pinterest pin in buffer-csv/*pinterest*.csv on one of Tracee's 5 boards (Oct 26, 2026).
 Run after any script that rebuilds the Pinterest CSVs (they default to "Quick Saves")."""
 import csv, glob, re, pathlib
-B1, B2, B3, B4, B5 = "Need Someone to Talk To", "Nervous System Regulation & Calm", "Feeling Stuck? Get Unstuck", "Human Design & Your Purpose", "Moon Phases & Energy Forecast"
+B1, B2, B3, B4, B5 = "I Need Someone to Talk To", "Nervous System Regulation", "Feeling Stuck? Get Unstuck", "Human Design Find Your Purpose", "Moon Phases Energy Forecast"
 TITLE = [(B5, r'\bmoon|eclipse|solstice|equinox|retrograde|earthing|barefoot|meteor|perseid|energy forecast|\bsky\b'),
          (B2, r'nervous system|regulat|\bcalm|breath|reset|vagus|fight.or.flight|freeze|exhale|wired|five things you can see|name it|feet|laughing together|reach for a human'),
          (B1, r'talk|listen|lonely|alone|someone|support line|therap|heard|burden|best friend|a call|calls|conversation|need to say|say the thing'),

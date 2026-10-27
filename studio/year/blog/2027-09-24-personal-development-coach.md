@@ -2,7 +2,7 @@
 title: "Personal development coach: time, money and Soul"
 slug: personal-development-coach
 date: 2027-09-24
-description: A personal development coach helps you grow on purpose. Here's what that means when work is changing fast, why time, money and Soul matter most, and where to start.
+description: A personal development coach helps you grow on purpose. What that means when work is changing fast, why time, money and Soul matter, and where to start.
 keyword: personal development coach
 cta: coaching
 pose: north-star

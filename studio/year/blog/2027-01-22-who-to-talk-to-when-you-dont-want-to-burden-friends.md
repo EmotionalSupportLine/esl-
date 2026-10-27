@@ -2,7 +2,7 @@
 title: "Don't want to burden your friends? Who to talk to instead"
 slug: who-to-talk-to-when-you-dont-want-to-burden-friends
 date: 2027-01-22
-description: Don't want to burden your friends with your problems again? Here's why that feeling shows up, how to ask without guilt, and who else you can talk to.
+description: Don't want to burden your friends with your problems again? Here's why that feeling shows up, how to ask without guilt, and who else you can talk to today.
 keyword: don't want to burden my friends
 cta: call
 pose: heart-hug

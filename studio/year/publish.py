@@ -189,11 +189,11 @@ def build_blog():
                       "content": absolute((f'<p><img src="/assets/library/{banner}.jpg" width="480" alt=""></p>' if banner else f'<p><img src="/assets/email/{meta["pose"]}.png" width="160" alt=""></p>') + f'{content}<p><a href="{url}">Read it on the blog</a></p>')})
     posts.sort(key=lambda p: p["date"], reverse=True)
     cards = "".join(f'<a class="card" href="/blog/{p["slug"]}">{owl(p["pose"], 110, "sticker")}<div><span class="date">{nice(p["date"])}</span><h2>{html.escape(p["title"])}</h2><p>{html.escape(p["desc"])}</p></div></a>' for p in posts)
-    main = (f'<section class="wrap blog-index"><div class="index-head"><div><h1>The blog</h1><p class="lede">Plain-spoken help for hard weeks, small daily habits, and a little perspective from the sky. A new post every Tuesday.</p></div>'
+    main = (f'<section class="wrap blog-index"><div class="index-head"><div><h1>The blog</h1><p class="lede">Plain-spoken help for hard weeks, small daily habits, and a little perspective from the sky. New posts every Tuesday and Friday.</p></div>'
             f'{owl("reading", 200, "sticker hero-owl")}</div><div class="cards">{cards or "<p>The first post arrives soon.</p>"}</div>{signup()}</section>')
     (SITE / "blog").mkdir(exist_ok=True)
     (SITE / "blog" / "index.html").write_text(page("Blog", "Plain-spoken help for hard weeks, small daily habits, and a little perspective from the sky.", BASE + "/blog/", main, "reading"))
-    (SITE / "blog" / "rss.xml").write_text(rss("The Emotional Support Line blog", BASE + "/blog/", "A new post every Tuesday.", posts[:20]))
+    (SITE / "blog" / "rss.xml").write_text(rss("The Emotional Support Line blog", BASE + "/blog/", "New posts every Tuesday and Friday.", posts[:20]))
     return posts
 
 

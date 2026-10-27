@@ -2,7 +2,7 @@
 title: "How to vent without burning out your friends"
 slug: how-to-vent-without-burning-out-your-friends
 date: 2027-05-14
-description: How to vent in a way that actually helps you, without wearing out the people you love. Simple rules for venting well, plus where to vent when friends are tapped out.
+description: How to vent in a way that actually helps, without wearing out the people you love. Simple rules for venting well, plus where to go when friends are tapped out.
 keyword: how to vent
 cta: reset
 pose: herbal-tea

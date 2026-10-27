@@ -46,7 +46,7 @@ A life coach is not a therapist. Coaches don't diagnose, and they don't treat de
 
 A life coach is not a financial advisor. A coach can help with the feelings and habits around money. Investment, tax and debt decisions belong with a qualified financial professional.
 
-A life coach is not a crisis line. If you're in danger or thinking about suicide, call or text 988 (US).
+A life coach is not a crisis line, and neither are we. (Crisis help is at the end of this post.)
 
 If you want the full side-by-side, read [therapist vs life coach vs emotional support](/blog/therapist-vs-life-coach-vs-emotional-support).
 

@@ -2,7 +2,7 @@
 title: "I know what I should do but I can't make myself do it"
 slug: i-know-what-to-do-but-cant-make-myself-do-it
 date: 2027-10-15
-description: "I know what I should do but I can't make myself do it." Sound familiar? Here's why knowing isn't enough, and what helps you finally take the step.
+description: I know what I should do but I can't make myself do it: sound familiar? Here's why knowing isn't enough, and what helps you finally take the next step.
 keyword: I know what I should do but I can't make myself do it
 cta: call
 pose: tree-pose

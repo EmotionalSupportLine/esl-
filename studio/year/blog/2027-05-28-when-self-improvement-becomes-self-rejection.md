@@ -2,7 +2,7 @@
 title: "Self improvement or self-rejection? When growth stops feeling good"
 slug: when-self-improvement-becomes-self-rejection
 date: 2027-05-28
-description: Self improvement can quietly turn into self-rejection. Here's how to tell when working on yourself has become a way of saying you're not enough, and what to try.
+description: Self improvement can quietly turn into self-rejection. Here's how to tell when working on yourself has become a way of saying you're not enough, and what helps.
 keyword: self improvement
 cta: nest
 pose: heart-hug

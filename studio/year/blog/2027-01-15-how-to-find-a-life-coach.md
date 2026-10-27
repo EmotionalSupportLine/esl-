@@ -2,7 +2,7 @@
 title: "How to find a life coach: 8 questions to ask before you hire"
 slug: how-to-find-a-life-coach
 date: 2027-01-15
-description: How to find a life coach who actually fits. Eight questions to ask before you hire anyone, the red flags to watch for, and how to know when you need something else.
+description: How to find a life coach who actually fits: eight questions to ask before you hire anyone, red flags to watch for, and how to know when you need something else.
 keyword: how to find a life coach
 cta: coaching
 pose: compass

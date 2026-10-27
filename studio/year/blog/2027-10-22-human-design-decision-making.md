@@ -2,8 +2,8 @@
 title: "Human Design authority: stop deciding like who you were told to be"
 slug: human-design-decision-making
 date: 2027-10-22
-description: Your Human Design authority shows how you're built to decide. Here's how to use it in real-life decisions, drop old conditioning, and stop apologizing for who you are.
-keyword: human design authority
+description: Your Human Design authority shows how you're built to decide. How to use it in real decisions, drop old conditioning and stop apologizing for who you are.
+keyword: human design decision making
 cta: coaching
 pose: idea
 banner: hd-free-guide

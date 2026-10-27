@@ -2,7 +2,7 @@
 title: "Procrastination help: is it information, emotion or capacity?"
 slug: procrastination-help
 date: 2027-01-08
-description: Need procrastination help that actually works? Find out if you have an information, emotion or capacity problem, and get the right fix for each one.
+description: Need procrastination help that actually works? Find out if you have an information, emotion or capacity problem, and get the right fix for each one today.
 keyword: procrastination help
 cta: nest
 pose: studying

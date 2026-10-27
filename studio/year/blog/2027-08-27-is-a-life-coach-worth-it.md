@@ -2,7 +2,7 @@
 title: "Is a life coach worth it? When it is, and when it isn't"
 slug: is-a-life-coach-worth-it
 date: 2027-08-27
-description: Is a life coach worth it? An honest guide to when coaching is worth paying for, when it isn't, what to try instead, and a quick five-question test to help you decide.
+description: Is a life coach worth it? An honest guide to when coaching is worth paying for, when it isn't, what to try instead, and a quick five-question test to decide.
 keyword: is a life coach worth it
 cta: quiz
 pose: thinking
@@ -27,7 +27,9 @@ Coaching tends to be worth the money when most of these are true:
 - **You've found someone who fits.** You feel more like yourself after talking to them, not less.
 - **You want it for months, not minutes.** Coaching is built for change over time.
 
-When those line up, a good coach can help you do in a year what might take you five on your own.
+When those line up, a good coach can help you get unstuck much faster than you would on your own.
+
+Coaching can also be worth it in a season of big change. Work is shifting fast, and a lot of people are wondering what's next for them. If your job has been your whole identity, a year spent finding out who you are and what your real gifts are can be a very good use of money.
 
 ## When is a life coach not worth it?
 

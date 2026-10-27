@@ -2,7 +2,7 @@
 title: "Where can I talk through a problem with someone?"
 slug: where-to-talk-through-a-problem
 date: 2027-10-01
-description: Need to talk through a problem with someone? Here's where to go, who's a good fit for what, and how to get the most out of the conversation so you leave with a plan.
+description: Need to talk through a problem with someone? Here's where to go, who's a good fit for what, and how to get the most out of it so you leave with a plan.
 keyword: talk through a problem
 cta: call
 pose: idea

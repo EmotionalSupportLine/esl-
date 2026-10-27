@@ -2,7 +2,7 @@
 title: "Holistic life coach: why your money, time and body aren't separate"
 slug: holistic-life-coach
 date: 2027-05-07
-description: A holistic life coach looks at your whole life. Here's why your money, time, body and emotional life are all connected, plus a four-corner check-in to try today.
+description: A holistic life coach looks at your whole life. Here's why your money, time, body and emotional life are connected, plus a four-corner check-in to try today.
 keyword: holistic life coach
 cta: nest
 pose: rooted-tree

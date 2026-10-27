@@ -2,7 +2,7 @@
 title: "Money mindset: the emotional side of money nobody talks about"
 slug: money-mindset
 date: 2027-06-04
-description: Your money mindset is the feelings and old stories behind your money choices. Here's how to notice yours, a 3-minute money check-in, and what to do next. Not financial advice.
+description: Your money mindset is the feelings and old stories behind your money choices. How to notice yours, plus a 3-minute money check-in. Not financial advice.
 keyword: money mindset
 cta: nest
 pose: journaling

@@ -2,7 +2,7 @@
 title: "Dysregulated nervous system? 9 everyday signs and what helps"
 slug: dysregulated-nervous-system-signs
 date: 2026-11-06
-description: Think you have a dysregulated nervous system? Here are nine everyday signs, what's going on underneath, and simple ways to settle your body today.
+description: Think you have a dysregulated nervous system? Here are nine everyday signs, what's going on underneath, and three simple ways to settle your body today.
 keyword: dysregulated nervous system
 cta: quiz
 pose: umbrella

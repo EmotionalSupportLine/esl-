@@ -45,6 +45,10 @@ Your **Soul** is the part of you that knows what you're here for. It's quieter. 
 
 The Ego isn't bad. It got you this far. It just shouldn't be driving.
 
+## Why does Soul work matter right now?
+
+Work is changing fast, and a lot of people are wondering where they fit. If your sense of self lives in your job title, every headline about AI can feel like a threat. Your Soul isn't a job title. Tracee believes the Universe put you here, now, for a reason, and that finding your real gifts is the steadiest ground there is.
+
 ## What tools does a spiritual coach use?
 
 It depends on the coach. In Year of YES!, the tools include:

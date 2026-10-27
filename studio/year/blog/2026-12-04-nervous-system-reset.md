@@ -2,7 +2,7 @@
 title: "Nervous system reset: what it actually means, plus a simple one"
 slug: nervous-system-reset
 date: 2026-12-04
-description: A nervous system reset isn't a magic button. Here's what it really means, why it helps, and a simple 10-minute reset you can do anywhere, free.
+description: A nervous system reset isn't a magic button. Here's what it really means, why it helps, and a simple, free 10-minute reset you can do anywhere, anytime.
 keyword: nervous system reset
 cta: reset
 pose: legs-up

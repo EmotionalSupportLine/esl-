@@ -14,7 +14,7 @@ L = {"Q": "/quiz", "R": "/free/human-reset", "C": "/#calls", "N": "/#nest", "H":
      "talk": "/blog/i-need-someone-to-talk-to", "vs": "/blog/therapist-vs-life-coach-vs-emotional-support",
      "co": "/blog/what-is-co-regulation", "ns": "/blog/nervous-system-regulation-in-real-life",
      "stuck": "/blog/feeling-stuck-in-life", "cost": "/blog/how-much-does-a-life-coach-cost",
-     "done": "/blog/why-cant-i-get-anything-done", "call": "/blog/what-is-an-emotional-support-call"}
+     "done": "/blog/why-cant-i-get-anything-done", "call": "/blog/what-is-an-emotional-support-call", "ai": "/blog/who-are-you-without-your-job"}
 CHIP = {"Q": "Free 2-minute quiz", "R": "Free 10-Minute Human Reset", "C": "Book a 30-minute call", "N": "The Nest", "H": "Free Human Design chart", "Y": "Year of YES! Coaching"}
 TAGS = {
     "talk": "#NeedSomeoneToTalkTo #TalkToSomeone #EmotionalSupport #YouAreNotAlone #FeelHeard #EmotionalSupportLine",
@@ -23,6 +23,7 @@ TAGS = {
     "tms": "#TimeManagement #MoneyMindset #SoulPurpose #YearOfYes #PersonalDevelopment #EmotionalSupportLine",
     "offer": "#EmotionalSupportLine #TalkToSomeone #LifeCoaching #SupportCall #TheNest #FeelHeard",
     "fun": "#EmoOwl #OwlLove #SelfCare #RealTalk #EmotionalSupportLine",
+    "purpose": "#FutureOfWork #AI #Purpose #HumanDesign #CareerChange #YearOfYes #EmotionalSupportLine",
 }
 # (pillar, link, kicker, image headline, image subline, caption, owl pose)
 P = [
@@ -178,6 +179,57 @@ for k, ((pillar, lk, kicker, head, sub, cap, pose), day) in enumerate(zip(P, dat
                   "pinterest": {"title": (head if len(head) <= 95 else head[:92] + "..."), "description": f"{sub} {cap}"[:470]}})
     render.append({"id": f"{pid}", "type": "relatable", "text": head, "sub": sub, "kicker": kicker, "cta": chip, "pose": pose,
                    "owl": ["You're not alone.", "I hear you.", "Been there.", "Same, friend.", "Hoo, me too."][k % 5]})
+
+# ---- Monday morning series: purpose, AI and Human Design (LinkedIn-first, all channels), 7:45 am ----
+M = [
+ ("ai","Future of work","AI can do your job description.","It can't do you.","Work is changing fast, and a lot of people are quietly wondering who they are without their title. Your gifts aren't on your job description. They're in how you're built. Here's where to start.","north-star"),
+ ("H","Who are you?","Who are you without your job title?","Asking for a lot of people right now.","If your identity has been your role for 20 years, change feels like losing yourself. It's actually a chance to find out who you were before the conditioning. Start with your free Human Design chart.","bodygraph"),
+ ("Y","Year of YES!","Your degree was a plan.","Your Soul had a different one.","The 9-to-5 your college degree indebted you for was never the reason you're here. Year of YES! Coaching is twelve months of finding out what is. By application.","sun-heart"),
+ ("ai","Reset","When work gets uncertain, get out of fight-or-flight first.","Then decide.","Nobody makes a good career decision with their alarm going off. Settle, write down what people always come to you for, and talk it through with a real person. Here's the full guide.","calm-glow"),
+ ("H","Deconditioning","Stop being who you were trained to be.","Start being who you are.","School, work and family taught you to be agreeable, busy and small enough to fit. Your Human Design chart shows the you underneath. Learn it. Explore it. Don't apologize for it.","hd-types"),
+ ("C","Talk it through","\"I don't know who I am if I'm not this.\"","Say it out loud. That's where breakthroughs start.","If your job is changing or ending, you need more than a résumé update. You need a calm person to think out loud with. 30-minute calls, real humans, never AI.","headset-wink"),
+ ("Y","Insight + Breakthrough","Some people see your gifts before you do.","Tracee is one of them.","Tracee Sioux's gifts are Insight and Breakthrough. In Year of YES! Coaching she helps you find your true gifts and talents and reset your path, guided by your Human Design.","compass"),
+ ("ai","Purpose","The Universe didn't put you here to update spreadsheets.","(Unless you love spreadsheets. Then go off.)","Purpose isn't a job title. It's the thing people always come to you for. Write that down this week. Then read this.","laptop"),
+ ("H","Your body knows","Your body says yes before your brain does.","Are you listening?","In Human Design, your authority describes how you're designed to decide: gut, emotions, intuition and more. Find yours with a free chart.","rooted-tree"),
+ ("Q","Check in","Burned out, bored or ready for something new?","Find out which.","They feel similar and need very different things. The free 2-minute quiz gives you a plain answer and one step to take today.","questions"),
+ ("Y","Year of YES!","What if next year was the year you said YES! to you?","Twelve months. Two hours a month.","Year of YES! Coaching: from who you thought you were supposed to be to who you really are. Includes the Nest. By application.","sun-heart"),
+ ("ai","Human skills","The most AI-proof skill is being fully yourself.","Nobody can automate your Soul.","Your way of seeing, connecting and creating is wired into how you're built. Here's how to start finding it, especially if work feels shaky.","heart-wings"),
+ ("H","Human Design","Generator? Projector? Manifestor? Reflector?","Your career makes more sense once you know.","Your type explains why some work drains you and some lights you up. Get your free chart in a minute. Want the whole picture? Tracee does 2-hour readings.","hd-types"),
+ ("C","Career crossroads","Big career decision?","Don't make it alone, and don't make it scared.","Talk it through with a calm, real person first. 30 minutes. One issue. One next step. Every call includes a free month in the Nest.","decisions"),
+ ("Y","Permission","You're allowed to want a different life.","Even if this one looks fine on paper.","\"Fine on paper\" is how a lot of people describe the life they're quietly outgrowing. Year of YES! Coaching is for exactly that moment.","butterfly"),
+ ("ai","Change","Losing a role isn't losing yourself.","It might be finding yourself.","If AI or a layoff has shaken your sense of who you are, you're not alone, and it's not the end of the story. Here's where to begin.","sunrise"),
+ ("H","No apologies","Stop apologizing for how you're built.","Seriously. Stop.","Needing to sleep on decisions, needing to talk things out, needing rest more than others: that may simply be your design. Learn it with a free chart, then BE it.","love-wink"),
+ ("R","Overwhelm","Work news has you spinning?","Ten minutes. Five steps.","Before you doom-scroll another headline, try the free 10-Minute Human Reset. Settle first, then think.","tea-blanket"),
+ ("Y","Your gifts","What do people always come to you for?","That's a clue.","Your true gifts are often so natural to you that you don't notice them. Year of YES! Coaching helps you see them clearly, and build a life around them.","idea"),
+ ("ai","Next chapter","Your next chapter doesn't need a corporate logo.","It needs you to know who you are.","Here's how to start figuring that out, practically, without blowing up your life.","north-star"),
+ ("H","Be who you are","Learn who you are. Explore it.","Then just BE it.","That's the whole Human Design invitation. Start with your free chart in about a minute.","bodygraph"),
+ ("C","Real people","In a world of AI, talk to a human.","Real people on every call. Never AI.","When you need someone to talk to, you need a person. 30-minute calls with a calm, trained human.","phone"),
+ ("Y","Soul contract","Say YES! to the life your Soul came here to live.","Not the one you were handed.","Year of YES! Coaching with Tracee Sioux: a year to reset your path, guided by your Human Design. By application.","sun-heart"),
+ ("ai","Fear vs YES","Fear grabs the nearest safe option.","YES! waits for the right one.","When work feels uncertain, fear makes us shrink. Settle first, know who you are, then choose. Here's how.","compass"),
+ ("Q","Not sure?","Stuck between who you were and who you're becoming?","Two minutes. Six questions.","The free quiz gives you a plain-English answer and one thing to try today.","questions"),
+ ("Y","A year from now","A year from now you could still be wondering.","Or you could know.","Year of YES! Coaching is twelve months of becoming who you really are, then just BEING it and following the wisdom of your body.","sunrise"),
+]
+mday = datetime.date(2026, 11, 2)
+for k in range(52):
+    lk, kicker, head, sub, cap, pose = M[k % len(M)]
+    pid = f"m{k + 1:03d}-{mday:%b%d}".lower()
+    url = SITE + L[lk]
+    invites = lk in ("C",) or "talk" in cap.lower()
+    body = cap + ("\n\n" + CR if invites and "988" not in cap else "")
+    tags = TAGS["purpose"]
+    img_id = f"m{(k % len(M)) + 1:03d}"
+    posts.append({"id": pid, "date": mday.isoformat(), "time": "07:45", "type": "search", "pillar": "purpose", "link": url,
+                  "image": f"{SITE}/social/search/{img_id}.jpg",
+                  "instagram": f"{head} {sub}\n\n{body}\n\nLink in bio.\n\n{tags}",
+                  "facebook": f"{head} {sub}\n\n{body}\n\n{url}\n\n#Purpose #HumanDesign #EmotionalSupportLine",
+                  "linkedin": f"{head} {sub}\n\n{body}\n\n{url}\n\n#FutureOfWork #Purpose #HumanDesign #CareerChange",
+                  "bluesky": bsky(head, sub, cap, url, invites),
+                  "pinterest": {"title": (head if len(head) <= 95 else head[:92] + "..."), "description": f"{sub} {cap}"[:470]}})
+    if k < len(M):
+        render.append({"id": img_id, "type": "relatable", "text": head, "sub": sub, "kicker": kicker, "cta": CHIP.get(lk, "Read the guide"), "pose": pose,
+                       "owl": ["Be you.", "I see you.", "YES!", "Trust it.", "Hoo are you?"][k % 5]})
+    mday += datetime.timedelta(days=7)
+
 (Y / "search-posts.json").write_text(json.dumps(posts, indent=1, ensure_ascii=False))
 (Y / "search-render.json").write_text(json.dumps(render, indent=1, ensure_ascii=False))
 print(len(posts), "posts from", posts[0]["date"], "to", posts[-1]["date"])

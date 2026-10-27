@@ -77,7 +77,7 @@ Try this for seven days. Keep it small.
 
 That's why we built the Nest. It's our membership for people who are tired of doing life alone. Every month there's a live group call on the first Sunday, a small, warm room where you can show up as you are. You also get guided meditations, the Year of YES! courses, daily Earth Charge tools for getting outside and into the light, and support calls for $50 when you need one-on-one time.
 
-It's not therapy and it's not a crisis line. It's a place to land, with real humans. The Nest is $19 a month or $190 a year.
+It's not therapy. It's a place to land, with real humans. The Nest is $19 a month or $190 a year.
 
 If what you need right now is one person to talk to, a [support call](/#calls) is 30 minutes with a calm, trained, real human. And if you want to understand why being with calm people helps so much, read [what co-regulation is](/blog/what-is-co-regulation).
 

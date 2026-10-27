@@ -2,7 +2,7 @@
 title: "Freeze response: when you can't move or start anything"
 slug: freeze-response
 date: 2027-03-26
-description: The freeze response can leave you unable to move, decide or start anything. Here's why it happens, how to spot it, and gentle ways to thaw out today.
+description: The freeze response can leave you unable to move, decide or start anything. Here's why it happens, how to spot it, and six gentle ways to thaw out today.
 keyword: freeze response
 cta: reset
 pose: childs-pose

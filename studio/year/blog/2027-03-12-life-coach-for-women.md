@@ -45,6 +45,8 @@ Usually, some mix of these:
 
 If that last one made your chest tighten a little, you're not alone. And you're not too late.
 
+It's also more urgent than it used to be. Work is changing fast, AI included, and a lot of women are wondering what their jobs will look like in a few years. If your whole identity is your title, that's shaky ground. Knowing who you are and what your real gifts are is steadier.
+
 ## What should I look for in a life coach for women?
 
 - **She's been through it.** Lived experience counts for a lot.

@@ -1038,5 +1038,265 @@
   "cta": "Free 2-minute quiz",
   "pose": "excited",
   "owl": "Same, friend."
+ },
+ {
+  "id": "m001",
+  "type": "relatable",
+  "text": "AI can do your job description.",
+  "sub": "It can't do you.",
+  "kicker": "Future of work",
+  "cta": "Read the guide",
+  "pose": "north-star",
+  "owl": "Be you."
+ },
+ {
+  "id": "m002",
+  "type": "relatable",
+  "text": "Who are you without your job title?",
+  "sub": "Asking for a lot of people right now.",
+  "kicker": "Who are you?",
+  "cta": "Free Human Design chart",
+  "pose": "bodygraph",
+  "owl": "I see you."
+ },
+ {
+  "id": "m003",
+  "type": "relatable",
+  "text": "Your degree was a plan.",
+  "sub": "Your Soul had a different one.",
+  "kicker": "Year of YES!",
+  "cta": "Year of YES! Coaching",
+  "pose": "sun-heart",
+  "owl": "YES!"
+ },
+ {
+  "id": "m004",
+  "type": "relatable",
+  "text": "When work gets uncertain, get out of fight-or-flight first.",
+  "sub": "Then decide.",
+  "kicker": "Reset",
+  "cta": "Read the guide",
+  "pose": "calm-glow",
+  "owl": "Trust it."
+ },
+ {
+  "id": "m005",
+  "type": "relatable",
+  "text": "Stop being who you were trained to be.",
+  "sub": "Start being who you are.",
+  "kicker": "Deconditioning",
+  "cta": "Free Human Design chart",
+  "pose": "hd-types",
+  "owl": "Hoo are you?"
+ },
+ {
+  "id": "m006",
+  "type": "relatable",
+  "text": "\"I don't know who I am if I'm not this.\"",
+  "sub": "Say it out loud. That's where breakthroughs start.",
+  "kicker": "Talk it through",
+  "cta": "Book a 30-minute call",
+  "pose": "headset-wink",
+  "owl": "Be you."
+ },
+ {
+  "id": "m007",
+  "type": "relatable",
+  "text": "Some people see your gifts before you do.",
+  "sub": "Tracee is one of them.",
+  "kicker": "Insight + Breakthrough",
+  "cta": "Year of YES! Coaching",
+  "pose": "compass",
+  "owl": "I see you."
+ },
+ {
+  "id": "m008",
+  "type": "relatable",
+  "text": "The Universe didn't put you here to update spreadsheets.",
+  "sub": "(Unless you love spreadsheets. Then go off.)",
+  "kicker": "Purpose",
+  "cta": "Read the guide",
+  "pose": "laptop",
+  "owl": "YES!"
+ },
+ {
+  "id": "m009",
+  "type": "relatable",
+  "text": "Your body says yes before your brain does.",
+  "sub": "Are you listening?",
+  "kicker": "Your body knows",
+  "cta": "Free Human Design chart",
+  "pose": "rooted-tree",
+  "owl": "Trust it."
+ },
+ {
+  "id": "m010",
+  "type": "relatable",
+  "text": "Burned out, bored or ready for something new?",
+  "sub": "Find out which.",
+  "kicker": "Check in",
+  "cta": "Free 2-minute quiz",
+  "pose": "questions",
+  "owl": "Hoo are you?"
+ },
+ {
+  "id": "m011",
+  "type": "relatable",
+  "text": "What if next year was the year you said YES! to you?",
+  "sub": "Twelve months. Two hours a month.",
+  "kicker": "Year of YES!",
+  "cta": "Year of YES! Coaching",
+  "pose": "sun-heart",
+  "owl": "Be you."
+ },
+ {
+  "id": "m012",
+  "type": "relatable",
+  "text": "The most AI-proof skill is being fully yourself.",
+  "sub": "Nobody can automate your Soul.",
+  "kicker": "Human skills",
+  "cta": "Read the guide",
+  "pose": "heart-wings",
+  "owl": "I see you."
+ },
+ {
+  "id": "m013",
+  "type": "relatable",
+  "text": "Generator? Projector? Manifestor? Reflector?",
+  "sub": "Your career makes more sense once you know.",
+  "kicker": "Human Design",
+  "cta": "Free Human Design chart",
+  "pose": "hd-types",
+  "owl": "YES!"
+ },
+ {
+  "id": "m014",
+  "type": "relatable",
+  "text": "Big career decision?",
+  "sub": "Don't make it alone, and don't make it scared.",
+  "kicker": "Career crossroads",
+  "cta": "Book a 30-minute call",
+  "pose": "decisions",
+  "owl": "Trust it."
+ },
+ {
+  "id": "m015",
+  "type": "relatable",
+  "text": "You're allowed to want a different life.",
+  "sub": "Even if this one looks fine on paper.",
+  "kicker": "Permission",
+  "cta": "Year of YES! Coaching",
+  "pose": "butterfly",
+  "owl": "Hoo are you?"
+ },
+ {
+  "id": "m016",
+  "type": "relatable",
+  "text": "Losing a role isn't losing yourself.",
+  "sub": "It might be finding yourself.",
+  "kicker": "Change",
+  "cta": "Read the guide",
+  "pose": "sunrise",
+  "owl": "Be you."
+ },
+ {
+  "id": "m017",
+  "type": "relatable",
+  "text": "Stop apologizing for how you're built.",
+  "sub": "Seriously. Stop.",
+  "kicker": "No apologies",
+  "cta": "Free Human Design chart",
+  "pose": "love-wink",
+  "owl": "I see you."
+ },
+ {
+  "id": "m018",
+  "type": "relatable",
+  "text": "Work news has you spinning?",
+  "sub": "Ten minutes. Five steps.",
+  "kicker": "Overwhelm",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "tea-blanket",
+  "owl": "YES!"
+ },
+ {
+  "id": "m019",
+  "type": "relatable",
+  "text": "What do people always come to you for?",
+  "sub": "That's a clue.",
+  "kicker": "Your gifts",
+  "cta": "Year of YES! Coaching",
+  "pose": "idea",
+  "owl": "Trust it."
+ },
+ {
+  "id": "m020",
+  "type": "relatable",
+  "text": "Your next chapter doesn't need a corporate logo.",
+  "sub": "It needs you to know who you are.",
+  "kicker": "Next chapter",
+  "cta": "Read the guide",
+  "pose": "north-star",
+  "owl": "Hoo are you?"
+ },
+ {
+  "id": "m021",
+  "type": "relatable",
+  "text": "Learn who you are. Explore it.",
+  "sub": "Then just BE it.",
+  "kicker": "Be who you are",
+  "cta": "Free Human Design chart",
+  "pose": "bodygraph",
+  "owl": "Be you."
+ },
+ {
+  "id": "m022",
+  "type": "relatable",
+  "text": "In a world of AI, talk to a human.",
+  "sub": "Real people on every call. Never AI.",
+  "kicker": "Real people",
+  "cta": "Book a 30-minute call",
+  "pose": "phone",
+  "owl": "I see you."
+ },
+ {
+  "id": "m023",
+  "type": "relatable",
+  "text": "Say YES! to the life your Soul came here to live.",
+  "sub": "Not the one you were handed.",
+  "kicker": "Soul contract",
+  "cta": "Year of YES! Coaching",
+  "pose": "sun-heart",
+  "owl": "YES!"
+ },
+ {
+  "id": "m024",
+  "type": "relatable",
+  "text": "Fear grabs the nearest safe option.",
+  "sub": "YES! waits for the right one.",
+  "kicker": "Fear vs YES",
+  "cta": "Read the guide",
+  "pose": "compass",
+  "owl": "Trust it."
+ },
+ {
+  "id": "m025",
+  "type": "relatable",
+  "text": "Stuck between who you were and who you're becoming?",
+  "sub": "Two minutes. Six questions.",
+  "kicker": "Not sure?",
+  "cta": "Free 2-minute quiz",
+  "pose": "questions",
+  "owl": "Hoo are you?"
+ },
+ {
+  "id": "m026",
+  "type": "relatable",
+  "text": "A year from now you could still be wondering.",
+  "sub": "Or you could know.",
+  "kicker": "A year from now",
+  "cta": "Year of YES! Coaching",
+  "pose": "sunrise",
+  "owl": "Be you."
  }
 ]

@@ -23,7 +23,10 @@ def board(r):
 
 for f in sorted(glob.glob(str(pathlib.Path(__file__).parent / "buffer-csv" / "*pinterest*.csv"))):
     rows = list(csv.DictReader(open(f, encoding="utf-8")))
-    for r in rows: r["Board Name"] = board(r)
+    for r in rows:
+        r["Board Name"] = board(r)
+        r["Alt Text"] = ("EmoOwl graphic: " + r.get("Title", "").strip())[:490]
+    ORDER = ["Text", "Image URL", "Board Name", "Tags", "Posting Time", "Title", "Alt Text", "Link"]  # Buffer's template order
     with open(f, "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+        w = csv.DictWriter(fh, fieldnames=ORDER, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
 print("pins sorted onto 5 boards")

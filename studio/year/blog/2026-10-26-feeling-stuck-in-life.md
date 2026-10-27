@@ -6,6 +6,8 @@ description: Feeling stuck in life usually isn't laziness or a lack of purpose. 
 keyword: feeling stuck in life
 cta: quiz
 pose: thinking
+banner: dream-board
+banner_alt: Dream Board: how to make a board that works, based on your design
 status: approved
 ---
 Feeling stuck in life is one of the most common things people tell us. Not in crisis. Not falling apart. Just... not moving. Same job, same arguments, same to-do list, same feeling that there should be more than this.

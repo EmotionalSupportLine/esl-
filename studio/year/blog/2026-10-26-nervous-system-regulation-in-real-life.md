@@ -6,6 +6,8 @@ description: What nervous system regulation actually means, what a dysregulated 
 keyword: nervous system regulation
 cta: reset
 pose: calm-glow
+banner: in-the-moment-circle
+banner_alt: In The Moment Emotional Support: nervous system regulation, real people in real time
 status: approved
 ---
 "Regulate your nervous system" is everywhere right now. So is "vagus nerve reset." Underneath the trend is something real and useful, and simpler than the internet makes it look.

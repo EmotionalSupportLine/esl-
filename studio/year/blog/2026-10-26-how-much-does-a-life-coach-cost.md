@@ -6,6 +6,8 @@ description: Life coaches typically charge about $75 to $300 or more per session
 keyword: how much does a life coach cost
 cta: coaching
 pose: compass
+banner: year-of-yes-soul-contract
+banner_alt: Year of YES! Soul Contract: say YES to the life your Soul came here to live
 status: approved
 ---
 Life coaching prices are all over the place, which makes it hard to know what's fair. Here's a plain guide.

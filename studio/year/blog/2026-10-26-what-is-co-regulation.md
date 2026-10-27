@@ -6,6 +6,8 @@ description: Co-regulation is how one calm nervous system helps another settle. 
 keyword: co-regulation
 cta: call
 pose: heart-hug
+banner: nest-come-as-you-are
+banner_alt: The Nest: come as you are, you don't have to do life alone
 status: approved
 ---
 You've probably felt it. You're spinning, you call the right person, and five minutes into the conversation your shoulders drop. Nothing has been solved yet. But you can breathe again.

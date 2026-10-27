@@ -6,6 +6,8 @@ description: Can't get anything done no matter how many productivity tips you tr
 keyword: why can't I get anything done
 cta: quiz
 pose: laptop
+banner: time-joygasm
+banner_alt: Time Joy-gasm: more pleasure, more productivity, more purpose
 status: approved
 ---
 You've read the productivity books. You've tried the apps, the planners, the 5 am routine. And you still can't get anything done.

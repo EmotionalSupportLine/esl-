@@ -6,6 +6,8 @@ description: Need someone to talk to but you're not in crisis and don't want to 
 keyword: I need someone to talk to
 cta: call
 pose: phone
+banner: in-the-moment-community
+banner_alt: EmoOwl and women on the phone: In The Moment Emotional Support, all feelings allowed
 status: approved
 ---
 "I need someone to talk to."
@@ -28,7 +30,7 @@ That middle ground is real, and it deserves support too.
 
 **Someone outside your life.** Sometimes the people closest to you are part of the situation, or you don't want to burden them again. A neutral person has no stake in what you decide, which makes honesty much easier.
 
-**A support call.** At The Emotional Support Line, you can book a 30-minute call with a calm, trained human. You talk, they listen, reflect back what they hear, and help you find one clear next step. No membership needed, no sales call first, and every call comes with a free month in the Nest.
+**A support call.** At The Emotional Support Line, you can book a 30-minute call with a calm, trained human. You talk, they listen, reflect back what they hear, and help you find one clear next step. No membership needed, no sales call first, and every call comes with a free month in the Nest. It's not therapy: no insurance, nothing through your employer, nothing on your record, and nobody making you talk about your childhood for years. Just a real person helping you get out of fight-or-flight and find a practical way forward.
 
 **A coach.** If you want to change something over months, like a career, a habit or a direction, coaching gives you structure and accountability.
 

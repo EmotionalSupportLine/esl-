@@ -1,0 +1,1042 @@
+[
+ {
+  "id": "s001-oct27",
+  "type": "relatable",
+  "text": "I don't need therapy. I just need someone to talk to.",
+  "sub": "That's allowed.",
+  "kicker": "Real talk",
+  "cta": "Read the guide",
+  "pose": "phone",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s002-oct29",
+  "type": "relatable",
+  "text": "Why can't I get anything done?",
+  "sub": "Maybe it's not motivation.",
+  "kicker": "Quick check",
+  "cta": "Free 2-minute quiz",
+  "pose": "laptop",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s003-nov03",
+  "type": "relatable",
+  "text": "Sometimes another nervous system is the intervention.",
+  "sub": "Humans calm down with humans.",
+  "kicker": "Nervous system",
+  "cta": "Read the guide",
+  "pose": "heart-hug",
+  "owl": "Been there."
+ },
+ {
+  "id": "s004-nov05",
+  "type": "relatable",
+  "text": "Stuck isn't lazy.",
+  "sub": "It usually means one of seven things.",
+  "kicker": "Feeling stuck?",
+  "cta": "Read the guide",
+  "pose": "thinking",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s005-nov10",
+  "type": "relatable",
+  "text": "You know you need something. But what?",
+  "sub": "Therapist, coach, friend or just someone to listen?",
+  "kicker": "Not sure?",
+  "cta": "Free 2-minute quiz",
+  "pose": "questions",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s006-nov12",
+  "type": "relatable",
+  "text": "Everything feels like too much.",
+  "sub": "10 minutes. 5 steps. No equipment.",
+  "kicker": "Try this",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "tea-blanket",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s007-nov17",
+  "type": "relatable",
+  "text": "You're not lazy. You're overloaded.",
+  "sub": "Tired and wired at the same time is a sign.",
+  "kicker": "For the overloaded",
+  "cta": "Read the guide",
+  "pose": "calm-glow",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s008-nov19",
+  "type": "relatable",
+  "text": "Pay. Pick a time. Talk to a real person.",
+  "sub": "Leave with a next step.",
+  "kicker": "How it works",
+  "cta": "Book a 30-minute call",
+  "pose": "headset-wink",
+  "owl": "Been there."
+ },
+ {
+  "id": "s009-nov24",
+  "type": "relatable",
+  "text": "You've told your best friend three times already.",
+  "sub": "Who do you talk to now?",
+  "kicker": "For the strong one",
+  "cta": "Read the guide",
+  "pose": "rain-cloud",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s010-nov26",
+  "type": "relatable",
+  "text": "Every option feels wrong.",
+  "sub": "That usually means every option protects something you care about.",
+  "kicker": "Decision paralysis",
+  "cta": "Free 2-minute quiz",
+  "pose": "decisions",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s011-dec01",
+  "type": "relatable",
+  "text": "Regulated doesn't mean calm all the time.",
+  "sub": "It means you can come back.",
+  "kicker": "Nervous system",
+  "cta": "Read the guide",
+  "pose": "rooted-tree",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s012-dec03",
+  "type": "relatable",
+  "text": "Every hour belongs to someone else.",
+  "sub": "Including the ones you call free time.",
+  "kicker": "Time",
+  "cta": "The Nest",
+  "pose": "compass",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s013-dec08",
+  "type": "relatable",
+  "text": "Therapist, coach or someone to talk to?",
+  "sub": "Different jobs. Here's which is which.",
+  "kicker": "Life coach vs therapist",
+  "cta": "Read the guide",
+  "pose": "decisions",
+  "owl": "Been there."
+ },
+ {
+  "id": "s014-dec10",
+  "type": "relatable",
+  "text": "You may not need to think harder.",
+  "sub": "You may need to think out loud.",
+  "kicker": "Overthinking?",
+  "cta": "Free 2-minute quiz",
+  "pose": "thinking",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s015-dec15",
+  "type": "relatable",
+  "text": "Family time can be lonely too.",
+  "sub": "Even in a full house.",
+  "kicker": "Holidays",
+  "cta": "Read the guide",
+  "pose": "winter-cocoa",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s016-dec17",
+  "type": "relatable",
+  "text": "Long exhale. Then another.",
+  "sub": "Free, and it takes two minutes.",
+  "kicker": "Vagus nerve reset",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "joyful-meditation",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s017-dec22",
+  "type": "relatable",
+  "text": "Hoo needs a hug?",
+  "sub": "Asking for a friend.",
+  "kicker": "EmoOwl says",
+  "cta": "Free 2-minute quiz",
+  "pose": "love-wink",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s018-dec24",
+  "type": "relatable",
+  "text": "You don't have to be falling apart to deserve support.",
+  "sub": "Not every hard day is an emergency.",
+  "kicker": "Not in crisis",
+  "cta": "Book a 30-minute call",
+  "pose": "headphones",
+  "owl": "Been there."
+ },
+ {
+  "id": "s019-dec29",
+  "type": "relatable",
+  "text": "You don't need a grand purpose.",
+  "sub": "You need one next step you can actually take.",
+  "kicker": "How to get unstuck",
+  "cta": "Read the guide",
+  "pose": "north-star",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s020-dec31",
+  "type": "relatable",
+  "text": "Skip the resolution.",
+  "sub": "Take one small step instead.",
+  "kicker": "New year",
+  "cta": "Read the guide",
+  "pose": "sunrise",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s021-jan05",
+  "type": "relatable",
+  "text": "How much does a life coach cost?",
+  "sub": "$75 to $300+ a session, often more.",
+  "kicker": "Life coach cost",
+  "cta": "Read the guide",
+  "pose": "compass",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s022-jan07",
+  "type": "relatable",
+  "text": "Laughing together is a nervous system reset.",
+  "sub": "So is walking side by side.",
+  "kicker": "Co-regulation",
+  "cta": "Read the guide",
+  "pose": "flying-joy",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s023-jan12",
+  "type": "relatable",
+  "text": "Lonely doesn't always mean alone.",
+  "sub": "Sometimes it means unheard.",
+  "kicker": "Lonely?",
+  "cta": "Read the guide",
+  "pose": "rain-cloud",
+  "owl": "Been there."
+ },
+ {
+  "id": "s024-jan14",
+  "type": "relatable",
+  "text": "Too much to do. Too little left.",
+  "sub": "Which kind of overwhelmed are you?",
+  "kicker": "Overwhelmed",
+  "cta": "Free 2-minute quiz",
+  "pose": "umbrella",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s025-jan19",
+  "type": "relatable",
+  "text": "When I think about money, I feel...",
+  "sub": "Finish the sentence without numbers.",
+  "kicker": "Money",
+  "cta": "The Nest",
+  "pose": "journaling",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s026-jan21",
+  "type": "relatable",
+  "text": "What actually happens on a support call?",
+  "sub": "You talk. They listen. You find a next step.",
+  "kicker": "What happens on a call",
+  "cta": "Read the guide",
+  "pose": "headset-wink",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s027-jan26",
+  "type": "relatable",
+  "text": "Procrastination is often a feeling, not a flaw.",
+  "sub": "Fear, dread or shame, wearing a to-do list.",
+  "kicker": "Procrastination",
+  "cta": "Read the guide",
+  "pose": "studying",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s028-jan28",
+  "type": "relatable",
+  "text": "Name it. Three words.",
+  "sub": "\"Tight. Rushed. Scared.\"",
+  "kicker": "Overwhelmed?",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "journaling",
+  "owl": "Been there."
+ },
+ {
+  "id": "s029-feb02",
+  "type": "relatable",
+  "text": "A library you'll actually use.",
+  "sub": "Because there's a human in it.",
+  "kicker": "The Nest",
+  "cta": "The Nest",
+  "pose": "sunrise",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s030-feb04",
+  "type": "relatable",
+  "text": "Is a life coach worth it?",
+  "sub": "Depends what you need this week.",
+  "kicker": "Is a life coach worth it?",
+  "cta": "Read the guide",
+  "pose": "questions",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s031-feb09",
+  "type": "relatable",
+  "text": "Same job. Same arguments. Same to-do list.",
+  "sub": "There should be more than this.",
+  "kicker": "Midweek check-in",
+  "cta": "Read the guide",
+  "pose": "rain-cloud",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s032-feb11",
+  "type": "relatable",
+  "text": "Tired and wired at the same time?",
+  "sub": "Snapping, then feeling guilty?",
+  "kicker": "Dysregulated?",
+  "cta": "Read the guide",
+  "pose": "calm-glow",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s033-feb16",
+  "type": "relatable",
+  "text": "Who can I talk to at 2 pm on a Tuesday?",
+  "sub": "When it's not an emergency, but it can't wait.",
+  "kicker": "Who can I talk to?",
+  "cta": "Read the guide",
+  "pose": "phone",
+  "owl": "Been there."
+ },
+ {
+  "id": "s034-feb18",
+  "type": "relatable",
+  "text": "Burnout or a bad week?",
+  "sub": "One rests away. One doesn't.",
+  "kicker": "Burnout or a bad week?",
+  "cta": "Free 2-minute quiz",
+  "pose": "sleeping",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s035-feb23",
+  "type": "relatable",
+  "text": "Stop being who you were conditioned to be.",
+  "sub": "Find out who you actually are.",
+  "kicker": "Be who you are",
+  "cta": "Free Human Design chart",
+  "pose": "bodygraph",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s036-feb25",
+  "type": "relatable",
+  "text": "Calm is contagious.",
+  "sub": "So is panic. Choose your people.",
+  "kicker": "Co-regulation",
+  "cta": "Read the guide",
+  "pose": "lotus-hug",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s037-mar02",
+  "type": "relatable",
+  "text": "Never AI.",
+  "sub": "A real, trained human on every call.",
+  "kicker": "Real people",
+  "cta": "Book a 30-minute call",
+  "pose": "headset-wink",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s038-mar04",
+  "type": "relatable",
+  "text": "You're allowed to need someone.",
+  "sub": "Even if it \"isn't that bad.\"",
+  "kicker": "Permission slip",
+  "cta": "Read the guide",
+  "pose": "heart-wings",
+  "owl": "Been there."
+ },
+ {
+  "id": "s039-mar09",
+  "type": "relatable",
+  "text": "Not sure what kind of stuck you are?",
+  "sub": "Two minutes. Six questions.",
+  "kicker": "Get unstuck",
+  "cta": "Free 2-minute quiz",
+  "pose": "idea",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s040-mar11",
+  "type": "relatable",
+  "text": "Five things you can see.",
+  "sub": "Three things you can hear.",
+  "kicker": "Look around",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "curious",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s041-mar16",
+  "type": "relatable",
+  "text": "Don't start with productivity.",
+  "sub": "Start with capacity.",
+  "kicker": "Productivity",
+  "cta": "Read the guide",
+  "pose": "laptop",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s042-mar18",
+  "type": "relatable",
+  "text": "Owls can turn their heads 270 degrees.",
+  "sub": "We still recommend looking at one problem at a time.",
+  "kicker": "EmoOwl fact",
+  "cta": "Book a 30-minute call",
+  "pose": "curious",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s043-mar23",
+  "type": "relatable",
+  "text": "New season, same tight shoulders?",
+  "sub": "Ten minutes. Five steps.",
+  "kicker": "Spring reset",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "gentle-stretch",
+  "owl": "Been there."
+ },
+ {
+  "id": "s044-mar25",
+  "type": "relatable",
+  "text": "What kind of help do I need?",
+  "sub": "A quick guide.",
+  "kicker": "What kind of help?",
+  "cta": "Read the guide",
+  "pose": "decisions",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s045-mar30",
+  "type": "relatable",
+  "text": "Purpose isn't a job title.",
+  "sub": "It's what lights you up on a Tuesday.",
+  "kicker": "Purpose",
+  "cta": "Read the guide",
+  "pose": "north-star",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s046-apr01",
+  "type": "relatable",
+  "text": "What a nervous system reset can and can't do.",
+  "sub": "Two minutes helps for two minutes.",
+  "kicker": "Nervous system reset",
+  "cta": "Read the guide",
+  "pose": "sound-meditation",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s047-apr06",
+  "type": "relatable",
+  "text": "Unscheduled time isn't wasted time.",
+  "sub": "It's where your capacity comes back.",
+  "kicker": "White Space",
+  "cta": "The Nest",
+  "pose": "hammock",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s048-apr08",
+  "type": "relatable",
+  "text": "Say it out loud.",
+  "sub": "Halfway through the sentence, the answer often shows up.",
+  "kicker": "Talk it through",
+  "cta": "Book a 30-minute call",
+  "pose": "headphones",
+  "owl": "Been there."
+ },
+ {
+  "id": "s049-apr13",
+  "type": "relatable",
+  "text": "3 signs you're overloaded, not lazy.",
+  "sub": "1. Small tasks feel huge. 2. Busy all day, nothing done. 3. Rest feels guilty.",
+  "kicker": "Overloaded",
+  "cta": "Free 2-minute quiz",
+  "pose": "umbrella",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s050-apr15",
+  "type": "relatable",
+  "text": "Ready to make next year yours?",
+  "sub": "Year of YES! Coaching with Tracee Sioux.",
+  "kicker": "Year of YES!",
+  "cta": "Year of YES! Coaching",
+  "pose": "sun-heart",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s051-apr20",
+  "type": "relatable",
+  "text": "Press your feet into the floor.",
+  "sub": "Better yet, into the grass.",
+  "kicker": "Feet on the ground",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "earthing",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s052-apr22",
+  "type": "relatable",
+  "text": "Needing to talk doesn't make you a burden.",
+  "sub": "It makes you human.",
+  "kicker": "Not a burden",
+  "cta": "Read the guide",
+  "pose": "heart-hug",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s053-apr27",
+  "type": "relatable",
+  "text": "Movement creates clarity.",
+  "sub": "Not the other way around.",
+  "kicker": "Feeling stuck in life",
+  "cta": "Read the guide",
+  "pose": "sunrise",
+  "owl": "Been there."
+ },
+ {
+  "id": "s054-apr29",
+  "type": "relatable",
+  "text": "You weren't meant to do this alone.",
+  "sub": "Literally. Your nervous system agrees.",
+  "kicker": "Humans regulate with humans",
+  "cta": "Read the guide",
+  "pose": "circle-of-people",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s055-may04",
+  "type": "relatable",
+  "text": "Wise owls ask for help.",
+  "sub": "The other kind just hoot louder.",
+  "kicker": "Owl wisdom",
+  "cta": "Free 2-minute quiz",
+  "pose": "love-wink",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s056-may06",
+  "type": "relatable",
+  "text": "No more apologizing for how you're built.",
+  "sub": "Your chart is a permission slip.",
+  "kicker": "Human Design",
+  "cta": "Free Human Design chart",
+  "pose": "hd-types",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s057-may11",
+  "type": "relatable",
+  "text": "Not therapy. Not a crisis line.",
+  "sub": "A calm person, 30 minutes, one next step.",
+  "kicker": "Support call",
+  "cta": "Read the guide",
+  "pose": "headset-wink",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s058-may13",
+  "type": "relatable",
+  "text": "Your to-do list isn't the problem.",
+  "sub": "Your capacity is.",
+  "kicker": "Can't focus?",
+  "cta": "Read the guide",
+  "pose": "cozy-coffee",
+  "owl": "Been there."
+ },
+ {
+  "id": "s059-may18",
+  "type": "relatable",
+  "text": "Racing thoughts at bedtime?",
+  "sub": "That's your system still on alert.",
+  "kicker": "Wired at night?",
+  "cta": "Read the guide",
+  "pose": "moon-night",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s060-may20",
+  "type": "relatable",
+  "text": "Every call comes with a free month in the Nest.",
+  "sub": "Talk it through, then keep going.",
+  "kicker": "Free month",
+  "cta": "Book a 30-minute call",
+  "pose": "sunrise",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s061-may25",
+  "type": "relatable",
+  "text": "How are you, really?",
+  "sub": "Not the polite answer.",
+  "kicker": "Check in",
+  "cta": "Free 2-minute quiz",
+  "pose": "questions",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s062-may27",
+  "type": "relatable",
+  "text": "Not every pause is stuck.",
+  "sub": "Sometimes it's winter.",
+  "kicker": "Stuck vs resting",
+  "cta": "Read the guide",
+  "pose": "winter-cocoa",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s063-jun01",
+  "type": "relatable",
+  "text": "Reach for a human.",
+  "sub": "Step 5. The one most resets skip.",
+  "kicker": "When it's all too much",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "phone",
+  "owl": "Been there."
+ },
+ {
+  "id": "s064-jun03",
+  "type": "relatable",
+  "text": "Money worries are feelings too.",
+  "sub": "Look at the feeling under the numbers.",
+  "kicker": "Money mindset",
+  "cta": "The Nest",
+  "pose": "journaling",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s065-jun08",
+  "type": "relatable",
+  "text": "Sometimes you don't need advice.",
+  "sub": "You need someone to listen.",
+  "kicker": "Someone to listen",
+  "cta": "Read the guide",
+  "pose": "headphones",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s066-jun10",
+  "type": "relatable",
+  "text": "Big decision coming up?",
+  "sub": "Find out what's really in the way.",
+  "kicker": "Decision time",
+  "cta": "Free 2-minute quiz",
+  "pose": "decisions",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s067-jun15",
+  "type": "relatable",
+  "text": "\"Can you just stay on the phone while I walk?\"",
+  "sub": "Is a complete request.",
+  "kicker": "Co-regulation",
+  "cta": "Read the guide",
+  "pose": "phone",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s068-jun17",
+  "type": "relatable",
+  "text": "A support call, a membership or a coach?",
+  "sub": "Here's what each costs.",
+  "kicker": "Support options",
+  "cta": "Read the guide",
+  "pose": "compass",
+  "owl": "Been there."
+ },
+ {
+  "id": "s069-jun22",
+  "type": "relatable",
+  "text": "Emotional support is its own thing.",
+  "sub": "It's not therapy, and it's not coaching.",
+  "kicker": "Category",
+  "cta": "Read the guide",
+  "pose": "heart-hug",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s070-jun24",
+  "type": "relatable",
+  "text": "Can't start the week?",
+  "sub": "Start with the smallest possible step.",
+  "kicker": "Monday energy",
+  "cta": "Read the guide",
+  "pose": "laptop",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s071-jun29",
+  "type": "relatable",
+  "text": "Halfway through the year and nothing's moved?",
+  "sub": "Find out why.",
+  "kicker": "Mid-year check",
+  "cta": "Free 2-minute quiz",
+  "pose": "questions",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s072-jul01",
+  "type": "relatable",
+  "text": "In for 4. Out for 8.",
+  "sub": "Ten rounds. That's it.",
+  "kicker": "Breathe",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "joyful-meditation",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s073-jul06",
+  "type": "relatable",
+  "text": "EmoOwl doesn't do night shifts.",
+  "sub": "But real humans take calls Mondays and Tuesdays.",
+  "kicker": "EmoOwl hours",
+  "cta": "Book a 30-minute call",
+  "pose": "sleeping",
+  "owl": "Been there."
+ },
+ {
+  "id": "s074-jul08",
+  "type": "relatable",
+  "text": "If no one would be disappointed...",
+  "sub": "What would you do with this year?",
+  "kicker": "Soul",
+  "cta": "Year of YES! Coaching",
+  "pose": "sun-heart",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s075-jul13",
+  "type": "relatable",
+  "text": "Big change. No one to process it with.",
+  "sub": "You don't have to carry it alone.",
+  "kicker": "Grief, stress, change",
+  "cta": "Read the guide",
+  "pose": "umbrella",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s076-jul15",
+  "type": "relatable",
+  "text": "Can't get anything done in the heat?",
+  "sub": "It might be capacity, not character.",
+  "kicker": "Summer slump",
+  "cta": "Read the guide",
+  "pose": "beach",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s077-jul20",
+  "type": "relatable",
+  "text": "You don't have to fix your whole life today.",
+  "sub": "Just the next ten minutes.",
+  "kicker": "How to get my life together",
+  "cta": "Read the guide",
+  "pose": "sunrise",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s078-jul22",
+  "type": "relatable",
+  "text": "Scrolling for hours isn't laziness.",
+  "sub": "It can be a nervous system hitting pause.",
+  "kicker": "Shutdown",
+  "cta": "Read the guide",
+  "pose": "rest-with-cat",
+  "owl": "Been there."
+ },
+ {
+  "id": "s079-jul27",
+  "type": "relatable",
+  "text": "First Sunday of every month.",
+  "sub": "A live group call in the Nest.",
+  "kicker": "Group call",
+  "cta": "The Nest",
+  "pose": "circle-of-people",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s080-jul29",
+  "type": "relatable",
+  "text": "No intake form. No sales call.",
+  "sub": "Just book and talk.",
+  "kicker": "No sales call",
+  "cta": "Book a 30-minute call",
+  "pose": "headset-wink",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s081-aug03",
+  "type": "relatable",
+  "text": "Who leaves you calmer than they found you?",
+  "sub": "Spend more time near them.",
+  "kicker": "Calm people",
+  "cta": "Read the guide",
+  "pose": "lotus-hug",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s082-aug05",
+  "type": "relatable",
+  "text": "Your phone is not a to-do list.",
+  "sub": "(Even if it acts like one.)",
+  "kicker": "Phone rules",
+  "cta": "The Nest",
+  "pose": "smartphone",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s083-aug10",
+  "type": "relatable",
+  "text": "The thing you haven't said out loud yet?",
+  "sub": "That's the one to talk about.",
+  "kicker": "Say the thing",
+  "cta": "Read the guide",
+  "pose": "heart-wings",
+  "owl": "Been there."
+ },
+ {
+  "id": "s084-aug12",
+  "type": "relatable",
+  "text": "Busy all day. Nothing done.",
+  "sub": "Sound familiar?",
+  "kicker": "Busy vs productive",
+  "cta": "Read the guide",
+  "pose": "laptop",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s085-aug17",
+  "type": "relatable",
+  "text": "Everyone needs you. Who do you talk to?",
+  "sub": "The strong one needs someone too.",
+  "kicker": "Back to school",
+  "cta": "Read the guide",
+  "pose": "heart-hug",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s086-aug19",
+  "type": "relatable",
+  "text": "Ten minutes. Five steps.",
+  "sub": "Free and printable.",
+  "kicker": "Hard day?",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "tea-blanket",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s087-aug24",
+  "type": "relatable",
+  "text": "Which owl are you today?",
+  "sub": "Sleepy, wired or \"fine\"?",
+  "kicker": "Owl poll",
+  "cta": "Free 2-minute quiz",
+  "pose": "excited",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s088-aug26",
+  "type": "relatable",
+  "text": "When it's happening now, you need someone now.",
+  "sub": "Same-week calls with a real person.",
+  "kicker": "When it's happening now",
+  "cta": "Book a 30-minute call",
+  "pose": "headset-wink",
+  "owl": "Been there."
+ },
+ {
+  "id": "s089-aug31",
+  "type": "relatable",
+  "text": "Not every problem needs a therapist.",
+  "sub": "Some need a good listener.",
+  "kicker": "Therapy alternative?",
+  "cta": "Read the guide",
+  "pose": "decisions",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s090-sep02",
+  "type": "relatable",
+  "text": "How to find your purpose:",
+  "sub": "Stop looking for one big answer.",
+  "kicker": "Purpose",
+  "cta": "Read the guide",
+  "pose": "north-star",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s091-sep07",
+  "type": "relatable",
+  "text": "You can't think your way out of a body that's on alert.",
+  "sub": "Settle first. Then think.",
+  "kicker": "Regulation",
+  "cta": "Read the guide",
+  "pose": "calm-glow",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s092-sep09",
+  "type": "relatable",
+  "text": "Generator, Projector, Manifestor or Reflector?",
+  "sub": "Then be that. Loudly.",
+  "kicker": "Human Design",
+  "cta": "Free Human Design chart",
+  "pose": "hd-types",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s093-sep14",
+  "type": "relatable",
+  "text": "Need to rehearse a hard conversation?",
+  "sub": "Practice it out loud first.",
+  "kicker": "Hard conversation",
+  "cta": "Read the guide",
+  "pose": "phone",
+  "owl": "Been there."
+ },
+ {
+  "id": "s094-sep16",
+  "type": "relatable",
+  "text": "Walk and talk.",
+  "sub": "Side by side is easier than face to face.",
+  "kicker": "Co-regulation",
+  "cta": "Read the guide",
+  "pose": "earth",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s095-sep21",
+  "type": "relatable",
+  "text": "New season. Same stuck?",
+  "sub": "Two minutes to find out why.",
+  "kicker": "Fall reset",
+  "cta": "Free 2-minute quiz",
+  "pose": "questions",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s096-sep23",
+  "type": "relatable",
+  "text": "Year of YES! courses, meditations and a monthly group call.",
+  "sub": "$19 a month.",
+  "kicker": "The Nest",
+  "cta": "The Nest",
+  "pose": "sunrise",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s097-sep28",
+  "type": "relatable",
+  "text": "If today is heavy, you can talk to someone today.",
+  "sub": "A calm, real person. 30 minutes.",
+  "kicker": "Today",
+  "cta": "Book a 30-minute call",
+  "pose": "headphones",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s098-sep30",
+  "type": "relatable",
+  "text": "Where does your time actually go?",
+  "sub": "Track one day. Just one.",
+  "kicker": "Time leak",
+  "cta": "Read the guide",
+  "pose": "compass",
+  "owl": "Been there."
+ },
+ {
+  "id": "s099-oct05",
+  "type": "relatable",
+  "text": "Step 1: Name it.",
+  "sub": "Step 5: Reach for a human.",
+  "kicker": "Reset",
+  "cta": "Free 10-Minute Human Reset",
+  "pose": "tea-blanket",
+  "owl": "Same, friend."
+ },
+ {
+  "id": "s100-oct07",
+  "type": "relatable",
+  "text": "What would you say YES! to?",
+  "sub": "If you weren't so busy saying yes to everyone else?",
+  "kicker": "Year of YES!",
+  "cta": "Year of YES! Coaching",
+  "pose": "sun-heart",
+  "owl": "Hoo, me too."
+ },
+ {
+  "id": "s101-oct12",
+  "type": "relatable",
+  "text": "Everything feels urgent?",
+  "sub": "That's the alarm, not the truth.",
+  "kicker": "Overwhelm",
+  "cta": "Read the guide",
+  "pose": "umbrella",
+  "owl": "You're not alone."
+ },
+ {
+  "id": "s102-oct14",
+  "type": "relatable",
+  "text": "Two owls. One job.",
+  "sub": "Making sure you're not alone with it.",
+  "kicker": "EmoOwl",
+  "cta": "Book a 30-minute call",
+  "pose": "love-wink",
+  "owl": "I hear you."
+ },
+ {
+  "id": "s103-oct19",
+  "type": "relatable",
+  "text": "Need someone to talk to? Talk it through.",
+  "sub": "The Emotional Support Line.",
+  "kicker": "Talk it through",
+  "cta": "Book a 30-minute call",
+  "pose": "headset-wink",
+  "owl": "Been there."
+ },
+ {
+  "id": "s104-oct21",
+  "type": "relatable",
+  "text": "A year of small steps adds up.",
+  "sub": "Where are you now?",
+  "kicker": "One year in",
+  "cta": "Free 2-minute quiz",
+  "pose": "excited",
+  "owl": "Same, friend."
+ }
+]

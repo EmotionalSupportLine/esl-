@@ -6,6 +6,8 @@ description: Life coach or therapist? Or do you just need someone to talk to? A 
 keyword: life coach vs therapist
 cta: quiz
 pose: decisions
+banner: in-the-moment-circle
+banner_alt: In The Moment Emotional Support: nervous system regulation, real people in real time, never AI
 status: approved
 ---
 You know you need *something*. But what? A therapist? A life coach? A friend? A crisis line?
@@ -37,6 +39,16 @@ A life coach helps you move toward a goal: a career change, a business, a habit,
 Emotional support is the human kind of help most of us actually need most often: someone calm who listens, reflects back what they hear, and helps you find your footing. It's for the in-between, when nothing is catastrophically wrong, but you need to talk it through.
 
 At The Emotional Support Line, that looks like a 30-minute call: one issue, one real person, one clear next step. It's not therapy, and it's not a crisis line. It's talking about feelings, brainstorming solutions and settling your nervous system, with a person.
+
+## How is emotional support different from therapy?
+
+We're not therapy, on purpose:
+
+- **We don't touch your insurance or your employer's plan.** No diagnosis, no claim, nothing on your record.
+- **We won't make you talk about your mother for years.** The past matters, but you don't have to excavate it to feel better this week.
+- **We're pragmatic.** First we help you get out of fight-or-flight, because nobody thinks clearly while their alarm is going off. Then we co-regulate: humans calm down with humans, and if you don't have people in your life for that right now, that's what we're here for. Then we brainstorm a practical next step you can take with a steadier nervous system.
+
+Therapy is the right fit for diagnosing and treating mental health conditions and for deep trauma work. If what we hear sounds like it needs that, we'll tell you.
 
 ## Is a life coach worth it? Is therapy worth it?
 

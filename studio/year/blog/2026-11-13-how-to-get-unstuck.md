@@ -6,8 +6,6 @@ description: Wondering how to get unstuck at work or in life? These 5 honest que
 keyword: how to get unstuck
 cta: quiz
 pose: questions
-banner: forecast-cover-owls
-banner_alt: Two owls, one teal and one orange, sitting close together under a soft watercolor sky
 status: approved
 ---
 "How do I get unstuck?"

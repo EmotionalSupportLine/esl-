@@ -137,6 +137,8 @@
  },
  {
   "id": "s009-nov24",
+  "status": "hold",
+  "hold_reason": "Editor 2026-11-19: Pinterest description invites talking ('Who do you talk to now?') but has no 988 line. Tracee to edit or delete the Pinterest pin in Buffer. Other channels OK.",
   "date": "2026-11-24",
   "time": "17:30",
   "type": "search",
@@ -154,6 +156,8 @@
  },
  {
   "id": "s010-nov26",
+  "status": "hold",
+  "hold_reason": "Editor 2026-11-19: invites talking ('Saying it out loud to someone neutral') with no 988 line on any channel. Tracee to add the 988 line or delete in Buffer (all channels).",
   "date": "2026-11-26",
   "time": "17:30",
   "type": "search",
@@ -1820,6 +1824,8 @@
  },
  {
   "id": "m004-nov23",
+  "status": "hold",
+  "hold_reason": "Editor 2026-11-19: Pinterest description invites talking ('talk it through with a real person') but has no 988 line. Tracee to edit or delete the Pinterest pin in Buffer. Other channels OK.",
   "date": "2026-11-23",
   "time": "07:45",
   "type": "search",

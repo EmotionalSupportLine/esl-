@@ -4,7 +4,7 @@ slug: can-i-talk-to-someone-if-im-not-in-crisis
 date: 2026-11-27
 description: Can you talk to someone if you're not in crisis? Yes. Here's why your hard week counts, where to turn when it's not an emergency, and how to get heard.
 keyword: can I talk to someone if I'm not in crisis
-cta: call
+cta: reset
 pose: questions
 banner: forecast-cover-owls
 banner_alt: EmoOwl's two owls sitting close together in a soft watercolor scene
@@ -82,4 +82,4 @@ A call is $75, or $50 for Nest members, and every $75 call includes a free month
 
 But if you were waiting for it, here it is. You can talk to someone today, even if nothing is on fire.
 
-Not sure what you need? Take the [2-minute quiz](/quiz). Ready to talk? [Book a support call](/#calls) for a Monday or Tuesday, noon to 7 pm Mountain, and a real person will call you.
+Not sure what you need? Take the [2-minute quiz](/quiz), or start with the free [10-Minute Human Reset](/free/human-reset).

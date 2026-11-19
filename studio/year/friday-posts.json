@@ -215,6 +215,8 @@
  },
  {
   "id": "b-can-i-talk-to-someone-if-im-not-in-crisis",
+  "status": "hold",
+  "hold_reason": "Editor 2026-11-19: Pinterest description invites talking ('Can I talk to someone...') but has no 988 line. Tracee to edit or delete the Pinterest pin in Buffer. Other channels OK.",
   "date": "2026-11-27",
   "time": "12:00",
   "type": "blog",
